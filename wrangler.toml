@@ -1,0 +1,7 @@
+# Used when Cloudflare connects to Git with repository root Path: /
+# Build output must exist at frontend/dist before deploy.
+# https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+
+name = "ruvisa"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "frontend/dist"

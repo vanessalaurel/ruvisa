@@ -1,4 +1,7 @@
-# Cloudflare Pages — optional CLI deploy from /frontend:
+# Local CLI only: build here, then `npx wrangler pages deploy dist`.
+# If Cloudflare uses Git **Path: /** (repo root), use root `/wrangler.toml` + DEPLOY.md section B.
+#
+# From /frontend:
 #   VITE_API_URL=https://your-api-host/api npm run build
 #   npx wrangler pages deploy dist
 #

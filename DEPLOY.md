@@ -48,7 +48,9 @@ VITE_API_URL=https://<that-host>/api
 
 ---
 
-## 3. Cloudflare Pages (GitHub — recommended)
+## 3. Cloudflare Pages (GitHub)
+
+### A) Classic Pages UI (root directory = `frontend`)
 
 1. [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
 2. Select **vanessalaurel/ruvisa**.
@@ -61,15 +63,37 @@ VITE_API_URL=https://<that-host>/api
    | Build command | `npm ci && npm run build` |
    | Build output directory | `dist` |
 
-4. **Environment variables** → **Production** (and Preview if you want):
+4. **Environment variables** → **Production** (and Preview):
 
    | Name | Example value |
    |------|----------------|
    | `VITE_API_URL` | `https://your-tunnel.trycloudflare.com/api` |
 
-5. Save and deploy. After the build, open the `*.pages.dev` URL.
+5. Save and deploy.
 
-**SPA routing:** `frontend/public/_redirects` sends all routes to `index.html` on Pages.
+---
+
+### B) Form with **Path `/`**, **Build command**, **Deploy command** (repo root)
+
+Do **not** use `npx wrangler deploy` — that publishes a **Worker**, not your static Vite app.
+
+Use **`wrangler pages deploy`** and build inside `frontend/`:
+
+| Field | Value |
+|--------|--------|
+| **Project name** | `ruvisa` |
+| **Build command** | `cd frontend && npm ci && npm run build` |
+| **Deploy command** | `npx wrangler pages deploy frontend/dist --project-name=ruvisa` |
+| **Non-production branch deploy command** | Leave **empty**, or use the same **Deploy command** if the form requires something |
+| **Path** | `/` (repository root) |
+| **Variable name** | `VITE_API_URL` |
+| **Variable value** | `https://YOUR-TUNNEL.trycloudflare.com/api` (your real API URL + `/api`) |
+
+**API token:** letting Cloudflare create one automatically is fine.
+
+A root **`wrangler.toml`** in this repo sets `pages_build_output_dir = "frontend/dist"` for Wrangler; the explicit `frontend/dist` in the deploy command is what matters for CI.
+
+**SPA routing:** `frontend/public/_redirects` → all routes to `index.html`.
 
 ---
 
