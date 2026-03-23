@@ -1,52 +1,117 @@
-# Deploying Ruvisa (free / open-source)
+# Deploying Ruvisa (Cloudflare Pages + API tunnel)
 
-Two parts:
+Repo: **[github.com/vanessalaurel/ruvisa](https://github.com/vanessalaurel/ruvisa)**
 
-1. **Frontend** — static files in `frontend/dist` → **Cloudflare Pages** (or Netlify).
-2. **Backend** — FastAPI on port **8001** → run locally/VPS and expose with **Cloudflare Tunnel** or **ngrok**.
+| Piece | Where it runs | Free option |
+|--------|----------------|-------------|
+| **Frontend** | Static files (`frontend/dist`) | **[Cloudflare Pages](https://pages.cloudflare.com/)** |
+| **Backend** | FastAPI `:8001` | Your PC/VPS + **[cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)** or [ngrok](https://ngrok.com/) |
 
-The app reads **`VITE_API_URL` at build time** (see `frontend/.env.example`). Dev uses Vite proxy `/api` → localhost; production needs a full HTTPS URL ending in `/api`.
+`VITE_API_URL` is baked in at **build time** (see `frontend/.env.example`). It must be the full origin of the API **including** `/api`, e.g. `https://abc123.trycloudflare.com/api`.
 
-## Run the API
+---
+
+## 1. Run the API locally
 
 ```bash
-pip install -r requirements-api.txt   # web + LangGraph + Ollama chat
-# Full /analyze pipeline: use your full venv or requirements.txt (CV/YOLO).
+cd /path/to/ruvisa
+pip install -r requirements-api.txt
+# Optional: full /analyze (YOLO/CV) needs requirements.txt + models on that machine.
 
-python scripts/migrate_products_to_sqlite.py   # if needed (needs labeling data)
+python scripts/migrate_products_to_sqlite.py   # if you use SQLite catalog
 python -m uvicorn api.main:app --host 0.0.0.0 --port 8001
 ```
 
-## Expose the API (HTTPS)
+Sanity check: [http://127.0.0.1:8001/health](http://127.0.0.1:8001/health) → JSON with `status: ok`.
 
-**Cloudflare Quick Tunnel** (install [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)):
+**Ollama** (Ruvisa chat): running on the same host as the API, default `http://localhost:11434`.
+
+---
+
+## 2. Expose the API over HTTPS (Quick Tunnel)
+
+Install **cloudflared**, then:
 
 ```bash
 cloudflared tunnel --url http://localhost:8001
 ```
 
-Use the printed host as: `https://THAT-HOST/api` → set as `VITE_API_URL`.
+Copy the `https://….trycloudflare.com` URL (changes each restart unless you use a [named tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/do-more-with-tunnels/local-management/tunnel-run/)).
 
-**ngrok:** `ngrok http 8001` → `https://xxx.ngrok-free.app/api`.
+Your frontend env value is:
 
-## Build frontend
+```text
+VITE_API_URL=https://<that-host>/api
+```
+
+**ngrok alternative:** `ngrok http 8001` → `VITE_API_URL=https://<subdomain>.ngrok-free.app/api`
+
+---
+
+## 3. Cloudflare Pages (GitHub — recommended)
+
+1. [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
+2. Select **vanessalaurel/ruvisa**.
+3. **Configure build:**
+
+   | Setting | Value |
+   |--------|--------|
+   | Framework preset | None (or Vite if offered) |
+   | Root directory | `frontend` |
+   | Build command | `npm ci && npm run build` |
+   | Build output directory | `dist` |
+
+4. **Environment variables** → **Production** (and Preview if you want):
+
+   | Name | Example value |
+   |------|----------------|
+   | `VITE_API_URL` | `https://your-tunnel.trycloudflare.com/api` |
+
+5. Save and deploy. After the build, open the `*.pages.dev` URL.
+
+**SPA routing:** `frontend/public/_redirects` sends all routes to `index.html` on Pages.
+
+---
+
+## 4. CLI deploy (optional)
+
+From `frontend/` after a production build:
 
 ```bash
 cd frontend
-# Set VITE_API_URL in .env.production or export for one shot:
 export VITE_API_URL=https://your-tunnel-host/api
 npm ci && npm run build
+npx wrangler pages deploy dist
 ```
 
-`public/_redirects` enables SPA routing on Cloudflare Pages.
+`wrangler.toml` in `frontend/` sets `name = "ruvisa"` and `pages_build_output_dir = "dist"`. Log in with `npx wrangler login` once.
 
-## Cloudflare Pages
+---
 
-- Connect Git with **root** `frontend`, build `npm ci && npm run build`, output **`dist`**.
-- Add env var **`VITE_API_URL`** (production) = your tunnel URL including `/api`.
-- Or upload: `npx wrangler pages deploy frontend/dist --project-name=ruvisa-frontend`
+## 5. After deploy — quick checks
 
-## Limits
+- Open the Pages site → app loads without blank console errors.
+- In DevTools **Network**, API calls go to your tunnel host (not `localhost`).
+- `GET https://<api-host>/health` returns JSON (strip `/api` for health: same host, path `/health`).
 
-- SQLite + uploads follow wherever the API runs; free tunnel URLs change unless you use a named tunnel/domain.
-- See optional GitHub Action: `.github/workflows/deploy-frontend-pages.yml`.
+---
+
+## 6. Production hardening (later)
+
+- In `api/main.py`, replace `allow_origins=["*"]` with your exact Pages URL(s).
+- Use a **stable** API hostname (named Cloudflare Tunnel or VPS + domain).
+- Do not commit `.env`, tokens, or `data/skincare.db` with real users (see `.gitignore`).
+
+---
+
+## 7. GitHub Action
+
+Optional automated deploy: [.github/workflows/deploy-frontend-pages.yml](.github/workflows/deploy-frontend-pages.yml)  
+Secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `VITE_API_URL`. Trigger **Actions → Run workflow**.
+
+---
+
+## Limits (honest)
+
+- **Quick Tunnel** URLs change when the tunnel restarts → rebuild Pages or update `VITE_API_URL` and redeploy.
+- **SQLite + uploads** live on whatever machine runs `uvicorn`; Pages only hosts the UI.

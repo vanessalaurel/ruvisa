@@ -1,0 +1,10 @@
+# Cloudflare Pages — optional CLI deploy from /frontend:
+#   VITE_API_URL=https://your-api-host/api npm run build
+#   npx wrangler pages deploy dist
+#
+# Create the project once in the dashboard, or Wrangler will prompt.
+# https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+
+name = "ruvisa"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "dist"
