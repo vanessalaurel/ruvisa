@@ -1,0 +1,17 @@
+# Run the FastAPI app + Ruvisa chat agent (Ollama).
+# Install: pip install -r requirements-api.txt
+#
+# Full /analyze (YOLO, wrinkle CV, etc.) still needs the heavy stack from
+# requirements.txt or your existing project venv — this file is the web + LLM slice.
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.9
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+langchain-core>=0.3.0
+langgraph>=0.2.0
+langchain-ollama>=0.2.0
+
+httpx>=0.27.0

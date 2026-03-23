@@ -1,0 +1,4279 @@
+{
+  "acetylneuraminic acid": [
+    "acne",
+    "comedonal_acne",
+    "redness"
+  ],
+  "adapalene": [
+    "acne",
+    "comedonal_acne",
+    "wrinkles"
+  ],
+  "azelaic acid": [
+    "acne",
+    "comedonal_acne",
+    "redness"
+  ],
+  "benzoyl peroxide": [
+    "acne",
+    "comedonal_acne"
+  ],
+  "berberis vulgaris root extract": [
+    "acne",
+    "comedonal_acne",
+    "redness"
+  ],
+  "lauric acid": [
+    "acne",
+    "comedonal_acne"
+  ],
+  "melaleuca alternifolia leaf oil": [
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "redness"
+  ],
+  "niacinamide": [
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "wrinkles"
+  ],
+  "phellodendron amurense bark extract": [
+    "acne",
+    "comedonal_acne",
+    "redness"
+  ],
+  "phytosphingosine": [
+    "acne",
+    "comedonal_acne",
+    "wrinkles"
+  ],
+  "polylysine": [
+    "acne",
+    "comedonal_acne"
+  ],
+  "potassium azeloyl diglycinate": [
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "redness"
+  ],
+  "salicylic acid": [
+    "acne",
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores",
+    "redness"
+  ],
+  "sodium ascorbyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pigmentation"
+  ],
+  "sulfur": [
+    "acne",
+    "comedonal_acne"
+  ],
+  "zinc gluconate": [
+    "acne",
+    "comedonal_acne",
+    "redness"
+  ],
+  "zinc pca": [
+    "acne",
+    "comedonal_acne"
+  ],
+  "acetyl glucosamine": [
+    "pigmentation"
+  ],
+  "acetyl glycyl beta-alanine": [
+    "pigmentation"
+  ],
+  "acetyl rheum rhaponticum root extract": [
+    "pigmentation"
+  ],
+  "ajuga reptans cell culture extract": [
+    "pigmentation"
+  ],
+  "alloferon-1": [
+    "pigmentation"
+  ],
+  "alpha-arbutin": [
+    "pigmentation"
+  ],
+  "aminopropyl ascorbyl phosphate": [
+    "pigmentation"
+  ],
+  "ammonium persulfate": [
+    "pigmentation"
+  ],
+  "arbutin": [
+    "pigmentation"
+  ],
+  "arctostaphylos uva ursi leaf powder": [
+    "pigmentation"
+  ],
+  "arctostaphylos uva-ursi leaf extract": [
+    "pigmentation"
+  ],
+  "artocarpus altilis wood extract": [
+    "pigmentation"
+  ],
+  "artocarpus heterophyllus seed extract": [
+    "pigmentation"
+  ],
+  "artocarpus lakoocha wood extract": [
+    "pigmentation"
+  ],
+  "ascorbic acid": [
+    "pigmentation"
+  ],
+  "ascorbyl glucoside": [
+    "pigmentation"
+  ],
+  "ascorbyl linoleate": [
+    "pigmentation"
+  ],
+  "atractylodes japonica root oil": [
+    "pigmentation"
+  ],
+  "betaphycus gelatinum extract": [
+    "pigmentation"
+  ],
+  "betula papyrifera bark extract": [
+    "pigmentation"
+  ],
+  "buddleja axillaris leaf extract": [
+    "pigmentation"
+  ],
+  "calcium sulfate hydrate": [
+    "pigmentation",
+    "pores"
+  ],
+  "cetyl tranexamate mesylate": [
+    "pigmentation"
+  ],
+  "citrus unshiu peel extract": [
+    "pigmentation"
+  ],
+  "curcuma longa root extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "cyclohexanediol bis-ethylhexanoate": [
+    "pigmentation"
+  ],
+  "cystoseira tamariscifolia extract": [
+    "pigmentation"
+  ],
+  "decapeptide-12": [
+    "pigmentation"
+  ],
+  "difluorocyclohexyloxyphenol": [
+    "pigmentation"
+  ],
+  "diglucosyl gallic acid": [
+    "pigmentation"
+  ],
+  "dimethylmethoxy chromanyl palmitate": [
+    "pigmentation"
+  ],
+  "ethyl ascorbic acid": [
+    "pigmentation"
+  ],
+  "gigawhite": [
+    "pigmentation"
+  ],
+  "glabridin": [
+    "pigmentation"
+  ],
+  "glycine soja seed extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "glycyrrhiza glabra  root extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "hesperidin": [
+    "pigmentation"
+  ],
+  "hexapeptide-2": [
+    "pigmentation"
+  ],
+  "hexylresorcinol": [
+    "pigmentation"
+  ],
+  "hibbertia scandens leaf extract": [
+    "pigmentation"
+  ],
+  "hibiscus rosa-sinensis leaf extract": [
+    "pigmentation"
+  ],
+  "honokiol": [
+    "pigmentation"
+  ],
+  "human adipose derived stem cell conditioned media": [
+    "pigmentation",
+    "wrinkles"
+  ],
+  "hydrolyzed codonopsis pilosula root extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed xanthomonas campestris polysaccharide": [
+    "pigmentation"
+  ],
+  "hydroquinone": [
+    "pigmentation"
+  ],
+  "hydroxyphenoxy propionic acid": [
+    "pigmentation"
+  ],
+  "hydroxyphenyl propionamide": [
+    "pigmentation",
+    "pores"
+  ],
+  "hydroxyresveratrol": [
+    "pigmentation"
+  ],
+  "hydroxytyrosol": [
+    "pigmentation"
+  ],
+  "isobutylamido thiazolyl resorcinol": [
+    "pigmentation"
+  ],
+  "kalanchoe spathulata extract": [
+    "pigmentation"
+  ],
+  "kojic acid": [
+    "pigmentation"
+  ],
+  "lactobacillus/nelumbo nucifera seed ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/rice bran/saccharomyces/camellia sinensis leaf extract ferment": [
+    "pigmentation"
+  ],
+  "lentinus edodes mycelium extract": [
+    "pigmentation"
+  ],
+  "lysine azelate": [
+    "pigmentation"
+  ],
+  "magnesium ascorbyl phosphate": [
+    "pigmentation"
+  ],
+  "magnolol": [
+    "pigmentation"
+  ],
+  "menaquinone-7": [
+    "pigmentation",
+    "pores"
+  ],
+  "methoxy peg-45 thioctate": [
+    "pigmentation"
+  ],
+  "morus alba root extract": [
+    "pigmentation"
+  ],
+  "myristyl theobroma grandiflorum seedate": [
+    "pigmentation"
+  ],
+  "octadecenedioic acid": [
+    "pigmentation"
+  ],
+  "olea europaea fruit extract": [
+    "pigmentation"
+  ],
+  "oligopeptide-68": [
+    "pigmentation"
+  ],
+  "ozonized ethyl oleate": [
+    "pigmentation"
+  ],
+  "palmitoyl grapevine shoot extract": [
+    "pigmentation"
+  ],
+  "pancratium maritimum extract": [
+    "pigmentation"
+  ],
+  "phalaenopsis amabilis flower extract": [
+    "pigmentation"
+  ],
+  "phalaenopsis lobbii extract": [
+    "pigmentation"
+  ],
+  "phenylethyl resorcinol": [
+    "pigmentation"
+  ],
+  "pinus heldreichii bark extract": [
+    "pigmentation"
+  ],
+  "polygonum fagopyrum sprout extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "potassium methoxysalicylate": [
+    "pigmentation"
+  ],
+  "rhodopseudomonas": [
+    "pigmentation"
+  ],
+  "salicornia herbacea extract": [
+    "pigmentation"
+  ],
+  "sulforaphane": [
+    "pigmentation"
+  ],
+  "telopea speciosissima flower/leaf extract": [
+    "pigmentation"
+  ],
+  "terminalia ferdinandiana fruit extract": [
+    "pigmentation"
+  ],
+  "tetrahexyldecyl ascorbate": [
+    "pigmentation"
+  ],
+  "tetrahydrobisdemethoxydiferuloylmethane": [
+    "pigmentation",
+    "redness"
+  ],
+  "tetrahydrocurcumin diacetate": [
+    "pigmentation"
+  ],
+  "tetrahydrodemethoxydiferuloylmethane": [
+    "pigmentation",
+    "redness"
+  ],
+  "tetrahydrodiferuloylmethane": [
+    "pigmentation",
+    "redness"
+  ],
+  "tetrahydropyranyloxy phenol": [
+    "pigmentation"
+  ],
+  "tetrapeptide-30": [
+    "pigmentation"
+  ],
+  "theobroma cacao callus powder": [
+    "pigmentation"
+  ],
+  "thioctamidoethyl dimethylamine maleate": [
+    "pigmentation"
+  ],
+  "thuja occidentalis leaf extract": [
+    "pigmentation"
+  ],
+  "thuja orientalis leaf extract": [
+    "pigmentation"
+  ],
+  "tranexamic acid": [
+    "pigmentation",
+    "redness"
+  ],
+  "tranexamoyl dipeptide-22": [
+    "pigmentation"
+  ],
+  "tranexamoyl dipeptide-23": [
+    "pigmentation"
+  ],
+  "trimethoxybenzyl acetylsinapate": [
+    "pigmentation"
+  ],
+  "triticum vulgare germ": [
+    "pigmentation"
+  ],
+  "ulva pertusa extract": [
+    "pigmentation"
+  ],
+  "undecylenoyl phenylalanine": [
+    "pigmentation"
+  ],
+  "withania somnifera leaf extract": [
+    "pigmentation"
+  ],
+  "4-t-butylcyclohexanol": [
+    "redness",
+    "wrinkles"
+  ],
+  "acanthopanax senticosus root extract": [
+    "redness"
+  ],
+  "acetyl dipeptide-1 cetyl ester": [
+    "redness",
+    "wrinkles"
+  ],
+  "achillea millefolium extract": [
+    "redness"
+  ],
+  "achillea millefolium oil": [
+    "redness"
+  ],
+  "aesculus hippocastanum seed extract": [
+    "redness"
+  ],
+  "albatrellus confluens extract": [
+    "redness"
+  ],
+  "aleurites moluccana seed oil": [
+    "redness"
+  ],
+  "allantoin": [
+    "redness"
+  ],
+  "allantoin acetyl methionine": [
+    "redness"
+  ],
+  "allantoin ascorbate": [
+    "pigmentation",
+    "redness"
+  ],
+  "allantoin calcium pantothenate": [
+    "redness"
+  ],
+  "allantoin glycyrrhetinic acid": [
+    "redness"
+  ],
+  "aloe arborescens leaf extract": [
+    "redness"
+  ],
+  "aloe barbadensis leaf extract": [
+    "redness"
+  ],
+  "aloe barbadensis leaf juice": [
+    "redness"
+  ],
+  "aloe barbadensis leaf juice powder": [
+    "redness"
+  ],
+  "aloe ferox leaf gel": [
+    "redness"
+  ],
+  "alteromonas ferment extract": [
+    "redness"
+  ],
+  "aluminum sucrose octasulfate": [
+    "redness"
+  ],
+  "ananas sativus fruit extract": [
+    "redness"
+  ],
+  "anthemis nobilis flower extract": [
+    "redness"
+  ],
+  "anthemis nobilis flower oil": [
+    "redness"
+  ],
+  "arctium lappa root extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "avena sativa bran extract": [
+    "redness"
+  ],
+  "avena sativa kernel extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "avena sativa kernel flour": [
+    "pigmentation",
+    "redness"
+  ],
+  "avena sativa meal extract": [
+    "redness"
+  ],
+  "azulene": [
+    "redness"
+  ],
+  "beta-glucan": [
+    "redness"
+  ],
+  "betula alba bark extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "betula alba bark/leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "betula alba leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "bioflavonoids": [
+    "redness"
+  ],
+  "biosaccharide gum-1": [
+    "redness"
+  ],
+  "bisabolol": [
+    "redness"
+  ],
+  "borago officinalis seed oil": [
+    "redness"
+  ],
+  "boswellia serrata extract": [
+    "redness"
+  ],
+  "buddleja davidii meristem cell culture": [
+    "pigmentation",
+    "redness"
+  ],
+  "butyrospermum parkii butter extract": [
+    "redness"
+  ],
+  "caffeyl glucoside": [
+    "pigmentation",
+    "redness"
+  ],
+  "calendula officinalis extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "calendula officinalis flower extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "calophyllum tacamahaca oil": [
+    "redness"
+  ],
+  "camelina sativa seed oil": [
+    "redness"
+  ],
+  "camellia oleifera  leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "camellia sinensis leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "carboxydecyl trisiloxane": [
+    "redness"
+  ],
+  "cassia alata leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "castanea sativa leaf extract": [
+    "redness"
+  ],
+  "centaurea cyanus flower water": [
+    "redness"
+  ],
+  "centella asiatica extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "centella asiatica leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "cetraria islandica extract": [
+    "redness"
+  ],
+  "chamomilla recutita flower extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "chamomilla recutita flower oil": [
+    "redness"
+  ],
+  "colloidal oatmeal": [
+    "pigmentation",
+    "redness"
+  ],
+  "copper gluconate": [
+    "redness"
+  ],
+  "copper tripeptide-1": [
+    "pigmentation",
+    "redness",
+    "wrinkles"
+  ],
+  "coptis japonica root extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "cucumis melo juice": [
+    "redness"
+  ],
+  "cucumis sativus fruit extract": [
+    "redness"
+  ],
+  "curculigo orchioides root extract": [
+    "redness"
+  ],
+  "cymbopogon schoenanthus extract": [
+    "redness"
+  ],
+  "dipotassium glycyrrhizate": [
+    "redness"
+  ],
+  "disodium lauriminodipropionate tocopheryl phosphates": [
+    "redness"
+  ],
+  "echinacea angustifolia extract": [
+    "redness"
+  ],
+  "echinacea angustifolia leaf extract": [
+    "redness"
+  ],
+  "ectoin": [
+    "pigmentation",
+    "redness"
+  ],
+  "epigallocatechin gallate": [
+    "pigmentation",
+    "redness"
+  ],
+  "epigallocatechin gallatyl glucoside": [
+    "pigmentation",
+    "redness"
+  ],
+  "equisetum arvense extract": [
+    "pores",
+    "redness"
+  ],
+  "equisetum arvense leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "ethyl vanillin": [
+    "redness"
+  ],
+  "ferula assa foetida root extract": [
+    "redness"
+  ],
+  "foeniculum vulgare fruit extract": [
+    "redness"
+  ],
+  "foeniculum vulgare oil": [
+    "redness"
+  ],
+  "fucus vesiculosus extract": [
+    "redness"
+  ],
+  "gallyl glucoside": [
+    "pigmentation",
+    "redness"
+  ],
+  "ganoderma lucidum extract": [
+    "redness"
+  ],
+  "globularia cordifolia callus culture extract": [
+    "redness"
+  ],
+  "glycyrrhetinic acid": [
+    "redness"
+  ],
+  "glycyrrhiza glabra rhizome/root": [
+    "redness"
+  ],
+  "hamamelis virginiana  leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "hamamelis virginiana bark/leaf/twig extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "hamamelis virginiana extract": [
+    "pigmentation",
+    "pores",
+    "redness"
+  ],
+  "hamamelis virginiana flower water": [
+    "pores",
+    "redness"
+  ],
+  "hamamelis virginiana leaf water": [
+    "pores",
+    "redness"
+  ],
+  "hamamelis virginiana water": [
+    "pores",
+    "redness"
+  ],
+  "hedera helix extract": [
+    "pores",
+    "redness"
+  ],
+  "hedera helix leaf/stem extract": [
+    "pores",
+    "redness"
+  ],
+  "helianthus annuus extract": [
+    "redness"
+  ],
+  "helianthus annuus seed oil unsaponifiables": [
+    "redness"
+  ],
+  "helichrysum arenarium extract": [
+    "redness"
+  ],
+  "helichrysum italicum extract": [
+    "redness"
+  ],
+  "honey": [
+    "redness"
+  ],
+  "houttuynia cordata extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "humulus lupulus extract": [
+    "pores",
+    "redness"
+  ],
+  "hydrolyzed fucus vesiculosus extract": [
+    "redness"
+  ],
+  "hydroxymethoxyphenyl decanone": [
+    "pigmentation",
+    "redness"
+  ],
+  "hydroxyphenyl propamidobenzoic acid": [
+    "redness"
+  ],
+  "hypericum perforatum extract": [
+    "pores",
+    "redness"
+  ],
+  "iron picolinate": [
+    "redness"
+  ],
+  "jasminum officinale extract": [
+    "redness"
+  ],
+  "jasminum officinale flower/leaf extract": [
+    "redness"
+  ],
+  "jasminum officinale oil": [
+    "redness"
+  ],
+  "jojoba esters": [
+    "redness"
+  ],
+  "juglans regia leaf": [
+    "pores",
+    "redness"
+  ],
+  "juglans regia leaf extract": [
+    "pores",
+    "redness"
+  ],
+  "kigelia africana fruit extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "lactobacillus ferment": [
+    "redness"
+  ],
+  "lactobacillus ferment lysate filtrate": [
+    "redness"
+  ],
+  "lactuca scariola sativa leaf juice": [
+    "redness"
+  ],
+  "laminaria saccharina extract": [
+    "redness"
+  ],
+  "leontopodium alpinum callus culture extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "leonurus sibiricus flower/leaf/stem extract": [
+    "redness"
+  ],
+  "lonicera japonica flower extract": [
+    "redness"
+  ],
+  "madecassoside": [
+    "pigmentation",
+    "redness"
+  ],
+  "malva sylvestris extract": [
+    "pores",
+    "redness"
+  ],
+  "manihot utilissima starch": [
+    "redness"
+  ],
+  "marrubium vulgare extract": [
+    "redness"
+  ],
+  "melilotus officinalis extract": [
+    "pores",
+    "redness"
+  ],
+  "melissa officinalis flower/leaf/stem extract": [
+    "redness"
+  ],
+  "menthol": [
+    "redness"
+  ],
+  "methyl nicotinate": [
+    "redness"
+  ],
+  "methyl salicylate": [
+    "redness"
+  ],
+  "mimosa tenuiflora bark extract": [
+    "redness"
+  ],
+  "mimosa tenuiflora leaf extract": [
+    "redness"
+  ],
+  "nasturtium officinale flower/leaf extract": [
+    "redness"
+  ],
+  "nigella sativa seed oil": [
+    "pigmentation",
+    "redness"
+  ],
+  "oenothera biennis oil": [
+    "redness"
+  ],
+  "ononis spinosa root extract": [
+    "redness"
+  ],
+  "opuntia ficus-indica extract": [
+    "redness"
+  ],
+  "opuntia ficus-indica fruit extract": [
+    "redness"
+  ],
+  "opuntia ficus-indica stem extract": [
+    "redness"
+  ],
+  "orchis mascula flower extract": [
+    "redness"
+  ],
+  "orchis morio flower extract": [
+    "redness"
+  ],
+  "palmitoyl sh-tripeptide-4 amide": [
+    "redness"
+  ],
+  "palmitoyl tripeptide-8": [
+    "redness"
+  ],
+  "panthenol": [
+    "redness"
+  ],
+  "papaver rhoeas petal extract": [
+    "redness"
+  ],
+  "parietaria officinalis extract": [
+    "redness"
+  ],
+  "passiflora quadrangularis flower extract": [
+    "redness"
+  ],
+  "passiflora quadrangularis fruit extract": [
+    "redness"
+  ],
+  "peat": [
+    "redness"
+  ],
+  "persea gratissima fruit extract": [
+    "redness"
+  ],
+  "persea gratissima oil unsaponifiables": [
+    "pigmentation",
+    "redness"
+  ],
+  "pfaffia paniculata root extract": [
+    "redness"
+  ],
+  "phaeodactylum tricornutum extract": [
+    "redness"
+  ],
+  "phragmites kharka extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "piperonyl glucose": [
+    "redness"
+  ],
+  "piperonyl glucoside": [
+    "redness"
+  ],
+  "plantago lanceolata leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "poria cocos extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "portulaca oleracea extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "potassium nitrate": [
+    "redness"
+  ],
+  "prunus yedoensis leaf extract": [
+    "redness"
+  ],
+  "pseudoalteromonas ferment extract": [
+    "redness"
+  ],
+  "quercetin": [
+    "pigmentation",
+    "redness"
+  ],
+  "reseda luteola extract": [
+    "redness"
+  ],
+  "rhododendron chrysanthum leaf extract": [
+    "redness"
+  ],
+  "rosmarinic acid": [
+    "pigmentation",
+    "redness"
+  ],
+  "rosmarinus officinalis leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "rosmarinyl glucoside": [
+    "pigmentation",
+    "redness"
+  ],
+  "rubia tinctorum root extract": [
+    "redness"
+  ],
+  "rubus idaeus fruit extract": [
+    "pigmentation",
+    "pores",
+    "redness"
+  ],
+  "rumex acetosella extract": [
+    "redness"
+  ],
+  "rumex crispus root extract": [
+    "redness"
+  ],
+  "rumex occidentalis extract": [
+    "redness"
+  ],
+  "ruscus aculeatus root extract": [
+    "pores",
+    "redness"
+  ],
+  "saccharomyces ferment filtrate": [
+    "redness"
+  ],
+  "safflower oil/palm oil aminopropanediol esters": [
+    "redness"
+  ],
+  "salix alba bark extract": [
+    "pores",
+    "redness"
+  ],
+  "salix alba bark water": [
+    "pores",
+    "redness"
+  ],
+  "salvia officinalis extract": [
+    "pigmentation",
+    "pores",
+    "redness"
+  ],
+  "salvia sclarea extract": [
+    "pores",
+    "redness"
+  ],
+  "sambucus nigra flower extract": [
+    "redness"
+  ],
+  "sanicula europaea extract": [
+    "redness"
+  ],
+  "santalum album extract": [
+    "redness"
+  ],
+  "saxifraga sarmentosa extract": [
+    "redness"
+  ],
+  "scabiosa arvensis extract": [
+    "redness"
+  ],
+  "schisandra sphenanthera fruit extract": [
+    "redness"
+  ],
+  "scrophularia nodosa extract": [
+    "redness"
+  ],
+  "scutellaria baicalensis root extract": [
+    "pigmentation",
+    "pores",
+    "redness"
+  ],
+  "scutellaria galericulata extract": [
+    "redness"
+  ],
+  "sesamum indicum seed extract": [
+    "redness"
+  ],
+  "silybum marianum extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "sodium nitrate": [
+    "redness"
+  ],
+  "sophora japonica bud extract": [
+    "redness"
+  ],
+  "spiraea ulmaria extract": [
+    "pores",
+    "redness"
+  ],
+  "stearyl glycyrrhetinate": [
+    "redness"
+  ],
+  "strontium chloride": [
+    "redness"
+  ],
+  "sucrose": [
+    "redness"
+  ],
+  "symphytum officinale root extract": [
+    "redness"
+  ],
+  "taraxacum officinale rhizome/root extract": [
+    "redness"
+  ],
+  "tasmannia lanceolata fruit/leaf extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "tetrapeptide-14": [
+    "redness",
+    "wrinkles"
+  ],
+  "tetrasodium tetracarboxymethyl naringeninchalcone": [
+    "redness"
+  ],
+  "tilia americana flower extract": [
+    "redness"
+  ],
+  "tilia cordata extract": [
+    "redness"
+  ],
+  "tilia cordata wood extract": [
+    "redness"
+  ],
+  "tilia platyphyllos extract": [
+    "redness"
+  ],
+  "tilia vulgaris flower extract": [
+    "redness"
+  ],
+  "urtica dioica extract": [
+    "pores",
+    "redness"
+  ],
+  "urtica dioica leaf extract": [
+    "redness"
+  ],
+  "vaccinium angustifolium fruit extract": [
+    "redness"
+  ],
+  "valeriana officinalis rhizome/root extract": [
+    "redness"
+  ],
+  "viola tricolor extract": [
+    "redness"
+  ],
+  "viscum album": [
+    "redness"
+  ],
+  "viscum album extract": [
+    "redness"
+  ],
+  "viscum album fruit extract": [
+    "redness"
+  ],
+  "viscum album leaf extract": [
+    "redness"
+  ],
+  "vitis vinifera fruit extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "wheat amino acids": [
+    "redness"
+  ],
+  "zinc chloride": [
+    "redness"
+  ],
+  "zinc picolinate": [
+    "redness"
+  ],
+  "zingiber officinale root extract": [
+    "pigmentation",
+    "redness"
+  ],
+  "betaine salicylate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capryloyl salicylic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "gluconolactone": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glycolic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactobacillus/pumpkin ferment extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactobacillus/punica granatum fruit ferment extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactobionic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "malic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mandelic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "microcitrus australasica fruit extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tartaric acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trichloroacetic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vitis vinifera juice extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
+  ],
+  "acetyl hexapeptide-8": [
+    "wrinkles"
+  ],
+  "acetyl octapeptide-3": [
+    "wrinkles"
+  ],
+  "acetyl sh-hexapeptide-5 amide acetate": [
+    "wrinkles"
+  ],
+  "acetyl tetrapeptide-2": [
+    "wrinkles"
+  ],
+  "acetyl tetrapeptide-3": [
+    "wrinkles"
+  ],
+  "acetyl tetrapeptide-5": [
+    "wrinkles"
+  ],
+  "acetylarginyltryptophyl diphenylglycine": [
+    "wrinkles"
+  ],
+  "adenosine": [
+    "wrinkles"
+  ],
+  "azelaoyl bis-dipeptide-10": [
+    "wrinkles"
+  ],
+  "bakuchiol": [
+    "pigmentation",
+    "wrinkles"
+  ],
+  "biotinoyl tripeptide-1": [
+    "wrinkles"
+  ],
+  "caprooyl tetrapeptide-3": [
+    "wrinkles"
+  ],
+  "carnosine": [
+    "pigmentation",
+    "wrinkles"
+  ],
+  "copper lysinate/prolinate": [
+    "wrinkles"
+  ],
+  "copper palmitoyl heptapeptide-14": [
+    "wrinkles"
+  ],
+  "cycloastragenol": [
+    "wrinkles"
+  ],
+  "decapeptide-22": [
+    "wrinkles"
+  ],
+  "dipeptide diaminobutyroyl benzylamide diacetate": [
+    "wrinkles"
+  ],
+  "dipeptide-2": [
+    "wrinkles"
+  ],
+  "encapsulated retinol": [
+    "wrinkles"
+  ],
+  "glutamylamidoethyl imidazole": [
+    "wrinkles"
+  ],
+  "heptapeptide-15 palmitate": [
+    "wrinkles"
+  ],
+  "hexanoyl dipeptide-3 norleucine acetate": [
+    "wrinkles"
+  ],
+  "hexapeptide-9": [
+    "wrinkles"
+  ],
+  "human fibroblast conditioned media": [
+    "wrinkles"
+  ],
+  "hydroxypinacolone retinoate": [
+    "wrinkles"
+  ],
+  "hydroxypropyl tetrahydropyrantriol": [
+    "wrinkles"
+  ],
+  "isosorbide dicaprylate": [
+    "wrinkles"
+  ],
+  "kappaphycus alvarezii extract": [
+    "wrinkles"
+  ],
+  "methylglucoside phosphate": [
+    "wrinkles"
+  ],
+  "myristoyl hexapeptide-16": [
+    "wrinkles"
+  ],
+  "myristoyl nonapeptide-3": [
+    "wrinkles"
+  ],
+  "myristoyl pentapeptide-17": [
+    "wrinkles"
+  ],
+  "myristyl nicotinate": [
+    "wrinkles"
+  ],
+  "ogliopeptide-78": [
+    "wrinkles"
+  ],
+  "oleyl adapalenate": [
+    "wrinkles"
+  ],
+  "oligopeptide-177": [
+    "wrinkles"
+  ],
+  "ornithine": [
+    "wrinkles"
+  ],
+  "palmitoyl decapeptide-21": [
+    "wrinkles"
+  ],
+  "palmitoyl dipeptide-5 diaminobutyroyl hydroxythreonine": [
+    "wrinkles"
+  ],
+  "palmitoyl heptapeptide-18": [
+    "wrinkles"
+  ],
+  "palmitoyl hexapeptide-12": [
+    "wrinkles"
+  ],
+  "palmitoyl hexapeptide-14": [
+    "wrinkles"
+  ],
+  "palmitoyl hexapeptide-19": [
+    "wrinkles"
+  ],
+  "palmitoyl hexapeptide-52": [
+    "wrinkles"
+  ],
+  "palmitoyl pentapeptide-4": [
+    "wrinkles"
+  ],
+  "palmitoyl tetrapeptide-10": [
+    "wrinkles"
+  ],
+  "palmitoyl tetrapeptide-50": [
+    "wrinkles"
+  ],
+  "palmitoyl tetrapeptide-7": [
+    "wrinkles"
+  ],
+  "palmitoyl tripeptide-1": [
+    "wrinkles"
+  ],
+  "palmitoyl tripeptide-28": [
+    "wrinkles"
+  ],
+  "palmitoyl tripeptide-38": [
+    "wrinkles"
+  ],
+  "palmitoyl tripeptide-5": [
+    "wrinkles"
+  ],
+  "palmitoyl sh-hexapeptide-13 serine sp amide": [
+    "wrinkles"
+  ],
+  "pentapeptide-18": [
+    "wrinkles"
+  ],
+  "retinal": [
+    "wrinkles"
+  ],
+  "retinol": [
+    "wrinkles"
+  ],
+  "retinyl acetate": [
+    "wrinkles"
+  ],
+  "retinyl palmitate": [
+    "wrinkles"
+  ],
+  "retinyl propionate": [
+    "wrinkles"
+  ],
+  "retinyl retinoate": [
+    "wrinkles"
+  ],
+  "s-mu-conotoxin cniiic": [
+    "wrinkles"
+  ],
+  "sh-decapeptide-7": [
+    "pigmentation",
+    "wrinkles"
+  ],
+  "sh-octapeptide-4": [
+    "pigmentation",
+    "wrinkles"
+  ],
+  "sh-oligopeptide-1": [
+    "wrinkles"
+  ],
+  "sh-oligopeptide-2": [
+    "wrinkles"
+  ],
+  "sh-polypeptide-1": [
+    "wrinkles"
+  ],
+  "sh-polypeptide-11": [
+    "wrinkles"
+  ],
+  "sh-polypeptide-9": [
+    "wrinkles"
+  ],
+  "teprenone": [
+    "wrinkles"
+  ],
+  "tetradecyl aminobutyroylvalylaminobutyric urea trifluoroacetate": [
+    "wrinkles"
+  ],
+  "tetrapeptide-21": [
+    "wrinkles"
+  ],
+  "tretinoin": [
+    "wrinkles"
+  ],
+  "trifluoroacetyl tripeptide-2": [
+    "wrinkles"
+  ],
+  "tripeptide-1": [
+    "wrinkles"
+  ],
+  "tripeptide-29": [
+    "wrinkles"
+  ],
+  "whey protein": [
+    "wrinkles"
+  ],
+  "zinc palmitoyl nonapeptide-14": [
+    "wrinkles"
+  ],
+  "acacia decurrens extract": [
+    "pores"
+  ],
+  "acacia farnesiana flower/stem extract": [
+    "pores"
+  ],
+  "adiantum capillus veneris leaf extract": [
+    "pores"
+  ],
+  "aesculus chinensis extract": [
+    "pores"
+  ],
+  "aesculus hippocastanum bark extract": [
+    "pores"
+  ],
+  "aesculus hippocastanum extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "agastache rugosa extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "agave tequilana leaf extract": [
+    "pores"
+  ],
+  "agrimonia eupatoria extract": [
+    "pores"
+  ],
+  "alchemilla vulgaris extract": [
+    "pores"
+  ],
+  "alchemilla vulgaris flower/leaf/stem extract": [
+    "pores"
+  ],
+  "alchemilla vulgaris leaf extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "alcloxa": [
+    "pores"
+  ],
+  "alcohol": [
+    "pores"
+  ],
+  "alcohol denat.": [
+    "pores"
+  ],
+  "allyl caproate": [
+    "pores"
+  ],
+  "aluminum chloride": [
+    "pores"
+  ],
+  "aluminum chlorohydrate": [
+    "pores"
+  ],
+  "aluminum chlorohydrex": [
+    "pores"
+  ],
+  "aluminum diacetate": [
+    "pores"
+  ],
+  "aluminum dichlorohydrate": [
+    "pores"
+  ],
+  "aluminum glycinate": [
+    "pores"
+  ],
+  "aluminum hydroxide oxide": [
+    "pores"
+  ],
+  "aluminum lactate": [
+    "pores"
+  ],
+  "aluminum sesquichlorohydrate": [
+    "pores"
+  ],
+  "aluminum sulfate": [
+    "pores"
+  ],
+  "aluminum zirconium octachlorohydrate": [
+    "pores"
+  ],
+  "aluminum zirconium octachlorohydrex gly": [
+    "pores"
+  ],
+  "aluminum zirconium pentachlorohydrate": [
+    "pores"
+  ],
+  "aluminum zirconium pentachlorohydrex gly": [
+    "pores"
+  ],
+  "aluminum zirconium tetrachlorohydrate": [
+    "pores"
+  ],
+  "aluminum zirconium tetrachlorohydrex gly": [
+    "pores"
+  ],
+  "aluminum zirconium trichlorohydrate": [
+    "pores"
+  ],
+  "aluminum zirconium trichlorohydrex gly": [
+    "pores"
+  ],
+  "ammonium alum": [
+    "pores"
+  ],
+  "anastatica hierochuntica extract": [
+    "pores"
+  ],
+  "andrographis paniculata extract": [
+    "pores"
+  ],
+  "andrographis paniculata leaf extract": [
+    "pores"
+  ],
+  "angelica archangelica leaf extract": [
+    "pores"
+  ],
+  "angelica keiskei extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "aniba rosaeodora wood oil": [
+    "pores"
+  ],
+  "aniba rosodora wood oil": [
+    "pores"
+  ],
+  "aphloia theiformis leaf extract": [
+    "pores"
+  ],
+  "arrabidaea chica leaf/stem extract": [
+    "pores"
+  ],
+  "atractylodes chinensis rhizome extract": [
+    "pores"
+  ],
+  "avena sativa leaf extract": [
+    "pores"
+  ],
+  "backhousia citriodora leaf extract": [
+    "pores"
+  ],
+  "bambusa vulgaris shoot extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "bee venom": [
+    "pores"
+  ],
+  "betula alba juice": [
+    "pores"
+  ],
+  "bourbon extract": [
+    "pores"
+  ],
+  "brassica oleracea gemmifera extract": [
+    "pores"
+  ],
+  "brassica oleracea italica extract": [
+    "pores"
+  ],
+  "bupleurum chinense root extract": [
+    "pores"
+  ],
+  "calcium chloride": [
+    "pores"
+  ],
+  "calcium lactate": [
+    "pores"
+  ],
+  "camellia oleifera seed extract": [
+    "pores"
+  ],
+  "capsicum annuum fruit extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "caulerpa racemosa extract": [
+    "pores"
+  ],
+  "centaurea cyanus flower extract": [
+    "pores"
+  ],
+  "cereus grandiflorus extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "chaenomeles sinensis fruit extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "cinnamomum zeylanicum bark extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "cirsium eriophorum callus extract": [
+    "pores"
+  ],
+  "cistus ladaniferus leaf/stem water extract": [
+    "pores"
+  ],
+  "citrus aurantifolia flower extract": [
+    "pores"
+  ],
+  "citrus aurantium bergamia leaf extract": [
+    "pores"
+  ],
+  "citrus aurantium bergamia leaf oil": [
+    "pores"
+  ],
+  "citrus aurantium dulcis flower oil": [
+    "pores"
+  ],
+  "citrus grandis fruit extract": [
+    "pores"
+  ],
+  "citrus grandis juice": [
+    "pores"
+  ],
+  "citrus grandis leaf extract": [
+    "pores"
+  ],
+  "citrus grandis peel extract": [
+    "pores"
+  ],
+  "citrus grandis seed extract": [
+    "pores"
+  ],
+  "citrus hystrix leaf water": [
+    "pigmentation",
+    "pores"
+  ],
+  "citrus junos peel oil": [
+    "pores"
+  ],
+  "citrus limon fruit oil": [
+    "pores"
+  ],
+  "citrus nobilis fruit juice": [
+    "pores"
+  ],
+  "citrus tangerina peel extract": [
+    "pores"
+  ],
+  "clay minerals": [
+    "pores"
+  ],
+  "codonopsis lanceolata extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "collinsonia canadensis extract": [
+    "pores"
+  ],
+  "cotinus coggygria leaf extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "cucumis melo cantalupensis fruit extract": [
+    "pores"
+  ],
+  "cupressus sempervirens bark extract": [
+    "pores"
+  ],
+  "cymbopogon schoenanthus leaf powder": [
+    "pores"
+  ],
+  "daemonorops draco extract": [
+    "pores"
+  ],
+  "dioscorea batatas extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "disodium edta-copper": [
+    "pores"
+  ],
+  "eleutherococcus senticosus root extract": [
+    "pores"
+  ],
+  "emblica officinalis fruit juice powder": [
+    "pores"
+  ],
+  "erigeron canadensis flower extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "eucalyptus acmenoides leaf extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "eucalyptus dunnii leaf extract": [
+    "pores"
+  ],
+  "eugenia caryophyllus flower extract": [
+    "pores"
+  ],
+  "eugenia uniflora fruit extract": [
+    "pores"
+  ],
+  "euphorbia cerifera cera": [
+    "pores"
+  ],
+  "euphorbia supina stem extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "ferric chloride": [
+    "pores"
+  ],
+  "ferrous sulfate": [
+    "pores"
+  ],
+  "fevillea trilobata seed oil": [
+    "pores"
+  ],
+  "ficus carica fruit juice": [
+    "pores"
+  ],
+  "fragaria vesca fruit": [
+    "pores"
+  ],
+  "fragaria vesca fruit extract": [
+    "pores"
+  ],
+  "fragaria vesca juice": [
+    "pores"
+  ],
+  "fragaria vesca leaf extract": [
+    "pores"
+  ],
+  "fragaria vesca seed": [
+    "pores"
+  ],
+  "geranium robertianum extract": [
+    "pores"
+  ],
+  "gymnema sylvestre leaf extract": [
+    "pores"
+  ],
+  "gynostemma pentaphyllum extract": [
+    "pores"
+  ],
+  "gynostemma pentaphyllum leaf/stem extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "hamamelis virginiana bark/leaf extract": [
+    "pores"
+  ],
+  "hamamelis virginiana bark/twig extract": [
+    "pores"
+  ],
+  "hydrolyzed grape fruit": [
+    "pores"
+  ],
+  "hydrolyzed strawberry fruit": [
+    "pores"
+  ],
+  "hydrolyzed walnut extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "impatiens balsamina flower extract": [
+    "pores"
+  ],
+  "impatiens balsamina flower/leaf/stem extract": [
+    "pores"
+  ],
+  "impatiens balsamina leaf extract": [
+    "pores"
+  ],
+  "ionone": [
+    "pores"
+  ],
+  "isatis tinctoria root extract": [
+    "pores"
+  ],
+  "juglans nigra leaf extract": [
+    "pores"
+  ],
+  "juglans nigra shell extract": [
+    "pores"
+  ],
+  "kigelia africana bark extract": [
+    "pores"
+  ],
+  "kluyveromyces/lactobacillus/acanthopanax koreanum bark/stem oil ferment filtrate": [
+    "pigmentation",
+    "pores"
+  ],
+  "lamium album extract": [
+    "pores"
+  ],
+  "lamium album flower extract": [
+    "pores"
+  ],
+  "lanthanum chloride": [
+    "pores"
+  ],
+  "leontopodium alpinum flower/leaf/stem extract": [
+    "pores"
+  ],
+  "lespedeza cuneata extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "lippia citriodora leaf extract": [
+    "pores"
+  ],
+  "lonicera caprifolium extract": [
+    "pores"
+  ],
+  "lycium barbarum fruit extract": [
+    "pores"
+  ],
+  "lythrum salicaria extract": [
+    "pores"
+  ],
+  "mahonia aquifolium root extract": [
+    "pores"
+  ],
+  "malpighia punicifolia fruit": [
+    "pores"
+  ],
+  "mangifera indica fruit": [
+    "pores"
+  ],
+  "manicouagan clay": [
+    "pores"
+  ],
+  "melaleuca alternifolia leaf water": [
+    "pores"
+  ],
+  "melilotus officinalis flower extract": [
+    "pores"
+  ],
+  "mentha citrata leaf extract": [
+    "pores"
+  ],
+  "mentha suaveolens leaf extract": [
+    "pores"
+  ],
+  "mentha viridis leaf oil": [
+    "pores"
+  ],
+  "menthyl succinate": [
+    "pores"
+  ],
+  "methylmethionine": [
+    "pores"
+  ],
+  "momordica charantia extract": [
+    "pores"
+  ],
+  "morinda citrifolia extract": [
+    "pores"
+  ],
+  "morus alba extract": [
+    "pores"
+  ],
+  "morus bombycis extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "morus bombycis wood extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "mucor miehei extract": [
+    "pores"
+  ],
+  "mucuna pruriens seed extract": [
+    "pores"
+  ],
+  "musa paradisiaca fruit": [
+    "pores"
+  ],
+  "myrtus communis extract": [
+    "pores"
+  ],
+  "narcissus tazetta bulb extract": [
+    "pores"
+  ],
+  "narcissus tazetta extract": [
+    "pores"
+  ],
+  "nelumbo nucifera seed extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "oenothera biennis flower extract": [
+    "pores"
+  ],
+  "opuntia humifusa flower/stem extract": [
+    "pores"
+  ],
+  "origanum dictamnus flower/leaf/stem extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "orostachys japonica extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "paeonia lactiflora extract": [
+    "pores"
+  ],
+  "panax quinquefolius root extract": [
+    "pores"
+  ],
+  "papaver rhoeas flower water": [
+    "pores"
+  ],
+  "passiflora incarnata extract": [
+    "pores"
+  ],
+  "pelargonium graveolens flower water": [
+    "pores"
+  ],
+  "pelargonium graveolens water": [
+    "pores"
+  ],
+  "phaseolus vulgaris extract": [
+    "pores"
+  ],
+  "phytonadione epoxide": [
+    "pores"
+  ],
+  "phytosteryl rice branate": [
+    "pores"
+  ],
+  "picrasma excelsa wood extract": [
+    "pores"
+  ],
+  "pimpinella anisum seed extract": [
+    "pores"
+  ],
+  "piper nigrum seed oil": [
+    "pores"
+  ],
+  "pna-19 carboxyethyl fluorene": [
+    "pores"
+  ],
+  "poria cocos sclerotium extract": [
+    "pores"
+  ],
+  "potassium alum": [
+    "pores"
+  ],
+  "potentilla erecta extract": [
+    "pores"
+  ],
+  "prunus armeniaca fruit": [
+    "pores"
+  ],
+  "prunus avium fruit juice": [
+    "pores"
+  ],
+  "prunus mume extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "prunus persica fruit": [
+    "pores"
+  ],
+  "prunus spinosa fruit juice": [
+    "pores"
+  ],
+  "prunus spinosa wood extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "prunus tomentosa fruit extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "psidium guajava fruit extract": [
+    "pores"
+  ],
+  "psidium guajava leaf extract": [
+    "pores"
+  ],
+  "pterocarpus santalinus wood extract": [
+    "pores"
+  ],
+  "pterocarpus soyauxii wood extract": [
+    "pores"
+  ],
+  "pulmonaria officinalis extract": [
+    "pores"
+  ],
+  "punica granatum bark/fruit extract": [
+    "pores"
+  ],
+  "punica granatum extract": [
+    "pores"
+  ],
+  "punica granatum fruit water": [
+    "pores"
+  ],
+  "punica granatum peel extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "pyrus communis fruit": [
+    "pores"
+  ],
+  "pyrus malus fruit": [
+    "pores"
+  ],
+  "pyrus sorbus bud extract": [
+    "pores"
+  ],
+  "quercus acutissima fruit extract": [
+    "pores"
+  ],
+  "quercus acutissima fruit powder": [
+    "pores"
+  ],
+  "quercus alba bark extract": [
+    "pores"
+  ],
+  "quercus infectoria gall extract": [
+    "pores"
+  ],
+  "quercus robur bark extract": [
+    "pores"
+  ],
+  "quercus robur root extract": [
+    "pores"
+  ],
+  "raphanus sativus root extract": [
+    "pores"
+  ],
+  "rheum palmatum root extract": [
+    "pores"
+  ],
+  "rheum palmatum root/stalk extract": [
+    "pores"
+  ],
+  "rheum undulatum root/stalk/stem extract": [
+    "pores"
+  ],
+  "rhinacanthus communis extract": [
+    "pores"
+  ],
+  "rhododendron mucronulatum flower extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "rhus glabra bark/berry/root extract": [
+    "pores"
+  ],
+  "ribes nigrum fruit": [
+    "pores"
+  ],
+  "ribes nigrum fruit extract": [
+    "pores"
+  ],
+  "ribes rubrum fruit": [
+    "pores"
+  ],
+  "rosa canina flower extract": [
+    "pores"
+  ],
+  "rosa canina fruit": [
+    "pores"
+  ],
+  "rosa canina fruit extract": [
+    "pores"
+  ],
+  "rosa centifolia flower extract": [
+    "pores"
+  ],
+  "rosa damascena flower water extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "rosa extract": [
+    "pores"
+  ],
+  "rosa gallica flower extract": [
+    "pores"
+  ],
+  "rosa moschata leaf extract": [
+    "pores"
+  ],
+  "rosa moschata oil": [
+    "pores"
+  ],
+  "rubus deliciosus fruit juice": [
+    "pores"
+  ],
+  "rubus fruticosus fruit extract": [
+    "pores"
+  ],
+  "rubus fruticosus juice": [
+    "pores"
+  ],
+  "rubus idaeus fruit": [
+    "pores"
+  ],
+  "rubus idaeus juice": [
+    "pores"
+  ],
+  "rubus occidentalis fruit extract": [
+    "pores"
+  ],
+  "rubus villosus fruit extract": [
+    "pores"
+  ],
+  "saccharum officinarum ferment extract": [
+    "pores"
+  ],
+  "salt mine mud": [
+    "pores"
+  ],
+  "salvadora persica stem extract": [
+    "pores"
+  ],
+  "salvia triloba leaf extract": [
+    "pores"
+  ],
+  "sambucus nigra fruit extract": [
+    "pores"
+  ],
+  "sambucus nigra fruit juice": [
+    "pores"
+  ],
+  "saururus chinensis leaf/root extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "schinus terebinthifolia seed extract": [
+    "pores"
+  ],
+  "sd alcohol 1": [
+    "pores"
+  ],
+  "sd alcohol 30": [
+    "pores"
+  ],
+  "sd alcohol 36": [
+    "pores"
+  ],
+  "sd alcohol 38-b": [
+    "pores"
+  ],
+  "sd alcohol 39": [
+    "pores"
+  ],
+  "sd alcohol 39-c": [
+    "pores"
+  ],
+  "sd alcohol 40": [
+    "pores"
+  ],
+  "sd alcohol 40-a": [
+    "pores"
+  ],
+  "sd alcohol 40-b": [
+    "pores"
+  ],
+  "sedum rosea root extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "shorea robusta leaf extract": [
+    "pores"
+  ],
+  "silt": [
+    "pores"
+  ],
+  "smilax china root extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "smithsonite": [
+    "pores"
+  ],
+  "solanum lycopersicum fruit/leaf/stem extract": [
+    "pores"
+  ],
+  "soleirolia soleirolii extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "swertia chirata leaf extract": [
+    "pores"
+  ],
+  "tannic acid": [
+    "pores"
+  ],
+  "terminalia bellerica fruit": [
+    "pores"
+  ],
+  "terminalia bellerica fruit extract": [
+    "pores"
+  ],
+  "terminalia chebula extract": [
+    "pores"
+  ],
+  "terminalia sericea bark/root extract": [
+    "pores"
+  ],
+  "thuja orientalis extract": [
+    "pores"
+  ],
+  "tioxolone": [
+    "pores"
+  ],
+  "trifolium pratense flower extract": [
+    "pores"
+  ],
+  "tussilago farfara flower extract": [
+    "pores"
+  ],
+  "tussilago farfara leaf extract": [
+    "pores"
+  ],
+  "ulmus campestris bark extract": [
+    "pores"
+  ],
+  "uncaria gambir extract": [
+    "pores"
+  ],
+  "vaccinium angustifolium fruit": [
+    "pores"
+  ],
+  "vaccinium angustifolium fruit juice": [
+    "pores"
+  ],
+  "vaccinium macrocarpon fruit extract": [
+    "pores"
+  ],
+  "vaccinium myrtillus fruit/leaf extract": [
+    "pores"
+  ],
+  "vaccinium myrtillus leaf extract": [
+    "pores"
+  ],
+  "vaccinium vitis-idaea leaf extract": [
+    "pores"
+  ],
+  "veronica officinalis flower/leaf/stem extract": [
+    "pores"
+  ],
+  "viola mandshurica flower extract": [
+    "pigmentation",
+    "pores"
+  ],
+  "vitex agnus castus extract": [
+    "pores"
+  ],
+  "xerochrysum bracteatum flower extract": [
+    "pores"
+  ],
+  "zinc phenolsulfonate": [
+    "pores"
+  ],
+  "zinc sulfate": [
+    "pores"
+  ],
+  "zinc zeolite": [
+    "pores"
+  ],
+  "3-glyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "3-laurylglyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "4-butylresorcinol": [
+    "pigmentation"
+  ],
+  "abies alba seed oil": [
+    "pigmentation"
+  ],
+  "acacia catechu catechins": [
+    "pigmentation"
+  ],
+  "acacia catechu wood extract": [
+    "pigmentation"
+  ],
+  "acacia victoriae fruit extract": [
+    "pigmentation"
+  ],
+  "acer palmatum leaf extract": [
+    "pigmentation"
+  ],
+  "acetamidocaproic acid": [
+    "pigmentation"
+  ],
+  "acetyl cysteine": [
+    "pigmentation"
+  ],
+  "acetyl hexapeptide-22": [
+    "pigmentation"
+  ],
+  "acetyl zingerone": [
+    "pigmentation"
+  ],
+  "achillea millefolium flower extract": [
+    "pigmentation"
+  ],
+  "actaea heracleifolia root extract": [
+    "pigmentation"
+  ],
+  "aletris farinosa root extract": [
+    "pigmentation"
+  ],
+  "allium cepa root extract": [
+    "pigmentation"
+  ],
+  "allium fistulosum root extract": [
+    "pigmentation"
+  ],
+  "allium victorialis extract": [
+    "pigmentation"
+  ],
+  "almond/borage/linseed/olive acids/glycerides": [
+    "pigmentation"
+  ],
+  "aloe barbadensis callus culture extract": [
+    "pigmentation"
+  ],
+  "aloe vera callus extract": [
+    "pigmentation"
+  ],
+  "amaranthus hypochondriacus seed extract": [
+    "pigmentation"
+  ],
+  "aminoethanesulfinic acid": [
+    "pigmentation"
+  ],
+  "apigenin": [
+    "pigmentation"
+  ],
+  "apium graveolens callus extract": [
+    "pigmentation"
+  ],
+  "apium graveolens seed extract": [
+    "pigmentation"
+  ],
+  "aquilaria malaccensis stem extract": [
+    "pigmentation"
+  ],
+  "arabidopsis thaliana extract": [
+    "pigmentation"
+  ],
+  "arbutus unedo fruit extract": [
+    "pigmentation"
+  ],
+  "arctium lappa fruit extract": [
+    "pigmentation"
+  ],
+  "argania spinosa kernel oil": [
+    "pigmentation"
+  ],
+  "argemone mexicana callus extract": [
+    "pigmentation"
+  ],
+  "argon": [
+    "pigmentation"
+  ],
+  "aristotelia chilensis fruit juice": [
+    "pigmentation"
+  ],
+  "aronia melanocarpa fruit extract": [
+    "pigmentation"
+  ],
+  "artemisia capillaris powder": [
+    "pigmentation"
+  ],
+  "arthrospira platensis extract": [
+    "pigmentation"
+  ],
+  "artocarpus altilis flower extract": [
+    "pigmentation"
+  ],
+  "ascorbic acid polypeptide": [
+    "pigmentation"
+  ],
+  "ascorbyl asiatate": [
+    "pigmentation"
+  ],
+  "ascorbyl dipalmitate": [
+    "pigmentation"
+  ],
+  "ascorbyl methylsilanol pectinate": [
+    "pigmentation"
+  ],
+  "ascorbyl palmitate": [
+    "pigmentation"
+  ],
+  "ascorbyl phosphate succinoyl pentapeptide-12": [
+    "pigmentation"
+  ],
+  "ascorbyl stearate": [
+    "pigmentation"
+  ],
+  "ascorbyl tetraisopalmitate": [
+    "pigmentation"
+  ],
+  "ascorbyl tocopheryl maleate": [
+    "pigmentation"
+  ],
+  "asiaticoside": [
+    "pigmentation"
+  ],
+  "aspergillus/camellia sinensis leaf extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "aspergillus/sorghum bicolor leaf/stem extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "astaxanthin": [
+    "pigmentation"
+  ],
+  "astragalus membranaceus extract": [
+    "pigmentation"
+  ],
+  "astragalus membranaceus root extract": [
+    "pigmentation"
+  ],
+  "avenanthramides": [
+    "pigmentation"
+  ],
+  "bha": [
+    "pigmentation"
+  ],
+  "bht": [
+    "pigmentation"
+  ],
+  "bacillus/carrot root ferment filtrate": [
+    "pigmentation"
+  ],
+  "bacillus/folic acid ferment filtrate extract": [
+    "pigmentation"
+  ],
+  "bacillus/rice bran extract/soybean extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "bacopa monnieri oil": [
+    "pigmentation"
+  ],
+  "baicalin": [
+    "pigmentation"
+  ],
+  "banksia serrata seed oil": [
+    "pigmentation"
+  ],
+  "barklya syringifolia flower/leaf extract": [
+    "pigmentation"
+  ],
+  "bergamot/grapefruit/orange/tangerine fruit ferment extract": [
+    "pigmentation"
+  ],
+  "beta vulgaris root extract": [
+    "pigmentation"
+  ],
+  "beta vulgaris root powder": [
+    "pigmentation"
+  ],
+  "bifida/lactobacillus/(arctium lappa/ginger/licorice) root extract/yeast extract ferment lysate filtrate": [
+    "pigmentation"
+  ],
+  "bis-ethylhexyl hydroxydimethoxy benzylmalonate": [
+    "pigmentation"
+  ],
+  "bis-glyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "bixa orellana leaf extract": [
+    "pigmentation"
+  ],
+  "bixa orellana seed": [
+    "pigmentation"
+  ],
+  "bletilla striata callus extract": [
+    "pigmentation"
+  ],
+  "borago officinalis leaf extract": [
+    "pigmentation"
+  ],
+  "bougainvillea glabra leaf cell extract": [
+    "pigmentation"
+  ],
+  "brachychiton acerifolius flower extract": [
+    "pigmentation"
+  ],
+  "brassica oleracea acephala sprout extract": [
+    "pigmentation"
+  ],
+  "brassica oleracea gongylodes extract": [
+    "pigmentation"
+  ],
+  "butyroyl glutathione": [
+    "pigmentation"
+  ],
+  "caffeic acid": [
+    "pigmentation"
+  ],
+  "caffeine": [
+    "pigmentation"
+  ],
+  "caffeoyl hexapeptide-65": [
+    "pigmentation"
+  ],
+  "caffeoyl sh-octapeptide-4": [
+    "pigmentation"
+  ],
+  "caffeoyl tripeptide-1": [
+    "pigmentation"
+  ],
+  "calcium ascorbate": [
+    "pigmentation"
+  ],
+  "calendula officinalis meristem cell extract": [
+    "pigmentation"
+  ],
+  "callitris columellaris leaf/wood extract": [
+    "pigmentation"
+  ],
+  "calophyllum inophyllum seed oil": [
+    "pigmentation"
+  ],
+  "calotropis procera callus extract": [
+    "pigmentation"
+  ],
+  "camellia sinensis catechins": [
+    "pigmentation"
+  ],
+  "camellia sinensis leaf cell extract": [
+    "pigmentation"
+  ],
+  "camellia sinensis leaf oil": [
+    "pigmentation"
+  ],
+  "camellia sinensis seed powder": [
+    "pigmentation"
+  ],
+  "campsis grandiflora flower extract": [
+    "pigmentation"
+  ],
+  "cananga odorata leaf cell extract": [
+    "pigmentation"
+  ],
+  "cannabidiol": [
+    "pigmentation"
+  ],
+  "cannabidiol - derived from extract or tincture or resin of cannabis": [
+    "pigmentation"
+  ],
+  "cannabidiol - synthetically produced": [
+    "pigmentation"
+  ],
+  "cannabis sativa callus extract": [
+    "pigmentation"
+  ],
+  "cannabis sativa flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "cannabis sativa flower/leaf/stem oil": [
+    "pigmentation"
+  ],
+  "caprylamide mea": [
+    "pigmentation"
+  ],
+  "caprylyl 2-glyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "capsicum annuum fruit meristem cell": [
+    "pigmentation"
+  ],
+  "caragana sinica root extract": [
+    "pigmentation"
+  ],
+  "carnosic acid": [
+    "pigmentation"
+  ],
+  "carotenoids": [
+    "pigmentation"
+  ],
+  "carthamus tinctorius seed oil": [
+    "pigmentation"
+  ],
+  "centella asiatica callus extract": [
+    "pigmentation"
+  ],
+  "centella asiatica leaf cell culture extract": [
+    "pigmentation"
+  ],
+  "centella asiatica leaf cell extract": [
+    "pigmentation"
+  ],
+  "centella asiatica meristem cell culture": [
+    "pigmentation"
+  ],
+  "centella asiatica oil": [
+    "pigmentation"
+  ],
+  "centipeda cunninghamii leaf/stem extract": [
+    "pigmentation"
+  ],
+  "cereus grandiflorus seed powder": [
+    "pigmentation"
+  ],
+  "chaenomeles japonica seed oil": [
+    "pigmentation"
+  ],
+  "chamaecyparis formosensis wood oil": [
+    "pigmentation"
+  ],
+  "chenopodium formosanum grain extract": [
+    "pigmentation"
+  ],
+  "chenopodium formosanum seed extract": [
+    "pigmentation"
+  ],
+  "chitosan ascorbate": [
+    "pigmentation"
+  ],
+  "chitosan glycolate": [
+    "pigmentation"
+  ],
+  "chlorogenic acids": [
+    "pigmentation"
+  ],
+  "chlorophyllin-copper complex": [
+    "pigmentation"
+  ],
+  "chrysanthemum boreale flower extract": [
+    "pigmentation"
+  ],
+  "chrysanthemum indicum callus culture extract": [
+    "pigmentation"
+  ],
+  "chrysanthemum indicum extract": [
+    "pigmentation"
+  ],
+  "chrysanthemum parthenium flower/leaf/stem juice": [
+    "pigmentation"
+  ],
+  "chrysanthemum zawadskii flower extract": [
+    "pigmentation"
+  ],
+  "cichorium intybus seed oil": [
+    "pigmentation"
+  ],
+  "cimicifuga dahurica root extract": [
+    "pigmentation"
+  ],
+  "cimicifuga racemosa root extract": [
+    "pigmentation"
+  ],
+  "cinnamomum cassia bark/syzgium aromaticum bud/rosmarinus officinalis leaf/thymus vulgaris leaf oil": [
+    "pigmentation"
+  ],
+  "citrofortunella microcarpa fruit extract": [
+    "pigmentation"
+  ],
+  "citrullus lanatus fruit extract": [
+    "pigmentation"
+  ],
+  "citrus australasica fruit extract": [
+    "pigmentation"
+  ],
+  "citrus australasica seed oil": [
+    "pigmentation"
+  ],
+  "citrus glauca seed oil": [
+    "pigmentation"
+  ],
+  "citrus junos extract": [
+    "pigmentation"
+  ],
+  "citrus junos seed extract": [
+    "pigmentation"
+  ],
+  "citrus medica vulgaris fruit extract": [
+    "pigmentation"
+  ],
+  "citrus sinensis fruit extract": [
+    "pigmentation"
+  ],
+  "citrus unshiu fruit extract": [
+    "pigmentation"
+  ],
+  "citrus unshiu fruit powder": [
+    "pigmentation"
+  ],
+  "clinacanthus nutans leaf extract": [
+    "pigmentation"
+  ],
+  "coconut flower sugar": [
+    "pigmentation"
+  ],
+  "coffea arabica fruit extract": [
+    "pigmentation"
+  ],
+  "coffea arabica fruit powder": [
+    "pigmentation"
+  ],
+  "coffea arabica leaf cell extract": [
+    "pigmentation"
+  ],
+  "colloidal platinum": [
+    "pigmentation"
+  ],
+  "copper tripeptide-1 palmitamide": [
+    "pigmentation"
+  ],
+  "coprinus comatus extract": [
+    "pigmentation"
+  ],
+  "coptis chinensis root extract": [
+    "pigmentation"
+  ],
+  "cordyceps sinensis extract": [
+    "pigmentation"
+  ],
+  "crocus sativus callus extract": [
+    "pigmentation"
+  ],
+  "crocus sativus extract": [
+    "pigmentation"
+  ],
+  "croton lechleri resin": [
+    "pigmentation"
+  ],
+  "cucumaria frondosa extract": [
+    "pigmentation"
+  ],
+  "cucumis melo cantalupensis callus extract": [
+    "pigmentation"
+  ],
+  "cucumis sativus callus extract": [
+    "pigmentation"
+  ],
+  "curcuma longa callus culture conditioned media": [
+    "pigmentation"
+  ],
+  "curcuma xanthorrhiza root powder": [
+    "pigmentation"
+  ],
+  "curcumin": [
+    "pigmentation"
+  ],
+  "cyclopia genistoides flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "cyclopia genistoides leaf extract": [
+    "pigmentation"
+  ],
+  "cyclotetrapeptide-24 aminocyclohexane carboxylate": [
+    "pigmentation"
+  ],
+  "cycnoches cooperi extract": [
+    "pigmentation"
+  ],
+  "cylindrotheca fusiformis extract": [
+    "pigmentation"
+  ],
+  "cymbidium erythraeum flower extract": [
+    "pigmentation"
+  ],
+  "cymbopogon citratus leaf water": [
+    "pigmentation"
+  ],
+  "cyperus papyrus leaf cell extract": [
+    "pigmentation"
+  ],
+  "cysteamine hcl": [
+    "pigmentation"
+  ],
+  "cystein hcl": [
+    "pigmentation"
+  ],
+  "cysteine": [
+    "pigmentation"
+  ],
+  "cysteine hcl": [
+    "pigmentation"
+  ],
+  "cystoseira humilis extract": [
+    "pigmentation"
+  ],
+  "daucus carota sativa root extract": [
+    "pigmentation"
+  ],
+  "davidsonia jerseyana fruit extract": [
+    "pigmentation"
+  ],
+  "davidsonia jerseyana fruit powder": [
+    "pigmentation"
+  ],
+  "davidsonia jerseyana seed oil": [
+    "pigmentation"
+  ],
+  "davidsonia pruriens fruit extract": [
+    "pigmentation"
+  ],
+  "decapeptide-6": [
+    "pigmentation"
+  ],
+  "decursinol": [
+    "pigmentation"
+  ],
+  "deschampsia antarctica leaf extract": [
+    "pigmentation"
+  ],
+  "di-t-butyl hydroxyphenylamino bisoctylthiotriazine": [
+    "pigmentation"
+  ],
+  "dictyopteris membranacea extract": [
+    "pigmentation"
+  ],
+  "dihydroquercetin": [
+    "pigmentation"
+  ],
+  "dihydroquercetin glucoside": [
+    "pigmentation"
+  ],
+  "dihydroxy methylchromone": [
+    "pigmentation"
+  ],
+  "dilauryl thiodipropionate": [
+    "pigmentation"
+  ],
+  "dimethoxy di-p-cresol": [
+    "pigmentation"
+  ],
+  "dimethoxytolyl propylresorcinol": [
+    "pigmentation"
+  ],
+  "dimethylmethoxy chromanol": [
+    "pigmentation"
+  ],
+  "dioleyl tocopheryl methylsilanol": [
+    "pigmentation"
+  ],
+  "diosmine": [
+    "pigmentation"
+  ],
+  "diospyros kaki calyx extract": [
+    "pigmentation"
+  ],
+  "disodium ascorbyl sulfate": [
+    "pigmentation"
+  ],
+  "disodium pyrroloquinolinedione tricarboxylate": [
+    "pigmentation"
+  ],
+  "disodium rutinyl disulfate": [
+    "pigmentation"
+  ],
+  "dodecyl gallate": [
+    "pigmentation"
+  ],
+  "draba nemorosa extract": [
+    "pigmentation"
+  ],
+  "dunaliella salina/isochrysis galbana/nannochloropsis gaditana/phaeodactylum tricornutum/tetraselmis chuii extract": [
+    "pigmentation"
+  ],
+  "echinacea angustifolia cell culture extract": [
+    "pigmentation"
+  ],
+  "eichhornia crassipes water": [
+    "pigmentation"
+  ],
+  "equol": [
+    "pigmentation"
+  ],
+  "eremophila longifolia leaf extract": [
+    "pigmentation"
+  ],
+  "ergothioneine": [
+    "pigmentation"
+  ],
+  "eriobotrya japonica leaf protoplasts": [
+    "pigmentation"
+  ],
+  "erythorbic acid": [
+    "pigmentation"
+  ],
+  "ethyl ferulate": [
+    "pigmentation"
+  ],
+  "ethylbisiminomethylguaiacol manganese chloride": [
+    "pigmentation"
+  ],
+  "ethylhexyl ferulate": [
+    "pigmentation"
+  ],
+  "etlingera elatior flower extract": [
+    "pigmentation"
+  ],
+  "eucommia ulmoides bark extract": [
+    "pigmentation"
+  ],
+  "euterpe oleracea pulp powder": [
+    "pigmentation"
+  ],
+  "ferulic acid": [
+    "pigmentation"
+  ],
+  "feruloyl soy glycerides": [
+    "pigmentation"
+  ],
+  "ficus indica flower/leaf/stem juice": [
+    "pigmentation"
+  ],
+  "forsythia koreana flower extract": [
+    "pigmentation"
+  ],
+  "forsythia suspensa fruit extract": [
+    "pigmentation"
+  ],
+  "fragaria ananassa seed extract": [
+    "pigmentation"
+  ],
+  "fragaria ananassa seed oil": [
+    "pigmentation"
+  ],
+  "fraxinus rhynchophylla leaf extract": [
+    "pigmentation"
+  ],
+  "fucoidan": [
+    "pigmentation"
+  ],
+  "furfuryl palmitate": [
+    "pigmentation"
+  ],
+  "fusanus acuminatus seed oil": [
+    "pigmentation"
+  ],
+  "galactoarabinan": [
+    "pigmentation"
+  ],
+  "galla rhois gallnut extract": [
+    "pigmentation"
+  ],
+  "gallic acid": [
+    "pigmentation"
+  ],
+  "galloyl pentapeptide-33": [
+    "pigmentation"
+  ],
+  "garcinia mangostana fruit juice": [
+    "pigmentation"
+  ],
+  "gardenia jasminoides leaf cell extract": [
+    "pigmentation"
+  ],
+  "gardenia jasminoides meristem cell culture": [
+    "pigmentation"
+  ],
+  "genistein": [
+    "pigmentation"
+  ],
+  "genistein glucoside": [
+    "pigmentation"
+  ],
+  "gerotine/hydrolyzed dna": [
+    "pigmentation"
+  ],
+  "glucosyl pentagallate": [
+    "pigmentation"
+  ],
+  "glucosylrutin": [
+    "pigmentation"
+  ],
+  "glyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "glycine max callus culture": [
+    "pigmentation"
+  ],
+  "glycine max extract": [
+    "pigmentation"
+  ],
+  "glycine max leaf extract": [
+    "pigmentation"
+  ],
+  "glycine max phytoplacenta extract": [
+    "pigmentation"
+  ],
+  "glycine tomentella root extract": [
+    "pigmentation"
+  ],
+  "glycyrrhiza glabra root water": [
+    "pigmentation"
+  ],
+  "gossypium herbaceum callus extract": [
+    "pigmentation"
+  ],
+  "grifola frondosa mycelium ferment filtrate extract": [
+    "pigmentation"
+  ],
+  "haematococcus pluvialis extract": [
+    "pigmentation"
+  ],
+  "haematococcus pluvialis oil": [
+    "pigmentation"
+  ],
+  "haematococcus pluvialis powder": [
+    "pigmentation"
+  ],
+  "hesperetin laurate": [
+    "pigmentation"
+  ],
+  "hesperidin methyl chalcone": [
+    "pigmentation"
+  ],
+  "hexapeptide-33": [
+    "pigmentation"
+  ],
+  "hexyl 3-glyceryl ascorbate": [
+    "pigmentation"
+  ],
+  "hibiscus sabdariffa leaf extract": [
+    "pigmentation"
+  ],
+  "hibiscus syriacus callus culture extract": [
+    "pigmentation"
+  ],
+  "hibiscus syriacus callus extract": [
+    "pigmentation"
+  ],
+  "hibiscus syriacus flower extract": [
+    "pigmentation"
+  ],
+  "hibiscus taiwanensis extract": [
+    "pigmentation"
+  ],
+  "hippophae rhamnoides callus culture extract": [
+    "pigmentation"
+  ],
+  "hippophae rhamnoides fruit oil": [
+    "pigmentation"
+  ],
+  "hordeum vulgare sprout extract": [
+    "pigmentation"
+  ],
+  "hyaluronic acid/polyglutamic acid crosspolymer": [
+    "pigmentation"
+  ],
+  "hydrogen": [
+    "pigmentation"
+  ],
+  "hydrolyzed annona cherimola fruit extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed drosera ramentacea leaf": [
+    "pigmentation"
+  ],
+  "hydrolyzed eruca sativa leaf": [
+    "pigmentation"
+  ],
+  "hydrolyzed gardenia florida extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed grape skin": [
+    "pigmentation"
+  ],
+  "hydrolyzed lycium barbarum fruit extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed olive fruit": [
+    "pigmentation"
+  ],
+  "hydrolyzed olive fruit extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed proanthocyanidin": [
+    "pigmentation"
+  ],
+  "hydrolyzed prunus domestica fruit extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed rice leaf extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed soy extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed tremella fuciformis sporocarp extract": [
+    "pigmentation"
+  ],
+  "hydrolyzed verbascum thapsus flower": [
+    "pigmentation"
+  ],
+  "hydrolyzed wheat bran": [
+    "pigmentation"
+  ],
+  "hydroxyacetophenone": [
+    "pigmentation"
+  ],
+  "hydroxydecyl ubiquinone": [
+    "pigmentation"
+  ],
+  "hypoxis hemerocallidea bulb extract": [
+    "pigmentation"
+  ],
+  "ipomoea batatas tuber extract": [
+    "pigmentation"
+  ],
+  "ipomoea digitata tuber extract": [
+    "pigmentation"
+  ],
+  "ipomoea nil seed extract": [
+    "pigmentation"
+  ],
+  "iris pallida leaf cell extract": [
+    "pigmentation"
+  ],
+  "isoquercetin": [
+    "pigmentation"
+  ],
+  "isoquercitrin": [
+    "pigmentation"
+  ],
+  "jacaranda mimosifolia flower extract": [
+    "pigmentation"
+  ],
+  "juglans regia seedcoat extract": [
+    "pigmentation"
+  ],
+  "juniperus communis callus extract": [
+    "pigmentation"
+  ],
+  "juniperus communis sprout extract": [
+    "pigmentation"
+  ],
+  "kadsura coccinea fruit extract": [
+    "pigmentation"
+  ],
+  "kaempferia parviflora rhizome extract": [
+    "pigmentation"
+  ],
+  "kaempferol": [
+    "pigmentation"
+  ],
+  "kluyveromyces/lactobacillus/camellia japonica seed oil ferment filtrate": [
+    "pigmentation"
+  ],
+  "kojyl carboxy dipeptide-23": [
+    "pigmentation"
+  ],
+  "kojyl methylenedioxycinnamate": [
+    "pigmentation"
+  ],
+  "kunzea ericoides leaf extract": [
+    "pigmentation"
+  ],
+  "kunzea pomifera seed oil": [
+    "pigmentation"
+  ],
+  "lactobacillus/amaranthus caudatus seed flour ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/arundinaria gigantea ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/camellia sinensis leaf/clover flower/cocoa flower ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/dandelion leaf/root extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/pichia/saccharomycopsis/rice bran extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/portulaca oleracea ferment extract": [
+    "pigmentation"
+  ],
+  "lactobacillus/rice bran ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/salix alba bark ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/scutellaria baicalensis root extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/scutellaria baicalensis root/camellia sinensis leaf/artemisia princeps leaf/houttuynia cordata leaf/citrus junos fruit extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "lactobacillus/wasabia japonica root ferment extract": [
+    "pigmentation"
+  ],
+  "lapachol": [
+    "pigmentation"
+  ],
+  "larix decidua leaf cell extract": [
+    "pigmentation"
+  ],
+  "larix sibirica wood extract": [
+    "pigmentation"
+  ],
+  "larrea divaricata extract": [
+    "pigmentation"
+  ],
+  "lawsonia inermis extract": [
+    "pigmentation"
+  ],
+  "leonurus japonicus extract": [
+    "pigmentation"
+  ],
+  "leptospermum scoparium branch/leaf oil": [
+    "pigmentation"
+  ],
+  "lignosus rhinocerus sclerotium extract": [
+    "pigmentation"
+  ],
+  "lilium candidum callus culture extract": [
+    "pigmentation"
+  ],
+  "limonium narbonense flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "lippia alba leaf/stem oil": [
+    "pigmentation"
+  ],
+  "lippia origanoides leaf/flower/stem oil": [
+    "pigmentation"
+  ],
+  "liriodendron tulipifera leaf water": [
+    "pigmentation"
+  ],
+  "lotus japonicus somatic embryo extract": [
+    "pigmentation"
+  ],
+  "lotus japonicus symbiosome extract": [
+    "pigmentation"
+  ],
+  "lotus maritimus flower/leaf extract": [
+    "pigmentation"
+  ],
+  "lycium chinense fruit extract": [
+    "pigmentation"
+  ],
+  "lycopene": [
+    "pigmentation"
+  ],
+  "lysine hydrochloride": [
+    "pigmentation"
+  ],
+  "maackia fauriei stem extract": [
+    "pigmentation"
+  ],
+  "macelignan": [
+    "pigmentation"
+  ],
+  "magnesium ascorbate": [
+    "pigmentation"
+  ],
+  "magnesium ascorbate/pca": [
+    "pigmentation"
+  ],
+  "magnolia denudata flower extract": [
+    "pigmentation"
+  ],
+  "magnolia grandiflora bark extract": [
+    "pigmentation"
+  ],
+  "magnolia kobus flower extract": [
+    "pigmentation"
+  ],
+  "malachite extract": [
+    "pigmentation"
+  ],
+  "mallotus japonicus leaf extract": [
+    "pigmentation"
+  ],
+  "malpighia punicifolia fruit extract": [
+    "pigmentation"
+  ],
+  "malus domestica callus extract": [
+    "pigmentation"
+  ],
+  "malus domestica fruit extract": [
+    "pigmentation"
+  ],
+  "malus sylvestris flower extract": [
+    "pigmentation"
+  ],
+  "manganese dioxide": [
+    "pigmentation"
+  ],
+  "maslinic acid": [
+    "pigmentation"
+  ],
+  "matrine": [
+    "pigmentation"
+  ],
+  "maytenus macrocarpa bark extract": [
+    "pigmentation"
+  ],
+  "melatonin": [
+    "pigmentation"
+  ],
+  "melicope hayesii leaf extract": [
+    "pigmentation"
+  ],
+  "melilotus albus flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "melissa officinalis leaf oil": [
+    "pigmentation"
+  ],
+  "mentha piperita stem extract": [
+    "pigmentation"
+  ],
+  "methoxyhydroxyphenyl isopropylnitrone": [
+    "pigmentation"
+  ],
+  "methyl carboxymethylphenyl aminocarboxypropylphosphonate": [
+    "pigmentation"
+  ],
+  "methyl di-t-butyl hydroxyhydrocinnamate": [
+    "pigmentation"
+  ],
+  "methylene di-t-butylcresol": [
+    "pigmentation"
+  ],
+  "methylsilanol ascorbate": [
+    "pigmentation"
+  ],
+  "micrococcus ferment lysate": [
+    "pigmentation"
+  ],
+  "mitoquinol mesylate": [
+    "pigmentation"
+  ],
+  "momordica cochinchinensis seed aril oil": [
+    "pigmentation"
+  ],
+  "momordica grosvenorii fruit extract": [
+    "pigmentation"
+  ],
+  "monascus/rice ferment": [
+    "pigmentation"
+  ],
+  "moringa oleifera leaf powder": [
+    "pigmentation"
+  ],
+  "morus alba fruit extract": [
+    "pigmentation"
+  ],
+  "murraya exotica leaf extract": [
+    "pigmentation"
+  ],
+  "myrciaria dubia fruit juice": [
+    "pigmentation"
+  ],
+  "myricetin": [
+    "pigmentation"
+  ],
+  "myrothamnus flabellifolia callus culture extract": [
+    "pigmentation"
+  ],
+  "n-decanoyl serinol": [
+    "pigmentation"
+  ],
+  "nannochloropsis gaditana": [
+    "pigmentation"
+  ],
+  "nannochloropsis gaditana extract": [
+    "pigmentation"
+  ],
+  "narcissus poeticus callus extract": [
+    "pigmentation"
+  ],
+  "nelumbo nucifera callus culture extract": [
+    "pigmentation"
+  ],
+  "nelumbo nucifera flower/leaf/stem juice": [
+    "pigmentation"
+  ],
+  "nelumbo nucifera phytoplacenta culture extract": [
+    "pigmentation"
+  ],
+  "nicotinamide mononucleotide": [
+    "pigmentation"
+  ],
+  "nicotinoyl hexapeptide-44": [
+    "pigmentation"
+  ],
+  "nicotinoyl octapeptide-9": [
+    "pigmentation"
+  ],
+  "nicotinoyl tripeptide-1": [
+    "pigmentation"
+  ],
+  "nicotinoyl tripeptide-35": [
+    "pigmentation"
+  ],
+  "nobiletin": [
+    "pigmentation"
+  ],
+  "nordihydroguaiaretic acid": [
+    "pigmentation"
+  ],
+  "nymphaea gigantea flower extract": [
+    "pigmentation"
+  ],
+  "ocimum basilicum extract": [
+    "pigmentation"
+  ],
+  "ocimum basilicum seed extract": [
+    "pigmentation"
+  ],
+  "octadecyl di-t-butyl-4-hydroxyhydrocinnamate": [
+    "pigmentation"
+  ],
+  "octatrienoic acid": [
+    "pigmentation"
+  ],
+  "oenothera biennis extract": [
+    "pigmentation"
+  ],
+  "oenothera rosea extract": [
+    "pigmentation"
+  ],
+  "olea europaea bud extract": [
+    "pigmentation"
+  ],
+  "olea europaea fruit juice": [
+    "pigmentation"
+  ],
+  "olea europaea fruit oil": [
+    "pigmentation"
+  ],
+  "olea europaea fruit unsaponifiables": [
+    "pigmentation"
+  ],
+  "oleoyl pine bark extract": [
+    "pigmentation"
+  ],
+  "oleoyl tetrapeptide-31": [
+    "pigmentation"
+  ],
+  "oleuropein": [
+    "pigmentation"
+  ],
+  "oligopeptide-28": [
+    "pigmentation"
+  ],
+  "oligopeptide-29": [
+    "pigmentation"
+  ],
+  "oligopeptide-30": [
+    "pigmentation"
+  ],
+  "oligopeptide-31": [
+    "pigmentation"
+  ],
+  "ophioglossum vulgatum extract": [
+    "pigmentation"
+  ],
+  "opuntia ficus-indica callus culture extract": [
+    "pigmentation"
+  ],
+  "opuntia ficus-indica fruit water": [
+    "pigmentation"
+  ],
+  "opuntia humifusa stem extract": [
+    "pigmentation"
+  ],
+  "oryza sativa bran oil": [
+    "pigmentation"
+  ],
+  "oryza sativa bran protein": [
+    "pigmentation"
+  ],
+  "oryza sativa seed protein": [
+    "pigmentation"
+  ],
+  "oryza sativa seed protein extract": [
+    "pigmentation"
+  ],
+  "oryza sativa seed water": [
+    "pigmentation"
+  ],
+  "oryzanol": [
+    "pigmentation"
+  ],
+  "osmunda regalis leaf extract": [
+    "pigmentation"
+  ],
+  "oxycoccus palustris seed oil": [
+    "pigmentation"
+  ],
+  "p-hydroxyanisole": [
+    "pigmentation"
+  ],
+  "ppg-70 tocophereth-100": [
+    "pigmentation"
+  ],
+  "paeonia lactiflora flower extract": [
+    "pigmentation"
+  ],
+  "paeonia lactiflora leaf cell extract": [
+    "pigmentation"
+  ],
+  "paeonia suffruticosa callus extract": [
+    "pigmentation"
+  ],
+  "paeonol": [
+    "pigmentation"
+  ],
+  "palmatine": [
+    "pigmentation"
+  ],
+  "palmitoyl tetrapeptide-20": [
+    "pigmentation"
+  ],
+  "panax ginseng callus extract": [
+    "pigmentation"
+  ],
+  "panax ginseng extract": [
+    "pigmentation"
+  ],
+  "panax ginseng flower extract": [
+    "pigmentation"
+  ],
+  "panax ginseng root extract": [
+    "pigmentation"
+  ],
+  "pearl extract": [
+    "pigmentation"
+  ],
+  "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate": [
+    "pigmentation"
+  ],
+  "perilla ocymoides seed extract": [
+    "pigmentation"
+  ],
+  "persea gratissima oil": [
+    "pigmentation"
+  ],
+  "phaseolus angularis seed extract": [
+    "pigmentation"
+  ],
+  "phenethyl caffeate": [
+    "pigmentation"
+  ],
+  "phenyl t-butylnitrone": [
+    "pigmentation"
+  ],
+  "phloretin": [
+    "pigmentation"
+  ],
+  "phloridzinyl glucoside": [
+    "pigmentation"
+  ],
+  "phormidium persicinum extract": [
+    "pigmentation"
+  ],
+  "phycocyanin": [
+    "pigmentation"
+  ],
+  "picea mariana bark extract": [
+    "pigmentation"
+  ],
+  "pikea robusta extract": [
+    "pigmentation"
+  ],
+  "pinus densiflora extract": [
+    "pigmentation"
+  ],
+  "pinus densiflora leaf extract": [
+    "pigmentation"
+  ],
+  "pinus nigra bark extract": [
+    "pigmentation"
+  ],
+  "pinus nigra bud/needle extract": [
+    "pigmentation"
+  ],
+  "pinus pinaster bark extract": [
+    "pigmentation"
+  ],
+  "pinus pinaster bark/bud extract": [
+    "pigmentation"
+  ],
+  "pinus radiata bark extract": [
+    "pigmentation"
+  ],
+  "piper nigrum seed": [
+    "pigmentation"
+  ],
+  "pisum sativum callus extract": [
+    "pigmentation"
+  ],
+  "pisum sativum phytoplacenta extract": [
+    "pigmentation"
+  ],
+  "platinum": [
+    "pigmentation"
+  ],
+  "platycodon grandiflorum root extract": [
+    "pigmentation"
+  ],
+  "platycodon grandiflorus root extract": [
+    "pigmentation"
+  ],
+  "plukenetia volubilis seed oil": [
+    "pigmentation"
+  ],
+  "plumeria obtusa leaf cell extract": [
+    "pigmentation"
+  ],
+  "polianthes tuberosa callus extract": [
+    "pigmentation"
+  ],
+  "polydatin": [
+    "pigmentation"
+  ],
+  "polydatin glucoside": [
+    "pigmentation"
+  ],
+  "polygonum aviculare extract": [
+    "pigmentation"
+  ],
+  "polygonum cuspidatum root extract": [
+    "pigmentation"
+  ],
+  "polypodium leucotomos leaf extract": [
+    "pigmentation"
+  ],
+  "polypodium vulgare rhizome extract": [
+    "pigmentation"
+  ],
+  "porphyridium cruentum culture conditioned media": [
+    "pigmentation"
+  ],
+  "porphyridium polysaccharide": [
+    "pigmentation"
+  ],
+  "portulaca oleracea flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "potassium ascorbyl tocopheryl phosphate": [
+    "pigmentation"
+  ],
+  "potassium behenoyl hydroxyproline": [
+    "pigmentation"
+  ],
+  "potassium lauroyl glycinate": [
+    "pigmentation"
+  ],
+  "pouteria sapota seed butter": [
+    "pigmentation"
+  ],
+  "pramoxine hcl": [
+    "pigmentation"
+  ],
+  "propyl gallate": [
+    "pigmentation"
+  ],
+  "propyl grapevine shoot extract olivate": [
+    "pigmentation"
+  ],
+  "prunella vulgaris extract": [
+    "pigmentation"
+  ],
+  "prunus amygdalus dulcis leaf cell extract": [
+    "pigmentation"
+  ],
+  "prunus cerasus extract": [
+    "pigmentation"
+  ],
+  "prunus cerasus fruit extract": [
+    "pigmentation"
+  ],
+  "prunus cerasus leaf extract": [
+    "pigmentation"
+  ],
+  "prunus davidiana extract": [
+    "pigmentation"
+  ],
+  "prunus domestica seed extract": [
+    "pigmentation"
+  ],
+  "prunus persica callus culture extract": [
+    "pigmentation"
+  ],
+  "prunus salicina fruit extract": [
+    "pigmentation"
+  ],
+  "pteris multifida extract": [
+    "pigmentation"
+  ],
+  "pterostilbene": [
+    "pigmentation"
+  ],
+  "pueraria lobata symbiosome extract": [
+    "pigmentation"
+  ],
+  "pueraria mirifica callus culture extract": [
+    "pigmentation"
+  ],
+  "pueraria tuberosa leaf cell extract": [
+    "pigmentation"
+  ],
+  "pumice extract": [
+    "pigmentation"
+  ],
+  "punica granatum leaf cell extract": [
+    "pigmentation"
+  ],
+  "punica granatum seed oil": [
+    "pigmentation"
+  ],
+  "pyrroloquinoline quinone": [
+    "pigmentation"
+  ],
+  "pyrroloquinoline quinone allyl ester": [
+    "pigmentation"
+  ],
+  "pyrus malus peel extract": [
+    "pigmentation"
+  ],
+  "pyrus ussuriensis leaf extract": [
+    "pigmentation"
+  ],
+  "quercetin caprylate": [
+    "pigmentation"
+  ],
+  "quercus robur bud extract": [
+    "pigmentation"
+  ],
+  "raphanus sativus sprout extract": [
+    "pigmentation"
+  ],
+  "resorcinol": [
+    "pigmentation"
+  ],
+  "resveratrol": [
+    "pigmentation"
+  ],
+  "resveratrol dimethyl ether": [
+    "pigmentation"
+  ],
+  "rheum emodi root extract": [
+    "pigmentation"
+  ],
+  "rhizophora mangle callus culture extract": [
+    "pigmentation"
+  ],
+  "rhodochrosite extract": [
+    "pigmentation"
+  ],
+  "rhodosorus marinus extract": [
+    "pigmentation"
+  ],
+  "rhodymenia palmata extract": [
+    "pigmentation"
+  ],
+  "rhus javanica extract": [
+    "pigmentation"
+  ],
+  "rhynchosia nulubilis seed extract": [
+    "pigmentation"
+  ],
+  "rosa alba leaf cell extract": [
+    "pigmentation"
+  ],
+  "rosa canina callus lysate": [
+    "pigmentation"
+  ],
+  "rosa centifolia leaf cell extract": [
+    "pigmentation"
+  ],
+  "rosa damascena absolute": [
+    "pigmentation"
+  ],
+  "rosa damascena callus culture extract": [
+    "pigmentation"
+  ],
+  "rosa damascena flower oil": [
+    "pigmentation"
+  ],
+  "rosa damascena phytoplacenta culture extract": [
+    "pigmentation"
+  ],
+  "rosa davurica bud extract": [
+    "pigmentation"
+  ],
+  "rosa indica flower extract": [
+    "pigmentation"
+  ],
+  "rosa multiflora extract": [
+    "pigmentation"
+  ],
+  "rosa multiflora flower extract": [
+    "pigmentation"
+  ],
+  "rosa multiflora seed oil": [
+    "pigmentation"
+  ],
+  "rosa pendulina leaf cell extract": [
+    "pigmentation"
+  ],
+  "rosa rubiginosa seed oil": [
+    "pigmentation"
+  ],
+  "rosmarinus officinalis flower extract": [
+    "pigmentation"
+  ],
+  "rosmarinus officinalis leaf oil": [
+    "pigmentation"
+  ],
+  "rosmarinus officinalis leaf/stem oil": [
+    "pigmentation"
+  ],
+  "rubus arcticus callus extract": [
+    "pigmentation"
+  ],
+  "rubus arcticus fruit extract": [
+    "pigmentation"
+  ],
+  "rubus arcticus fruit water": [
+    "pigmentation"
+  ],
+  "rubus chamaemorus fruit extract": [
+    "pigmentation"
+  ],
+  "rubus crataegifolius fruit extract": [
+    "pigmentation"
+  ],
+  "rubus fruticosus seed oil": [
+    "pigmentation"
+  ],
+  "rubus idaeus callus extract": [
+    "pigmentation"
+  ],
+  "rutin": [
+    "pigmentation"
+  ],
+  "rutinyl succinate": [
+    "pigmentation"
+  ],
+  "s-arachidonoyl/linolenoyl/linoleoyl glutathione": [
+    "pigmentation"
+  ],
+  "s-palmitoylglutathione": [
+    "pigmentation"
+  ],
+  "sh-polypeptide-62": [
+    "pigmentation"
+  ],
+  "saccharomyces/caragana sinica root ferment extract": [
+    "pigmentation"
+  ],
+  "saccharomyces/carrageenan extract/sarcodiotheca gaudichaudii extract ferment": [
+    "pigmentation"
+  ],
+  "saccharomyces/nelumbo nucifera ferment extract filtrate": [
+    "pigmentation"
+  ],
+  "saccharomyces/panax ginseng flower ferment extract": [
+    "pigmentation"
+  ],
+  "saccharomyces/rice ferment filtrate extract": [
+    "pigmentation"
+  ],
+  "saccharomyces/triticum aestivum seed ferment extract": [
+    "pigmentation"
+  ],
+  "salvia hispanica seed oil": [
+    "pigmentation"
+  ],
+  "sambucus williamsii phytoplacenta extract": [
+    "pigmentation"
+  ],
+  "santalum acuminatum fruit extract": [
+    "pigmentation"
+  ],
+  "sarcodon aspratus extract": [
+    "pigmentation"
+  ],
+  "sargassum pallidum extract": [
+    "pigmentation"
+  ],
+  "sarothamnus scoparius extract": [
+    "pigmentation"
+  ],
+  "saussurea involucrata callus extract": [
+    "pigmentation"
+  ],
+  "schizandra sphenanthera fruit extract": [
+    "pigmentation"
+  ],
+  "schizophyllum commune/citrus unshiu peel extract ferment filtrate": [
+    "pigmentation"
+  ],
+  "sclerocarya birrea callus extract": [
+    "pigmentation"
+  ],
+  "scymnol": [
+    "pigmentation"
+  ],
+  "sh-polypeptide-4": [
+    "pigmentation"
+  ],
+  "sideritis perfoliata flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "sideritis raeseri flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "sideritis scardica flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "sideritis syriaca extract": [
+    "pigmentation"
+  ],
+  "smilacina japonica extract": [
+    "pigmentation"
+  ],
+  "smithsonite extract": [
+    "pigmentation"
+  ],
+  "snail secretion filtrate": [
+    "pigmentation"
+  ],
+  "sodium ascorbate": [
+    "pigmentation"
+  ],
+  "sodium bisulfite": [
+    "pigmentation"
+  ],
+  "sodium borohydride": [
+    "pigmentation"
+  ],
+  "sodium chlorophyllin-zinc complex": [
+    "pigmentation"
+  ],
+  "sodium erythorbate": [
+    "pigmentation"
+  ],
+  "sodium hyaluronate crosspolymer": [
+    "pigmentation"
+  ],
+  "sodium metabisulfite": [
+    "pigmentation"
+  ],
+  "sodium thioglycolate": [
+    "pigmentation"
+  ],
+  "sodium tocopheryl phosphate": [
+    "pigmentation"
+  ],
+  "soil minerals/syringa vulgaris leaf cell culture extract": [
+    "pigmentation"
+  ],
+  "solanum lycopersicum callus culture conditioned media": [
+    "pigmentation"
+  ],
+  "solanum lycopersicum fruit extract": [
+    "pigmentation"
+  ],
+  "sophora flavescens root extract": [
+    "pigmentation"
+  ],
+  "soy isoflavones": [
+    "pigmentation"
+  ],
+  "soybean peroxidase": [
+    "pigmentation"
+  ],
+  "spermidine": [
+    "pigmentation"
+  ],
+  "spirulina maxima powder": [
+    "pigmentation"
+  ],
+  "sprout extract": [
+    "pigmentation"
+  ],
+  "squalene": [
+    "pigmentation"
+  ],
+  "sr-clostridium botulinum polypeptide-1 sh-oligopeptide-1": [
+    "pigmentation"
+  ],
+  "streptococcus thermophilus/cyclopia intermedia leaf/stem extract/lactose/whole dry milk ferment": [
+    "pigmentation"
+  ],
+  "superoxide dismutase": [
+    "pigmentation"
+  ],
+  "syzygium leuhmanii fruit extract": [
+    "pigmentation"
+  ],
+  "syzygium luehmannii fruit extract": [
+    "pigmentation"
+  ],
+  "syzygium samarangense fruit extract": [
+    "pigmentation"
+  ],
+  "taraxacum mongolicum extract": [
+    "pigmentation"
+  ],
+  "tbhq": [
+    "pigmentation"
+  ],
+  "telmesteine": [
+    "pigmentation"
+  ],
+  "terminalia ferdinandiana seed oil": [
+    "pigmentation"
+  ],
+  "tetrabutyl ethylidenebisphenol": [
+    "pigmentation"
+  ],
+  "tetrahydrocurcumin": [
+    "pigmentation"
+  ],
+  "theobroma cacao seed extract": [
+    "pigmentation"
+  ],
+  "thioctic acid": [
+    "pigmentation"
+  ],
+  "thioglycolic acid": [
+    "pigmentation"
+  ],
+  "thiolactic acid": [
+    "pigmentation"
+  ],
+  "thiotaurine": [
+    "pigmentation"
+  ],
+  "thuja occidentalis leaf/stem extract": [
+    "pigmentation"
+  ],
+  "thymol trimethoxycinnamate": [
+    "pigmentation"
+  ],
+  "thymus vulgaris  flower/leaf oil": [
+    "pigmentation"
+  ],
+  "thymus vulgaris leaf oil": [
+    "pigmentation"
+  ],
+  "tiliacora triandra leaf/vine extract": [
+    "pigmentation"
+  ],
+  "tocopherol": [
+    "pigmentation"
+  ],
+  "tocophersolan": [
+    "pigmentation"
+  ],
+  "tocopheryl acetate": [
+    "pigmentation"
+  ],
+  "tocopheryl linoleate": [
+    "pigmentation"
+  ],
+  "tocopheryl linoleate/oleate": [
+    "pigmentation"
+  ],
+  "tocopheryl nicotinate": [
+    "pigmentation"
+  ],
+  "tocopheryl retinoate": [
+    "pigmentation"
+  ],
+  "tocopheryl succinate": [
+    "pigmentation"
+  ],
+  "toluene": [
+    "pigmentation"
+  ],
+  "totarol": [
+    "pigmentation"
+  ],
+  "trachelospermum asiaticum flower/leaf/stem extract": [
+    "pigmentation"
+  ],
+  "tremella fuciformis sporocarp extract": [
+    "pigmentation"
+  ],
+  "trifolium pratense leaf extract": [
+    "pigmentation"
+  ],
+  "trifolium pratense seed extract": [
+    "pigmentation"
+  ],
+  "trifolium pratense/vigna radiata) sprout extract": [
+    "pigmentation"
+  ],
+  "trifolium repens extract": [
+    "pigmentation"
+  ],
+  "trimethoxybenzylidene pentanedione": [
+    "pigmentation"
+  ],
+  "tripeptide-1 acetate": [
+    "pigmentation"
+  ],
+  "tripropylene glycol": [
+    "pigmentation"
+  ],
+  "tris-bht mesitylene": [
+    "pigmentation"
+  ],
+  "trisodium ascorbyl isopalmitate phosphate": [
+    "pigmentation"
+  ],
+  "trisodium ascorbyl palmitate phosphate": [
+    "pigmentation"
+  ],
+  "trisodium fructose diphosphate": [
+    "pigmentation"
+  ],
+  "triticum aestivum germ extract": [
+    "pigmentation"
+  ],
+  "triticum aestivum leaf extract": [
+    "pigmentation"
+  ],
+  "tulipa gesneriana phytoplacenta extract": [
+    "pigmentation"
+  ],
+  "tyrosyl histidine hcl": [
+    "pigmentation"
+  ],
+  "uapaca bojeri leaf extract": [
+    "pigmentation"
+  ],
+  "ubiquinol": [
+    "pigmentation"
+  ],
+  "ubiquinone": [
+    "pigmentation"
+  ],
+  "uncaria tomentosa bark extract": [
+    "pigmentation"
+  ],
+  "uuron-cha ekisu": [
+    "pigmentation"
+  ],
+  "vaccinium corymbosum seed oil": [
+    "pigmentation"
+  ],
+  "vaccinium macrocarpon fruit powder": [
+    "pigmentation"
+  ],
+  "vaccinium myrtillus bud extract": [
+    "pigmentation"
+  ],
+  "vaccinium vitis-idaea fruit extract": [
+    "pigmentation"
+  ],
+  "vaccinium vitis-idaea seed oil": [
+    "pigmentation"
+  ],
+  "vanda coerulea extract": [
+    "pigmentation"
+  ],
+  "vanilla planifolia leaf cell extract": [
+    "pigmentation"
+  ],
+  "vateria indica bark extract": [
+    "pigmentation"
+  ],
+  "vitis rotundifolia seed extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera fruit meristem cell culture": [
+    "pigmentation"
+  ],
+  "vitis vinifera fruit powder": [
+    "pigmentation"
+  ],
+  "vitis vinifera juice": [
+    "pigmentation"
+  ],
+  "vitis vinifera leaf/seed/skin extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera seed extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera seed oil": [
+    "pigmentation"
+  ],
+  "vitis vinifera seed/skin/stem extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera skin extract": [
+    "pigmentation"
+  ],
+  "vitis vinifera skin powder": [
+    "pigmentation"
+  ],
+  "volcanic rock": [
+    "pigmentation"
+  ],
+  "wine extract": [
+    "pigmentation"
+  ],
+  "withania somnifera seed extract": [
+    "pigmentation"
+  ],
+  "xanthophyll": [
+    "pigmentation"
+  ],
+  "zantedeschia elliottiana flower extract": [
+    "pigmentation"
+  ],
+  "zanthoxylum piperitum fruit extract": [
+    "pigmentation"
+  ],
+  "zea mays bud/seed extract": [
+    "pigmentation"
+  ],
+  "zeaxanthin": [
+    "pigmentation"
+  ],
+  "zinc": [
+    "pigmentation"
+  ],
+  "zinc ascorbate": [
+    "pigmentation"
+  ],
+  "zingiber officinale leaf cell extract": [
+    "pigmentation"
+  ],
+  "zonaria tournefortii extract": [
+    "pigmentation"
+  ]
+}

@@ -1,0 +1,98 @@
+# Data outputs (keep out of git)
+data/
+
+# Database
+db/*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+test-venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+uploads/
+
+# Nested git clones (use upstream repos or submodules instead)
+face-parsing.PyTorch/
+ffhq-dataset/
+
+# Large local ML / datasets (do not commit)
+ffhq_wrinkle_data/
+models/
+Classification/
+acne-detection-1/
+acne-detection-2/
+roboflow_v2_latest/
+agentictest/
+demo_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model weights (large files)
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pkl
+models/ingredient_model/*
+models/review_model/*
+!models/**/.gitkeep
+
+# YOLO runs
+runs/
+acne_yolo_runs/
+
+# Cached HTML
+data/raw/*/html/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+frontend/.env.production
+
+.pytest_cache/
+

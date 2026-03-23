@@ -1,0 +1,1096 @@
+{
+  "image": "/home/vanessa/project/levle3_113 copy.jpg",
+  "skin_type": "oily",
+  "user_concern_vector": {
+    "acne": 0.5789,
+    "comedonal_acne": 0.0,
+    "pigmentation": 0.0,
+    "acne_scars_texture": 0.1,
+    "pores": 0.0,
+    "redness": 0.0,
+    "wrinkles": 0.0
+  },
+  "acne": {
+    "total_detections": 21,
+    "regions": {
+      "forehead": {
+        "count": 1,
+        "roi": 0.0
+      },
+      "left_cheek": {
+        "count": 9,
+        "roi": 0.2222222222222222
+      },
+      "right_cheek": {
+        "count": 0,
+        "roi": 0.0
+      },
+      "chin": {
+        "count": 11,
+        "roi": 0.09090909090909091
+      }
+    },
+    "detections": [
+      {
+        "bbox": [
+          2925.0,
+          2169.0,
+          2992.0,
+          2236.0
+        ],
+        "confidence": 0.3086313307285309,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9209098219871521,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2798.0,
+          1839.0,
+          2869.0,
+          1912.0
+        ],
+        "confidence": 0.30447590351104736,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.7380378246307373,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          3182.0,
+          2399.0,
+          3275.0,
+          2506.0
+        ],
+        "confidence": 0.24940063059329987,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.888500452041626,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2795.0,
+          1828.0,
+          2890.0,
+          1940.0
+        ],
+        "confidence": 0.24730154871940613,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 3,
+        "severity_name": "level3",
+        "severity_score": 1.0,
+        "severity_confidence": 0.9957742094993591,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          2823.0,
+          1926.0,
+          2902.0,
+          2005.0
+        ],
+        "confidence": 0.24492712318897247,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.778287947177887,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          2618.0,
+          1972.0,
+          2698.0,
+          2060.0
+        ],
+        "confidence": 0.2413020133972168,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9846365451812744,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          2557.0,
+          1832.0,
+          2641.0,
+          1915.0
+        ],
+        "confidence": 0.21160434186458588,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9237549901008606,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          3037.0,
+          2295.0,
+          3113.0,
+          2369.0
+        ],
+        "confidence": 0.2018185257911682,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9036723375320435,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          3270.0,
+          2311.0,
+          3378.0,
+          2414.0
+        ],
+        "confidence": 0.19799548387527466,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9989357590675354,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2881.0,
+          2029.0,
+          2935.0,
+          2084.0
+        ],
+        "confidence": 0.1708921492099762,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.7103092074394226,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          3041.0,
+          2264.0,
+          3151.0,
+          2356.0
+        ],
+        "confidence": 0.16669930517673492,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 3,
+        "severity_name": "level3",
+        "severity_score": 1.0,
+        "severity_confidence": 0.8026990294456482,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2824.0,
+          2096.0,
+          2905.0,
+          2177.0
+        ],
+        "confidence": 0.163210928440094,
+        "class_id": 4,
+        "class_name": "acne_scars",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9513438940048218,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          2722.0,
+          2217.0,
+          2807.0,
+          2325.0
+        ],
+        "confidence": 0.16212569177150726,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9985658526420593,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2614.0,
+          2197.0,
+          2738.0,
+          2330.0
+        ],
+        "confidence": 0.14784643054008484,
+        "class_id": 4,
+        "class_name": "acne_scars",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9872375726699829,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2513.0,
+          1895.0,
+          2583.0,
+          1983.0
+        ],
+        "confidence": 0.13753682374954224,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.8047521114349365,
+        "face_region": "left_cheek"
+      },
+      {
+        "bbox": [
+          2910.0,
+          1091.0,
+          2997.0,
+          1177.0
+        ],
+        "confidence": 0.13306349515914917,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.7935547828674316,
+        "face_region": "forehead"
+      },
+      {
+        "bbox": [
+          3106.0,
+          2354.0,
+          3184.0,
+          2426.0
+        ],
+        "confidence": 0.1262296438217163,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9361489415168762,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2822.0,
+          2201.0,
+          2914.0,
+          2284.0
+        ],
+        "confidence": 0.1249862015247345,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9775987863540649,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          3230.0,
+          2281.0,
+          3414.0,
+          2415.0
+        ],
+        "confidence": 0.1181778609752655,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9993178844451904,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2907.0,
+          2335.0,
+          3018.0,
+          2405.0
+        ],
+        "confidence": 0.10703492909669876,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 0,
+        "severity_name": "level0",
+        "severity_score": 0.0,
+        "severity_confidence": 0.9812720417976379,
+        "face_region": "chin"
+      },
+      {
+        "bbox": [
+          2804.0,
+          1842.0,
+          2909.0,
+          1994.0
+        ],
+        "confidence": 0.1061859205365181,
+        "class_id": 0,
+        "class_name": "Acne",
+        "severity_level": 3,
+        "severity_name": "level3",
+        "severity_score": 1.0,
+        "severity_confidence": 0.9999980926513672,
+        "face_region": "left_cheek"
+      }
+    ]
+  },
+  "wrinkle": {
+    "wrinkle_pct": 0.0,
+    "severity": "none",
+    "severity_score": 0,
+    "wrinkle_pixels": 0,
+    "face_pixels": 107341
+  },
+  "recommendations": {
+    "Facial Cleanser": [
+      {
+        "product_url": "https://www.sephora.hk/products/kravebeauty-matcha-heartleaf-hydrating-cleanser/v/30ml",
+        "brand": "KraveBeauty",
+        "title": "Matcha Heartleaf Hydrating Cleanser",
+        "full_name": "KraveBeauty Matcha Heartleaf Hydrating Cleanser",
+        "category": "Facial Cleanser",
+        "price": "$45.00",
+        "price_value": 45.0,
+        "rating": 4.7,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/juice-beauty-blemish-clearing-cleanser/v/200ml",
+        "brand": "Juice Beauty",
+        "title": "Blemish Clearing Cleanser",
+        "full_name": "Juice Beauty Blemish Clearing Cleanser",
+        "category": "Facial Cleanser",
+        "price": "$260.00",
+        "price_value": 260.0,
+        "rating": 4.0,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/kopari-beauty-marine-clean-purifying-gel-cleanser/v/150ml",
+        "brand": "Kopari Beauty",
+        "title": "Marine Clean Purifying Gel Cleanser",
+        "full_name": "Kopari Beauty Marine Clean Purifying Gel Cleanser",
+        "category": "Facial Cleanser",
+        "price": "$260.00",
+        "price_value": 260.0,
+        "rating": 4.4,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Facial Mist": [
+      {
+        "product_url": "https://www.sephora.hk/products/mario-badescu-facial-spray-with-aloe-herbs/v/59ml",
+        "brand": "Mario Badescu",
+        "title": "Facial Spray With Aloe, Herbs and Rosewater",
+        "full_name": "Mario Badescu Facial Spray With Aloe, Herbs and Rosewater",
+        "category": "Facial Mist",
+        "price": "$60.00",
+        "price_value": 60.0,
+        "rating": 4.1,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/caudalie-grape-water/v/75ml-3522930033202",
+        "brand": "Caudalie",
+        "title": "Grape Water",
+        "full_name": "Caudalie Grape Water",
+        "category": "Facial Mist",
+        "price": "$90.00",
+        "price_value": 90.0,
+        "rating": 4.5,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/melvita-organic-witch-hazel-floral-water/v/default",
+        "brand": "Melvita",
+        "title": "Organic Witch Hazel Floral Water",
+        "full_name": "Melvita Organic Witch Hazel Floral Water",
+        "category": "Facial Mist",
+        "price": "$260.00",
+        "price_value": 260.0,
+        "rating": 3.0,
+        "cosine_similarity": 0.5778,
+        "product_vector": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Toner": [
+      {
+        "product_url": "https://www.sephora.hk/products/malin-and-goetz-acne-treatment-nighttime-lotion/v/14ml",
+        "brand": "Malin + Goetz",
+        "title": "Acne Treatment Nighttime Lotion",
+        "full_name": "Malin + Goetz Acne Treatment Nighttime Lotion",
+        "category": "Toner",
+        "price": "$280.00",
+        "price_value": 280.0,
+        "rating": 3.0,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/pixi-skintreats-clarity-tonic-clarifying-toner/v/100ml",
+        "brand": "Pixi",
+        "title": "Skintreats Clarity Tonic Clarifying Toner",
+        "full_name": "Pixi Skintreats Clarity Tonic Clarifying Toner",
+        "category": "Toner",
+        "price": "$140.00",
+        "price_value": 140.0,
+        "rating": 4.5,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/caudalie-vinoperfect-concentrated-brightening-essence-101967/v/100ml",
+        "brand": "Caudalie",
+        "title": "Vinoperfect Concentrated Brightening Essence",
+        "full_name": "Caudalie Vinoperfect Concentrated Brightening Essence ",
+        "category": "Toner",
+        "price": "$240.00",
+        "price_value": 240.0,
+        "rating": 4.5,
+        "cosine_similarity": 0.6672,
+        "product_vector": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Day Moisturiser": [
+      {
+        "product_url": "https://www.sephora.hk/products/drunk-elephant-wonderwild-miracle-butter/v/60ml",
+        "brand": "Drunk Elephant",
+        "title": "Wonderwild\u2122 Miracle Butter",
+        "full_name": "Drunk Elephant Wonderwild\u2122 Miracle Butter",
+        "category": "Day Moisturiser",
+        "price": "$320.00",
+        "price_value": 320.0,
+        "rating": 4.3,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/shiseido-essential-energy-hydrating-cream/v/50ml",
+        "brand": "Shiseido",
+        "title": "Essential Energy Hydrating Cream",
+        "full_name": "Shiseido Essential Energy Hydrating Cream",
+        "category": "Day Moisturiser",
+        "price": "$570.00",
+        "price_value": 570.0,
+        "rating": 4.6,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/fenty-skin-blemish-defeatr-bha-spot-targeting-gel/v/15ml",
+        "brand": "Fenty Skin",
+        "title": "Blemish Defeat'R Bha Spot Targeting Gel",
+        "full_name": "Fenty Skin Blemish Defeat'R Bha Spot Targeting Gel",
+        "category": "Day Moisturiser",
+        "price": "$205.00",
+        "price_value": 205.0,
+        "rating": 3.5,
+        "cosine_similarity": 0.7704,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.5,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Serum & Booster": [
+      {
+        "product_url": "https://www.sephora.hk/products/dermalogica-circular-hydration-serum/v/30ml",
+        "brand": "Dermalogica",
+        "title": "Circular Hydration Serum",
+        "full_name": "Dermalogica Circular Hydration Serum",
+        "category": "Serum & Booster",
+        "price": "$648.00",
+        "price_value": 648.0,
+        "rating": 4.8,
+        "cosine_similarity": 0.9854,
+        "product_vector": [
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/mario-badescu-deep-blemish-solution/v/29-ml",
+        "brand": "Mario Badescu",
+        "title": "Deep Blemish Solution",
+        "full_name": "Mario Badescu Deep Blemish Solution",
+        "category": "Serum & Booster",
+        "price": "$185.00",
+        "price_value": 185.0,
+        "rating": 5.0,
+        "cosine_similarity": 0.8172,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/the-ordinary-niacinamide-10-percent-plus-zinc-1-percent/v/30ml",
+        "brand": "The Ordinary",
+        "title": "Niacinamide 10% + Zinc 1%",
+        "full_name": "The Ordinary Niacinamide 10% + Zinc 1%",
+        "category": "Serum & Booster",
+        "price": "$49.00",
+        "price_value": 49.0,
+        "rating": 4.4,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Mask": [
+      {
+        "product_url": "https://www.sephora.hk/products/mario-badescu-blemish-repairing-powder/v/14-g",
+        "brand": "Mario Badescu",
+        "title": "Blemish Repairing Powder",
+        "full_name": "Mario Badescu Blemish Repairing Powder",
+        "category": "Mask",
+        "price": "$115.00",
+        "price_value": 115.0,
+        "rating": 4.0,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/mario-badescu-drying-patch/v/60-patches",
+        "brand": "Mario Badescu",
+        "title": "Drying Patch",
+        "full_name": "Mario Badescu Drying Patch",
+        "category": "Mask",
+        "price": "$175.00",
+        "price_value": 175.0,
+        "rating": 5.0,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/caudalie-vinopure-anti-blemish-purifying-mask/v/75ml",
+        "brand": "Caudalie",
+        "title": "Vinopure Anti-Blemish Purifying Mask",
+        "full_name": "Caudalie Vinopure Anti-Blemish Purifying Mask",
+        "category": "Mask",
+        "price": "$250.00",
+        "price_value": 250.0,
+        "rating": 4.6,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Scrub & Exfoliator": [
+      {
+        "product_url": "https://www.sephora.hk/products/foreo-skin-supremes-espada-set-christmas-limited-edition/v/default",
+        "brand": "Foreo",
+        "title": "Skin Supremes Espada\u2122 Set Christmas (Limited Edition)",
+        "full_name": "Foreo Skin Supremes Espada\u2122 Set Christmas (Limited Edition)",
+        "category": "Scrub & Exfoliator",
+        "price": "$1490.00",
+        "price_value": 1490.0,
+        "rating": 0.0,
+        "cosine_similarity": 0.6968,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/the-ordinary-salicylic-acid-2-percent-masque/v/50ml",
+        "brand": "The Ordinary",
+        "title": "Salicylic Acid 2% Masque",
+        "full_name": "The Ordinary Salicylic Acid 2% Masque",
+        "category": "Scrub & Exfoliator",
+        "price": "$119.00",
+        "price_value": 119.0,
+        "rating": 4.3,
+        "cosine_similarity": 0.549,
+        "product_vector": [
+          0.75,
+          0.5,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/dermalogica-daily-milkfoliant-exfoliator/v/74g",
+        "brand": "Dermalogica",
+        "title": "Daily Milkfoliant Exfoliator",
+        "full_name": "Dermalogica Daily Milkfoliant Exfoliator",
+        "category": "Scrub & Exfoliator",
+        "price": "$648.00",
+        "price_value": 648.0,
+        "rating": 4.8,
+        "cosine_similarity": 0.5413,
+        "product_vector": [
+          0.5,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.5,
+          0.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Face Oil": [
+      {
+        "product_url": "https://www.sephora.hk/products/melvita-nectar-pur-sos-focused-action-roll-on/v/15ml",
+        "brand": "Melvita",
+        "title": "Nectar Pur SOS Focused Action Roll-On",
+        "full_name": "Melvita Nectar Pur SOS Focused Action Roll-On",
+        "category": "Face Oil",
+        "price": "$190.00",
+        "price_value": 190.0,
+        "rating": 0.0,
+        "cosine_similarity": 0.6672,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/dermalogica-retinol-clearing-oil/v/30ml",
+        "brand": "Dermalogica",
+        "title": "Retinol Clearing Oil",
+        "full_name": "Dermalogica Retinol Clearing Oil",
+        "category": "Face Oil",
+        "price": "$888.00",
+        "price_value": 888.0,
+        "rating": 4.2,
+        "cosine_similarity": 0.5938,
+        "product_vector": [
+          1.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/melvita-nectar-de-lumiere-activator-of-light-oil-and-water-exfoliator/v/50ml",
+        "brand": "Melvita",
+        "title": "Nectar De Lumiere Activator Of Light Oil & Water Exfoliator",
+        "full_name": "Melvita Nectar De Lumiere Activator Of Light Oil & Water Exfoliator",
+        "category": "Face Oil",
+        "price": "$310.00",
+        "price_value": 310.0,
+        "rating": 5.0,
+        "cosine_similarity": 0.5778,
+        "product_vector": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Night Cream": [
+      {
+        "product_url": "https://www.sephora.hk/products/allies-of-skin-retinal-0-dot-05-percent-and-peptides-repair-night-cream/v/default",
+        "brand": "Allies of Skin",
+        "title": "Retinal 0.05% & Peptides Repair Night Cream",
+        "full_name": "Allies of Skin Retinal 0.05% & Peptides Repair Night Cream",
+        "category": "Night Cream",
+        "price": "$915.00",
+        "price_value": 915.0,
+        "rating": 0.0,
+        "cosine_similarity": 0.5168,
+        "product_vector": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/mario-badescu-seaweed-night-cream/v/29ml",
+        "brand": "Mario Badescu",
+        "title": "Seaweed Night Cream",
+        "full_name": "Mario Badescu Seaweed Night Cream ",
+        "category": "Night Cream",
+        "price": "$245.00",
+        "price_value": 245.0,
+        "rating": 4.0,
+        "cosine_similarity": 0.4419,
+        "product_vector": [
+          0.5,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/biossance-squalane-plus-ectoin-overnight-rescue/v/50ml",
+        "brand": "Biossance",
+        "title": "Squalane + Ectoin Overnight Rescue",
+        "full_name": "Biossance Squalane + Ectoin Overnight Rescue",
+        "category": "Night Cream",
+        "price": "$545.00",
+        "price_value": 545.0,
+        "rating": 4.6,
+        "cosine_similarity": 0.4023,
+        "product_vector": [
+          0.5,
+          0.5,
+          0.0,
+          0.5,
+          0.5,
+          0.25,
+          1.0
+        ],
+        "skin_match": true
+      }
+    ],
+    "Eye Care": [
+      {
+        "product_url": "https://www.sephora.hk/products/pixi-plus-c-vit-undereye-brightener/v/12ml",
+        "brand": "Pixi",
+        "title": "+C VIT UnderEye Brightener",
+        "full_name": "Pixi +C VIT UnderEye Brightener",
+        "category": "Eye Care",
+        "price": "$140.00",
+        "price_value": 140.0,
+        "rating": 3.7,
+        "cosine_similarity": 0.1702,
+        "product_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/biossance-squalane-plus-marine-algae-eye-cream/v/minis-plus-mo-re-marine-alg",
+        "brand": "Biossance",
+        "title": "Squalane + Marine Algae Eye Cream",
+        "full_name": "Biossance Squalane + Marine Algae Eye Cream",
+        "category": "Eye Care",
+        "price": "$200.00",
+        "price_value": 200.0,
+        "rating": 4.2,
+        "cosine_similarity": 0.1522,
+        "product_vector": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/pixi-fortifeye-eye-patches/v/default",
+        "brand": "Pixi",
+        "title": "Fortifeye Eye Patches",
+        "full_name": "Pixi Fortifeye Eye Patches",
+        "category": "Eye Care",
+        "price": "$230.00",
+        "price_value": 230.0,
+        "rating": 4.0,
+        "cosine_similarity": 0.1522,
+        "product_vector": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "skin_match": true
+      }
+    ],
+    "Lip Care": [
+      {
+        "product_url": "https://www.sephora.hk/products/ole-henriksen-pout-preserve-peptide-lip-treatment/v/vanilla-bonbon",
+        "brand": "Ole Henriksen",
+        "title": "Pout Preserve Peptide Lip Treatment",
+        "full_name": "Ole Henriksen Pout Preserve Peptide Lip Treatment",
+        "category": "Lip Care",
+        "price": "$190.00",
+        "price_value": 190.0,
+        "rating": 4.6,
+        "cosine_similarity": 0.0983,
+        "product_vector": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "skin_match": true
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/melixir-vegan-lip-butter/v/01-agave-clear",
+        "brand": "Melixir",
+        "title": "Vegan Lip Butter\u2122",
+        "full_name": "Melixir Vegan Lip Butter\u2122",
+        "category": "Lip Care",
+        "price": "$110.00",
+        "price_value": 110.0,
+        "rating": 4.6,
+        "cosine_similarity": 0.1204,
+        "product_vector": [
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "skin_match": false
+      },
+      {
+        "product_url": "https://www.sephora.hk/products/laneige-lip-sleeping-mask/v/strawberry-shortcake",
+        "brand": "LANEIGE",
+        "title": "Lip Sleeping Mask",
+        "full_name": "LANEIGE Lip Sleeping Mask",
+        "category": "Lip Care",
+        "price": "$180.00",
+        "price_value": 180.0,
+        "rating": 4.8,
+        "cosine_similarity": 0.1204,
+        "product_vector": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "skin_match": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "https://www.sephora.com",
+  "delays": {
+    "request_delay_min": 1.0,
+    "request_delay_max": 3.0,
+    "retry_delay": 5.0
+  },
+  "categories": [
+    "skincare",
+    "makeup",
+    "hair",
+    "fragrance",
+    "bath-body",
+    "tools-brushes"
+  ],
+  "scraping": {
+    "max_retries": 3,
+    "timeout": 30,
+    "user_agent_rotation": true
+  },
+  "output": {
+    "raw_dir": "data/raw/sephora",
+    "processed_dir": "data/processed/sephora"
+  }
+}
+

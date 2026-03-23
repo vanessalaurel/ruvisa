@@ -1,0 +1,93 @@
+{
+  "image": "/home/vanessa/project/levle0_2.jpg",
+  "detections": [
+    {
+      "bbox": [
+        2252.0,
+        2861.0,
+        2353.0,
+        2971.0
+      ],
+      "confidence": 0.36119648814201355,
+      "class_id": 0,
+      "class_name": "Acne",
+      "severity_level": 0,
+      "severity_name": "level0",
+      "severity_score": 0.0,
+      "severity_confidence": 0.9857659339904785
+    },
+    {
+      "bbox": [
+        1289.0,
+        1122.0,
+        1324.0,
+        1161.0
+      ],
+      "confidence": 0.24630425870418549,
+      "class_id": 0,
+      "class_name": "Acne",
+      "severity_level": 0,
+      "severity_name": "level0",
+      "severity_score": 0.0,
+      "severity_confidence": 0.8685463070869446
+    },
+    {
+      "bbox": [
+        2162.0,
+        2998.0,
+        2307.0,
+        3158.0
+      ],
+      "confidence": 0.15312443673610687,
+      "class_id": 4,
+      "class_name": "acne_scars",
+      "severity_level": 0,
+      "severity_name": "level0",
+      "severity_score": 0.0,
+      "severity_confidence": 0.9922463297843933
+    },
+    {
+      "bbox": [
+        1369.0,
+        1706.0,
+        1444.0,
+        1792.0
+      ],
+      "confidence": 0.12812228500843048,
+      "class_id": 2,
+      "class_name": "blackhead",
+      "severity_level": 0,
+      "severity_name": "level0",
+      "severity_score": 0.0,
+      "severity_confidence": 0.671928882598877
+    }
+  ],
+  "aggregates": {
+    "Acne": {
+      "count": 2,
+      "mean_severity": 0.0,
+      "max_severity": 0.0
+    },
+    "acne_scars": {
+      "count": 1,
+      "mean_severity": 0.0,
+      "max_severity": 0.0
+    },
+    "blackhead": {
+      "count": 1,
+      "mean_severity": 0.0,
+      "max_severity": 0.0
+    }
+  },
+  "overall_roi": {
+    "count": 4,
+    "mean_severity": 0.0,
+    "max_severity": 0.0
+  },
+  "metadata": {
+    "detection_model": "/home/vanessa/project/acne_yolo_runs/roboflow_6classes/weights/best.pt",
+    "severity_model": "/home/vanessa/acne_severity_runs/20251110_172153/best_model.pt",
+    "conf_threshold": 0.1,
+    "iou_threshold": 0.5
+  }
+}
