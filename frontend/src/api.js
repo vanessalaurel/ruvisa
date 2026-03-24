@@ -43,13 +43,20 @@ export async function analyzeImage(userId, skinType, imageFile) {
 }
 
 export async function getRecommendations(userId, skinType, concernVector, budget, topN = 5) {
+  let cv = concernVector;
+  if (Array.isArray(cv)) {
+    cv = cv.map((x) => {
+      const n = Number(x);
+      return Number.isFinite(n) ? n : 0;
+    });
+  }
   return request("/recommend", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       user_id: userId,
       skin_type: skinType,
-      concern_vector: concernVector,
+      concern_vector: cv ?? null,
       budget: budget || null,
       top_n: topN,
     }),

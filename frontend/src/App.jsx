@@ -38,6 +38,57 @@ const CONCERN_LABELS = {
   acne_scars_texture: "Scars/Texture", pores: "Pores", redness: "Redness", wrinkles: "Wrinkles",
 };
 
+/** Matches api.routes._compute_overall_score (concern 0–1, higher = worse → health 20–98, default 75). */
+function skinOverallScoreFromConcernVector(cv) {
+  if (!cv || !Array.isArray(cv) || cv.length === 0) return 75;
+  const nums = cv.map((v) => Number(v));
+  if (nums.length !== 7) return 75;
+  if (nums.every((v) => v === 0)) return 75;
+  const avg = nums.reduce((a, b) => a + b, 0) / nums.length;
+  const raw = Math.trunc(100 - avg * 80);
+  return Math.max(20, Math.min(98, raw));
+}
+
+/** Use API overall_score when set; otherwise derive from concern_vector (journey DB rows have no stored score). */
+function displaySkinOverallScore(analysis) {
+  if (!analysis) return 75;
+  const s = analysis.overall_score;
+  if (s != null && s !== "" && !Number.isNaN(Number(s))) return Number(s);
+  return skinOverallScoreFromConcernVector(analysis.concern_vector);
+}
+
+/** product_url → scored product row from last /recommend or analyze recommend_engine. */
+function buildRecMatchMap(recs) {
+  const map = new Map();
+  if (!recs || typeof recs !== "object") return map;
+  for (const key of Object.keys(recs)) {
+    if (key === "routine") continue;
+    for (const item of recs[key] || []) {
+      if (item?.product_url) map.set(item.product_url, item);
+    }
+  }
+  for (const row of recs.routine || []) {
+    const item = row?.product;
+    if (item?.product_url) map.set(item.product_url, item);
+  }
+  return map;
+}
+
+/** Merge list/shop product with adaptive match fields (similarity, evidence_scores, skin_match). */
+function mergeMatchedProduct(listProduct, matchMap) {
+  if (!listProduct?.product_url || !matchMap?.size) return listProduct;
+  const m = matchMap.get(listProduct.product_url);
+  if (!m) return listProduct;
+  return { ...m, ...listProduct };
+}
+
+/** Similarity can exceed 1.0 after repurchase boost; show at most 100% in the UI. */
+function matchPercentFromSimilarity(sim) {
+  const n = Number(sim);
+  if (!Number.isFinite(n) || n <= 0) return 0;
+  return Math.min(100, Math.round(n * 100));
+}
+
 const skinTypes = [
   { id: "dry", label: "Dry", emoji: "🏜️", desc: "Tight, flaky, rough texture" },
   { id: "oily", label: "Oily", emoji: "✨", desc: "Shiny, enlarged pores, acne-prone" },
@@ -129,7 +180,24 @@ function SectionHeader({ title, onSeeMore }) {
 
 function HScrollRow({ children }) {
   return (
-    <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4, scrollbarWidth: "none", msOverflowStyle: "none" }}>
+    <div
+      className="ruvisa-hscroll"
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        flexWrap: "nowrap",
+        alignItems: "stretch",
+        gap: 12,
+        overflowX: "auto",
+        overflowY: "hidden",
+        width: "100%",
+        maxWidth: "100%",
+        minWidth: 0,
+        paddingBottom: 6,
+        WebkitOverflowScrolling: "touch",
+        scrollbarWidth: "thin",
+      }}
+    >
       {children}
     </div>
   );
@@ -164,7 +232,7 @@ const ProductCardBrief = memo(function ProductCardBrief({ product, isBest, onCli
         <p style={{ fontSize: 10, color: COLORS.textLight, margin: "8px 0 2px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{product.brand}</p>
         <p style={{ fontSize: 12, fontWeight: 700, color: COLORS.text, margin: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", lineHeight: 1.2 }}>{product.title}</p>
         <div style={{ marginTop: 6, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 4 }}>
-          {product.similarity ? <MatchBadge value={Math.round((product.similarity || 0) * 100)} /> : <span style={{ fontSize: 11, color: COLORS.textLight }}>⭐ {product.rating || "N/A"}</span>}
+          {product.similarity ? <MatchBadge value={matchPercentFromSimilarity(product.similarity)} /> : <span style={{ fontSize: 11, color: COLORS.textLight }}>⭐ {product.rating || "N/A"}</span>}
           <span style={{ fontWeight: 700, color: COLORS.forest, fontSize: 12 }}>{product.price}</span>
         </div>
       </div>
@@ -452,8 +520,12 @@ function FaceScanScreen({ onComplete, skinType, userId }) {
           height: "100%",
           background: COLORS.cream,
           overflow: "auto",
-          padding: "20px 20px max(32px, env(safe-area-inset-bottom))",
           boxSizing: "border-box",
+          paddingTop: 20,
+          paddingLeft: 20,
+          paddingRight: 20,
+          /* Clear floating bottom nav (~74px) + raised Scan tab + home indicator */
+          paddingBottom: "max(120px, calc(104px + env(safe-area-inset-bottom, 0px)))",
         }}
       >
         <h3 style={{ color: COLORS.forest, fontSize: 20, fontWeight: 800, margin: "8px 0 6px" }}>Detection overlays</h3>
@@ -467,7 +539,9 @@ function FaceScanScreen({ onComplete, skinType, userId }) {
             Overlay images were not generated for this scan. Your scores and summary are still available on the home screen.
           </p>
         )}
-        <Btn onClick={() => onComplete(analysis)}>Continue to home</Btn>
+        <div style={{ marginTop: 8 }}>
+          <Btn onClick={() => onComplete(analysis)}>Continue to home</Btn>
+        </div>
       </div>
     );
   }
@@ -552,8 +626,9 @@ function HomeScreen({
   recs,
   trending,
   journey,
+  recMatchMap,
 }) {
-  const overall = analysis?.overall_score || 75;
+  const overall = displaySkinOverallScore(analysis);
   const concerns = analysis?.concerns || {};
   const activeConcerns = Object.entries(concerns).filter(([, v]) => v > 0.05);
   const recCategories = Object.keys(recs).filter(k => k !== "routine");
@@ -742,7 +817,7 @@ function HomeScreen({
               <div key={cat} style={{ marginBottom: 16 }}>
                 <p style={{ fontSize: 14, fontWeight: 700, color: COLORS.text, margin: "0 0 8px" }}>{cat}</p>
                 <HScrollRow>
-                  {items.slice(0, 4).map((p, i) => (
+                  {items.map((p, i) => (
                     <ProductCardBrief
                       key={p.product_url}
                       product={p}
@@ -801,7 +876,7 @@ function HomeScreen({
             {trending.map(p => (
               <ProductCardBrief
                 key={p.product_url}
-                product={p}
+                product={recMatchMap?.size ? mergeMatchedProduct(p, recMatchMap) : p}
                 onClick={() => onNavigate("product", p)}
                 onLike={onLike}
                 liked={likedUrls.has(p.product_url)}
@@ -885,7 +960,7 @@ function ScanDetailScreen({ scanData, onBack }) {
   const wrinkle = scanData.wrinkle_summary || {};
   const wr = wrinkle.wrinkle_regions || {};
   const report = scanData.full_report || {};
-  const overall = cv.length === 7 ? Math.max(20, Math.min(98, Math.round(100 - (cv.reduce((a, b) => a + b, 0) / 7) * 80))) : 75;
+  const overall = displaySkinOverallScore({ overall_score: scanData.overall_score, concern_vector: cv });
 
   const toUploadUrl = (p) => {
     if (!p) return null;
@@ -1060,7 +1135,7 @@ function ScanDetailScreen({ scanData, onBack }) {
 
 /* ---- SHOP SCREEN ---- */
 
-function ShopScreen({ onNavigate, onLike, likedUrls, onAddBag }) {
+function ShopScreen({ onNavigate, onLike, likedUrls, onAddBag, recMatchMap }) {
   const [query, setQuery] = useState("");
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -1145,7 +1220,7 @@ function ShopScreen({ onNavigate, onLike, likedUrls, onAddBag }) {
             {filtered.slice(0, visibleCount).map(p => (
               <ProductCardBrief
                 key={p.product_url}
-                product={p}
+                product={recMatchMap?.size ? mergeMatchedProduct(p, recMatchMap) : p}
                 onClick={() => onNavigate("product", p)}
                 onLike={onLike}
                 liked={likedUrls.has(p.product_url)}
@@ -1373,7 +1448,7 @@ function CategoryViewScreen({ category, products, onBack, onNavigate, onAskRuvis
                 <p style={{ fontSize: 11, color: COLORS.textLight, margin: 0 }}>{p.brand}</p>
                 <p style={{ fontSize: 15, fontWeight: 700, color: COLORS.text, margin: "2px 0 6px", lineHeight: 1.3 }}>{p.title}</p>
                 <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
-                  <MatchBadge value={Math.round((p.similarity || 0) * 100)} />
+                  <MatchBadge value={matchPercentFromSimilarity(p.similarity)} />
                   <span style={{ fontWeight: 800, color: COLORS.forest, fontSize: 14 }}>{p.price}</span>
                 </div>
               </div>
@@ -1406,7 +1481,7 @@ function ProductDetailScreen({ product, onBack, onAskRuvisa, onPurchase, userId,
   }, [product?.product_url]);
 
   if (!product) return null;
-  const matchPct = Math.round((product.similarity || 0) * 100);
+  const matchPct = matchPercentFromSimilarity(product.similarity);
   const evidenceScores = product.evidence_scores || {};
   const activeConcerns = Object.entries(evidenceScores).filter(([, v]) => v > 0);
 
@@ -2030,6 +2105,7 @@ export default function RuvisaApp() {
   const [homeRecs, setHomeRecs] = useState({});
   const [homeTrending, setHomeTrending] = useState([]);
   const [homeJourney, setHomeJourney] = useState(null);
+  const recMatchMap = useMemo(() => buildRecMatchMap(homeRecs), [homeRecs]);
 
   const userId = user?.user_id || "guest";
   const userName = user?.name || "there";
@@ -2052,7 +2128,7 @@ export default function RuvisaApp() {
     if (skinType) {
       promises.push(
         api
-          .getRecommendations(userId, skinType, analysis?.concern_vector, null, 5)
+          .getRecommendations(userId, skinType, analysis?.concern_vector, null, 8)
           .then((data) => {
             if (!cancelled) {
               setHomeRecs({ ...(data.recommendations || {}), routine: data.routine || [] });
@@ -2090,7 +2166,7 @@ export default function RuvisaApp() {
   const navigate = useCallback((to, data) => {
     setHistory(prev => [...prev, screen]);
     if (to === "product") {
-      setSelectedProduct(data);
+      setSelectedProduct(data ? mergeMatchedProduct(data, recMatchMap) : data);
       setScreen("product");
     } else if (to === "category") {
       setCategoryView(data);
@@ -2104,7 +2180,7 @@ export default function RuvisaApp() {
       if (to === "chat" && !data) setChatInitialMsg(null);
       setScreen(to);
     }
-  }, [screen]);
+  }, [screen, recMatchMap]);
 
   const goBack = useCallback(() => {
     const prev = history[history.length - 1] || "home";
@@ -2167,10 +2243,13 @@ export default function RuvisaApp() {
   };
 
   return (
-    <div style={{ width: "100%", maxWidth: 430, margin: "0 auto", height: "100vh", background: COLORS.cream, position: "relative", overflow: "hidden", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", contain: "layout" }}>
+    <div style={{ width: "100%", maxWidth: 430, margin: "0 auto", height: "100vh", background: COLORS.cream, position: "relative", overflow: "hidden", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>
       <style>{`
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-        ::-webkit-scrollbar { display: none; }
+        .ruvisa-hscroll { scrollbar-color: rgba(107, 69, 56, 0.45) transparent; }
+        .ruvisa-hscroll::-webkit-scrollbar { height: 8px; display: block; }
+        .ruvisa-hscroll::-webkit-scrollbar-thumb { background: rgba(107, 69, 56, 0.38); border-radius: 4px; }
+        .ruvisa-hscroll::-webkit-scrollbar-track { background: transparent; }
         @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
       `}</style>
 
@@ -2197,6 +2276,10 @@ export default function RuvisaApp() {
             userId={userId}
             onComplete={(result) => {
               setAnalysis(result);
+              const eng = result.recommend_engine;
+              if (eng?.recommendations) {
+                setHomeRecs({ ...eng.recommendations, routine: eng.routine || [] });
+              }
               setHistory(prev => [...prev, "scan"]);
               setScreen("home");
             }}
@@ -2216,6 +2299,7 @@ export default function RuvisaApp() {
             recs={homeRecs}
             trending={homeTrending}
             journey={homeJourney}
+            recMatchMap={recMatchMap}
           />
         )}
         {screen === "shop" && (
@@ -2224,6 +2308,7 @@ export default function RuvisaApp() {
             onLike={handleLike}
             likedUrls={likedUrls}
             onAddBag={handleAddBag}
+            recMatchMap={recMatchMap}
           />
         )}
         {screen === "bag" && (
