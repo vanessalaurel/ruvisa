@@ -820,10 +820,24 @@ function HomeScreen({
           <SectionHeader title="Skin Journey" />
           <HScrollRow>
             {pastScans.slice(0, 5).map((a, i) => {
-              const cv = Array.isArray(a.concern_vector) ? a.concern_vector : [];
+              let cv = a.concern_vector;
+              if (typeof cv === "string") {
+                try {
+                  cv = JSON.parse(cv);
+                } catch {
+                  cv = [];
+                }
+              }
+              if (!Array.isArray(cv)) cv = [];
               const concernCount = cv.filter(v => v > 0.1).length;
+              const thumb = a.media_urls?.original ? api.resolveApiMediaUrl(a.media_urls.original) : null;
               return (
                 <div key={a.id} onClick={() => onNavigate("scanDetail", a)} style={{ minWidth: 140, background: COLORS.white, borderRadius: 14, padding: 14, flexShrink: 0, cursor: "pointer" }}>
+                  {thumb ? (
+                    <div style={{ width: "100%", height: 88, borderRadius: 10, overflow: "hidden", marginBottom: 10, background: COLORS.creamDark }}>
+                      <img src={thumb} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    </div>
+                  ) : null}
                   <p style={{ fontSize: 12, fontWeight: 700, color: COLORS.forest, margin: 0 }}>Scan {pastScans.length - i}</p>
                   <p style={{ fontSize: 11, color: COLORS.textLight, margin: "4px 0" }}>{new Date(a.created_at).toLocaleDateString()}</p>
                   <p style={{ fontSize: 11, color: COLORS.text, margin: 0 }}>{concernCount} concerns</p>
@@ -858,7 +872,15 @@ function HomeScreen({
 
 function ScanDetailScreen({ scanData, onBack }) {
   if (!scanData) return null;
-  const cv = Array.isArray(scanData.concern_vector) ? scanData.concern_vector : [];
+  let cv = scanData.concern_vector;
+  if (typeof cv === "string") {
+    try {
+      cv = JSON.parse(cv);
+    } catch {
+      cv = [];
+    }
+  }
+  if (!Array.isArray(cv)) cv = [];
   const concernNames = ["acne", "comedonal_acne", "pigmentation", "acne_scars_texture", "pores", "redness", "wrinkles"];
   const acne = scanData.acne_summary || {};
   const wrinkle = scanData.wrinkle_summary || {};
@@ -868,15 +890,21 @@ function ScanDetailScreen({ scanData, onBack }) {
 
   const toUploadUrl = (p) => {
     if (!p) return null;
-    const rel = p.includes("uploads/")
-      ? `/api/uploads/${p.split("uploads/").pop()}`
-      : `/api/uploads/${p.split("/").pop()}`;
+    const norm = String(p).replace(/\\/g, "/");
+    const low = norm.toLowerCase();
+    const key = "uploads/";
+    const idx = low.indexOf(key);
+    const rel =
+      idx >= 0
+        ? `/api/uploads/${norm.slice(idx + key.length).replace(/^\/+/, "")}`
+        : `/api/uploads/${norm.split("/").pop()}`;
     return api.resolveApiMediaUrl(rel);
   };
 
-  const originalImg = toUploadUrl(scanData.image_path);
-  const acneVis = toUploadUrl(report.acne?.visualization_path);
-  const wrinkleVis = toUploadUrl(report.wrinkle?.visualization_path);
+  const mu = scanData.media_urls || {};
+  const originalImg = mu.original ? api.resolveApiMediaUrl(mu.original) : toUploadUrl(scanData.image_path);
+  const acneVis = mu.acne ? api.resolveApiMediaUrl(mu.acne) : toUploadUrl(report.acne?.visualization_path);
+  const wrinkleVis = mu.wrinkle ? api.resolveApiMediaUrl(mu.wrinkle) : toUploadUrl(report.wrinkle?.visualization_path);
 
   return (
     <div style={{ height: "100%", background: COLORS.cream, overflow: "auto", paddingBottom: 120 }}>
@@ -1697,7 +1725,7 @@ function ChatScreen({ onBack, userId, skinType, initialMessage }) {
 
 /* ---- PROFILE & SETTINGS SCREEN ---- */
 
-function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate }) {
+function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate, onOpenScanDetail }) {
   const [tab, setTab] = useState("profile"); // "profile" | "settings"
   const [journey, setJourney] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -1804,19 +1832,53 @@ function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate 
             <h3 style={{ fontSize: 16, fontWeight: 800, color: COLORS.forest, margin: "0 0 10px" }}>Past Scans</h3>
             {analyses.length === 0 ? (
               <p style={{ color: COLORS.textLight, fontSize: 13 }}>No scans yet</p>
-            ) : analyses.map((a, i) => (
-              <div key={a.id} style={{ background: COLORS.white, borderRadius: 12, padding: 12, marginBottom: 8 }}>
-                <div style={{ display: "flex", justifyContent: "space-between" }}>
-                  <span style={{ fontSize: 13, fontWeight: 700, color: COLORS.text }}>Scan {analyses.length - i}</span>
-                  <span style={{ fontSize: 12, color: COLORS.textLight }}>{new Date(a.created_at).toLocaleDateString()}</span>
+            ) : analyses.map((a, i) => {
+              let cv = a.concern_vector;
+              if (typeof cv === "string") {
+                try {
+                  cv = JSON.parse(cv);
+                } catch {
+                  cv = [];
+                }
+              }
+              if (!Array.isArray(cv)) cv = [];
+              const concernCount = cv.filter(v => v > 0.1).length;
+              const thumb = a.media_urls?.original ? api.resolveApiMediaUrl(a.media_urls.original) : null;
+              return (
+                <div
+                  key={a.id}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => onOpenScanDetail?.(a)}
+                  onKeyDown={(e) => e.key === "Enter" && onOpenScanDetail?.(a)}
+                  style={{
+                    background: COLORS.white,
+                    borderRadius: 12,
+                    padding: 12,
+                    marginBottom: 8,
+                    cursor: onOpenScanDetail ? "pointer" : "default",
+                  }}
+                >
+                  <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+                    {thumb ? (
+                      <div style={{ width: 64, height: 64, borderRadius: 10, overflow: "hidden", flexShrink: 0, background: COLORS.creamDark }}>
+                        <img src={thumb} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                      </div>
+                    ) : null}
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+                        <span style={{ fontSize: 13, fontWeight: 700, color: COLORS.text }}>Scan {analyses.length - i}</span>
+                        <span style={{ fontSize: 12, color: COLORS.textLight }}>{new Date(a.created_at).toLocaleDateString()}</span>
+                      </div>
+                      <p style={{ fontSize: 12, color: COLORS.textLight, margin: "4px 0 0" }}>{concernCount} concerns detected</p>
+                      {onOpenScanDetail && (
+                        <p style={{ fontSize: 10, color: COLORS.sage, fontWeight: 600, margin: "6px 0 0" }}>Tap for photos and details →</p>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                {a.concern_vector && (
-                  <p style={{ fontSize: 12, color: COLORS.textLight, margin: "4px 0 0" }}>
-                    {(Array.isArray(a.concern_vector) ? a.concern_vector : []).filter(v => v > 0.1).length} concerns detected
-                  </p>
-                )}
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Past purchases */}
@@ -2231,6 +2293,7 @@ export default function RuvisaApp() {
             userId={userId}
             userName={userName}
             user={user}
+            onOpenScanDetail={(a) => navigate("scanDetail", a)}
             onUserUpdate={(updated) => {
               const u = { ...user, ...updated };
               setUser(u);
