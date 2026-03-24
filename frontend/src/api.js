@@ -1,5 +1,22 @@
 const BASE = import.meta.env.VITE_API_URL || "/api";
 
+/**
+ * Turn `/api/uploads/...` into a full URL when `VITE_API_URL` is set (e.g. Cloudflare Pages).
+ * Relative URLs load against the site origin (*.pages.dev) and break for uploaded images.
+ */
+export function resolveApiMediaUrl(path) {
+  if (!path) return "";
+  if (/^https?:\/\//i.test(path)) return path;
+  const p = path.startsWith("/") ? path : `/${path}`;
+  const raw = import.meta.env.VITE_API_URL;
+  if (raw === undefined || raw === null || String(raw).trim() === "") {
+    return p;
+  }
+  const base = String(raw).replace(/\/$/, "");
+  const suffix = p.replace(/^\/api/, "");
+  return suffix.startsWith("/") ? `${base}${suffix}` : `${base}/${suffix}`;
+}
+
 async function request(path, options = {}) {
   const res = await fetch(`${BASE}${path}`, options);
   if (!res.ok) {

@@ -528,13 +528,13 @@ function HomeScreen({
           <div style={{ display: "flex", gap: 10, overflowX: "auto" }}>
             {analysis.images.acne && (
               <div style={{ minWidth: "48%", background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={analysis.images.acne} alt="Acne" style={{ width: "100%", height: "auto", display: "block" }} />
+                <img src={api.resolveApiMediaUrl(analysis.images.acne)} alt="Acne" style={{ width: "100%", height: "auto", display: "block" }} />
                 <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>Acne Detection</p>
               </div>
             )}
             {analysis.images.wrinkle && (
               <div style={{ minWidth: "48%", background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={analysis.images.wrinkle} alt="Wrinkle" style={{ width: "100%", height: "auto", display: "block" }} />
+                <img src={api.resolveApiMediaUrl(analysis.images.wrinkle)} alt="Wrinkle" style={{ width: "100%", height: "auto", display: "block" }} />
                 <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>Wrinkle Analysis</p>
               </div>
             )}
@@ -768,8 +768,10 @@ function ScanDetailScreen({ scanData, onBack }) {
 
   const toUploadUrl = (p) => {
     if (!p) return null;
-    if (p.includes("uploads/")) return `/api/uploads/${p.split("uploads/").pop()}`;
-    return `/api/uploads/${p.split("/").pop()}`;
+    const rel = p.includes("uploads/")
+      ? `/api/uploads/${p.split("uploads/").pop()}`
+      : `/api/uploads/${p.split("/").pop()}`;
+    return api.resolveApiMediaUrl(rel);
   };
 
   const originalImg = toUploadUrl(scanData.image_path);
