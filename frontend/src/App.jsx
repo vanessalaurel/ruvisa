@@ -283,6 +283,45 @@ function SkinTypeScreen({ onSelect }) {
   );
 }
 
+/** Original photo side-by-side with an annotated overlay (acne / wrinkle). */
+function ScanComparePair({ originalSrc, annotatedSrc, annotatedLabel }) {
+  if (!annotatedSrc && !originalSrc) return null;
+  const both = Boolean(originalSrc && annotatedSrc);
+  return (
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: both ? "minmax(0,1fr) minmax(0,1fr)" : "1fr",
+        gap: 10,
+        alignItems: "start",
+      }}
+    >
+      {originalSrc && (
+        <div style={{ background: COLORS.white, borderRadius: 14, overflow: "hidden", minWidth: 0 }}>
+          <img
+            src={originalSrc}
+            alt="Your photo"
+            style={{ width: "100%", height: "auto", maxHeight: 260, objectFit: "contain", display: "block", background: COLORS.cream }}
+            onError={(e) => { e.target.style.display = "none"; }}
+          />
+          <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>Original</p>
+        </div>
+      )}
+      {annotatedSrc && (
+        <div style={{ background: COLORS.white, borderRadius: 14, overflow: "hidden", minWidth: 0 }}>
+          <img
+            src={annotatedSrc}
+            alt={annotatedLabel}
+            style={{ width: "100%", height: "auto", maxHeight: 260, objectFit: "contain", display: "block", background: COLORS.cream }}
+            onError={(e) => { e.target.style.display = "none"; }}
+          />
+          <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>{annotatedLabel}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function FaceScanScreen({ onComplete, skinType, userId }) {
   const [phase, setPhase] = useState("upload");
   const [imageFile, setImageFile] = useState(null);
@@ -359,13 +398,60 @@ function FaceScanScreen({ onComplete, skinType, userId }) {
       clearInterval(progressInterval);
       setProgress(100);
       setAnalysis(result);
-      setTimeout(() => onComplete(result), 800);
+      setPhase("results");
     } catch (err) {
       clearInterval(progressInterval);
       setError(err.message);
       setPhase("upload");
     }
   };
+
+  if (phase === "results" && analysis) {
+    const orig =
+      preview ||
+      (analysis.images?.original ? api.resolveApiMediaUrl(analysis.images.original) : null);
+    const hasVis = analysis.images?.acne || analysis.images?.wrinkle;
+    return (
+      <div
+        style={{
+          height: "100%",
+          background: COLORS.cream,
+          overflow: "auto",
+          padding: "20px 20px max(32px, env(safe-area-inset-bottom))",
+          boxSizing: "border-box",
+        }}
+      >
+        <h3 style={{ color: COLORS.forest, fontSize: 20, fontWeight: 800, margin: "8px 0 6px" }}>Your scan</h3>
+        <p style={{ color: COLORS.textLight, fontSize: 13, margin: "0 0 16px", lineHeight: 1.45 }}>
+          Your original photo next to AI overlays: acne and lesion marks, then wrinkle detection.
+        </p>
+        {analysis.images?.acne && (
+          <div style={{ marginBottom: 14 }}>
+            <ScanComparePair
+              originalSrc={orig}
+              annotatedSrc={api.resolveApiMediaUrl(analysis.images.acne)}
+              annotatedLabel="Acne & lesions"
+            />
+          </div>
+        )}
+        {analysis.images?.wrinkle && (
+          <div style={{ marginBottom: 20 }}>
+            <ScanComparePair
+              originalSrc={orig}
+              annotatedSrc={api.resolveApiMediaUrl(analysis.images.wrinkle)}
+              annotatedLabel="Wrinkle map"
+            />
+          </div>
+        )}
+        {!hasVis && (
+          <p style={{ color: COLORS.textLight, fontSize: 14, marginBottom: 20 }}>
+            Overlay images were not generated for this scan. Your scores and summary are still available on the home screen.
+          </p>
+        )}
+        <Btn onClick={() => onComplete(analysis)}>Continue to home</Btn>
+      </div>
+    );
+  }
 
   if (phase === "upload") {
     return (
@@ -521,24 +607,38 @@ function HomeScreen({
         </div>
       )}
 
-      {/* Detection images */}
-      {(analysis?.images?.acne || analysis?.images?.wrinkle) && (
+      {/* Original + annotated overlays */}
+      {(analysis?.images?.original || analysis?.images?.acne || analysis?.images?.wrinkle) && (
         <div style={{ padding: "0 24px", marginBottom: 16 }}>
-          <SectionHeader title="Scan Results" />
-          <div style={{ display: "flex", gap: 10, overflowX: "auto" }}>
-            {analysis.images.acne && (
-              <div style={{ minWidth: "48%", background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={api.resolveApiMediaUrl(analysis.images.acne)} alt="Acne" style={{ width: "100%", height: "auto", display: "block" }} />
-                <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>Acne Detection</p>
-              </div>
-            )}
-            {analysis.images.wrinkle && (
-              <div style={{ minWidth: "48%", background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={api.resolveApiMediaUrl(analysis.images.wrinkle)} alt="Wrinkle" style={{ width: "100%", height: "auto", display: "block" }} />
-                <p style={{ fontSize: 11, fontWeight: 600, textAlign: "center", padding: 6, margin: 0, color: COLORS.textLight }}>Wrinkle Analysis</p>
-              </div>
-            )}
-          </div>
+          <SectionHeader title="Scan visuals" />
+          <p style={{ fontSize: 12, color: COLORS.textLight, margin: "0 0 12px", lineHeight: 1.4 }}>
+            Original photo beside each AI overlay (acne / lesions, then wrinkles).
+          </p>
+          {(() => {
+            const orig = analysis.images?.original ? api.resolveApiMediaUrl(analysis.images.original) : null;
+            return (
+              <>
+                {analysis.images?.acne && (
+                  <div style={{ marginBottom: 12 }}>
+                    <ScanComparePair
+                      originalSrc={orig}
+                      annotatedSrc={api.resolveApiMediaUrl(analysis.images.acne)}
+                      annotatedLabel="Acne & lesions"
+                    />
+                  </div>
+                )}
+                {analysis.images?.wrinkle && (
+                  <div style={{ marginBottom: 4 }}>
+                    <ScanComparePair
+                      originalSrc={orig}
+                      annotatedSrc={api.resolveApiMediaUrl(analysis.images.wrinkle)}
+                      annotatedLabel="Wrinkle map"
+                    />
+                  </div>
+                )}
+              </>
+            );
+          })()}
         </div>
       )}
 
@@ -788,34 +888,21 @@ function ScanDetailScreen({ scanData, onBack }) {
         <p style={{ fontSize: 16, fontWeight: 700, margin: "10px 0 0" }}>Skin Health Score: {overall}/100</p>
       </div>
 
-      {/* Original scanned face */}
-      {originalImg && (
+      {/* Original + annotated side by side */}
+      {(originalImg || acneVis || wrinkleVis) && (
         <div style={{ padding: "0 24px", marginBottom: 16 }}>
-          <h4 style={{ fontSize: 16, fontWeight: 800, color: COLORS.forest, margin: "0 0 10px" }}>Your Photo</h4>
-          <div style={{ background: COLORS.white, borderRadius: 14, overflow: "hidden", textAlign: "center" }}>
-            <img src={originalImg} alt="Your face" style={{ width: "100%", maxHeight: 300, objectFit: "contain", display: "block" }} onError={e => { e.target.parentElement.style.display = "none"; }} />
-          </div>
-        </div>
-      )}
-
-      {/* Detection result images */}
-      {(acneVis || wrinkleVis) && (
-        <div style={{ padding: "0 24px", marginBottom: 16 }}>
-          <h4 style={{ fontSize: 16, fontWeight: 800, color: COLORS.forest, margin: "0 0 10px" }}>Detection Results</h4>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            {acneVis && (
-              <div style={{ background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={acneVis} alt="Acne Detection" style={{ width: "100%", height: "auto", display: "block" }} onError={e => { e.target.parentElement.style.display = "none"; }} />
-                <p style={{ fontSize: 12, fontWeight: 600, textAlign: "center", padding: 8, margin: 0, color: COLORS.textLight }}>Acne & Lesion Detection</p>
-              </div>
-            )}
-            {wrinkleVis && (
-              <div style={{ background: COLORS.white, borderRadius: 14, overflow: "hidden" }}>
-                <img src={wrinkleVis} alt="Wrinkle Detection" style={{ width: "100%", height: "auto", display: "block" }} onError={e => { e.target.parentElement.style.display = "none"; }} />
-                <p style={{ fontSize: 12, fontWeight: 600, textAlign: "center", padding: 8, margin: 0, color: COLORS.textLight }}>Wrinkle Detection</p>
-              </div>
-            )}
-          </div>
+          <h4 style={{ fontSize: 16, fontWeight: 800, color: COLORS.forest, margin: "0 0 6px" }}>Scan visuals</h4>
+          <p style={{ fontSize: 12, color: COLORS.textLight, margin: "0 0 12px", lineHeight: 1.4 }}>
+            Your original photo next to each detection overlay.
+          </p>
+          {acneVis && (
+            <div style={{ marginBottom: 12 }}>
+              <ScanComparePair originalSrc={originalImg} annotatedSrc={acneVis} annotatedLabel="Acne & lesions" />
+            </div>
+          )}
+          {wrinkleVis && (
+            <ScanComparePair originalSrc={originalImg} annotatedSrc={wrinkleVis} annotatedLabel="Wrinkle map" />
+          )}
         </div>
       )}
 
