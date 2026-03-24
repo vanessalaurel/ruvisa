@@ -1,4 +1,13 @@
-const BASE = import.meta.env.VITE_API_URL || "/api";
+/** Trailing/leading spaces in VITE_API_URL (e.g. pasted secrets) become %20 in paths and break routes. */
+function apiBase() {
+  const raw = import.meta.env.VITE_API_URL;
+  if (raw === undefined || raw === null || String(raw).trim() === "") {
+    return "/api";
+  }
+  return String(raw).trim().replace(/\/+$/, "");
+}
+
+const BASE = apiBase();
 
 /**
  * Turn `/api/uploads/...` into a full URL when `VITE_API_URL` is set (e.g. Cloudflare Pages).
@@ -12,7 +21,7 @@ export function resolveApiMediaUrl(path) {
   if (raw === undefined || raw === null || String(raw).trim() === "") {
     return p;
   }
-  const base = String(raw).replace(/\/$/, "");
+  const base = apiBase();
   const suffix = p.replace(/^\/api/, "");
   return suffix.startsWith("/") ? `${base}${suffix}` : `${base}/${suffix}`;
 }
