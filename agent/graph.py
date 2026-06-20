@@ -35,17 +35,33 @@ def _build_user_context(user_id: str) -> str:
         "acne_scars_texture", "pores", "redness", "wrinkles",
     ]
 
-    user = crud.get_user(user_id)
-    if not user:
-        return ""
-
-    analyses = crud.get_analysis_history(user_id, limit=3)
+    analyses = crud.get_analysis_history(user_id, limit=10)
     purchases = crud.get_purchase_history(user_id, limit=10)
     improvement = crud.compute_skin_improvement(user_id)
+    user = crud.get_user(user_id)
 
+    # Tools require the exact DB user_id; the model must not guess from display name.
     parts = [
-        f"[User: {user.get('name') or user_id} | Skin type: {user.get('skin_type') or 'not set'} | Total scans: {len(analyses)} | Total purchases: {len(purchases)}]",
+        f"[AUTHENTICATED_USER_ID — pass this EXACT string as user_id to compare_analyses, "
+        f"get_user_profile, recommend_products, evaluate_outcomes, track_purchase, etc.: {user_id}]",
     ]
+
+    if not user:
+        parts.append(
+            f"[Profile row missing but analyses may exist | Total scans in DB: {len(analyses)} | "
+            f"Total purchases: {len(purchases)}]"
+        )
+        if len(analyses) >= 2:
+            parts.append(
+                "[This user has at least 2 face scans — you CAN call compare_analyses with the "
+                "AUTHENTICATED_USER_ID above.]"
+            )
+        return "\n".join(parts) + "\n\n"
+
+    parts.append(
+        f"[User: {user.get('name') or user_id} | Skin type: {user.get('skin_type') or 'not set'} | "
+        f"Total scans: {len(analyses)} | Total purchases: {len(purchases)}]",
+    )
 
     if analyses:
         latest = analyses[0]
@@ -113,6 +129,12 @@ def _build_user_context(user_id: str) -> str:
     if purchases:
         titles = [p.get("product_title") or p.get("product_url", "")[:40] for p in purchases[:5]]
         parts.append(f"[Recent purchases: {', '.join(titles)}]")
+
+    if len(analyses) >= 2:
+        parts.append(
+            "[At least 2 face scans on file — call compare_analyses with the AUTHENTICATED_USER_ID above "
+            "when the user asks about skin journey, comparing scans, or progress over time.]"
+        )
 
     return "\n".join(parts) + "\n\n"
 

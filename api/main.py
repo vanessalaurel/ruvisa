@@ -6,6 +6,7 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 import db.crud as crud
@@ -47,6 +48,12 @@ app.add_middleware(
 
 app.include_router(router, prefix="/api")
 app.mount("/api/uploads", StaticFiles(directory=str(UPLOAD_DIR)), name="uploads")
+
+
+@app.get("/")
+async def root():
+    """Tunnel/browser often opens / only — send users to the health check."""
+    return RedirectResponse(url="/health", status_code=307)
 
 
 @app.get("/health")

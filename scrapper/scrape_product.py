@@ -9,6 +9,7 @@ from selectolax.parser import HTMLParser
 
 from playwright.sync_api import sync_playwright
 from scrapper.common import append_jsonl, save_text_gz, utc_now_iso
+from scrapper.inci_split import split_inci_list
 
 IN_URLS = Path("data/raw/sephora/urls/product_urls.jsonl")
 OUT_PRODUCTS = Path("data/raw/sephora/products/products.jsonl")
@@ -384,32 +385,6 @@ def _extract_product_claims(tree: HTMLParser) -> Optional[List[str]]:
     return parts or None
 
 
-def _split_ingredients(ingredients_raw: str) -> List[str]:
-    """
-    Split by commas but keep commas inside parentheses.
-    """
-    out: List[str] = []
-    cur = ""
-    depth = 0
-    for ch in ingredients_raw:
-        if ch == "(":
-            depth += 1
-            cur += ch
-        elif ch == ")":
-            depth = max(0, depth - 1)
-            cur += ch
-        elif ch == "," and depth == 0:
-            part = cur.strip()
-            if part:
-                out.append(part)
-            cur = ""
-        else:
-            cur += ch
-    if cur.strip():
-        out.append(cur.strip())
-    return out
-
-
 def _find_ingredients_text(tree: HTMLParser) -> Optional[str]:
     """
     Locate the ingredients section more reliably than selecting all [class*="ingredient"].
@@ -555,7 +530,7 @@ def _extract_ingredients(tree: HTMLParser) -> Dict[str, Any]:
             # Only split if comma-separated (standard INCI format)
             # Space-separated lists are kept as raw text only
             if text.count(",") >= 3:
-                ings = _split_ingredients(text)
+                ings = split_inci_list(text)
                 ings = [re.sub(r"\s+", " ", i).strip() for i in ings]
                 ings = [i.rstrip(".;") for i in ings if i]
                 if ings:
@@ -767,8 +742,8 @@ def scrape_products(
     
     # Filter out already scraped
     url_data = [(u, cat) for u, cat in url_data if u not in scraped_urls]
-    
-        if limit:
+
+    if limit:
         url_data = url_data[:limit]
 
     total = len(url_data)
@@ -797,7 +772,7 @@ def scrape_products(
             try:
                 # Polite delay
                 time.sleep(random.uniform(2.0, 4.0))
-                
+
                 context = browser.new_context(
                     user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0",
                     viewport={"width": 1920, "height": 1080},
@@ -808,15 +783,15 @@ def scrape_products(
                 html = page.content()
                 context.close()
 
-            if save_html:
-                fname = re.sub(r"[^a-zA-Z0-9]+", "_", url)[:180] + ".html.gz"
-                save_text_gz(HTML_DIR / fname, html)
+                if save_html:
+                    fname = re.sub(r"[^a-zA-Z0-9]+", "_", url)[:180] + ".html.gz"
+                    save_text_gz(HTML_DIR / fname, html)
 
                 obj = parse_product(html, url, category=product_category)
                 print(f"         {obj.get('brand')} - {obj.get('title')} - {obj.get('price')}")
-            append_jsonl(OUT_PRODUCTS, obj)
+                append_jsonl(OUT_PRODUCTS, obj)
                 success_count += 1
-                
+
             except Exception as e:
                 fail_count += 1
                 print(f"         ERROR: {type(e).__name__}: {str(e)[:60]}")

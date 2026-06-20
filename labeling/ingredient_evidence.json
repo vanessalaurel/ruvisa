@@ -19,7 +19,8 @@
     "soothing"
   ],
   "Lauric Acid": [
-    "anti-acne"
+    "anti-acne",
+    "surfactant-cleansing"
   ],
   "Melaleuca Alternifolia Leaf Oil": [
     "anti-acne",
@@ -29,7 +30,8 @@
   "Niacinamide": [
     "anti-acne",
     "skin-brightening",
-    "cell-communicating-ingredient"
+    "cell-communicating-ingredient",
+    "moisturizer-humectant"
   ],
   "Phellodendron Amurense Bark Extract": [
     "anti-acne",
@@ -64,7 +66,8 @@
     "soothing"
   ],
   "Zinc Pca": [
-    "anti-acne"
+    "anti-acne",
+    "moisturizer-humectant"
   ],
   "Acetyl Glucosamine": [
     "skin-brightening"
@@ -143,7 +146,8 @@
   ],
   "Calcium Sulfate Hydrate": [
     "skin-brightening",
-    "astringent"
+    "astringent",
+    "abrasive-scrub"
   ],
   "Cetyl Tranexamate Mesylate": [
     "skin-brightening"
@@ -207,7 +211,8 @@
   ],
   "Hibbertia Scandens Leaf Extract": [
     "skin-brightening",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hibiscus Rosa-Sinensis Leaf Extract": [
     "skin-brightening"
@@ -221,7 +226,8 @@
     "cell-communicating-ingredient"
   ],
   "Hydrolyzed Codonopsis Pilosula Root Extract": [
-    "skin-brightening"
+    "skin-brightening",
+    "moisturizer-humectant"
   ],
   "Hydrolyzed Xanthomonas Campestris Polysaccharide": [
     "skin-brightening"
@@ -335,14 +341,16 @@
   ],
   "Salicornia Herbacea Extract": [
     "skin-brightening",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sulforaphane": [
     "skin-brightening"
   ],
   "Telopea Speciosissima Flower/Leaf Extract": [
     "skin-brightening",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Terminalia Ferdinandiana Fruit Extract": [
     "skin-brightening",
@@ -417,7 +425,8 @@
   ],
   "Withania Somnifera Leaf Extract": [
     "skin-brightening",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "4-T-Butylcyclohexanol": [
     "soothing",
@@ -431,10 +440,12 @@
     "cell-communicating-ingredient"
   ],
   "Achillea Millefolium Extract": [
-    "soothing"
+    "soothing",
+    "surfactant-cleansing"
   ],
   "Achillea Millefolium Oil": [
-    "soothing"
+    "soothing",
+    "surfactant-cleansing"
   ],
   "Aesculus Hippocastanum Seed Extract": [
     "soothing"
@@ -462,16 +473,20 @@
     "soothing"
   ],
   "Aloe Arborescens Leaf Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Aloe Barbadensis Leaf Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Aloe Barbadensis Leaf Juice": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Aloe Barbadensis Leaf Juice Powder": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Aloe Ferox Leaf Gel": [
     "soothing"
@@ -483,7 +498,8 @@
     "soothing"
   ],
   "Ananas Sativus Fruit Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Anthemis Nobilis Flower Extract": [
     "soothing"
@@ -496,11 +512,13 @@
     "antioxidant"
   ],
   "Avena Sativa Bran Extract": [
-    "soothing"
+    "soothing",
+    "abrasive-scrub"
   ],
   "Avena Sativa Kernel Extract": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "abrasive-scrub"
   ],
   "Avena Sativa Kernel Flour": [
     "soothing",
@@ -513,7 +531,8 @@
     "soothing"
   ],
   "Beta-Glucan": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Betula Alba Bark Extract": [
     "soothing",
@@ -521,17 +540,20 @@
   ],
   "Betula Alba Bark/Leaf Extract": [
     "soothing",
-    "astringent"
+    "astringent",
+    "surfactant-cleansing"
   ],
   "Betula Alba Leaf Extract": [
     "soothing",
-    "astringent"
+    "astringent",
+    "surfactant-cleansing"
   ],
   "Bioflavonoids": [
     "soothing"
   ],
   "Biosaccharide Gum-1": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Bisabolol": [
     "soothing"
@@ -590,14 +612,17 @@
   ],
   "Centella Asiatica Extract": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Centella Asiatica Leaf Extract": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cetraria Islandica Extract": [
-    "soothing"
+    "soothing",
+    "surfactant-cleansing"
   ],
   "Chamomilla Recutita Flower Extract": [
     "soothing",
@@ -608,7 +633,8 @@
   ],
   "Colloidal Oatmeal": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "abrasive-scrub"
   ],
   "Copper Gluconate": [
     "soothing"
@@ -635,20 +661,25 @@
     "soothing"
   ],
   "Dipotassium Glycyrrhizate": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Disodium Lauriminodipropionate Tocopheryl Phosphates": [
-    "soothing"
+    "soothing",
+    "surfactant-cleansing"
   ],
   "Echinacea Angustifolia Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Echinacea Angustifolia Leaf Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Ectoin": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Epigallocatechin Gallate": [
     "soothing",
@@ -695,7 +726,8 @@
     "soothing"
   ],
   "Glycyrrhiza Glabra Rhizome/Root": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Hamamelis Virginiana  Leaf Extract": [
     "soothing",
@@ -743,7 +775,8 @@
     "soothing"
   ],
   "Honey": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Houttuynia Cordata Extract": [
     "soothing",
@@ -771,24 +804,32 @@
     "soothing"
   ],
   "Jasminum Officinale Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Jasminum Officinale Flower/Leaf Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Jasminum Officinale Oil": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Jojoba Esters": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Juglans Regia Leaf": [
     "soothing",
-    "astringent"
+    "astringent",
+    "surfactant-cleansing",
+    "abrasive-scrub"
   ],
   "Juglans Regia Leaf Extract": [
     "soothing",
-    "astringent"
+    "astringent",
+    "surfactant-cleansing",
+    "abrasive-scrub"
   ],
   "Kigelia Africana Fruit Extract": [
     "soothing",
@@ -804,11 +845,13 @@
     "soothing"
   ],
   "Laminaria Saccharina Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Leontopodium Alpinum Callus Culture Extract": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Leonurus Sibiricus Flower/Leaf/Stem Extract": [
     "soothing"
@@ -866,10 +909,12 @@
     "soothing"
   ],
   "Opuntia Ficus-Indica Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Opuntia Ficus-Indica Fruit Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Opuntia Ficus-Indica Stem Extract": [
     "soothing"
@@ -887,7 +932,8 @@
     "soothing"
   ],
   "Panthenol": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Papaver Rhoeas Petal Extract": [
     "soothing"
@@ -905,7 +951,8 @@
     "soothing"
   ],
   "Persea Gratissima Fruit Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Persea Gratissima Oil Unsaponifiables": [
     "soothing",
@@ -915,7 +962,8 @@
     "soothing"
   ],
   "Phaeodactylum Tricornutum Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Phragmites Kharka Extract": [
     "soothing",
@@ -946,7 +994,8 @@
     "soothing"
   ],
   "Pseudoalteromonas Ferment Extract": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Quercetin": [
     "soothing",
@@ -992,10 +1041,12 @@
     "astringent"
   ],
   "Saccharomyces Ferment Filtrate": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Safflower Oil/Palm Oil Aminopropanediol Esters": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Salix Alba Bark Extract": [
     "soothing",
@@ -1008,7 +1059,8 @@
   "Salvia Officinalis Extract": [
     "soothing",
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "surfactant-cleansing"
   ],
   "Salvia Sclarea Extract": [
     "soothing",
@@ -1021,7 +1073,8 @@
     "soothing"
   ],
   "Santalum Album Extract": [
-    "soothing"
+    "soothing",
+    "surfactant-cleansing"
   ],
   "Saxifraga Sarmentosa Extract": [
     "soothing"
@@ -1038,7 +1091,8 @@
   "Scutellaria Baicalensis Root Extract": [
     "soothing",
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Scutellaria Galericulata Extract": [
     "soothing"
@@ -1067,7 +1121,8 @@
     "soothing"
   ],
   "Sucrose": [
-    "soothing"
+    "soothing",
+    "moisturizer-humectant"
   ],
   "Symphytum Officinale Root Extract": [
     "soothing"
@@ -1131,7 +1186,8 @@
   ],
   "Vitis Vinifera Fruit Extract": [
     "soothing",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Wheat Amino Acids": [
     "soothing"
@@ -1159,7 +1215,8 @@
     "exfoliant"
   ],
   "Lactic Acid": [
-    "exfoliant"
+    "exfoliant",
+    "moisturizer-humectant"
   ],
   "Lactobacillus/Pumpkin Ferment Extract": [
     "exfoliant"
@@ -1190,10 +1247,12 @@
     "antioxidant"
   ],
   "Acetyl Hexapeptide-8": [
-    "cell-communicating-ingredient"
+    "cell-communicating-ingredient",
+    "moisturizer-humectant"
   ],
   "Acetyl Octapeptide-3": [
-    "cell-communicating-ingredient"
+    "cell-communicating-ingredient",
+    "moisturizer-humectant"
   ],
   "Acetyl SH-Hexapeptide-5 Amide Acetate": [
     "cell-communicating-ingredient"
@@ -1205,7 +1264,8 @@
     "cell-communicating-ingredient"
   ],
   "Acetyl Tetrapeptide-5": [
-    "cell-communicating-ingredient"
+    "cell-communicating-ingredient",
+    "moisturizer-humectant"
   ],
   "Acetylarginyltryptophyl Diphenylglycine": [
     "cell-communicating-ingredient"
@@ -1273,7 +1333,8 @@
     "cell-communicating-ingredient"
   ],
   "Isosorbide Dicaprylate": [
-    "cell-communicating-ingredient"
+    "cell-communicating-ingredient",
+    "moisturizer-humectant"
   ],
   "Kappaphycus Alvarezii Extract": [
     "cell-communicating-ingredient"
@@ -1574,7 +1635,8 @@
   ],
   "Bambusa Vulgaris Shoot Extract": [
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Bee Venom": [
     "astringent"
@@ -1619,11 +1681,13 @@
   ],
   "Chaenomeles Sinensis Fruit Extract": [
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cinnamomum Zeylanicum Bark Extract": [
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cirsium Eriophorum Callus Extract": [
     "astringent"
@@ -1675,7 +1739,8 @@
     "astringent"
   ],
   "Clay Minerals": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Codonopsis Lanceolata Extract": [
     "astringent",
@@ -1686,7 +1751,8 @@
   ],
   "Cotinus Coggygria Leaf Extract": [
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cucumis Melo Cantalupensis Fruit Extract": [
     "astringent"
@@ -1889,7 +1955,8 @@
     "astringent"
   ],
   "Morus Alba Extract": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Morus Bombycis Extract": [
     "astringent",
@@ -1925,7 +1992,8 @@
     "astringent"
   ],
   "Opuntia Humifusa Flower/Stem Extract": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Origanum Dictamnus Flower/Leaf/Stem Extract": [
     "astringent",
@@ -1960,7 +2028,8 @@
     "astringent"
   ],
   "Phytosteryl Rice Branate": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Picrasma Excelsa Wood Extract": [
     "astringent"
@@ -1972,7 +2041,8 @@
     "astringent"
   ],
   "Pna-19 Carboxyethyl Fluorene": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Poria Cocos Sclerotium Extract": [
     "astringent"
@@ -1991,7 +2061,8 @@
   ],
   "Prunus Mume Extract": [
     "astringent",
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Prunus Persica Fruit": [
     "astringent"
@@ -2146,7 +2217,8 @@
     "astringent"
   ],
   "Salt Mine Mud": [
-    "astringent"
+    "astringent",
+    "abrasive-scrub"
   ],
   "Salvadora Persica Stem Extract": [
     "astringent"
@@ -2202,7 +2274,8 @@
     "astringent"
   ],
   "Silt": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Smilax China Root Extract": [
     "astringent",
@@ -2237,7 +2310,8 @@
     "astringent"
   ],
   "Thuja Orientalis Extract": [
-    "astringent"
+    "astringent",
+    "moisturizer-humectant"
   ],
   "Tioxolone": [
     "astringent"
@@ -2298,10 +2372,12 @@
     "astringent"
   ],
   "3-Glyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "3-Laurylglyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "4-Butylresorcinol": [
     "antioxidant"
@@ -2334,7 +2410,8 @@
     "antioxidant"
   ],
   "Achillea Millefolium Flower Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Actaea Heracleifolia Root Extract": [
     "antioxidant"
@@ -2358,10 +2435,12 @@
     "antioxidant"
   ],
   "Aloe Vera Callus Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Amaranthus Hypochondriacus Seed Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Aminoethanesulfinic Acid": [
     "antioxidant"
@@ -2406,7 +2485,8 @@
     "antioxidant"
   ],
   "Arthrospira Platensis Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Artocarpus Altilis Flower Extract": [
     "antioxidant"
@@ -2442,7 +2522,8 @@
     "antioxidant"
   ],
   "Aspergillus/Camellia Sinensis Leaf Extract Ferment Filtrate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Aspergillus/Sorghum Bicolor Leaf/Stem Extract Ferment Filtrate": [
     "antioxidant"
@@ -2469,10 +2550,12 @@
     "antioxidant"
   ],
   "Bacillus/Folic Acid Ferment Filtrate Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Bacillus/Rice Bran Extract/Soybean Extract Ferment Filtrate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Bacopa Monnieri Oil": [
     "antioxidant"
@@ -2481,16 +2564,19 @@
     "antioxidant"
   ],
   "Banksia Serrata Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Barklya Syringifolia Flower/Leaf Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Bergamot/Grapefruit/Orange/Tangerine Fruit Ferment Extract": [
     "antioxidant"
   ],
   "Beta Vulgaris Root Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Beta Vulgaris Root Powder": [
     "antioxidant"
@@ -2502,7 +2588,8 @@
     "antioxidant"
   ],
   "Bis-Glyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Bixa Orellana Leaf Extract": [
     "antioxidant"
@@ -2553,7 +2640,8 @@
     "antioxidant"
   ],
   "Callitris Columellaris Leaf/Wood Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Calophyllum Inophyllum Seed Oil": [
     "antioxidant"
@@ -2598,10 +2686,12 @@
     "antioxidant"
   ],
   "Caprylamide Mea": [
-    "antioxidant"
+    "antioxidant",
+    "surfactant-cleansing"
   ],
   "Caprylyl 2-Glyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Capsicum Annuum Fruit Meristem Cell": [
     "antioxidant"
@@ -2619,7 +2709,8 @@
     "antioxidant"
   ],
   "Centella Asiatica Callus Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Centella Asiatica Leaf Cell Culture Extract": [
     "antioxidant"
@@ -2631,7 +2722,8 @@
     "antioxidant"
   ],
   "Centella Asiatica Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Centipeda Cunninghamii Leaf/Stem Extract": [
     "antioxidant"
@@ -2670,22 +2762,26 @@
     "antioxidant"
   ],
   "Chrysanthemum Indicum Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Chrysanthemum Parthenium Flower/Leaf/Stem Juice": [
     "antioxidant"
   ],
   "Chrysanthemum Zawadskii Flower Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cichorium Intybus Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cimicifuga Dahurica Root Extract": [
     "antioxidant"
   ],
   "Cimicifuga Racemosa Root Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cinnamomum Cassia Bark/Syzgium Aromaticum Bud/Rosmarinus Officinalis Leaf/Thymus Vulgaris Leaf Oil": [
     "antioxidant"
@@ -2697,13 +2793,16 @@
     "antioxidant"
   ],
   "Citrus Australasica Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Citrus Australasica Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Citrus Glauca Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Citrus Junos Extract": [
     "antioxidant"
@@ -2718,7 +2817,8 @@
     "antioxidant"
   ],
   "Citrus Unshiu Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Citrus Unshiu Fruit Powder": [
     "antioxidant"
@@ -2727,7 +2827,8 @@
     "antioxidant"
   ],
   "Coconut Flower Sugar": [
-    "antioxidant"
+    "antioxidant",
+    "surfactant-cleansing"
   ],
   "Coffea Arabica Fruit Extract": [
     "antioxidant"
@@ -2751,7 +2852,8 @@
     "antioxidant"
   ],
   "Cordyceps Sinensis Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Crocus Sativus Callus Extract": [
     "antioxidant"
@@ -2781,7 +2883,8 @@
     "antioxidant"
   ],
   "Cyclopia Genistoides Flower/Leaf/Stem Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cyclopia Genistoides Leaf Extract": [
     "antioxidant"
@@ -2796,7 +2899,8 @@
     "antioxidant"
   ],
   "Cymbidium Erythraeum Flower Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Cymbopogon Citratus Leaf Water": [
     "antioxidant"
@@ -2823,16 +2927,19 @@
     "antioxidant"
   ],
   "Davidsonia Jerseyana Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Davidsonia Jerseyana Fruit Powder": [
     "antioxidant"
   ],
   "Davidsonia Jerseyana Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Davidsonia Pruriens Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Decapeptide-6": [
     "antioxidant"
@@ -2877,7 +2984,8 @@
     "antioxidant"
   ],
   "Diospyros Kaki Calyx Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Disodium Ascorbyl Sulfate": [
     "antioxidant"
@@ -2934,7 +3042,8 @@
     "antioxidant"
   ],
   "Euterpe Oleracea Pulp Powder": [
-    "antioxidant"
+    "antioxidant",
+    "abrasive-scrub"
   ],
   "Ferulic Acid": [
     "antioxidant"
@@ -2967,7 +3076,8 @@
     "antioxidant"
   ],
   "Fusanus Acuminatus Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Galactoarabinan": [
     "antioxidant"
@@ -3006,10 +3116,12 @@
     "antioxidant"
   ],
   "Glyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Glycine Max Callus Culture": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Glycine Max Extract": [
     "antioxidant"
@@ -3018,7 +3130,8 @@
     "antioxidant"
   ],
   "Glycine Max Phytoplacenta Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Glycine Tomentella Root Extract": [
     "antioxidant"
@@ -3030,7 +3143,8 @@
     "antioxidant"
   ],
   "Grifola Frondosa Mycelium Ferment Filtrate Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Haematococcus Pluvialis Extract": [
     "antioxidant"
@@ -3051,7 +3165,8 @@
     "antioxidant"
   ],
   "Hexyl 3-Glyceryl Ascorbate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hibiscus Sabdariffa Leaf Extract": [
     "antioxidant"
@@ -3075,10 +3190,12 @@
     "antioxidant"
   ],
   "Hordeum Vulgare Sprout Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hyaluronic Acid/Polyglutamic Acid Crosspolymer": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hydrogen": [
     "antioxidant"
@@ -3108,7 +3225,8 @@
     "antioxidant"
   ],
   "Hydrolyzed Proanthocyanidin": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hydrolyzed Prunus Domestica Fruit Extract": [
     "antioxidant"
@@ -3120,13 +3238,15 @@
     "antioxidant"
   ],
   "Hydrolyzed Tremella Fuciformis Sporocarp Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hydrolyzed Verbascum Thapsus Flower": [
     "antioxidant"
   ],
   "Hydrolyzed Wheat Bran": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Hydroxyacetophenone": [
     "antioxidant"
@@ -3189,7 +3309,8 @@
     "antioxidant"
   ],
   "Kunzea Pomifera Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Lactobacillus/Amaranthus Caudatus Seed Flour Ferment Filtrate": [
     "antioxidant"
@@ -3351,7 +3472,8 @@
     "antioxidant"
   ],
   "Methyl Carboxymethylphenyl Aminocarboxypropylphosphonate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Methyl Di-T-Butyl Hydroxyhydrocinnamate": [
     "antioxidant"
@@ -3393,7 +3515,8 @@
     "antioxidant"
   ],
   "Myrothamnus Flabellifolia Callus Culture Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "N-Decanoyl Serinol": [
     "antioxidant"
@@ -3408,13 +3531,15 @@
     "antioxidant"
   ],
   "Nelumbo Nucifera Callus Culture Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Nelumbo Nucifera Flower/Leaf/Stem Juice": [
     "antioxidant"
   ],
   "Nelumbo Nucifera Phytoplacenta Culture Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Nicotinamide Mononucleotide": [
     "antioxidant"
@@ -3495,7 +3620,8 @@
     "antioxidant"
   ],
   "Opuntia Ficus-Indica Callus Culture Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Opuntia Ficus-Indica Fruit Water": [
     "antioxidant"
@@ -3576,7 +3702,8 @@
     "antioxidant"
   ],
   "Phaseolus Angularis Seed Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Phenethyl Caffeate": [
     "antioxidant"
@@ -3627,10 +3754,12 @@
     "antioxidant"
   ],
   "Pisum Sativum Callus Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Pisum Sativum Phytoplacenta Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Platinum": [
     "antioxidant"
@@ -3642,7 +3771,8 @@
     "antioxidant"
   ],
   "Plukenetia Volubilis Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Plumeria Obtusa Leaf Cell Extract": [
     "antioxidant"
@@ -3666,7 +3796,8 @@
     "antioxidant"
   ],
   "Polypodium Vulgare Rhizome Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Porphyridium Cruentum Culture Conditioned Media": [
     "antioxidant"
@@ -3684,7 +3815,8 @@
     "antioxidant"
   ],
   "Potassium Lauroyl Glycinate": [
-    "antioxidant"
+    "antioxidant",
+    "surfactant-cleansing"
   ],
   "Pouteria Sapota Seed Butter": [
     "antioxidant"
@@ -3705,7 +3837,8 @@
     "antioxidant"
   ],
   "Prunus Cerasus Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Prunus Cerasus Fruit Extract": [
     "antioxidant"
@@ -3750,7 +3883,8 @@
     "antioxidant"
   ],
   "Pyrroloquinoline Quinone": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Pyrroloquinoline Quinone Allyl Ester": [
     "antioxidant"
@@ -3813,7 +3947,8 @@
     "antioxidant"
   ],
   "Rosa Damascena Callus Culture Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Rosa Damascena Flower Oil": [
     "antioxidant"
@@ -3828,10 +3963,12 @@
     "antioxidant"
   ],
   "Rosa Multiflora Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Rosa Multiflora Flower Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Rosa Multiflora Seed Oil": [
     "antioxidant"
@@ -3852,7 +3989,8 @@
     "antioxidant"
   ],
   "Rubus Arcticus Callus Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Rubus Arcticus Fruit Extract": [
     "antioxidant"
@@ -3903,16 +4041,19 @@
     "antioxidant"
   ],
   "Saccharomyces/Triticum Aestivum Seed Ferment Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Salvia Hispanica Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sambucus Williamsii Phytoplacenta Extract": [
     "antioxidant"
   ],
   "Santalum Acuminatum Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sarcodon Aspratus Extract": [
     "antioxidant"
@@ -3930,7 +4071,8 @@
     "antioxidant"
   ],
   "Schizophyllum Commune/Citrus Unshiu Peel Extract Ferment Filtrate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sclerocarya Birrea Callus Extract": [
     "antioxidant"
@@ -3960,7 +4102,8 @@
     "antioxidant"
   ],
   "Snail Secretion Filtrate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sodium Ascorbate": [
     "antioxidant"
@@ -3978,7 +4121,8 @@
     "antioxidant"
   ],
   "Sodium Hyaluronate Crosspolymer": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Sodium Metabisulfite": [
     "antioxidant"
@@ -3987,7 +4131,8 @@
     "antioxidant"
   ],
   "Sodium Tocopheryl Phosphate": [
-    "antioxidant"
+    "antioxidant",
+    "surfactant-cleansing"
   ],
   "Soil Minerals/Syringa Vulgaris Leaf Cell Culture Extract": [
     "antioxidant"
@@ -4029,10 +4174,12 @@
     "antioxidant"
   ],
   "Syzygium Leuhmanii Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Syzygium Luehmannii Fruit Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Syzygium Samarangense Fruit Extract": [
     "antioxidant"
@@ -4047,7 +4194,8 @@
     "antioxidant"
   ],
   "Terminalia Ferdinandiana Seed Oil": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Tetrabutyl Ethylidenebisphenol": [
     "antioxidant"
@@ -4104,7 +4252,8 @@
     "antioxidant"
   ],
   "Tocopheryl Retinoate": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Tocopheryl Succinate": [
     "antioxidant"
@@ -4116,10 +4265,12 @@
     "antioxidant"
   ],
   "Trachelospermum Asiaticum Flower/Leaf/Stem Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Tremella Fuciformis Sporocarp Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Trifolium Pratense Leaf Extract": [
     "antioxidant"
@@ -4140,7 +4291,8 @@
     "antioxidant"
   ],
   "Tripropylene Glycol": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Tris-BHT Mesitylene": [
     "antioxidant"
@@ -4161,7 +4313,8 @@
     "antioxidant"
   ],
   "Tulipa Gesneriana Phytoplacenta Extract": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Tyrosyl Histidine Hcl": [
     "antioxidant"
@@ -4170,7 +4323,8 @@
     "antioxidant"
   ],
   "Ubiquinol": [
-    "antioxidant"
+    "antioxidant",
+    "moisturizer-humectant"
   ],
   "Ubiquinone": [
     "antioxidant"
@@ -4239,7 +4393,8 @@
     "antioxidant"
   ],
   "Volcanic Rock": [
-    "antioxidant"
+    "antioxidant",
+    "abrasive-scrub"
   ],
   "Wine Extract": [
     "antioxidant"
@@ -4273,5 +4428,5289 @@
   ],
   "Zonaria Tournefortii Extract": [
     "antioxidant"
+  ],
+  "3-Aminopropane Sulfonic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Acetamide Mea": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Acrylates Crosspolymer-4": [
+    "surfactant-cleansing"
+  ],
+  "Acrylic Acid/VP Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Aminopropyl Triethoxysilane": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Coco-Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Cocoyl Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Lauroyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Polyacrylate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Ammonium Xylenesulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Amp-Isostearoyl Hydrolyzed Collagen": [
+    "surfactant-cleansing"
+  ],
+  "Amp-Isostearoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Ampd-Isostearoyl Hydrolyzed Collagen": [
+    "surfactant-cleansing"
+  ],
+  "Aphanizomenon Flos-Aquae Powder": [
+    "surfactant-cleansing"
+  ],
+  "Apricot Kernel Oil PEG-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Apricot Kernel Oil Polyglyceryl-4 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Apricot Kernel Oil Polyglyceryl-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Arachidic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Arachidyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Argan Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Argan Oil PEG-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Argan Oil Polyglyceryl-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Avocado Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Avocado Oil Polyglyceryl-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Azelamide Mea": [
+    "surfactant-cleansing"
+  ],
+  "Babassu Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Babassuamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Babassuamidopropyltrimonium Methosulfate": [
+    "surfactant-cleansing"
+  ],
+  "Beheneth-10": [
+    "surfactant-cleansing"
+  ],
+  "Beheneth-25": [
+    "surfactant-cleansing"
+  ],
+  "Beheneth-30": [
+    "surfactant-cleansing"
+  ],
+  "Beheneth­‐20": [
+    "surfactant-cleansing"
+  ],
+  "Behenic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Behentrimonium Methosulfate": [
+    "surfactant-cleansing"
+  ],
+  "Behenyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Benzalkonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Benzethonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Bis-Butyldimethicone Polyglyceryl-3": [
+    "surfactant-cleansing"
+  ],
+  "Bis-Isobutyl PEG/PPG-10/7/Dimethicone Copolymer": [
+    "surfactant-cleansing"
+  ],
+  "Bis-PEG-15 Methyl Ether Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Bis-PEG-18 Methyl Ether Dimethyl Silane": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Bis-PEG-8 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Bis-PEG/PPG-14/14 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Bis-PEG/PPG-20/20 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Brassica Oleracea Italica Sprout Powder": [
+    "surfactant-cleansing"
+  ],
+  "Butyl Polydimethylsiloxy Ethoxypropyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Butylene Glycol Behenate": [
+    "surfactant-cleansing"
+  ],
+  "Butylene Glycol Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Butyloctanoic Acid": [
+    "surfactant-cleansing"
+  ],
+  "C10-16 Alkyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "C10-16 Pareth-1": [
+    "surfactant-cleansing"
+  ],
+  "C11-15 Pareth-12": [
+    "surfactant-cleansing"
+  ],
+  "C11-15 Pareth-40": [
+    "surfactant-cleansing"
+  ],
+  "C11-15 Pareth-5": [
+    "surfactant-cleansing"
+  ],
+  "C11-15 Pareth-7": [
+    "surfactant-cleansing"
+  ],
+  "C11-15 Pareth-9": [
+    "surfactant-cleansing"
+  ],
+  "C12-13 Pareth-23": [
+    "surfactant-cleansing"
+  ],
+  "C12-13 Pareth-3": [
+    "surfactant-cleansing"
+  ],
+  "C12-13 Pareth-9": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Pareth-12": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Pareth-3": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Pareth-5": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Pareth-7": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Pareth-9": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Sec-Pareth-12": [
+    "surfactant-cleansing"
+  ],
+  "C12-14 Sec-Pareth-7": [
+    "surfactant-cleansing"
+  ],
+  "C12-15 Pareth-12": [
+    "surfactant-cleansing"
+  ],
+  "C12-15 Pareth-2": [
+    "surfactant-cleansing"
+  ],
+  "C12-15 Pareth-3": [
+    "surfactant-cleansing"
+  ],
+  "C12-15 Pareth-3 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "C12-15 Pareth-9": [
+    "surfactant-cleansing"
+  ],
+  "C12-16 Pareth-9": [
+    "surfactant-cleansing"
+  ],
+  "C12-20 Acid PEG-8 Ester": [
+    "surfactant-cleansing"
+  ],
+  "C12-20 Alkyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "C18-36 Acid": [
+    "surfactant-cleansing"
+  ],
+  "C18-36 Acid Glycol Ester": [
+    "surfactant-cleansing"
+  ],
+  "C20-22 Alkyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "C20-40 Acid": [
+    "surfactant-cleansing"
+  ],
+  "C20-40 Pareth-10": [
+    "surfactant-cleansing"
+  ],
+  "C20-40 Pareth-3": [
+    "surfactant-cleansing"
+  ],
+  "C20-40 Pareth-40": [
+    "surfactant-cleansing"
+  ],
+  "C30-38 Olefin/Isopropyl Maleate/Ma Copolymer": [
+    "surfactant-cleansing"
+  ],
+  "C9-11 Pareth-6": [
+    "surfactant-cleansing"
+  ],
+  "C9-11 Pareth-8": [
+    "surfactant-cleansing"
+  ],
+  "C9-15 Alkyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Calcium Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Candelilla/Jojoba/Rice Bran Polyglyceryl-3 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Candida Bombicola/Glucose/Methyl Rapeseedate Ferment": [
+    "surfactant-cleansing"
+  ],
+  "Canola Oil Glyceride": [
+    "surfactant-cleansing"
+  ],
+  "Capric Acid": [
+    "surfactant-cleansing"
+  ],
+  "Capric/Lauric/Myristic/Oleic Amidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Caproic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Capryl/Capramidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Caprylic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Caprylic/Capric Triglyceride PEG-4 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Capryloyl Glycine": [
+    "surfactant-cleansing"
+  ],
+  "Capryloyl Silk Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Capryloyl/Caproyl Methyl Glucamide": [
+    "surfactant-cleansing"
+  ],
+  "Caprylyl Dimethicone Ethoxy Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Caprylyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Caprylyl Glyceryl Ether": [
+    "surfactant-cleansing"
+  ],
+  "Caprylyl/Capryl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Caprylyl/Capryl Wheat Bran/Straw Glycosides": [
+    "surfactant-cleansing"
+  ],
+  "Capsicum Frutescens Resin": [
+    "surfactant-cleansing"
+  ],
+  "Ceanothus Americanus Extract": [
+    "surfactant-cleansing"
+  ],
+  "Cetearamidoethyldiethonium Succinoyl Hydrolyzed Pea Protein": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-10": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-10 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-100": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-12": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-15": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-16": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-18": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-2": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-20": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-22": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-23": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-24": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-25": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-29": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-30": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-33": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-5": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-50": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-6": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-60": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-60 Myristyl Glycol": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-7": [
+    "surfactant-cleansing"
+  ],
+  "Ceteareth-80": [
+    "surfactant-cleansing"
+  ],
+  "Cetearyl Alcohol": [
+    "surfactant-cleansing"
+  ],
+  "Cetearyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Cetearyl Wheat Bran Glycosides": [
+    "surfactant-cleansing"
+  ],
+  "Cetearyl Wheat Straw Glycosides": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-10": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-10 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-15": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-150": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-16": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-20": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-20 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-23": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-24": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-25": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-3": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-30": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-4": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-40": [
+    "surfactant-cleansing"
+  ],
+  "Ceteth-5": [
+    "surfactant-cleansing"
+  ],
+  "Cetrimonium Bromide": [
+    "surfactant-cleansing"
+  ],
+  "Cetrimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Cetrimonium Methosulfate": [
+    "surfactant-cleansing"
+  ],
+  "Cetyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Cetyl Diglyceryl Tris(Trimethylsiloxy)Silylethyl Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Cetyl PEG/PPG-10/1 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Cetyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Cetylpyridinium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Chlorelleth-20": [
+    "surfactant-cleansing"
+  ],
+  "Choleth-10": [
+    "surfactant-cleansing"
+  ],
+  "Choleth-15": [
+    "surfactant-cleansing"
+  ],
+  "Choleth-20": [
+    "surfactant-cleansing"
+  ],
+  "Choleth-24": [
+    "surfactant-cleansing"
+  ],
+  "Chrysanthemum Sinense Flower Extract": [
+    "surfactant-cleansing"
+  ],
+  "Citrus Aurantifolia Juice": [
+    "surfactant-cleansing"
+  ],
+  "Citrus Aurantifolia Oil": [
+    "surfactant-cleansing"
+  ],
+  "Citrus Aurantifolia Peel Extract": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide DEA": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide Dipa": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide MEA": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide MIPA": [
+    "surfactant-cleansing"
+  ],
+  "Cocamide Methyl Mea": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidoethyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidopropyl Betainamide Mea Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidopropyl Dimethylamine": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidopropyl Hydroxysultaine": [
+    "surfactant-cleansing"
+  ],
+  "Cocamidopropylamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Cocamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Coceth-20": [
+    "surfactant-cleansing"
+  ],
+  "Coceth-7": [
+    "surfactant-cleansing"
+  ],
+  "Coco-Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Coco-Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Coco/Oleamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Cocodimonium Hydroxypropyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Cocoglucosides Hydroxypropyltrimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Coconut Acid": [
+    "surfactant-cleansing"
+  ],
+  "Coconut Alcohol": [
+    "surfactant-cleansing"
+  ],
+  "Coconut Oil Aminoethoxyethanol Amides": [
+    "surfactant-cleansing"
+  ],
+  "Coconut Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Cocotrimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Collagen": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Keratin": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Oat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Rice Protein": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Soy Protein": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Hydroxyethyl Imidazoline": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Methyl Glucamide": [
+    "surfactant-cleansing"
+  ],
+  "Cocoyl Sarcosine": [
+    "surfactant-cleansing"
+  ],
+  "Cottonseed Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Cupuassuamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Deceth-7": [
+    "surfactant-cleansing"
+  ],
+  "Decyl Alcohol": [
+    "surfactant-cleansing"
+  ],
+  "Decyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Decyl Polyglucose": [
+    "surfactant-cleansing"
+  ],
+  "Decyloxazolidinone": [
+    "surfactant-cleansing"
+  ],
+  "Decyltetradeceth-30": [
+    "surfactant-cleansing"
+  ],
+  "Dextrin Myristate": [
+    "surfactant-cleansing"
+  ],
+  "Dextrin Palmitate": [
+    "surfactant-cleansing"
+  ],
+  "Dextrin Palmitate/Ethylhexanoate": [
+    "surfactant-cleansing"
+  ],
+  "Di-C12-15 Pareth-8 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Di-PPG-2 Myreth-10 Adipate": [
+    "surfactant-cleansing"
+  ],
+  "Dicapryl Sodium Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Dicetyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Dicetyldimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Dicocodimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Didecyldimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Diethylhexyl Sodium Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Dihydrocholeth-30": [
+    "surfactant-cleansing"
+  ],
+  "Diisocetyl Dodecanedioate": [
+    "surfactant-cleansing"
+  ],
+  "Diisostearyl Malate": [
+    "surfactant-cleansing"
+  ],
+  "Dimaltosyl Cyclodextrin": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone PEG-7 Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone PEG-7 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone PEG-8 Polyacrylate": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone PEG/PPG-12/4 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone Propyl Pg-Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone/PEG-10 Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone/PEG-15 Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Dimethicone/Polyglycerin-3 Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Dimethyl Lauramide/Myristamide": [
+    "surfactant-cleansing"
+  ],
+  "Disodium 2-Sulfolaurate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium C12-14 Pareth-2 Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium C12-14 Pareth-3 Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Capryloyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cetearyl Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cocamido Mea-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cocamido Mipa-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Coco-Glucoside Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Coco-Glucoside Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cocoamphodiacetate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cocoamphodipropionate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Cocoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Deceth-6 Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Distyrylbiphenyl Disulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Ethylene Dicocamide PEG-15 Disulfate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Laureth Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauriminodiacetate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauriminodipropionate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauroamphodiacetate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauroyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauryl Phenyl Ether Disulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Lauryl Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Laurylglucosides Hydroxypropyl Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Oleamido Mea-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Oleamido Mipa-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium PEG-12 Dimethicone Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium PEG-5 Laurylcitrate Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium PEG-8 Palm Glycerides Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Ricinoleamido Mea-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Soyamphodiacetate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Stearoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Stearyl Sulfosuccinamate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Succinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Succinoyl Glycyrrhetinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Tetrapropenyl Succinate": [
+    "surfactant-cleansing"
+  ],
+  "Disodium Undecylenamido Mea-Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Disteareth-2 Lauroyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Dodecylbenzene Sulfonic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Dodecylbenzyltrimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Egg Yolk Extract": [
+    "surfactant-cleansing"
+  ],
+  "Ethylhexanamide Serinol": [
+    "surfactant-cleansing"
+  ],
+  "Ethylhexyl Coco-Oleate Estolide": [
+    "surfactant-cleansing"
+  ],
+  "Ethylhexyl Stearoyl Polyhydroxystearate": [
+    "surfactant-cleansing"
+  ],
+  "Fusel Wheat Bran/Straw Glycosides": [
+    "surfactant-cleansing"
+  ],
+  "Gleditsia Fera Pod Extract": [
+    "surfactant-cleansing"
+  ],
+  "Glycereth-2 Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "Glycereth-7 Caprylate/Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Glyceryl Oleate Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Glyceryl Olivate": [
+    "surfactant-cleansing"
+  ],
+  "Glycol Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Glycol Stearate Se": [
+    "surfactant-cleansing"
+  ],
+  "Helianthus Annuus Petal Extract": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Heptyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Hexylene Glycol": [
+    "surfactant-cleansing"
+  ],
+  "Hippophae Rhamnoidesamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Coconut Acid": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Lysolecithin": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Palm Glyceride": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Palm/Palm Kernel Oil PEG-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Sunflower Seed Oil Polyglyceryl-3 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Tallow Acid": [
+    "surfactant-cleansing"
+  ],
+  "Hydrogenated Vegetable Glyceride": [
+    "surfactant-cleansing"
+  ],
+  "Hydrolyzed Beeswax": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxylated Lecithin": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxyproline": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxypropyl Guar": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxypropyl Methylcellulose": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxypropylcocoate PEG-8 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxypropyltrimonium Maltodextrin Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Hydroxystearic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Inulin Lauryl Carbamate": [
+    "surfactant-cleansing"
+  ],
+  "Isoceteth-10": [
+    "surfactant-cleansing"
+  ],
+  "Isoceteth-20": [
+    "surfactant-cleansing"
+  ],
+  "Isoceteth-25": [
+    "surfactant-cleansing"
+  ],
+  "Isodeceth-6": [
+    "surfactant-cleansing"
+  ],
+  "Isolaureth-6": [
+    "surfactant-cleansing"
+  ],
+  "Isostearamide Mipa": [
+    "surfactant-cleansing"
+  ],
+  "Isosteareth-20": [
+    "surfactant-cleansing"
+  ],
+  "Isostearic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Isostearoyl Hydrolyzed Collagen": [
+    "surfactant-cleansing"
+  ],
+  "Isostearoyl Hydrolyzed Keratin": [
+    "surfactant-cleansing"
+  ],
+  "Jojoba Oil PEG-150 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Jojoba Wax PEG-120 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Laneth-15": [
+    "surfactant-cleansing"
+  ],
+  "Laneth-16": [
+    "surfactant-cleansing"
+  ],
+  "Laneth-40": [
+    "surfactant-cleansing"
+  ],
+  "Lanolin": [
+    "surfactant-cleansing"
+  ],
+  "Lanolin Acid": [
+    "surfactant-cleansing"
+  ],
+  "Lauramide Dea": [
+    "surfactant-cleansing"
+  ],
+  "Lauramide Mea": [
+    "surfactant-cleansing"
+  ],
+  "Lauramide Mipa": [
+    "surfactant-cleansing"
+  ],
+  "Lauramide/Myristamide Dea": [
+    "surfactant-cleansing"
+  ],
+  "Lauramidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Lauramidopropyl Hydroxysultaine": [
+    "surfactant-cleansing"
+  ],
+  "Lauramidopropylamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Lauramine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-1 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-10": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-11 Carboxylic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-12": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-2": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-20": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-21": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-23": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-25": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-3": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-3 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-30": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-4": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-40": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-5": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-5 Carboxylic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-50": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-6 Carboxylic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-7": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-7 Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Laureth-8": [
+    "surfactant-cleansing"
+  ],
+  "Lauroamphocarboxyglycinate": [
+    "surfactant-cleansing"
+  ],
+  "Lauroyl Methyl Glucamide": [
+    "surfactant-cleansing"
+  ],
+  "Lauroyl Sarcosine": [
+    "surfactant-cleansing"
+  ],
+  "Lauroyl/Myristoyl Methyl Glucamide": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Dimethicone/Polyglycerin-3 Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Hydroxysultaine": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl PEG-10 Tris[Trimethylsiloxy]Silylethyl Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl PEG-8 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Lauryl Pyrrolidone": [
+    "surfactant-cleansing"
+  ],
+  "Laurylpyridinium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Lavandula Angustifolia Flower Extract": [
+    "surfactant-cleansing"
+  ],
+  "Linoleic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Linolenic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Linseed Acid": [
+    "surfactant-cleansing"
+  ],
+  "Lysine Thiazolidine Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Macadamia Seed Oil Polyglyceryl-6 Esters Behenate": [
+    "surfactant-cleansing"
+  ],
+  "Magnesium Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Magnesium Laureth-8 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Magnesium Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Magnesium Oleth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Mannosylerythritol Lipid": [
+    "surfactant-cleansing"
+  ],
+  "Mea-Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Mentha Piperita Extract": [
+    "surfactant-cleansing"
+  ],
+  "Mipa-Cocoyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Mipa-Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Mipa-Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Myreth-3 Myristate": [
+    "surfactant-cleansing"
+  ],
+  "Myristamide Dipa": [
+    "surfactant-cleansing"
+  ],
+  "Myristamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Myristamidopropyl Dimethylamine Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Myristamidopropylamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Myristamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Myristic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Myristyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Myristyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Myristyl Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Nonyl Nonoxynol-49": [
+    "surfactant-cleansing"
+  ],
+  "Octoxynol-10": [
+    "surfactant-cleansing"
+  ],
+  "Octoxynol-11": [
+    "surfactant-cleansing"
+  ],
+  "Octoxynol-40": [
+    "surfactant-cleansing"
+  ],
+  "Octoxynol-9": [
+    "surfactant-cleansing"
+  ],
+  "Octyldodeceth-20": [
+    "surfactant-cleansing"
+  ],
+  "Octyldodeceth-25": [
+    "surfactant-cleansing"
+  ],
+  "Octyldodecyl Xyloside": [
+    "surfactant-cleansing"
+  ],
+  "Oleamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Oleoyl Sarcosine": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-10": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-10 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-16": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-2": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-20": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-25": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-3 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-30": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-40": [
+    "surfactant-cleansing"
+  ],
+  "Oleth-50": [
+    "surfactant-cleansing"
+  ],
+  "Oleyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Olivamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Olive Oil PEG-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Olive Oil Polyglyceryl-4 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Olivoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "PEG-10 Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-10 Rapeseed Sterol": [
+    "surfactant-cleansing"
+  ],
+  "PEG-10 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-100 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-100 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-120 Glyceryl Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-120 Methyl Glucose Trioleate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-15 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-15 Cocamine": [
+    "surfactant-cleansing"
+  ],
+  "PEG-150 Distearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-150 Polyglyceryl-2 Tristearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-150 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-160 Sorbitan Triisostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-2 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-2 Soyamine": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Glyceryl Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Glyceryl Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Phytosterol": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Sorbitan Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Sorbitan Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-20 Stearate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "PEG-200 Glyceryl Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-200 Hydrogenated Glyceryl Palmate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-25 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-25 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-250 Distearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-26-PPG-30 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-3 Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Glyceryl Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Glyceryl Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Glyceryl Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Glyceryl Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Lanolin": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Soy Sterol": [
+    "surfactant-cleansing"
+  ],
+  "PEG-30 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-32 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-35 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-36 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-4 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-4 Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Glyceryl Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Lanolin": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Sorbitan Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Sorbitan Perisostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Sorbitan Peroleate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Sorbitan Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-40 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-45 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-5 Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PEG-5 Glyceryl Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-5 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-5 Rapeseed Sterol": [
+    "surfactant-cleansing"
+  ],
+  "PEG-50 Glyceryl Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-50 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-50 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-55 Propylene Glycol Oleate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-55 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-6 Caprylic/Capric Glycerides": [
+    "surfactant-cleansing"
+  ],
+  "PEG-6 Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PEG-6 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-60 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-60 Glyceryl Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-60 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-7 Glyceryl Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-7 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-7 Trimethylolpropane Coconut Ether": [
+    "surfactant-cleansing"
+  ],
+  "PEG-70 Mango Glycerides": [
+    "surfactant-cleansing"
+  ],
+  "PEG-75 Lanolin": [
+    "surfactant-cleansing"
+  ],
+  "PEG-75 Meadowfoam Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-75 Shea Butter Glycerides": [
+    "surfactant-cleansing"
+  ],
+  "PEG-75 Stearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-78 Glyceryl Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Methyl Ether Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Methyl Ether Triethoxysilane": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Ricinoleate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-8 Stearate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "PEG-80 Glyceryl Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-80 Hydrogenated Castor Oil": [
+    "surfactant-cleansing"
+  ],
+  "PEG-80 Hydrogenated Glyceryl Palmate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-80 Sorbitan Laurate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-90 Diisostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG-90 Glyceryl Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-10/30 Copolymer": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-15/15 Allyl Ether Acetate": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-20/23 Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-300/55 Copolymer": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-8/3 Diisostearate": [
+    "surfactant-cleansing"
+  ],
+  "PEG/PPG-8/3 Laurate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "PEG/Poly(1,2-Butanediol)-52/32 Dimethyl Ether": [
+    "surfactant-cleansing"
+  ],
+  "POTASSIUM COCOYL (ARGININE/GLUTAMIC ACID/ISOLEUCINE/LEUCINE/LYSINE/PHENYLALANINE/PROLINE/THREONINE/VALINE)": [
+    "surfactant-cleansing"
+  ],
+  "PPG-1 Trideceth-6": [
+    "surfactant-cleansing"
+  ],
+  "PPG-1-PEG-9 Lauryl Glycol Ether": [
+    "surfactant-cleansing"
+  ],
+  "PPG-10 Cetyl Ether Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "PPG-13-Decyltetradeceth-24": [
+    "surfactant-cleansing"
+  ],
+  "PPG-14 Polyglyceryl-2 Ether": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2 Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2 Hydroxyehtyl Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2 Hydroxyethyl Cocamide": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2 Hydroxyethyl Coco/Isostearamide": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2-Deceth-12": [
+    "surfactant-cleansing"
+  ],
+  "PPG-2-Isodeceth-12": [
+    "surfactant-cleansing"
+  ],
+  "PPG-24-Glycereth-24": [
+    "surfactant-cleansing"
+  ],
+  "PPG-25-Laureth-25": [
+    "surfactant-cleansing"
+  ],
+  "PPG-38-Buteth-37": [
+    "surfactant-cleansing"
+  ],
+  "PPG-4-Ceteth-10": [
+    "surfactant-cleansing"
+  ],
+  "PPG-4-Ceteth-20": [
+    "surfactant-cleansing"
+  ],
+  "PPG-5-Ceteth-10 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "PPG-5-Ceteth-20": [
+    "surfactant-cleansing"
+  ],
+  "PPG-6-Decyltetradeceth-12": [
+    "surfactant-cleansing"
+  ],
+  "PPG-6-Decyltetradeceth-20": [
+    "surfactant-cleansing"
+  ],
+  "PPG-6-Decyltetradeceth-30": [
+    "surfactant-cleansing"
+  ],
+  "PPG-8-Ceteth-20": [
+    "surfactant-cleansing"
+  ],
+  "Palm Acid": [
+    "surfactant-cleansing"
+  ],
+  "Palm Kernel Acid": [
+    "surfactant-cleansing"
+  ],
+  "Palm Kernelamide Dea": [
+    "surfactant-cleansing"
+  ],
+  "Palm Kernelamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Palmeth-2 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Palmitoyl Collagen Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Palmitoyl Glycine": [
+    "surfactant-cleansing"
+  ],
+  "Palmitoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Pca Ethyl Cocoyl Arginate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Peach Kernel Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Pineamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Pinus Sibirica Seed Oil Polyglyceryl-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 101": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 123": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 124": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 182": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 183": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 184": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 185": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 188": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 234": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 235": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 338": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 401": [
+    "surfactant-cleansing"
+  ],
+  "Poloxamer 407": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-10 Caprylate/Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-10 Dilaurate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-10 Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-10 Trioleate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-2 Tetraisostearate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-20 Hexacaprylate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-20 Octaisononanoate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Caprate/Caprylate/Succinate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Caprylate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Cetyl Ether Olivate/Succinate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Dicitrate/Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Disiloxane Dimethicone": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-3 Sorbityl Linseedate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-4 Caprylate/Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-4 Laurate/Sebacate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-6 Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-6 Caprylate/Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-6 Palmitate/Succinate": [
+    "surfactant-cleansing"
+  ],
+  "Polyglyceryl-6 Tricaprylate": [
+    "surfactant-cleansing"
+  ],
+  "Polyquaternium-78": [
+    "surfactant-cleansing"
+  ],
+  "Polyquaternium-80": [
+    "surfactant-cleansing"
+  ],
+  "Polyquaternium-81": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 20": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 21": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 40": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 60": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 61": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 65": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 80": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 81": [
+    "surfactant-cleansing"
+  ],
+  "Polysorbate 85": [
+    "surfactant-cleansing"
+  ],
+  "Pomaderris Kumerahou Flower/Leaf Extract": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Behenate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium C12-13 Alkyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Castorate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cetyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoyl Glycinate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoyl Hydrolyzed Collagen": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoyl Hydrolyzed Oat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Cocoyl Hydrolyzed Soy Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Hempseedate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Laureth Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Laureth-5 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Laureth-6 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Lauroyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Lauroyl Wheat Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Linoleate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Linseedate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Myristate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Myristoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Oleate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Olivate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Olivoyl Hydrolyzed Oat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Olivoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Olivoyl Pca": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Potassium Olivoyl/Lauroyl Wheat Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palm Kernelate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palmate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palmitate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palmitoyl Hydrolyzed Rice Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palmitoyl Hydrolyzed Sweet Almond Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Palmitoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Ricinoleate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Shea Butterate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Sunflowerseedate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Tallowate": [
+    "surfactant-cleansing"
+  ],
+  "Potassium Taurine Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Caprylate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Hydroxystearate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Oleate": [
+    "surfactant-cleansing"
+  ],
+  "Propylene Glycol Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Prunus Persica Extract": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Quaternium-18": [
+    "surfactant-cleansing"
+  ],
+  "Quaternium-52": [
+    "surfactant-cleansing"
+  ],
+  "Quaternium-87": [
+    "surfactant-cleansing"
+  ],
+  "Quaternium-96": [
+    "surfactant-cleansing"
+  ],
+  "Quillaja Saponaria Bark": [
+    "surfactant-cleansing"
+  ],
+  "Quillaja Saponaria Bark Extract": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Rapeseed Acid": [
+    "surfactant-cleansing"
+  ],
+  "Rice Bran Acid": [
+    "surfactant-cleansing"
+  ],
+  "Rice Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Ricinoleic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Ricinoleth-40": [
+    "surfactant-cleansing"
+  ],
+  "Safflower Acid": [
+    "surfactant-cleansing"
+  ],
+  "Safflower Glyceride": [
+    "surfactant-cleansing"
+  ],
+  "Safflower Seed Oil Polyglyceryl-4 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Salvia Officinalis Leaf Extract": [
+    "surfactant-cleansing"
+  ],
+  "Sanguinaria Canadensis Rhizome/Root Extract": [
+    "surfactant-cleansing"
+  ],
+  "Sanguisorba Officinalis Root Extract": [
+    "surfactant-cleansing"
+  ],
+  "Sapindus Mukorossi Fruit Extract": [
+    "surfactant-cleansing"
+  ],
+  "Saponaria Officinalis Leaf Extract": [
+    "surfactant-cleansing"
+  ],
+  "Saponins": [
+    "surfactant-cleansing"
+  ],
+  "Sekken Soji": [
+    "surfactant-cleansing"
+  ],
+  "Shea Butter Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Shea Butter Glycerides": [
+    "surfactant-cleansing"
+  ],
+  "Shea Butteramidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Silicone Quaternium-17": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Arachidate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Arganamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Arganate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Astrocaryum Murumuruate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Avocadoate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Behenate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Behenoyl Lactylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Bis-Hydroxyethylglycinate Coco-Glucosides Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Bis-Hydroxyethylglycinate Lauryl-Glucosides Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Borageamidopropyl PG-Dimonium Chloride Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C10-16 Pareth-2 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C12-13 Pareth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C12-14 Olefin Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C12-15 Pareth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C12-15 Pareth-15 Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C12-18 Alkyl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C14-16 Olefin Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C14-17 Alkyl Sec Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C14-18 Olefin Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C16-18 Olefin Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium C8-16 Isoalkylsuccinyl Lactoglobulin Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Caprate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Caproyl Methyltaurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Caproyl Prolinate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Sodium Caproyl/Lauroyl Lactylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Capryloyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Carboxymethyl Beta-Glucan": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Carboxymethyl C10-16 Alkyl Glucoside": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Castorate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cetearyl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cetyl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocamidopropyl Pg-Dimonium Chloride Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocaminopropionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Coceth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Coceth-30 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Coco Pg-Dimonium Chloride Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Coco-Glucoside Tartrate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Coco-Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoa Butterate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoabutteramphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoamphopropionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoglyceryl Ether Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocomonoglyceride Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocomonoglyceride Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocopolyglucose Tartrate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocopolyglucoside Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Alaninate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Apple Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Barley Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Glycinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Hydrolyzed Royal Jelly": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Hydrolyzed Soy Protein": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Hydrolyzed Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Threoninate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl Wheat Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl/Olivoyl Hydrolyzed Oat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cocoyl/Olivoyl Hydrolyzed Oat/Wheat Protein": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Cottonseedamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Decylglucosides Hydroxypropylsulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Dihydroxycetyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Dilaureth-7 Citrate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Dioleth-8 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Dodecylbenzenesulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Dodoxynol-40 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Grapeseedate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Guaiazulene Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydrolyzed Potato Starch Dodecenylsuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydroxypropylphosphate Decylglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydroxypropylphosphate Laurylglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydroxypropylsulfonate Cocoglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydroxypropylsulfonate Decylglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Hydroxypropylsulfonate Laurylglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Isostearoyl Lactate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Isostearoyl Lactylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauraminopropionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-11 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-12 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-12 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-13 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-4 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-4 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-40 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-5 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-6 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-7 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laureth-8 Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauriminodipropionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroampho Pg-acetate Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Aspartate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Collagen Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Glycinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Hydrolyzed Silk": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Methyl Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Methylaminopropionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Oat Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauroyl Silk Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauryl Glucose Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauryl Glycol Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauryl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Lauryl Sulfoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Laurylglucosides Hydroxypropylsulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Linoleate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Mangoamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl 2-Sulfolaurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Cocoyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Isethionate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Lauroyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Myristoyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Oleoyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Palmitate Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Stearate Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Methyl Stearoyl Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Myreth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Myristate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Myristoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Myristoyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Myristyl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Oleate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Oleth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Oleth-8 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Olivamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Olivate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Olivoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium PEG-4 Cocamide Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palm Kernelate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmate/Cocoate/Palm Kernelate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmitate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmitoyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Palmoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Polynaphthalenesulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Polystyrene Sulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Rapeseedate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Ricebranamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Ricinoleate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Rosinate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sesamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sesquicarbonate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Shea Butterate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sheabutteramphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Soyate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Stearoyl Casein": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Stearoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Stearoyl Lactalbumin": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Stearyl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sunflowerseedamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sunflowerseedate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Surfactin": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Sweetalmondamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Tallate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Tallowamphoacetate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Tallowate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Taurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Taurine Cocoyl Methyltaurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Taurine Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Trideceth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Sodium Trideceth-4 Carboxylate": [
+    "surfactant-cleansing"
+  ],
+  "Sorbeth-20 Beeswax": [
+    "surfactant-cleansing"
+  ],
+  "Sorbeth-230 Tetraoleate": [
+    "surfactant-cleansing"
+  ],
+  "Sorbeth-30 Tetraisostearate": [
+    "surfactant-cleansing"
+  ],
+  "Sorbeth-6 Beeswax": [
+    "surfactant-cleansing"
+  ],
+  "Sorbitan Oleate Decylglucoside Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Sorbitan Sesquicaprylate": [
+    "surfactant-cleansing"
+  ],
+  "Sorbityl Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Soyamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Soyamidopropylamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Soyamidopropyldimethylamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Stearalkonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Stearamidopropyl Dimethylamine": [
+    "surfactant-cleansing"
+  ],
+  "Stearamine Oxide": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-10": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-100": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-15": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-16": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-2": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-20": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-200": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-21": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-25": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-3": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-30": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-4": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-6": [
+    "surfactant-cleansing"
+  ],
+  "Steareth-7": [
+    "surfactant-cleansing"
+  ],
+  "Stearoxypropyltrimonium Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Stearoyl Glutamic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Stearoyl Inulin": [
+    "surfactant-cleansing"
+  ],
+  "Stearyl Alcohol": [
+    "surfactant-cleansing"
+  ],
+  "Stearyl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Stearyldimoniumhydroxypropyl Decylglucosides Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Stearyldimoniumhydroxypropyl Laurylglucosides Chloride": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Dilaurate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Distearate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Laurate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Palmitate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Polybehenate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Polycottonseedate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Polystearate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Sucrose Trilaurate": [
+    "surfactant-cleansing"
+  ],
+  "Sulfated Castor Oil": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Sulfated Olive Oil": [
+    "surfactant-cleansing"
+  ],
+  "Sunflower Seed Acid": [
+    "surfactant-cleansing"
+  ],
+  "Sunflower Seed Oil Glycereth-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Sunflower Seed Oil PEG-8 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Sunfloweroyl Methylglucamide": [
+    "surfactant-cleansing"
+  ],
+  "TEA-Lauryl Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "TEA-Stearate": [
+    "surfactant-cleansing"
+  ],
+  "Tallow Acid": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Cocoate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Cocoyl Alaninate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Cocoyl Glutamate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Dodecylbenzenesulfonate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Isostearate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Lauroyl Collagen Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Lauroyl Keratin Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Lauroyl Methylaminopropionate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Lauroyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Tea-Palmitate": [
+    "surfactant-cleansing"
+  ],
+  "Theobroma Grandiflorum Seed Butter Glycerides": [
+    "surfactant-cleansing"
+  ],
+  "Thymus Serpillum Extract": [
+    "surfactant-cleansing"
+  ],
+  "Tipa-Laureth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Tipa-Lauroyl Sarcosinate": [
+    "surfactant-cleansing"
+  ],
+  "Tocopheryl Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Toluene Sulfonic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Tribehenin PEG-20 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Triceteth-5 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-10": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-12": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-15": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-5": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-50": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-6": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-6 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-7": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-7 Carboxylic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-8": [
+    "surfactant-cleansing"
+  ],
+  "Trideceth-9": [
+    "surfactant-cleansing"
+  ],
+  "Triisostearin PEG-6 Esters": [
+    "surfactant-cleansing"
+  ],
+  "Trilaureth-4 Phosphate": [
+    "surfactant-cleansing"
+  ],
+  "Trisodium Sulfosuccinate": [
+    "surfactant-cleansing"
+  ],
+  "Undeceth-11": [
+    "surfactant-cleansing"
+  ],
+  "Undeceth-5": [
+    "surfactant-cleansing"
+  ],
+  "Undecylenamidopropyl Betaine": [
+    "surfactant-cleansing"
+  ],
+  "Undecylenic Acid": [
+    "surfactant-cleansing"
+  ],
+  "Undecylenoyl Glycine": [
+    "surfactant-cleansing"
+  ],
+  "Undecylenoyl Oat Amino Acids": [
+    "surfactant-cleansing"
+  ],
+  "Vinyl Dimethicone/Lauryl Dimethicone Crosspolymer": [
+    "surfactant-cleansing"
+  ],
+  "Wheat Germ Acid": [
+    "surfactant-cleansing"
+  ],
+  "Xylityl Sesquicaprylate": [
+    "surfactant-cleansing",
+    "moisturizer-humectant"
+  ],
+  "Yucca Schidigera Leaf/Root/Stem Extract": [
+    "surfactant-cleansing"
+  ],
+  "Yucca Schidigera Stem Extract": [
+    "surfactant-cleansing"
+  ],
+  "Zinc Coceth Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Zinc Coco-Sulfate": [
+    "surfactant-cleansing"
+  ],
+  "Actinidia Chinensis Seed": [
+    "abrasive-scrub"
+  ],
+  "Adansonia Digitata Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Alumina": [
+    "abrasive-scrub"
+  ],
+  "Aluminum Silicate": [
+    "abrasive-scrub"
+  ],
+  "Amethyst Powder": [
+    "abrasive-scrub"
+  ],
+  "Amorphophallus Konjac Root Powder": [
+    "abrasive-scrub"
+  ],
+  "Argania Spinosa Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Argilla": [
+    "abrasive-scrub",
+    "moisturizer-humectant"
+  ],
+  "Astragalus Membranaceus Root Powder": [
+    "abrasive-scrub"
+  ],
+  "Attapulgite": [
+    "abrasive-scrub"
+  ],
+  "Avena Sativa Bran": [
+    "abrasive-scrub"
+  ],
+  "Avena Sativa Kernel Meal": [
+    "abrasive-scrub"
+  ],
+  "Bambusa Arundinacea Juice": [
+    "abrasive-scrub"
+  ],
+  "Bambusa Arundinacea Stem Powder": [
+    "abrasive-scrub"
+  ],
+  "Bertholletia Excelsa Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Butyrospermum Parkii Nut Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Calcium Carbonate": [
+    "abrasive-scrub"
+  ],
+  "Calcium Phosphate": [
+    "abrasive-scrub"
+  ],
+  "Calcium Pyrophosphate": [
+    "abrasive-scrub"
+  ],
+  "Calcium Sulfate": [
+    "abrasive-scrub"
+  ],
+  "Calcium Titanium Borosilicate": [
+    "abrasive-scrub"
+  ],
+  "Carapa Guaianensis Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Carya Illinoensis Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Castanea Crenata Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Chalk": [
+    "abrasive-scrub"
+  ],
+  "Charcoal Powder": [
+    "abrasive-scrub"
+  ],
+  "Chenopodium Quinoa Seed": [
+    "abrasive-scrub"
+  ],
+  "Chitin": [
+    "abrasive-scrub"
+  ],
+  "Chlorella Protothecoides": [
+    "abrasive-scrub"
+  ],
+  "Chondrus Crispus Powder": [
+    "abrasive-scrub"
+  ],
+  "Cicer Arietinum Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Citrus Tangerina Peel": [
+    "abrasive-scrub"
+  ],
+  "Cnidium Monnieri Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Cocos Nucifera Fruit": [
+    "abrasive-scrub"
+  ],
+  "Cocos Nucifera Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Coffea Arabica Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Coffea Robusta Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Conchiolin Powder": [
+    "abrasive-scrub"
+  ],
+  "Coral Powder": [
+    "abrasive-scrub"
+  ],
+  "Corylus Avellana Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Diamond Powder": [
+    "abrasive-scrub"
+  ],
+  "Diatomaceous Earth": [
+    "abrasive-scrub"
+  ],
+  "Dicalcium Phosphate": [
+    "abrasive-scrub"
+  ],
+  "Dicalcium Phosphate Dihydrate": [
+    "abrasive-scrub"
+  ],
+  "Dolomite": [
+    "abrasive-scrub"
+  ],
+  "Egg Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Ethyl Lactyl Retinoate": [
+    "abrasive-scrub"
+  ],
+  "Ethylene/Propylene Copolymer": [
+    "abrasive-scrub"
+  ],
+  "Eucalyptus Globulus Leaf Powder": [
+    "abrasive-scrub"
+  ],
+  "Euterpe Oleracea Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Fuller'S Earth": [
+    "abrasive-scrub"
+  ],
+  "Garcinia Mangostana Peel Powder": [
+    "abrasive-scrub"
+  ],
+  "Garnet Powder": [
+    "abrasive-scrub"
+  ],
+  "Glass": [
+    "abrasive-scrub"
+  ],
+  "Glass Beads": [
+    "abrasive-scrub"
+  ],
+  "Helianthus Annuus Seed Flour": [
+    "abrasive-scrub"
+  ],
+  "Helianthus Annuus Seedcake": [
+    "abrasive-scrub"
+  ],
+  "Hibiscus Sabdariffa Flower Powder": [
+    "abrasive-scrub"
+  ],
+  "Honey Powder": [
+    "abrasive-scrub"
+  ],
+  "Hordeum Vulgare Powder": [
+    "abrasive-scrub"
+  ],
+  "Hordeum Vulgare Seed Flour": [
+    "abrasive-scrub"
+  ],
+  "Hydrated Silica": [
+    "abrasive-scrub"
+  ],
+  "Hydrogenated Jojoba Oil": [
+    "abrasive-scrub"
+  ],
+  "Hydrogenated Poly(C6-20 Olefin)": [
+    "abrasive-scrub"
+  ],
+  "Hydrolyzed Opuntia Ficus-Indica Flower Extract": [
+    "abrasive-scrub"
+  ],
+  "Hydroxyapatite": [
+    "abrasive-scrub"
+  ],
+  "Illite": [
+    "abrasive-scrub"
+  ],
+  "Juglans Mandshurica Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Juglans Regia Seed": [
+    "abrasive-scrub"
+  ],
+  "Juglans Regia Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Kaolin": [
+    "abrasive-scrub"
+  ],
+  "Lactide": [
+    "abrasive-scrub"
+  ],
+  "Lactobacillus/Papaya Fruit Ferment Extract": [
+    "abrasive-scrub"
+  ],
+  "Lapis Lazuli": [
+    "abrasive-scrub"
+  ],
+  "Linum Usitatissimum Seed Flour": [
+    "abrasive-scrub"
+  ],
+  "Litchi Chinensis Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Lithothamnion Calcareum Powder": [
+    "abrasive-scrub"
+  ],
+  "Luffa Cylindrica": [
+    "abrasive-scrub"
+  ],
+  "Luffa Cylindrica Fruit": [
+    "abrasive-scrub"
+  ],
+  "Luffa Cylindrica Fruit Powder": [
+    "abrasive-scrub"
+  ],
+  "Lygodium Japonicum Spore": [
+    "abrasive-scrub"
+  ],
+  "Macadamia Integrifolia Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Macadamia Ternifolia Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Magnesium Potassium Fluorosilicate": [
+    "abrasive-scrub"
+  ],
+  "Magnesium Trisilicate": [
+    "abrasive-scrub"
+  ],
+  "Mangifera Indica Seed": [
+    "abrasive-scrub"
+  ],
+  "Marble Powder": [
+    "abrasive-scrub"
+  ],
+  "Melaleuca Alternifolia Leaf": [
+    "abrasive-scrub"
+  ],
+  "Melaleuca Alternifolia Leaf Powder": [
+    "abrasive-scrub"
+  ],
+  "Moroccan Lava Clay": [
+    "abrasive-scrub"
+  ],
+  "Mother Of Pearl": [
+    "abrasive-scrub"
+  ],
+  "Nacre Powder": [
+    "abrasive-scrub"
+  ],
+  "Nephrite Powder": [
+    "abrasive-scrub"
+  ],
+  "Oenothera Biennis Seed": [
+    "abrasive-scrub"
+  ],
+  "Olea Europaea Fruit": [
+    "abrasive-scrub"
+  ],
+  "Olea Europaea Husk Powder": [
+    "abrasive-scrub"
+  ],
+  "Olea Europaea Leaf Powder": [
+    "abrasive-scrub"
+  ],
+  "Olea Europaea Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Oryza Sativa Bran": [
+    "abrasive-scrub"
+  ],
+  "Oryza Sativa Extract": [
+    "abrasive-scrub"
+  ],
+  "Oryza Sativa Germ Powder": [
+    "abrasive-scrub"
+  ],
+  "Oryza Sativa Hull Powder": [
+    "abrasive-scrub"
+  ],
+  "Ostrea Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Ovum Powder": [
+    "abrasive-scrub"
+  ],
+  "Oyster Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Papaver Somniferum Seed": [
+    "abrasive-scrub"
+  ],
+  "Passiflora Edulis Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Passiflora Incarnata Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Persea Gratissima Fruit Powder": [
+    "abrasive-scrub"
+  ],
+  "Persea Gratissima Seed": [
+    "abrasive-scrub"
+  ],
+  "Phaseolus Angularis Seed": [
+    "abrasive-scrub"
+  ],
+  "Pistacia Vera Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Platinum Powder": [
+    "abrasive-scrub"
+  ],
+  "Polyhydroxybutyrate": [
+    "abrasive-scrub"
+  ],
+  "Polylactic Acid": [
+    "abrasive-scrub"
+  ],
+  "Porphyra Umbilicalis Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Amygdalus Dulcis Seed Meal": [
+    "abrasive-scrub"
+  ],
+  "Prunus Amygdalus Dulcis Seedcoat Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Amygdalus Dulcis Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Armeniaca Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Armeniaca Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Cerasus Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Prunus Mume Fruit": [
+    "abrasive-scrub"
+  ],
+  "Prunus Persica Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Pumice": [
+    "abrasive-scrub"
+  ],
+  "Punica Granatum Seed": [
+    "abrasive-scrub"
+  ],
+  "Punica Granatum Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Pyrus Cydonia Seed": [
+    "abrasive-scrub"
+  ],
+  "Quartz": [
+    "abrasive-scrub"
+  ],
+  "Quartz Powder": [
+    "abrasive-scrub"
+  ],
+  "Rosa Canina Seed": [
+    "abrasive-scrub"
+  ],
+  "Rosa Canina Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Rosa Centifolia Flower Powder": [
+    "abrasive-scrub"
+  ],
+  "Rosa Rugosa Bud Powder": [
+    "abrasive-scrub",
+    "moisturizer-humectant"
+  ],
+  "Rubus Idaeus Seed": [
+    "abrasive-scrub"
+  ],
+  "Rubus Idaeus Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Salix Alba Bark Powder": [
+    "abrasive-scrub"
+  ],
+  "Salvia Hispanica Seed": [
+    "abrasive-scrub"
+  ],
+  "Salvia Hispanica Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Sand": [
+    "abrasive-scrub"
+  ],
+  "Scutellaria Baicalensis Root Powder": [
+    "abrasive-scrub"
+  ],
+  "Sesamum Indicum Seed": [
+    "abrasive-scrub"
+  ],
+  "Silicon": [
+    "abrasive-scrub"
+  ],
+  "Simmondsia Chinensis Seed Extract": [
+    "abrasive-scrub"
+  ],
+  "Sodium Bicarbonate": [
+    "abrasive-scrub"
+  ],
+  "Sodium Hydroxypropyl Starch Phosphate": [
+    "abrasive-scrub"
+  ],
+  "Sodium Magnesium Fluorosilicate": [
+    "abrasive-scrub"
+  ],
+  "Sodium Silicoaluminate": [
+    "abrasive-scrub"
+  ],
+  "Sodium Tetrahydrojasmonate": [
+    "abrasive-scrub"
+  ],
+  "Stemona Sessifolia Root Powder": [
+    "abrasive-scrub"
+  ],
+  "Syringa Oblata Bark/Leaf Powder": [
+    "abrasive-scrub",
+    "moisturizer-humectant"
+  ],
+  "Talc": [
+    "abrasive-scrub"
+  ],
+  "Tetrahydrojasmonic Acid": [
+    "abrasive-scrub"
+  ],
+  "Theobroma Cacao Husk": [
+    "abrasive-scrub"
+  ],
+  "Theobroma Cacao Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Theobroma Cacao Shell Powder": [
+    "abrasive-scrub"
+  ],
+  "Theobroma Grandiflorum Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Tin Oxide": [
+    "abrasive-scrub"
+  ],
+  "Topaz": [
+    "abrasive-scrub"
+  ],
+  "Tricalcium Phosphate": [
+    "abrasive-scrub"
+  ],
+  "Triticum Vulgare Bran": [
+    "abrasive-scrub"
+  ],
+  "Triticum Vulgare Kernel Flour": [
+    "abrasive-scrub"
+  ],
+  "Triticum Vulgare Starch": [
+    "abrasive-scrub"
+  ],
+  "Urtica Dioica Leaf Powder": [
+    "abrasive-scrub"
+  ],
+  "Vaccinium Angustifolium Seed": [
+    "abrasive-scrub"
+  ],
+  "Vaccinium Corymbosum Seed": [
+    "abrasive-scrub"
+  ],
+  "Vaccinium Macrocarpon Seed": [
+    "abrasive-scrub"
+  ],
+  "Vaccinium Macrocarpon Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Vaccinium Myrtillus Seedcake Powder": [
+    "abrasive-scrub"
+  ],
+  "Vanilla Planifolia Seed Powder": [
+    "abrasive-scrub"
+  ],
+  "Vanilla Tahitensis Seed": [
+    "abrasive-scrub"
+  ],
+  "Vibrio Alginolyticus Ferment Filtrate": [
+    "abrasive-scrub"
+  ],
+  "Volcanic Ash": [
+    "abrasive-scrub"
+  ],
+  "Wood Powder": [
+    "abrasive-scrub"
+  ],
+  "Zea Mays Cob Meal": [
+    "abrasive-scrub"
+  ],
+  "Zea Mays Cob Powder": [
+    "abrasive-scrub"
+  ],
+  "Zea Mays Kernel Meal": [
+    "abrasive-scrub"
+  ],
+  "Zea Mays Seed Flour": [
+    "abrasive-scrub"
+  ],
+  "Zea Mays Starch": [
+    "abrasive-scrub"
+  ],
+  "1,2-Butanediol": [
+    "moisturizer-humectant"
+  ],
+  "2,3-Butanediol": [
+    "moisturizer-humectant"
+  ],
+  "AURICULARIA POLYTRICHA FRUITING BODY EXTRACT": [
+    "moisturizer-humectant"
+  ],
+  "Acacia Seyal Gum": [
+    "moisturizer-humectant"
+  ],
+  "Acacia Seyal Gum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Acer Saccharum Sap": [
+    "moisturizer-humectant"
+  ],
+  "Acer Saccharum Sap Extract": [
+    "moisturizer-humectant"
+  ],
+  "Acetamidoethoxyethanol": [
+    "moisturizer-humectant"
+  ],
+  "Acetyl Ethylhexyl Polyhydroxystearate": [
+    "moisturizer-humectant"
+  ],
+  "Acetyl Heptapeptide-4": [
+    "moisturizer-humectant"
+  ],
+  "Acetyl Hexapeptide-37": [
+    "moisturizer-humectant"
+  ],
+  "Acetyl Hydroxyproline": [
+    "moisturizer-humectant"
+  ],
+  "Achillea Asiatica Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Acorus Gramineus Extract": [
+    "moisturizer-humectant"
+  ],
+  "Acronychia Acidula Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Acrylates/Acrylamide Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Adansonia Digitata Pulp Extract": [
+    "moisturizer-humectant"
+  ],
+  "Adenophora Stricta Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Agave Atrovirens Extract": [
+    "moisturizer-humectant"
+  ],
+  "Agrimonia Pilosa Extract": [
+    "moisturizer-humectant"
+  ],
+  "Agrostis Stolonifera Extract": [
+    "moisturizer-humectant"
+  ],
+  "Alanyl Glutamine": [
+    "moisturizer-humectant"
+  ],
+  "Albumen Extract": [
+    "moisturizer-humectant"
+  ],
+  "Alcaligenes Polysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Algae Exopolysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Algae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Allium Cepa Skin Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aloe Andongensis Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aloe Andongensis Leaf Juice": [
+    "moisturizer-humectant"
+  ],
+  "Aloe Barbadensis Leaf Polysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Aloe Yohjyu Matsu Ekisu": [
+    "moisturizer-humectant"
+  ],
+  "Alpha-Glucan": [
+    "moisturizer-humectant"
+  ],
+  "Alpha-Glucan Oligosaccharide-1": [
+    "moisturizer-humectant"
+  ],
+  "Alteromonas Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Althaea Rosea Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aluminum Hydroxide": [
+    "moisturizer-humectant"
+  ],
+  "Amidinoproline": [
+    "moisturizer-humectant"
+  ],
+  "Ammonium Lactate": [
+    "moisturizer-humectant"
+  ],
+  "Amniotic Fluid": [
+    "moisturizer-humectant"
+  ],
+  "Amorphophallus Konjac Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Amylose": [
+    "moisturizer-humectant"
+  ],
+  "Anadenanthera Colubrina Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Anhydroxylitol": [
+    "moisturizer-humectant"
+  ],
+  "Aphanizomenon Flos-Aquae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aphanizomenon Flosaquae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aphanothece Sacrum Polysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Apium Graveolens Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aquilegia Sibirica Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Arabinose": [
+    "moisturizer-humectant"
+  ],
+  "Arginine Pca": [
+    "moisturizer-humectant"
+  ],
+  "Aristotelia Chilensis Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Artemisia Glacialis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Asparagus Lucidus Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aspergillus Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Aspergillus/Rice Ferment": [
+    "moisturizer-humectant"
+  ],
+  "Aspergillus/Rice Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Aspergillus/Saccharomyces/Rice Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Aster Glehnii Extract": [
+    "moisturizer-humectant"
+  ],
+  "Atractylodes Macrocephala Root Powder": [
+    "moisturizer-humectant"
+  ],
+  "Aureobasidium Pullulans Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Averrhoa Carambola Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Backhousia Anisata Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Bamboo Vinegar": [
+    "moisturizer-humectant"
+  ],
+  "Bambusa Vulgaris Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Benzyl Pca": [
+    "moisturizer-humectant"
+  ],
+  "Bergenia Crassifolia Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Beta-Alanine": [
+    "moisturizer-humectant"
+  ],
+  "Betaine": [
+    "moisturizer-humectant"
+  ],
+  "Bidens Pilosa Extract": [
+    "moisturizer-humectant"
+  ],
+  "Bifida Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Biota Orientalis Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Bis-(Tetramethyl Hydroxypiperidinyl) Sebacate": [
+    "moisturizer-humectant"
+  ],
+  "Bis-Ethoxydiglycol Cyclohexane 1,4-Dicarboxylate": [
+    "moisturizer-humectant"
+  ],
+  "Bis-Ethoxydiglycol Succinate": [
+    "moisturizer-humectant"
+  ],
+  "Bis-Hydroxylauryl Dimethicone/Ipdi Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Bixa Orellana Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Black Strap Powder": [
+    "moisturizer-humectant"
+  ],
+  "Bombax Malabaricum Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Botrychium Virginianum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Brassica Campestris Sprout Extract": [
+    "moisturizer-humectant"
+  ],
+  "Brassica Napus Sprout Extract": [
+    "moisturizer-humectant"
+  ],
+  "Brassica Oleracea Acephala Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Brown Rice Vinegar": [
+    "moisturizer-humectant"
+  ],
+  "Butylene Glycol": [
+    "moisturizer-humectant"
+  ],
+  "Butyloctanol": [
+    "moisturizer-humectant"
+  ],
+  "Calcium Gluconate": [
+    "moisturizer-humectant"
+  ],
+  "Calcium Pca": [
+    "moisturizer-humectant"
+  ],
+  "Calophyllum Inophyllum Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Calophyllum Tacamahaca Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Camel Milk": [
+    "moisturizer-humectant"
+  ],
+  "Camellia Sinensis Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Camellia Sinensis Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Canarium Luzonicum Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cannabis Sativa Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Caprylyl Glycol": [
+    "moisturizer-humectant"
+  ],
+  "Capsicum Frutescens Fruit Powder": [
+    "moisturizer-humectant"
+  ],
+  "Carboxymethyl Chitosan Succinamide": [
+    "moisturizer-humectant"
+  ],
+  "Carica Papaya Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Carica Papaya Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Carnitine Hcl": [
+    "moisturizer-humectant"
+  ],
+  "Caryocar Coriaceum Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Cattleya Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ceramide AG": [
+    "moisturizer-humectant"
+  ],
+  "Cetraria Islandica Thallus Extract": [
+    "moisturizer-humectant"
+  ],
+  "Chitosan Pca": [
+    "moisturizer-humectant"
+  ],
+  "Chlamydomonas Reinhardtii Extract": [
+    "moisturizer-humectant"
+  ],
+  "Choline Chloride": [
+    "moisturizer-humectant"
+  ],
+  "Chondrus Crispus Extract": [
+    "moisturizer-humectant"
+  ],
+  "Chrysophyllum Cainito Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cistus Ladaniferus Leaf/Stem Water": [
+    "moisturizer-humectant"
+  ],
+  "Citrullus Lanatus Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Aurantium Tachibana Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Depressa Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Glauca Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Grandis Peel Water": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Natsudaidai Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Sinensis Flower Water": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Sudachi Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Sudachi Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Citrus Sunki Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cladosiphon Novae-Caledoniae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cladosiphon Novae-Caledoniae Polysaccharide": [
+    "moisturizer-humectant"
+  ],
+  "Cnidium Monnieri Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cocos Nucifera Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Cocos Nucifera Water": [
+    "moisturizer-humectant"
+  ],
+  "Coix Lacryma-Jobi Ma-Yuen Seed Powder": [
+    "moisturizer-humectant"
+  ],
+  "Coix Lacryma-Jobi Ma-Yuen Shell Extract": [
+    "moisturizer-humectant"
+  ],
+  "Coleus Forskohlii Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Collagen": [
+    "moisturizer-humectant"
+  ],
+  "Collagen Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Collagen Powder": [
+    "moisturizer-humectant"
+  ],
+  "Colloidal Oatmeal Extract": [
+    "moisturizer-humectant"
+  ],
+  "Connective Tissue Extract": [
+    "moisturizer-humectant"
+  ],
+  "Convolvulus Arvensis Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Copper Acetylmethionate": [
+    "moisturizer-humectant"
+  ],
+  "Copper Pca": [
+    "moisturizer-humectant"
+  ],
+  "Coriandrum Sativum Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Coriolus Versicolor Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cortusa Matthioli Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cryptomeria Japonica Branch/Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cryptomeria Japonica Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cucumis Melo Fruit Water": [
+    "moisturizer-humectant"
+  ],
+  "Cucumis Melo Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cucumis Melo Seed Oil": [
+    "moisturizer-humectant"
+  ],
+  "Curcuma Aromatica Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Curcuma Zedoaria Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cutaneous Lysate": [
+    "moisturizer-humectant"
+  ],
+  "Cyclopia Intermedia Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Cymbopogon Citratus Leaf Powder": [
+    "moisturizer-humectant"
+  ],
+  "Cyrtopodium Cardiochilum Pseudobulb Extract": [
+    "moisturizer-humectant"
+  ],
+  "Daucus Carota Sativa Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Daucus Carota Sativa Root Protoplasts": [
+    "moisturizer-humectant"
+  ],
+  "Dendrobium Candidum Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Deoxycholic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Dextrin": [
+    "moisturizer-humectant"
+  ],
+  "Dianthus Chinensis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Diglycerin": [
+    "moisturizer-humectant"
+  ],
+  "Diglycol Guanidine Succinate": [
+    "moisturizer-humectant"
+  ],
+  "Dihydroxyisopropyl Palmoylpalmamide": [
+    "moisturizer-humectant"
+  ],
+  "Dihydroxypropyl Arginine Hcl": [
+    "moisturizer-humectant"
+  ],
+  "Dihydroxypropyltrimonium Chloride": [
+    "moisturizer-humectant"
+  ],
+  "Dimethicone/Divinyldimethicone/Silsesquioxane Crosspolymer": [
+    "moisturizer-humectant"
+  ],
+  "Dimethiconol": [
+    "moisturizer-humectant"
+  ],
+  "Dimethylsilanol Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Dioscorea Panthaica Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Dipentaerythrityl Tetrabehenate/Polyhydroxystearate": [
+    "moisturizer-humectant"
+  ],
+  "Diplazium Sibiricum Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Disodium Acetyl Glucosamine Phosphate": [
+    "moisturizer-humectant"
+  ],
+  "Disodium Guanylate": [
+    "moisturizer-humectant"
+  ],
+  "Disodium Inosinate": [
+    "moisturizer-humectant"
+  ],
+  "Dodecenyl Stearylsuccinamide": [
+    "moisturizer-humectant"
+  ],
+  "Dracocephalum Nutans Flower/Leaf/Stem Water": [
+    "moisturizer-humectant"
+  ],
+  "Dunaliella Bardawil Extract": [
+    "moisturizer-humectant"
+  ],
+  "Durvillaea Potatorum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Echinacea Pallida Extract": [
+    "moisturizer-humectant"
+  ],
+  "Echinacea Purpurea Extract": [
+    "moisturizer-humectant"
+  ],
+  "Echinacea Purpurea Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Echinacin": [
+    "moisturizer-humectant"
+  ],
+  "Ecklonia Kurome Extract": [
+    "moisturizer-humectant"
+  ],
+  "Eel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Elephantopus Mollis Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Embryo Extract": [
+    "moisturizer-humectant"
+  ],
+  "Endomyces/Sodium Hyaluronate Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Enterococcus Faecalis": [
+    "moisturizer-humectant"
+  ],
+  "Epilobium Parviflorum Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Equisetum Arvense Powder": [
+    "moisturizer-humectant"
+  ],
+  "Erythritol": [
+    "moisturizer-humectant"
+  ],
+  "Ethoxydiglycol": [
+    "moisturizer-humectant"
+  ],
+  "Ethyl Glucoside": [
+    "moisturizer-humectant"
+  ],
+  "Eugenia Caryophyllus Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Eupatorium Lindleyanum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Fermented Vegetable": [
+    "moisturizer-humectant"
+  ],
+  "Ferric Sulfate": [
+    "moisturizer-humectant"
+  ],
+  "Ficus Carica Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Flavocetraria Nivalis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Foeniculum Vulgare Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Fructooligosaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Fructose": [
+    "moisturizer-humectant"
+  ],
+  "Galactomyces Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Galactooligosaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Galacturonic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Ganoderma Amboinense Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ganoderma Lucidum Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Ganoderma Lucidum Fruiting Body Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ganoderma Lucidum Stem Powder": [
+    "moisturizer-humectant"
+  ],
+  "Genistein Methyl Ether": [
+    "moisturizer-humectant"
+  ],
+  "Gentiana Scabra Extract": [
+    "moisturizer-humectant"
+  ],
+  "Gentiana Urnula Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Geranium Sibiricum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Glucamine": [
+    "moisturizer-humectant"
+  ],
+  "Glucomannan": [
+    "moisturizer-humectant"
+  ],
+  "Glucose": [
+    "moisturizer-humectant"
+  ],
+  "Glucose Glutamate": [
+    "moisturizer-humectant"
+  ],
+  "Glucosyl Hesperidin": [
+    "moisturizer-humectant"
+  ],
+  "Glucuronic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Glutamic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-12": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-18": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-20": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-26": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-7": [
+    "moisturizer-humectant"
+  ],
+  "Glycereth-8": [
+    "moisturizer-humectant"
+  ],
+  "Glycerin": [
+    "moisturizer-humectant"
+  ],
+  "Glyceryl Acrylate/Acrylic Acid Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Glyceryl Betaine/Polyacrylic Acid Esters": [
+    "moisturizer-humectant"
+  ],
+  "Glyceryl Glucoside": [
+    "moisturizer-humectant"
+  ],
+  "Glyceryl Olivate Oleate Estolides": [
+    "moisturizer-humectant"
+  ],
+  "Glycerylamidoethyl Methacrylate/Stearyl Methacrylate Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Glycine Soja Flour": [
+    "moisturizer-humectant"
+  ],
+  "Glycogen": [
+    "moisturizer-humectant"
+  ],
+  "Glycyrrhetinyl Stearate": [
+    "moisturizer-humectant"
+  ],
+  "Glycyrrhizic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Gossypium Herbaceum Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Gracilaria Verrucosa Extract": [
+    "moisturizer-humectant"
+  ],
+  "Helichrysum Stoechas Callus Culture Lysate": [
+    "moisturizer-humectant"
+  ],
+  "Hesperis Sibirica Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hexacarboxymethyl Dipeptide-12": [
+    "moisturizer-humectant"
+  ],
+  "Hexapeptide-10": [
+    "moisturizer-humectant"
+  ],
+  "Hexylglycerin": [
+    "moisturizer-humectant"
+  ],
+  "Hibiscus Rosa-Sinensis Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Histidine": [
+    "moisturizer-humectant"
+  ],
+  "Honey Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hordeum Vulgare Leaf Powder": [
+    "moisturizer-humectant"
+  ],
+  "Human Umbilical Mesenchymal Stem Cell Conditioned Media": [
+    "moisturizer-humectant"
+  ],
+  "Hyaluronic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Hydrangea Paniculata Flower/Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrogenated Honey": [
+    "moisturizer-humectant"
+  ],
+  "Hydrogenated Soybean Oil": [
+    "moisturizer-humectant"
+  ],
+  "Hydrogenated Starch Hydrolysate": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Artemisia Vulgaris Leaf": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Camellia Sinensis Leaf": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Chicken Cartilage Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Coix Lacryma-Jobi Ma-Yuen Seed": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Collagen": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Corn Starch": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Corn Starch Hydroxyethyl Ether": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Egg Shell Membrane": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Elastin": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Fish Scale/Skin Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Glycosaminoglycans": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Hyaluronic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Keratin": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Lactobacillus/Streptococcus Thermophilus/Colostrum Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Linseed Seed": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Marine Collagen": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Nettle Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Phyllostachys Bambusoides": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Placental Protein": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Sclerotium Gum": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Silk": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Sodium Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Soy Protein": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Starch": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Tremella Fuciformis Polysaccharide": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Trigonella Foenum-Graecum Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Wheat Gluten": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Wheat Protein": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Wool": [
+    "moisturizer-humectant"
+  ],
+  "Hydrolyzed Yeast Extract": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxyethyl Urea": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxyethylcellulose/Phosphorylcholine Glycol Acrylate Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropyl Bis-Hydroxyethyldimonium Chloride": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropyl Oxidized Starch Pg-Trimonium Chloride": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropylammonium Gluconate": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropylgluconamide": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropyltrimonium Corn/Wheat/Soy Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Hydroxypropyltrimonium Lemon Protein": [
+    "moisturizer-humectant"
+  ],
+  "Imperata Cylindrica Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Inositol": [
+    "moisturizer-humectant"
+  ],
+  "Iris Sibirica Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Isomalt": [
+    "moisturizer-humectant"
+  ],
+  "Isopentyldiol": [
+    "moisturizer-humectant"
+  ],
+  "Isosorbide": [
+    "moisturizer-humectant"
+  ],
+  "Isosorbide Disunflowerseedate": [
+    "moisturizer-humectant"
+  ],
+  "Jellyfish Extract": [
+    "moisturizer-humectant"
+  ],
+  "Juniperus Sibirica Needle Extract": [
+    "moisturizer-humectant"
+  ],
+  "Kalanchoe Daigremontiana Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactamide Mea": [
+    "moisturizer-humectant"
+  ],
+  "Lactitol": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Collagen Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Date Fruit Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Eriodictyon Californicum Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Hydrolyzed Collagen Ferment Filtrate Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Kelp Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Acetobacter/Kluyveromyces/Saccharomyces Milk Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Blueberry Fruit Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Broccoli Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Coconut Fruit Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Orange Fruit Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Leuconostoc/Tomato Fruit Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Milk Solids/Soybean Oil Ferment": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Nereocystis Luetkeana Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Olea Europaea Leaf Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Olive Leaf Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Punica Granatum Fruit Juice Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactobacillus/Turmeric Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactococcus/Hyaluronic Acid Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Lactose": [
+    "moisturizer-humectant"
+  ],
+  "Laminaria Algae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Larix Europaea Wood Extract": [
+    "moisturizer-humectant"
+  ],
+  "Larix Sibirica Needle Extract": [
+    "moisturizer-humectant"
+  ],
+  "Laurus Nobilis Leaf Water": [
+    "moisturizer-humectant"
+  ],
+  "Lauryl Pca": [
+    "moisturizer-humectant"
+  ],
+  "Lavandula Angustifolia Flower/Leaf/Stem Oil": [
+    "moisturizer-humectant"
+  ],
+  "Lavandula Angustifolia Flower/Leaf/Stem Water": [
+    "moisturizer-humectant"
+  ],
+  "Lens Esculenta Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lepidium Meyenii Root Powder": [
+    "moisturizer-humectant"
+  ],
+  "Lilium Hybrid Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lilium Tigrinum Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Limonium Tetragonum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Litsea Glutinosa Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Lonicera Caerulea Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Lysine PCA": [
+    "moisturizer-humectant"
+  ],
+  "Magnesium Pca": [
+    "moisturizer-humectant"
+  ],
+  "Magnesium Stearate": [
+    "moisturizer-humectant"
+  ],
+  "Maltitol": [
+    "moisturizer-humectant"
+  ],
+  "Maltose": [
+    "moisturizer-humectant"
+  ],
+  "Manganese Pca": [
+    "moisturizer-humectant"
+  ],
+  "Mannitol": [
+    "moisturizer-humectant"
+  ],
+  "Mannose": [
+    "moisturizer-humectant"
+  ],
+  "Maris Aqua": [
+    "moisturizer-humectant"
+  ],
+  "Meadowfoamamidopropyl Betaine": [
+    "moisturizer-humectant"
+  ],
+  "Melastoma Candidum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Melibiose": [
+    "moisturizer-humectant"
+  ],
+  "Menthyl Nicotinate": [
+    "moisturizer-humectant"
+  ],
+  "Menthyl Pca": [
+    "moisturizer-humectant"
+  ],
+  "Mesembryanthemum Crystallinum Callus Extract": [
+    "moisturizer-humectant"
+  ],
+  "Mesembryanthemum Crystallinum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Mesembryanthemum Crystallinum Juice": [
+    "moisturizer-humectant"
+  ],
+  "Methoxy PEG-10": [
+    "moisturizer-humectant"
+  ],
+  "Methoxypropylgluconamide": [
+    "moisturizer-humectant"
+  ],
+  "Methyl Gluceth-10": [
+    "moisturizer-humectant"
+  ],
+  "Methyl Gluceth-20": [
+    "moisturizer-humectant"
+  ],
+  "Methyl Glucose Dioleate": [
+    "moisturizer-humectant"
+  ],
+  "Methylheptylglycerin": [
+    "moisturizer-humectant"
+  ],
+  "Mevalonolactone": [
+    "moisturizer-humectant"
+  ],
+  "Monascus/Argania Spinosa Seedcake Ferment Oil": [
+    "moisturizer-humectant"
+  ],
+  "Myrica Cerifera Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Myrica Esculenta Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Myristica Fragrans Seed": [
+    "moisturizer-humectant"
+  ],
+  "Myristyl Malate Phosphonic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Myrothamnus Flabellifolia Extract": [
+    "moisturizer-humectant"
+  ],
+  "Myrothamnus Flabellifolia Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Nannochloropsis Oculata Extract": [
+    "moisturizer-humectant"
+  ],
+  "Nepeta Sibirica Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Octyldodecyl Citrate Crosspolymer": [
+    "moisturizer-humectant"
+  ],
+  "Oenocarpus Bacaba Fruit Oil": [
+    "moisturizer-humectant"
+  ],
+  "Oenocarpus Bataua Fruit Oil": [
+    "moisturizer-humectant"
+  ],
+  "Olive Glycerides": [
+    "moisturizer-humectant"
+  ],
+  "Opuntia Ficus-Indica Stem": [
+    "moisturizer-humectant"
+  ],
+  "Opuntia Streptacantha Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Orchid Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Oryza Sativa Hull Extract": [
+    "moisturizer-humectant"
+  ],
+  "PEG-10": [
+    "moisturizer-humectant"
+  ],
+  "PEG-10 Propylene Glycol": [
+    "moisturizer-humectant"
+  ],
+  "PEG-100": [
+    "moisturizer-humectant"
+  ],
+  "PEG-12": [
+    "moisturizer-humectant"
+  ],
+  "PEG-14": [
+    "moisturizer-humectant"
+  ],
+  "PEG-150": [
+    "moisturizer-humectant"
+  ],
+  "PEG-18": [
+    "moisturizer-humectant"
+  ],
+  "PEG-180": [
+    "moisturizer-humectant"
+  ],
+  "PEG-20": [
+    "moisturizer-humectant"
+  ],
+  "PEG-200": [
+    "moisturizer-humectant"
+  ],
+  "PEG-220": [
+    "moisturizer-humectant"
+  ],
+  "PEG-240": [
+    "moisturizer-humectant"
+  ],
+  "PEG-32": [
+    "moisturizer-humectant"
+  ],
+  "PEG-33": [
+    "moisturizer-humectant"
+  ],
+  "PEG-4": [
+    "moisturizer-humectant"
+  ],
+  "PEG-40": [
+    "moisturizer-humectant"
+  ],
+  "PEG-45": [
+    "moisturizer-humectant"
+  ],
+  "PEG-45M": [
+    "moisturizer-humectant"
+  ],
+  "PEG-55": [
+    "moisturizer-humectant"
+  ],
+  "PEG-6": [
+    "moisturizer-humectant"
+  ],
+  "PEG-60": [
+    "moisturizer-humectant"
+  ],
+  "PEG-7": [
+    "moisturizer-humectant"
+  ],
+  "PEG-7 Amodimethicone": [
+    "moisturizer-humectant"
+  ],
+  "PEG-75": [
+    "moisturizer-humectant"
+  ],
+  "PEG-8": [
+    "moisturizer-humectant"
+  ],
+  "PEG-80": [
+    "moisturizer-humectant"
+  ],
+  "PEG-800": [
+    "moisturizer-humectant"
+  ],
+  "PEG-9": [
+    "moisturizer-humectant"
+  ],
+  "PEG-90": [
+    "moisturizer-humectant"
+  ],
+  "PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin": [
+    "moisturizer-humectant"
+  ],
+  "PPG-10 Methyl Glucose Ether": [
+    "moisturizer-humectant"
+  ],
+  "PPG-26/Dimer Dilinoleate Copolymer": [
+    "moisturizer-humectant"
+  ],
+  "Paecilomyces Japonica Mycelium/Ginseng Root Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Palmitoyl Palmitamide Mea": [
+    "moisturizer-humectant"
+  ],
+  "Panax Ginseng Root Protoplasts": [
+    "moisturizer-humectant"
+  ],
+  "Panax Notoginseng Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pantoea/Rice Bran Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pantolactone": [
+    "moisturizer-humectant"
+  ],
+  "Passiflora Edulis Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pca": [
+    "moisturizer-humectant"
+  ],
+  "Pediococcus/Panax Ginseng Adventitious Root Extract Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pentaerythritol": [
+    "moisturizer-humectant"
+  ],
+  "Pentylene Glycol": [
+    "moisturizer-humectant"
+  ],
+  "Persea Gratissima Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Peucedanum Japonicum Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phalaenopsis Amabilis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phaseolus Radiatus Sprout Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phaseolus Trilobus Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phellinus Linteus/Rice Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phoenix Dactylifera Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pholiota Microspora Polysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Phormium Tenax Leaf Juice": [
+    "moisturizer-humectant"
+  ],
+  "Phyllanthus Emblica  Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phyllanthus Emblica Fruit Juice": [
+    "moisturizer-humectant"
+  ],
+  "Phyllostachys Edulis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Phytantriol": [
+    "moisturizer-humectant"
+  ],
+  "Phytolacca Bogotensis Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Picea Obovata Needle Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pichia Ferment Lysate Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pimpinella Saxifraga Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pinus Pumila Needle Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pinus Sibirica Needle Extract": [
+    "moisturizer-humectant"
+  ],
+  "Piptadenia Colubrina Peel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Placental Protein": [
+    "moisturizer-humectant"
+  ],
+  "Platonia Insignis Seed Butter": [
+    "moisturizer-humectant"
+  ],
+  "Pleurotus Cystidiosus Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Polyamino Sugar Condensate": [
+    "moisturizer-humectant"
+  ],
+  "Polycitronellol Acetate": [
+    "moisturizer-humectant"
+  ],
+  "Polydextrose": [
+    "moisturizer-humectant"
+  ],
+  "Polyglucuronic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Polyglutamic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Polyglycerin-10": [
+    "moisturizer-humectant"
+  ],
+  "Polyglycerin-20": [
+    "moisturizer-humectant"
+  ],
+  "Polyglycerin-3": [
+    "moisturizer-humectant"
+  ],
+  "Polyglycerin-4": [
+    "moisturizer-humectant"
+  ],
+  "Polyglycerin-6": [
+    "moisturizer-humectant"
+  ],
+  "Polyglyceryl Sorbitol": [
+    "moisturizer-humectant"
+  ],
+  "Polyglyceryl-3 Stearate/Isostearate/Dimer Dilinoleate Crosspolymer": [
+    "moisturizer-humectant"
+  ],
+  "Polyquaternium-51": [
+    "moisturizer-humectant"
+  ],
+  "Polyquaternium-71": [
+    "moisturizer-humectant"
+  ],
+  "Polysiphonia Elongata Extract": [
+    "moisturizer-humectant"
+  ],
+  "Potassium Lactate": [
+    "moisturizer-humectant"
+  ],
+  "Potassium Pca": [
+    "moisturizer-humectant"
+  ],
+  "Propanediol": [
+    "moisturizer-humectant"
+  ],
+  "Propylene Glycol": [
+    "moisturizer-humectant"
+  ],
+  "Propylene Glycol Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Prostanthera Incisa Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Amygdalus Dulcis Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Armeniaca Juice": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Cerasus Bud Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Domestica Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Mume Branch/Bud/Leaf/Twig Water": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Mume Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Mume Fruit Water": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Bud Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Juice": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Kernel Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Persica Resin Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Serotina Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Serotina Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Speciosa Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Prunus Yedoensis Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pseudoalteromonas Exopolysaccharides": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Camellia Japonica Seed Oil Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Camellia Sinensis Seed Oil Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Camellia Sinensis Seed Oil/Glucose/Glycine Soja Meal/Malt Extract/Yeast Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Camellia Sinensis Seed Oil/Glucose/Malt Extract/Soybean Flour/Yeast Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Olive Fruit Oil Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Safflower Seed Oil Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Soybean Flour/Apricot Kernel Oil/Olive Fruit Oil/Sunflower Seed Oil/Sweet Almond Oil/Panax Ginseng Root Extract Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Soybean Flour/Apricot Kernel Oil/Olive Fruit Oil/Sweet Almond Oil/Sunflower Seed Oil/Licorice Root Extract Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pseudozyma Epicola/Sunflower Seed Oil Ferment Extract Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Pueraria Lobata Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Pyridoxine Tris-Hexyldecanoate": [
+    "moisturizer-humectant"
+  ],
+  "Pyrus Malus Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Quercus Acutissima Wood Vinegar Extract": [
+    "moisturizer-humectant"
+  ],
+  "Quercus Robur Wood Extract": [
+    "moisturizer-humectant"
+  ],
+  "Raffinose": [
+    "moisturizer-humectant"
+  ],
+  "Raphanus Sativus Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Raspberry Seed Oil/Tocopheryl Succinate Aminopropanediol Esters": [
+    "moisturizer-humectant"
+  ],
+  "Raspberryketone Glucoside": [
+    "moisturizer-humectant"
+  ],
+  "Rhamnose": [
+    "moisturizer-humectant"
+  ],
+  "Rheum Tanguticum Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rhododendron Adamsii Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rhodomyrtus Tomentosa Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ribes Grossularia Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ribes Nigrum Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ribose": [
+    "moisturizer-humectant"
+  ],
+  "Rice Ferment Lees": [
+    "moisturizer-humectant"
+  ],
+  "Rice SH-Polypeptide-1": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Canina Fruit/Flower Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Canina Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Davurica Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Hybrid Callus Culture Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Rugosa Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rosa Rugosa Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rubia Cordifolia Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rubus Chamaemorus Fruit Juice Extract": [
+    "moisturizer-humectant"
+  ],
+  "Rubus Ellipticus Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "SH-Oligopeptide-9": [
+    "moisturizer-humectant"
+  ],
+  "SH-Polypeptide-6": [
+    "moisturizer-humectant"
+  ],
+  "Saccharide Hydrolysate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharide Isomerate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharina Longicruris Extract": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces Cerevisiae Extract": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces Lysate Extract": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Barley Seed Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Camellia Sinensis Leaf/Cladosiphon Okamuranus/Rice Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Coconut Flower Nectar Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Pineapple Fruit/Sucrose Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Potato Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Prunus Mume Extract Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Saccharomyces/Rice Bran Ferment": [
+    "moisturizer-humectant"
+  ],
+  "Saccharum Officinarum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Saccharum Spontaneum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Salvia Plebeia Extract": [
+    "moisturizer-humectant"
+  ],
+  "Sasa Kurilensis Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Saussurea Involucrata Extract": [
+    "moisturizer-humectant"
+  ],
+  "Scenedesmus Deserticola Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Schinus Molle Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Schizophyllan": [
+    "moisturizer-humectant"
+  ],
+  "Schizosaccharomyces Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Sea Squirt Lipids": [
+    "moisturizer-humectant"
+  ],
+  "Sedum Sarmentosum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Serum Albumin": [
+    "moisturizer-humectant"
+  ],
+  "Serum Protein": [
+    "moisturizer-humectant"
+  ],
+  "Sesame Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Sesamum Indicum Sprout Extract": [
+    "moisturizer-humectant"
+  ],
+  "Setaria Italica Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Sh-Polypeptide-8": [
+    "moisturizer-humectant"
+  ],
+  "Shark Fin Extract": [
+    "moisturizer-humectant"
+  ],
+  "Silk Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Silkworm Cocoon Extract": [
+    "moisturizer-humectant"
+  ],
+  "Simmondsia Chinensis Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Simmondsia Chinensis Meal Extract": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Acetylated Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Algin Sulfate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Alginate Sulfate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Ascorbyl Glucoside": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Aspartate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Butyroyl Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Carboxymethyl Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Chondroitin Sulfate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Dilauramidoglutamide Lysine": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Gluconate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Glucuronate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Hyaluronate Crosspolymer-2": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Hyaluronate Crosspolymer-3": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Hyaluronate Dimethylsilanol": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Lactate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Malate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Mannose Phosphate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium PCA": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Polyaspartate": [
+    "moisturizer-humectant"
+  ],
+  "Sodium Polyglutamate": [
+    "moisturizer-humectant"
+  ],
+  "Solanum Lycopersicum Fruit": [
+    "moisturizer-humectant"
+  ],
+  "Solanum Tuberosum Pulp Water": [
+    "moisturizer-humectant"
+  ],
+  "Soluble Collagen": [
+    "moisturizer-humectant"
+  ],
+  "Sorbeth-30": [
+    "moisturizer-humectant"
+  ],
+  "Sorbitol": [
+    "moisturizer-humectant"
+  ],
+  "Sorbus Aucuparia Fruit/Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Sorbus Torminalis Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Soy Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Soy Protein Phthalate": [
+    "moisturizer-humectant"
+  ],
+  "Sparassis Crispa Extract": [
+    "moisturizer-humectant"
+  ],
+  "Spatholobus Suberectus Extract": [
+    "moisturizer-humectant"
+  ],
+  "Spondias Mombin Fruit Extract": [
+    "moisturizer-humectant"
+  ],
+  "Sr-Hydrozoan Polypeptide-1": [
+    "moisturizer-humectant"
+  ],
+  "Staphylococcus Epidermidis Ferment Filtrate": [
+    "moisturizer-humectant"
+  ],
+  "Stearyl Palmitate": [
+    "moisturizer-humectant"
+  ],
+  "Stearyl/Octyldodecyl Citrate Crosspolymer": [
+    "moisturizer-humectant"
+  ],
+  "Stellera Chamaejasme Flower/Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Streptococcus Thermophilus Ferment": [
+    "moisturizer-humectant"
+  ],
+  "Sucrose Hexaisostearate": [
+    "moisturizer-humectant"
+  ],
+  "Sucrose Pentahydroxystearate": [
+    "moisturizer-humectant"
+  ],
+  "Swertia Chirata Extract": [
+    "moisturizer-humectant"
+  ],
+  "Symplocos Racemosa Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Synurus Palmatopinnatifidus Leaf/Stem Extract": [
+    "moisturizer-humectant"
+  ],
+  "Tabebuia Avellanedae Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Tamarindus Indica Seed Extract": [
+    "moisturizer-humectant"
+  ],
+  "Tamarindus Indica Seed Gum": [
+    "moisturizer-humectant"
+  ],
+  "Tea-Lactate": [
+    "moisturizer-humectant"
+  ],
+  "Theanine": [
+    "moisturizer-humectant"
+  ],
+  "Thymus Hydrolysate": [
+    "moisturizer-humectant"
+  ],
+  "Tilia Cordata Leaf Extract": [
+    "moisturizer-humectant"
+  ],
+  "Trehalose": [
+    "moisturizer-humectant"
+  ],
+  "Tremella Fuciformis Extract": [
+    "moisturizer-humectant"
+  ],
+  "Tremella Fuciformis Fruiting Body Extract": [
+    "moisturizer-humectant"
+  ],
+  "Tremella Fuciformis Polysaccharide": [
+    "moisturizer-humectant"
+  ],
+  "Triacontanyl Pvp": [
+    "moisturizer-humectant"
+  ],
+  "Tricholoma Matsutake Mycelium Ferment Extract": [
+    "moisturizer-humectant"
+  ],
+  "Trifluoromethyl C1-4 Alkyl Dimethicone": [
+    "moisturizer-humectant"
+  ],
+  "Trimethylolpropane": [
+    "moisturizer-humectant"
+  ],
+  "Trioxaundecanedioic Acid": [
+    "moisturizer-humectant"
+  ],
+  "Triticum Vulgare Germ Oil": [
+    "moisturizer-humectant"
+  ],
+  "Triticum Vulgare Gluten": [
+    "moisturizer-humectant"
+  ],
+  "Tuber Melanosporum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ulmus Davidiana Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Ulmus Fulva Bark": [
+    "moisturizer-humectant"
+  ],
+  "Ulmus Fulva Bark Extract": [
+    "moisturizer-humectant"
+  ],
+  "Undaria Pinnatifida Root Powder": [
+    "moisturizer-humectant"
+  ],
+  "Urea": [
+    "moisturizer-humectant"
+  ],
+  "Velvet Extract": [
+    "moisturizer-humectant"
+  ],
+  "Veronicastrum Sibiricum Extract": [
+    "moisturizer-humectant"
+  ],
+  "Virola Sebifera Nut Oil": [
+    "moisturizer-humectant"
+  ],
+  "Xanthan Hydroxypropyltrimonium Chloride": [
+    "moisturizer-humectant"
+  ],
+  "Xylitol": [
+    "moisturizer-humectant"
+  ],
+  "Xylityl Caprate/Caprylate": [
+    "moisturizer-humectant"
+  ],
+  "Xylityl Cocoate": [
+    "moisturizer-humectant"
+  ],
+  "Xylitylglucoside": [
+    "moisturizer-humectant"
+  ],
+  "Xylose": [
+    "moisturizer-humectant"
+  ],
+  "Yak Milk": [
+    "moisturizer-humectant"
+  ],
+  "Yeast Amino Acids": [
+    "moisturizer-humectant"
+  ],
+  "Yeast Extract": [
+    "moisturizer-humectant"
+  ],
+  "Zinc Hydrolyzed Hyaluronate": [
+    "moisturizer-humectant"
+  ],
+  "Zingiber Cassumunar Root Extract": [
+    "moisturizer-humectant"
+  ],
+  "Zymomonas Ferment Extract": [
+    "moisturizer-humectant"
   ]
 }

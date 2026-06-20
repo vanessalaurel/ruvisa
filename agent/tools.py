@@ -26,13 +26,39 @@ CONCERNS = [
 
 _products_cache: dict | None = None
 _reviews_cache: dict | None = None
+_kg_cache = None  # knowledge graph (nx.DiGraph) or False once a build failed
+
+
+def _kg_enabled() -> bool:
+    """Knowledge-graph conflict/synergy layer is on unless explicitly disabled."""
+    return os.environ.get("RUVISA_USE_KG", "1").lower() not in ("0", "false", "no")
 
 
 def invalidate_product_cache() -> None:
     """Clear in-memory catalog cache (e.g. after running migrate_products_to_sqlite.py)."""
-    global _products_cache, _reviews_cache
+    global _products_cache, _reviews_cache, _kg_cache
     _products_cache = None
     _reviews_cache = None
+    _kg_cache = None
+
+
+def _get_kg():
+    """Lazily build and cache the skincare knowledge graph.
+
+    Returns the graph, or False if building it failed (so recommendations keep
+    working without the KG layer).
+    """
+    global _kg_cache
+    if _kg_cache is not None:
+        return _kg_cache
+    try:
+        from labeling.knowledge_graph import build_kg
+        products, reviews = _load_product_data()
+        _kg_cache = build_kg(products, reviews)
+    except Exception:
+        logger.exception("Knowledge graph build failed; continuing without it")
+        _kg_cache = False
+    return _kg_cache
 
 
 def _jsonl_fallback_enabled() -> bool:
@@ -163,14 +189,17 @@ def _ingredient_overlap(set_a, set_b):
 
 
 def _compute_outcome_penalties(user_id: str):
-    """Build per-product penalty map from past outcomes.
+    """Build per-product penalty AND boost maps from past outcomes.
 
     Returns:
-        direct_penalties:  {product_url: multiplier}  (0.1 = heavy penalty)
-        failed_ingredients: set of ingredient sets from failed products
+        direct_penalties:  {product_url: multiplier}  (<1 = penalty)
+        failed_ingredients: list of ingredient sets from failed products
         worsened_concerns:  {concern_name: delta}  (positive = worsened)
+        direct_boosts:     {product_url: multiplier}  (>1 = boost)
+        improved_ingredients: list of ingredient sets from improved products
     """
     failed = crud.get_failed_product_urls(user_id)
+    improved = crud.get_improved_product_urls(user_id)
     products, _ = _load_product_data()
 
     direct_penalties = {}
@@ -194,15 +223,26 @@ def _compute_outcome_penalties(user_id: str):
             if d > 0.03:
                 worsened_concerns[c] = max(worsened_concerns.get(c, 0), d)
 
-    return direct_penalties, failed_ingredient_sets, worsened_concerns
+    direct_boosts = {}
+    improved_ingredient_sets = []
+
+    for url, info in improved.items():
+        # Latest outcome is "improved" — strong repurchase signal (even if older rows had no_change).
+        direct_boosts[url] = 2.0
+        if url in products:
+            improved_ingredient_sets.append(_ingredient_set(products[url]))
+
+    return (direct_penalties, failed_ingredient_sets, worsened_concerns,
+            direct_boosts, improved_ingredient_sets)
 
 
 def _adaptive_score(
     url, product, review_entry, user_vec, skin_type,
     direct_penalties, failed_ingredient_sets, worsened_concerns,
     budget,
+    direct_boosts=None, improved_ingredient_sets=None,
 ):
-    """Score a single product with adaptive penalties.
+    """Score a single product with adaptive penalties AND boosts.
 
     final_score = cosine_sim(boosted_user_vec, product_vec) * modifier
 
@@ -210,6 +250,8 @@ def _adaptive_score(
       1. Direct penalty if this exact product failed before
       2. Ingredient-similarity penalty if product shares ingredients with failed ones
       3. Concern boost so worsened concerns weigh more in matching
+      4. Direct boost if this exact product was linked to skin improvement
+      5. Ingredient-similarity boost if product shares ingredients with improved ones
     """
     if budget and (product.get("price_value") or float("inf")) > budget:
         return None
@@ -225,8 +267,12 @@ def _adaptive_score(
             boosted_vec[idx] = min(1.0, boosted_vec[idx] * (1.0 + delta * 3))
 
     sim = _cosine_sim(boosted_vec, pvec)
+    repurchase = bool(direct_boosts and url in direct_boosts)
     if sim <= 0:
-        return None
+        if repurchase:
+            sim = 0.35
+        else:
+            return None
 
     modifier = direct_penalties.get(url, 1.0)
 
@@ -241,7 +287,36 @@ def _adaptive_score(
             elif overlap > 0.2:
                 modifier = min(modifier, 0.75)
 
-    final = sim * modifier
+    # Similar ingredients to a product that improved skin (not the exact URL — that uses repurchase boost below)
+    if modifier >= 1.0 and improved_ingredient_sets and not repurchase:
+        prod_ings = _ingredient_set(product)
+        for good_set in improved_ingredient_sets:
+            overlap = _ingredient_overlap(prod_ings, good_set)
+            if overlap > 0.6:
+                modifier = max(modifier, 1.4)
+            elif overlap > 0.4:
+                modifier = max(modifier, 1.25)
+            elif overlap > 0.25:
+                modifier = max(modifier, 1.1)
+
+    # Proven helpful product: always surface again after skin improved (overrides stale penalties / overlap)
+    if repurchase:
+        modifier = max(modifier, direct_boosts[url])
+        sim = max(sim, 0.25)
+
+    # Knowledge-graph layer: penalize conflicting actives, boost synergistic ones.
+    kg_factor = 1.0
+    kg_notes: list[str] = []
+    if _kg_enabled():
+        try:
+            kg = _get_kg()
+            if kg:
+                from labeling.knowledge_graph import conflict_synergy_factor
+                kg_factor, kg_notes = conflict_synergy_factor(kg, url)
+        except Exception:
+            logger.debug("KG factor skipped for %s", url, exc_info=True)
+
+    final = sim * modifier * kg_factor
     skin_match = bool(product.get(f"skin_{skin_type}", 0))
     cat = product["category"][-1] if product.get("category") else "Unknown"
 
@@ -255,6 +330,8 @@ def _adaptive_score(
         "rating": product.get("rating"),
         "base_similarity": round(sim, 4),
         "penalty": round(modifier, 3),
+        "kg_factor": kg_factor,
+        "kg_notes": kg_notes,
         "adaptive_score": round(final, 4),
         "skin_match": skin_match,
         "evidence_ingredients": product.get("evidence_matched_ingredients", [])[:5],
@@ -282,8 +359,9 @@ def recommend_products(
     user_vec = _build_user_vec(acne_score, wrinkle_score, pigmentation_score,
                                pores_score, redness_score)
 
-    direct_penalties, failed_ings, worsened = _compute_outcome_penalties(user_id)
-    has_history = bool(direct_penalties)
+    (direct_penalties, failed_ings, worsened,
+     direct_boosts, improved_ings) = _compute_outcome_penalties(user_id)
+    has_history = bool(direct_penalties) or bool(direct_boosts)
 
     scored = []
     for url, p in products.items():
@@ -291,6 +369,7 @@ def recommend_products(
         result = _adaptive_score(
             url, p, rs, user_vec, skin_type,
             direct_penalties, failed_ings, worsened, budget,
+            direct_boosts, improved_ings,
         )
         if result:
             scored.append(result)
@@ -467,7 +546,8 @@ def get_user_profile(user_id: str) -> str:
 
 @tool
 def compare_analyses(user_id: str) -> str:
-    """Compare a user's latest skin analysis with their previous one to track changes over time."""
+    """Compare a user's latest skin analysis with their previous one to track changes over time.
+    user_id must be the exact AUTHENTICATED_USER_ID from the message prefix (not the display name)."""
     analyses = crud.get_analysis_history(user_id, limit=2)
     if len(analyses) < 2:
         return "Need at least 2 analyses to compare. Only found " + str(len(analyses)) + "."
@@ -607,7 +687,7 @@ def recommend_routine(
     products, reviews = _load_product_data()
     user_vec = _build_user_vec(acne_score, wrinkle_score, pigmentation_score, pores_score, redness_score)
 
-    direct_pen, _, _ = _compute_outcome_penalties(user_id)
+    direct_pen, _, _, _, _ = _compute_outcome_penalties(user_id)
     exclude = set(direct_pen.keys()) if direct_pen else None
 
     result = optimize_routine(
@@ -636,6 +716,51 @@ def recommend_routine(
     return "\n".join(lines)
 
 
+@tool
+def explain_recommendation(
+    product_name: str,
+    acne_score: float = 0.0,
+    wrinkle_score: float = 0.0,
+    pigmentation_score: float = 0.0,
+    pores_score: float = 0.0,
+    redness_score: float = 0.0,
+) -> str:
+    """Explain WHY a product fits a user's skin using the knowledge graph.
+    Traces ingredient -> function -> concern paths and reports review support,
+    plus any ingredient synergies or conflicts. Provide concern scores 0.0-1.0."""
+    products, reviews = _load_product_data()
+
+    query = product_name.lower()
+    match_url = None
+    matched = None
+    for url, p in products.items():
+        t = (p.get("title") or "").lower()
+        b = (p.get("brand") or "").lower()
+        if query in t or query in b or query in f"{b} {t}":
+            match_url, matched = url, p
+            break
+    if not match_url:
+        return f"No product found matching '{product_name}'."
+
+    kg = _get_kg()
+    if not kg:
+        return "Knowledge graph is unavailable, so no explanation can be generated."
+
+    from labeling.knowledge_graph import explain_product_match
+
+    user_vec = _build_user_vec(acne_score, wrinkle_score, pigmentation_score,
+                               pores_score, redness_score)
+    reasons = explain_product_match(kg, match_url, user_vec)
+
+    name = f"{matched.get('brand', '')} - {matched.get('title', '')}".strip(" -")
+    if not reasons:
+        return f"{name}: no specific knowledge-graph evidence found for these concerns."
+
+    lines = [f"Why {name} matches your skin:"]
+    lines.extend(f"  • {r}" for r in reasons)
+    return "\n".join(lines)
+
+
 ALL_TOOLS = [
     recommend_products,
     recommend_routine,
@@ -645,4 +770,5 @@ ALL_TOOLS = [
     compare_analyses,
     track_purchase,
     evaluate_outcomes,
+    explain_recommendation,
 ]

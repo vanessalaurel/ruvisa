@@ -5,10 +5,15 @@ ingredient-to-skin-concern lookup table.
 Outputs:
   labeling/ingredient_evidence.json  – {ingredient: [functions]}
   labeling/concern_lookup.json       – {ingredient: [concerns]}
+
+By default merges with existing ingredient_evidence.json so re-runs grow the table.
+Use --fresh to rebuild from scratch.
+
+Extra function slugs may 404 on site changes; empty pages are skipped.
 """
 
+import argparse
 import json
-import re
 import time
 from pathlib import Path
 from urllib.parse import urljoin
@@ -27,6 +32,10 @@ FUNCTION_PAGES = [
     "cell-communicating-ingredient",
     "astringent",
     "antioxidant",
+    # Extra pages (expand coverage; may add duplicates merged by ingredient name)
+    "surfactant-cleansing",
+    "abrasive-scrub",
+    "moisturizer-humectant",
 ]
 
 FUNCTION_TO_CONCERN = {
@@ -37,6 +46,9 @@ FUNCTION_TO_CONCERN = {
     "cell-communicating-ingredient": ["wrinkles"],
     "astringent":                    ["pores"],
     "antioxidant":                   ["pigmentation"],
+    "surfactant-cleansing":          ["comedonal_acne", "pores", "acne"],
+    "abrasive-scrub":               ["acne_scars_texture", "comedonal_acne", "pores"],
+    "moisturizer-humectant":         ["wrinkles", "redness"],
 }
 
 HEADERS = {
@@ -106,12 +118,10 @@ def scrape_function(func_slug: str) -> list[str]:
     return all_ingredients
 
 
-def build_evidence_table() -> dict[str, list[str]]:
+def build_evidence_table(evidence: dict[str, list[str]]) -> dict[str, list[str]]:
     """
-    Scrape all function pages and return {ingredient_name: [functions]}.
+    Scrape all function pages and merge into evidence {ingredient_name: [functions]}.
     """
-    evidence: dict[str, list[str]] = {}
-
     for func_slug in FUNCTION_PAGES:
         print(f"\n--- Scraping function: {func_slug} ---")
         ingredients = scrape_function(func_slug)
@@ -144,27 +154,54 @@ def build_concern_lookup(evidence: dict[str, list[str]]) -> dict[str, list[str]]
         if concerns:
             lookup[ing_name.lower().strip()] = sorted(concerns)
 
+    extra_path = OUT_DIR / "concern_lookup_extra.json"
+    if extra_path.exists():
+        with open(extra_path, encoding="utf-8") as f:
+            extra = json.load(f)
+        for k, v in extra.items():
+            key = k.lower().strip()
+            if not isinstance(v, list):
+                continue
+            if key in lookup:
+                lookup[key] = sorted(set(lookup[key]) | {str(x) for x in v})
+            else:
+                lookup[key] = sorted({str(x) for x in v})
+
     return lookup
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Scrape INCIDecoder function pages into concern lookup.")
+    parser.add_argument(
+        "--fresh",
+        action="store_true",
+        help="Do not load existing ingredient_evidence.json (rebuild from scrape only).",
+    )
+    args = parser.parse_args()
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     print("=" * 60)
     print("INCIDecoder Evidence Scraper")
     print("=" * 60)
 
-    evidence = build_evidence_table()
-
     evidence_path = OUT_DIR / "ingredient_evidence.json"
-    with open(evidence_path, "w") as f:
+    evidence: dict[str, list[str]] = {}
+    if not args.fresh and evidence_path.exists():
+        with open(evidence_path, encoding="utf-8") as f:
+            evidence = json.load(f)
+        print(f"Loaded {len(evidence)} existing ingredients (merge mode)")
+
+    evidence = build_evidence_table(evidence)
+
+    with open(evidence_path, "w", encoding="utf-8") as f:
         json.dump(evidence, f, indent=2, ensure_ascii=False)
     print(f"\nSaved {len(evidence)} ingredients to {evidence_path}")
 
     concern_lookup = build_concern_lookup(evidence)
 
     lookup_path = OUT_DIR / "concern_lookup.json"
-    with open(lookup_path, "w") as f:
+    with open(lookup_path, "w", encoding="utf-8") as f:
         json.dump(concern_lookup, f, indent=2, ensure_ascii=False)
     print(f"Saved {len(concern_lookup)} ingredients with concerns to {lookup_path}")
 

@@ -407,17 +407,39 @@ def get_product_outcomes(user_id: str) -> list[dict]:
     return results
 
 
+def _latest_outcome_per_product(user_id: str) -> dict[str, dict]:
+    """Newest evaluation wins per product_url (avoids old no_change masking latest improved)."""
+    latest = {}
+    for o in get_product_outcomes(user_id):
+        url = o.get("product_url")
+        if not url or url in latest:
+            continue
+        latest[url] = o
+    return latest
+
+
 def get_failed_product_urls(user_id: str) -> dict[str, dict]:
     """Return {product_url: {concern_deltas, outcome}} for products that worsened/didn't help."""
-    outcomes = get_product_outcomes(user_id)
     failed = {}
-    for o in outcomes:
+    for url, o in _latest_outcome_per_product(user_id).items():
         if o["outcome"] in ("worsened", "mixed", "no_change"):
-            failed[o["product_url"]] = {
+            failed[url] = {
                 "concern_deltas": o.get("concern_deltas", {}),
                 "outcome": o["outcome"],
             }
     return failed
+
+
+def get_improved_product_urls(user_id: str) -> dict[str, dict]:
+    """Return {product_url: {concern_deltas, outcome}} for products linked to skin improvement."""
+    improved = {}
+    for url, o in _latest_outcome_per_product(user_id).items():
+        if o["outcome"] == "improved":
+            improved[url] = {
+                "concern_deltas": o.get("concern_deltas", {}),
+                "outcome": o["outcome"],
+            }
+    return improved
 
 
 def evaluate_product_outcomes(user_id: str) -> dict:
@@ -604,3 +626,70 @@ def compute_skin_improvement(user_id: str) -> dict | None:
             )
         },
     }
+
+
+def _feedback_dict(row) -> dict:
+    return dict(row) if row else None
+
+
+def create_user_feedback(
+    user_id: str,
+    compare_ecommerce: int,
+    recommendation_helpfulness: int,
+    trust_evidence: int,
+    ease_of_use: int,
+    would_use_again: int,
+    open_comment: str | None = None,
+) -> dict:
+    """Store MVP questionnaire responses for a user."""
+    scores = [
+        compare_ecommerce,
+        recommendation_helpfulness,
+        trust_evidence,
+        ease_of_use,
+        would_use_again,
+    ]
+    if any(not isinstance(s, int) or s < 1 or s > 5 for s in scores):
+        raise ValueError("All feedback scores must be integers from 1 to 5")
+
+    conn = get_db()
+    cur = conn.execute(
+        """INSERT INTO user_feedback (
+               user_id, compare_ecommerce, recommendation_helpfulness,
+               trust_evidence, ease_of_use, would_use_again, open_comment
+           ) VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        (
+            user_id,
+            compare_ecommerce,
+            recommendation_helpfulness,
+            trust_evidence,
+            ease_of_use,
+            would_use_again,
+            (open_comment or "").strip() or None,
+        ),
+    )
+    conn.commit()
+    row = conn.execute(
+        "SELECT * FROM user_feedback WHERE id = ?", (cur.lastrowid,)
+    ).fetchone()
+    conn.close()
+    return _feedback_dict(row)
+
+
+def get_user_feedback(user_id: str, limit: int = 10) -> list[dict]:
+    """Return recent feedback submissions for a user (newest first)."""
+    conn = get_db()
+    rows = conn.execute(
+        """SELECT * FROM user_feedback
+           WHERE user_id = ?
+           ORDER BY created_at DESC
+           LIMIT ?""",
+        (user_id, limit),
+    ).fetchall()
+    conn.close()
+    return [_feedback_dict(r) for r in rows]
+
+
+def get_latest_user_feedback(user_id: str) -> dict | None:
+    items = get_user_feedback(user_id, limit=1)
+    return items[0] if items else None

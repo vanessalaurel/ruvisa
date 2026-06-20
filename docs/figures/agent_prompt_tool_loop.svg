@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #1f2937; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #4b5563; }
+      .box-title { font: 700 22px Arial, sans-serif; fill: #1f2937; }
+      .box-text { font: 400 16px Arial, sans-serif; fill: #374151; }
+      .small { font: 400 14px Arial, sans-serif; fill: #4b5563; }
+      .tiny { font: 400 12px Arial, sans-serif; fill: #4b5563; }
+      .tool { font: 600 14px Arial, sans-serif; fill: #1f2937; }
+      .formula { font: 600 16px Arial, sans-serif; fill: #111827; }
+      .arrow { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .loop { stroke: #7c3aed; stroke-width: 3; fill: none; marker-end: url(#arrowheadPurple); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+    <marker id="arrowheadPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#7c3aed" />
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <text x="800" y="55" text-anchor="middle" class="title">Prompt Assembly and Agent Tool Loop</text>
+  <text x="800" y="85" text-anchor="middle" class="subtitle">Agentic orchestration path from API request to final natural-language response</text>
+
+  <!-- User Query -->
+  <rect x="60" y="150" width="220" height="150" rx="18" fill="#dbeafe" stroke="#60a5fa" stroke-width="2.5"/>
+  <text x="170" y="185" text-anchor="middle" class="box-title">User Query</text>
+  <text x="85" y="220" class="box-text">"What product is</text>
+  <text x="85" y="243" class="box-text">recommended for</text>
+  <text x="85" y="266" class="box-text">my skin now?"</text>
+  <text x="85" y="298" class="small">or</text>
+  <text x="85" y="322" class="box-text">"How has my skin changed</text>
+  <text x="85" y="345" class="box-text">over the past 3 months?"</text>
+
+  <!-- FastAPI -->
+  <rect x="340" y="160" width="230" height="130" rx="18" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2.5"/>
+  <text x="455" y="198" text-anchor="middle" class="box-title">FastAPI `/chat`</text>
+  <text x="455" y="225" text-anchor="middle" class="box-text">Receives:</text>
+  <text x="455" y="250" text-anchor="middle" class="small">`user_id` + message</text>
+  <text x="455" y="272" text-anchor="middle" class="small">(+ optional image path)</text>
+
+  <!-- Context Builder -->
+  <rect x="640" y="135" width="270" height="180" rx="18" fill="#dcfce7" stroke="#4ade80" stroke-width="2.5"/>
+  <text x="775" y="172" text-anchor="middle" class="box-title">User Context Builder</text>
+  <text x="775" y="196" text-anchor="middle" class="small">SQLite retrieval + formatting</text>
+  <circle cx="695" cy="225" r="4" fill="#166534"/><text x="708" y="230" class="box-text">profile</text>
+  <circle cx="695" cy="252" r="4" fill="#166534"/><text x="708" y="257" class="box-text">latest scan + concern vector</text>
+  <circle cx="695" cy="279" r="4" fill="#166534"/><text x="708" y="284" class="box-text">purchases</text>
+  <circle cx="695" cy="306" r="4" fill="#166534"/><text x="708" y="311" class="box-text">skin progress / improvement</text>
+  <text x="775" y="340" text-anchor="middle" class="tiny">Inject exact authenticated `user_id`</text>
+
+  <!-- Input Assembly -->
+  <rect x="970" y="120" width="300" height="210" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="1120" y="158" text-anchor="middle" class="box-title">LLM Input Assembly</text>
+  <rect x="1010" y="178" width="220" height="34" rx="8" fill="#fff7ed" stroke="#f59e0b"/>
+  <text x="1120" y="200" text-anchor="middle" class="box-text">System prompt</text>
+  <rect x="1010" y="222" width="220" height="34" rx="8" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="1120" y="244" text-anchor="middle" class="box-text">Injected user context</text>
+  <rect x="1010" y="266" width="220" height="34" rx="8" fill="#fff7ed" stroke="#f59e0b"/>
+  <text x="1120" y="288" text-anchor="middle" class="box-text">Current user message</text>
+  <text x="1120" y="320" text-anchor="middle" class="formula">final prompt sent to Ollama</text>
+
+  <!-- Agent -->
+  <rect x="1310" y="135" width="240" height="180" rx="18" fill="#ffedd5" stroke="#fb923c" stroke-width="2.5"/>
+  <text x="1430" y="172" text-anchor="middle" class="box-title">Ollama + LangGraph</text>
+  <text x="1430" y="198" text-anchor="middle" class="small">`llama3.2:latest`</text>
+  <rect x="1360" y="225" width="140" height="60" rx="10" fill="#fff7ed" stroke="#fb923c"/>
+  <text x="1430" y="250" text-anchor="middle" class="box-text">ReAct agent</text>
+  <text x="1430" y="272" text-anchor="middle" class="small">Need tool call?</text>
+
+  <!-- Final Response -->
+  <rect x="1275" y="690" width="280" height="145" rx="18" fill="#ecfdf5" stroke="#10b981" stroke-width="3"/>
+  <text x="1415" y="728" text-anchor="middle" class="box-title">Final Response</text>
+  <text x="1415" y="755" text-anchor="middle" class="small">Natural-language answer</text>
+  <text x="1415" y="779" text-anchor="middle" class="small">recommendations / comparison</text>
+  <text x="1415" y="803" text-anchor="middle" class="small">evidence-based explanation</text>
+  <text x="1415" y="827" text-anchor="middle" class="tiny">`tools_used` log returned by API</text>
+
+  <!-- Tool Layer -->
+  <rect x="460" y="500" width="700" height="250" rx="20" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2.5"/>
+  <text x="810" y="538" text-anchor="middle" class="box-title">Tool Layer (8 tools)</text>
+  <text x="810" y="562" text-anchor="middle" class="small">Deterministic database access, comparison, ranking, and routine optimization</text>
+
+  <!-- Tool boxes row 1 -->
+  <rect x="500" y="590" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="590" y="619" text-anchor="middle" class="tool">get_user_profile</text>
+
+  <rect x="705" y="590" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="795" y="619" text-anchor="middle" class="tool">compare_analyses</text>
+
+  <rect x="910" y="590" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="1000" y="619" text-anchor="middle" class="tool">track_purchase</text>
+
+  <!-- Tool boxes row 2 -->
+  <rect x="500" y="655" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="590" y="684" text-anchor="middle" class="tool">search_products</text>
+
+  <rect x="705" y="655" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="795" y="684" text-anchor="middle" class="tool">get_product_info</text>
+
+  <rect x="910" y="655" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="1000" y="684" text-anchor="middle" class="tool">recommend_products</text>
+
+  <!-- Tool boxes row 3 -->
+  <rect x="603" y="709" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="693" y="738" text-anchor="middle" class="tool">recommend_routine</text>
+
+  <rect x="837" y="709" width="180" height="46" rx="10" fill="#ffffff" stroke="#8b5cf6"/>
+  <text x="927" y="738" text-anchor="middle" class="tool">evaluate_outcomes</text>
+
+  <!-- Arrows top row -->
+  <path d="M280 225 L340 225" class="arrow"/>
+  <path d="M570 225 L640 225" class="arrow"/>
+  <path d="M910 225 L970 225" class="arrow"/>
+  <path d="M1270 225 L1310 225" class="arrow"/>
+
+  <!-- Agent to final response direct path -->
+  <path d="M1490 315 C1515 400, 1515 570, 1450 690" class="arrow"/>
+  <text x="1515" y="470" class="small">if no tool needed</text>
+
+  <!-- Agent to tools -->
+  <path d="M1380 315 C1310 390, 1180 455, 1030 500" class="arrow"/>
+  <text x="1235" y="405" class="small">if tool call needed</text>
+
+  <!-- Tools back to agent -->
+  <path d="M620 500 C620 395, 1080 370, 1360 360" class="loop"/>
+  <text x="865" y="392" text-anchor="middle" class="small">text observation / tool output returned to agent</text>
+
+  <!-- Bottom note -->
+  <rect x="420" y="800" width="690" height="48" rx="14" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="765" y="830" text-anchor="middle" class="formula">Loop repeats until the agent has sufficient information to answer</text>
+</svg>

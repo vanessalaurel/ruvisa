@@ -1,0 +1,231 @@
+{
+  "product": {
+    "brand": "The INKEY List",
+    "title": "Salicylic Acid Cleanser",
+    "full_name": "The INKEY List Salicylic Acid Cleanser",
+    "url": "https://www.sephora.hk/products/the-inkey-list-salicylic-acid-cleanser/v/150ml",
+    "price": "$120.00",
+    "catalog_rating": 4.4,
+    "catalog_review_count": 363,
+    "analyzed_review_count": 8,
+    "avg_analyzed_review_rating": 4.125,
+    "evidence_matched_ingredients": [
+      "Propanediol",
+      "Glycerin",
+      "Sodium Methyl Cocoyl Taurate",
+      "Cocamidopropyl Betaine",
+      "PEG-120 Methyl Glucose Dioleate",
+      "Salicylic Acid",
+      "PEG-150 Pentaerythrityl Tetrastearate",
+      "PEG-6 Caprylic/Capric Glycerides",
+      "Betaine",
+      "Zinc PCA",
+      "Allantoin",
+      "Coco-Glucoside",
+      "Glyceryl Oleate",
+      "Benzyl Alcohol",
+      "Coconut Acid",
+      "Ethylhexylglycerin",
+      "Tocopherol",
+      "Hydrogenated Palm Glycerides Citrate"
+    ],
+    "binary_labels": {
+      "acne": 1,
+      "comedonal_acne": 1,
+      "pigmentation": 1,
+      "acne_scars_texture": 1,
+      "pores": 1,
+      "redness": 1,
+      "wrinkles": 1
+    },
+    "evidence_scores": {
+      "acne": 0.7588,
+      "comedonal_acne": 0.7588,
+      "pigmentation": 0.1099,
+      "acne_scars_texture": 0.5758,
+      "pores": 0.7588,
+      "redness": 0.9121,
+      "wrinkles": 0.9121
+    }
+  },
+  "fused_scores": {
+    "acne": {
+      "ingredient_score": 0.7588,
+      "review_effectiveness": 1.0,
+      "review_score_01": 1.0,
+      "fused_score": 0.8794
+    },
+    "comedonal_acne": {
+      "ingredient_score": 0.7588,
+      "review_effectiveness": 1.0,
+      "review_score_01": 1.0,
+      "fused_score": 0.8794
+    },
+    "pigmentation": {
+      "ingredient_score": 0.1099,
+      "review_effectiveness": 1.0,
+      "review_score_01": 1.0,
+      "fused_score": 0.55495
+    },
+    "acne_scars_texture": {
+      "ingredient_score": 0.5758,
+      "review_effectiveness": null,
+      "review_score_01": null,
+      "fused_score": 0.5758
+    },
+    "pores": {
+      "ingredient_score": 0.7588,
+      "review_effectiveness": null,
+      "review_score_01": null,
+      "fused_score": 0.7588
+    },
+    "redness": {
+      "ingredient_score": 0.9121,
+      "review_effectiveness": null,
+      "review_score_01": null,
+      "fused_score": 0.9121
+    },
+    "wrinkles": {
+      "ingredient_score": 0.9121,
+      "review_effectiveness": null,
+      "review_score_01": null,
+      "fused_score": 0.9121
+    }
+  },
+  "deberta": {
+    "inci": {
+      "mean_probabilities": {
+        "acne": 0.5161317735910416,
+        "comedonal_acne": 0.5295445919036865,
+        "pigmentation": 0.5420172214508057,
+        "acne_scars_texture": 0.5253817290067673,
+        "pores": 0.5154692679643631,
+        "redness": 0.5074646323919296,
+        "wrinkles": 0.5028010979294777
+      },
+      "thresholds": {
+        "acne": 0.5,
+        "comedonal_acne": 0.3875000001862645,
+        "pigmentation": 0.4750000014901161,
+        "acne_scars_texture": 0.4624999985098839,
+        "pores": 0.36249999422580004,
+        "redness": 0.33749999571591616,
+        "wrinkles": 0.44999998807907104
+      },
+      "mean_prediction": {
+        "acne": 1,
+        "comedonal_acne": 1,
+        "pigmentation": 1,
+        "acne_scars_texture": 1,
+        "pores": 1,
+        "redness": 1,
+        "wrinkles": 1
+      },
+      "fold_predictions": [
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        }
+      ]
+    },
+    "claims": {
+      "mean_probabilities": {
+        "acne": 0.5006184130907059,
+        "comedonal_acne": 0.5021693259477615,
+        "pigmentation": 0.503065250813961,
+        "acne_scars_texture": 0.49731508642435074,
+        "pores": 0.49234361946582794,
+        "redness": 0.49728356301784515,
+        "wrinkles": 0.4866482987999916
+      },
+      "thresholds": {
+        "acne": 0.05000000074505806,
+        "comedonal_acne": 0.05000000074505806,
+        "pigmentation": 0.16250000055879354,
+        "acne_scars_texture": 0.13750000204890966,
+        "pores": 0.05000000074505806,
+        "redness": 0.05000000074505806,
+        "wrinkles": 0.05000000074505806
+      },
+      "mean_prediction": {
+        "acne": 1,
+        "comedonal_acne": 1,
+        "pigmentation": 1,
+        "acne_scars_texture": 1,
+        "pores": 1,
+        "redness": 1,
+        "wrinkles": 1
+      },
+      "fold_predictions": [
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        },
+        {
+          "acne": 1,
+          "comedonal_acne": 1,
+          "pigmentation": 1,
+          "acne_scars_texture": 1,
+          "pores": 1,
+          "redness": 1,
+          "wrinkles": 1
+        }
+      ]
+    }
+  }
+}

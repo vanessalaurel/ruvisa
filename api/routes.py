@@ -29,6 +29,8 @@ from .schemas import (
     RecommendRequest,
     RegisterRequest,
     UpdateSettingsRequest,
+    FeedbackRequest,
+    FeedbackResponse,
 )
 
 logger = logging.getLogger(__name__)
@@ -43,6 +45,49 @@ CONCERNS = [
     "acne", "comedonal_acne", "pigmentation",
     "acne_scars_texture", "pores", "redness", "wrinkles",
 ]
+
+
+def _abs_path_to_upload_url(abs_path: str | None) -> str | None:
+    """Map a file under uploads/ to a public /api/uploads/... URL."""
+    if not abs_path:
+        return None
+    try:
+        p = Path(abs_path).expanduser().resolve()
+        base = UPLOAD_DIR.resolve()
+        rel = p.relative_to(base)
+        return f"/api/uploads/{rel.as_posix()}"
+    except (ValueError, OSError):
+        s = str(abs_path).replace("\\", "/")
+        low = s.lower()
+        key = "uploads/"
+        idx = low.find(key)
+        if idx >= 0:
+            rest = s[idx + len(key) :].lstrip("/")
+            return f"/api/uploads/{rest}" if rest else None
+        name = Path(abs_path).name
+        return f"/api/uploads/{name}" if name else None
+
+
+def _enrich_analysis_media(a: dict) -> dict:
+    """Add media_urls so clients never parse absolute disk paths."""
+    full = a.get("full_report") if isinstance(a.get("full_report"), dict) else {}
+    ac = full.get("acne") if isinstance(full.get("acne"), dict) else {}
+    wr = full.get("wrinkle") if isinstance(full.get("wrinkle"), dict) else {}
+    a["media_urls"] = {
+        "original": _abs_path_to_upload_url(a.get("image_path")),
+        "acne": _abs_path_to_upload_url(ac.get("visualization_path")),
+        "wrinkle": _abs_path_to_upload_url(wr.get("visualization_path")),
+    }
+    cv = a.get("concern_vector")
+    if isinstance(cv, str):
+        try:
+            cv = json.loads(cv) if cv else []
+        except (json.JSONDecodeError, TypeError):
+            cv = []
+    elif not isinstance(cv, list):
+        cv = []
+    a["overall_score"] = _compute_overall_score(cv)
+    return a
 
 
 # ── Auth endpoints ────────────────────────────────────────────────────────
@@ -171,6 +216,8 @@ async def analyze(
 
     out_dir = UPLOAD_DIR / f"analysis_{uuid.uuid4().hex}"
     out_dir.mkdir(exist_ok=True)
+    acne_vis = out_dir / "result_acne.png"
+    wrinkle_vis = out_dir / "result_wrinkle.png"
     error_msg = None
 
     try:
@@ -178,6 +225,12 @@ async def analyze(
 
         with open(args.output) as f:
             report = json.load(f)
+
+        # Persist overlay paths in full_report so past scans can load images from journey/history.
+        if acne_vis.exists():
+            report.setdefault("acne", {})["visualization_path"] = str(acne_vis.resolve())
+        if wrinkle_vis.exists():
+            report.setdefault("wrinkle", {})["visualization_path"] = str(wrinkle_vis.resolve())
 
         concern_vector = [report["user_concern_vector"].get(c, 0.0) for c in CONCERNS]
 
@@ -245,10 +298,27 @@ async def analyze(
 
     zone_scores = _build_zone_scores(report)
 
-    acne_vis = out_dir / "result_acne.png"
-    wrinkle_vis = out_dir / "result_wrinkle.png"
+    # Evaluate which purchased products helped or hurt since last scan,
+    # so the recommendation engine can boost/penalize accordingly.
+    try:
+        crud.evaluate_product_outcomes(user_id)
+    except Exception:
+        logger.debug("Product outcome evaluation skipped for %s (likely <2 scans)", user_id)
 
-    return {
+    recommend_engine = None
+    try:
+        recommend_engine = await asyncio.to_thread(
+            _build_recommendation_payload,
+            user_id,
+            skin_type,
+            concern_vector,
+            None,
+            8,
+        )
+    except Exception:
+        logger.exception("Product ranking after analyze failed for user %s", user_id)
+
+    out = {
         "user_id": user_id,
         "analysis_id": analysis_id,
         "concern_vector": concern_vector,
@@ -260,11 +330,20 @@ async def analyze(
         "overall_score": _compute_overall_score(concern_vector),
         "recommendations": recommendations,
         "images": {
+            "original": f"/api/uploads/{save_path.relative_to(UPLOAD_DIR)}",
             "acne": f"/api/uploads/{acne_vis.relative_to(UPLOAD_DIR)}" if acne_vis.exists() else None,
             "wrinkle": f"/api/uploads/{wrinkle_vis.relative_to(UPLOAD_DIR)}" if wrinkle_vis.exists() else None,
         },
         "error": error_msg,
     }
+    if recommend_engine:
+        out["recommend_engine"] = {
+            "recommendations": recommend_engine["recommendations"],
+            "routine": recommend_engine["routine"],
+            "routine_meta": recommend_engine["routine_meta"],
+            "total_products": recommend_engine["total_products"],
+        }
+    return out
 
 
 def _compute_overall_score(concern_vector):
@@ -369,20 +448,28 @@ def _full_product_item(url, p, sim, skin_match):
     }
 
 
-@router.post("/recommend")
-async def recommend(req: RecommendRequest):
-    """Get product recommendations and optimized routine based on concern vector or latest analysis."""
+def _build_recommendation_payload(
+    user_id: str,
+    skin_type: str,
+    concern_vector: list[float] | None,
+    budget: float | None,
+    top_n: int,
+) -> dict:
+    """Adaptive ranking + routine (same logic as POST /recommend). Used by /recommend and after /analyze."""
     from agent.tools import (
-        _load_product_data, _build_product_vector,
-        _build_user_vec, _compute_outcome_penalties, _adaptive_score,
+        _load_product_data,
+        _build_product_vector,
+        _build_user_vec,
+        _compute_outcome_penalties,
+        _adaptive_score,
     )
     from labeling.routine_optimizer import optimize_routine
 
     products, reviews = _load_product_data()
 
-    user_vec = req.concern_vector
+    user_vec = concern_vector
     if not user_vec:
-        analyses = crud.get_analysis_history(req.user_id, limit=1)
+        analyses = crud.get_analysis_history(user_id, limit=1)
         if analyses:
             cv = analyses[0].get("concern_vector", [])
             if isinstance(cv, str):
@@ -393,20 +480,50 @@ async def recommend(req: RecommendRequest):
     if len(user_vec) < 7:
         user_vec = (user_vec + [0.0] * 7)[:7]
 
-    direct_pen, failed_ings, worsened = _compute_outcome_penalties(req.user_id)
-    base_vec = _build_user_vec(
-        user_vec[0], user_vec[6], user_vec[2], user_vec[4], user_vec[5]
-    ) if len(user_vec) >= 7 else user_vec
+    (direct_pen, failed_ings, worsened,
+     direct_boosts, improved_ings) = _compute_outcome_penalties(user_id)
+    # Use the raw 7-concern vector directly — it maps 1:1 to the 7-dim product
+    # vectors from DeBERTa evidence_scores + review concern_scores, keeping
+    # cosine similarity meaningful even when concerns are low.
+    base_vec = list(user_vec)
 
     scored = []
     for url, p in products.items():
         rs = reviews.get(url, {})
         r = _adaptive_score(
-            url, p, rs, base_vec, req.skin_type,
-            direct_pen, failed_ings, worsened, req.budget,
+            url, p, rs, base_vec, skin_type,
+            direct_pen, failed_ings, worsened, budget,
+            direct_boosts, improved_ings,
         )
         if r:
             scored.append(_full_product_item(url, p, r["adaptive_score"], r["skin_match"]))
+
+    scored.sort(key=lambda x: (-int(x["skin_match"]), -x["similarity"],
+                                x["price_value"] or 9999))
+
+    # If skin improved, cosine can drop; still include the exact product you bought & that helped
+    seen_scored = {x["product_url"] for x in scored}
+    for u in list(direct_boosts.keys()):
+        if u in seen_scored or u not in products:
+            continue
+        p = products[u]
+        rs = reviews.get(u, {})
+        r = _adaptive_score(
+            u, p, rs, base_vec, skin_type,
+            direct_pen, failed_ings, worsened, budget,
+            direct_boosts, improved_ings,
+        )
+        if r:
+            scored.append(_full_product_item(u, p, r["adaptive_score"], r["skin_match"]))
+        else:
+            ev = p.get("evidence_scores", {})
+            sm = sum(ev.get(c, 0) for c in CONCERNS) / max(1, len(CONCERNS))
+            scored.append(
+                _full_product_item(
+                    u, p, max(0.2, float(sm)) * 2.0, bool(p.get(f"skin_{skin_type}", 0)),
+                )
+            )
+        seen_scored.add(u)
 
     scored.sort(key=lambda x: (-int(x["skin_match"]), -x["similarity"],
                                 x["price_value"] or 9999))
@@ -416,10 +533,10 @@ async def recommend(req: RecommendRequest):
         cat = item["category"]
         if cat not in by_category:
             by_category[cat] = []
-        if len(by_category[cat]) < req.top_n:
+        if len(by_category[cat]) < top_n:
             by_category[cat].append(item)
 
-    # Ensure all catalog categories have at least one product
+    # Ensure all catalog categories have at least one product (original fallback)
     all_cats = {p["category"][-1] if p.get("category") else "Unknown" for p in products.values()}
     scored_urls = {item["product_url"] for item in scored}
     for cat in all_cats:
@@ -436,18 +553,52 @@ async def recommend(req: RecommendRequest):
                 sim = sum(ev.get(c, 0) for c in CONCERNS) / max(1, len(CONCERNS))
                 if sim > best_sim:
                     best_sim = sim
-                    best = _full_product_item(url, p, sim, bool(p.get(f"skin_{req.skin_type}", 0)))
+                    best = _full_product_item(url, p, sim, bool(p.get(f"skin_{skin_type}", 0)))
             if best:
                 by_category[cat] = [best]
 
+    # Pin proven-helpful purchases to the front of their category strip
+    for u in direct_boosts:
+        for _cat, items in by_category.items():
+            idx = next((i for i, x in enumerate(items) if x.get("product_url") == u), None)
+            if idx is not None and idx > 0:
+                row = items.pop(idx)
+                items.insert(0, row)
+                break
+
+    def _product_in_recs(url: str) -> bool:
+        return any(x.get("product_url") == url for rows in by_category.values() for x in rows)
+
+    for u in direct_boosts:
+        if _product_in_recs(u) or u not in products:
+            continue
+        p = products[u]
+        cat = p["category"][-1] if p.get("category") else "Unknown"
+        rs = reviews.get(u, {})
+        r = _adaptive_score(
+            u, p, rs, base_vec, skin_type,
+            direct_pen, failed_ings, worsened, budget,
+            direct_boosts, improved_ings,
+        )
+        if r:
+            row = _full_product_item(u, p, r["adaptive_score"], r["skin_match"])
+        else:
+            ev = p.get("evidence_scores", {})
+            sm = sum(ev.get(c, 0) for c in CONCERNS) / max(1, len(CONCERNS))
+            row = _full_product_item(
+                u, p, max(0.2, float(sm)) * 2.0, bool(p.get(f"skin_{skin_type}", 0)),
+            )
+        cur = [x for x in by_category.get(cat, []) if x.get("product_url") != u]
+        by_category[cat] = [row] + cur[: top_n - 1]
+
     exclude_urls = set(direct_pen.keys()) if direct_pen else None
-    routine_budget = (req.budget * 5) if req.budget else None
+    routine_budget = (budget * 5) if budget else None
     routine_result = optimize_routine(
-        products, reviews, user_vec, req.skin_type,
+        products, reviews, user_vec, skin_type,
         budget=routine_budget,
         build_product_vector=lambda url, p: _build_product_vector(p, reviews.get(url, {})),
         exclude_urls=exclude_urls,
-        lambda_conflict=5.0,  # Heavily penalize ingredient conflicts
+        lambda_conflict=5.0,
     )
 
     routine_for_frontend = []
@@ -462,12 +613,12 @@ async def recommend(req: RecommendRequest):
         sim = sum(ev.get(c, 0) for c in CONCERNS) / max(1, len(CONCERNS))
         routine_for_frontend.append({
             "step": step_display.get(step, step),
-            "product": _full_product_item(url, p, sim, bool(p.get(f"skin_{req.skin_type}", 0))),
+            "product": _full_product_item(url, p, sim, bool(p.get(f"skin_{skin_type}", 0))),
         })
 
     return {
-        "user_id": req.user_id,
-        "skin_type": req.skin_type,
+        "user_id": user_id,
+        "skin_type": skin_type,
         "concern_vector": user_vec,
         "recommendations": by_category,
         "routine": routine_for_frontend,
@@ -478,6 +629,18 @@ async def recommend(req: RecommendRequest):
         },
         "total_products": len(scored),
     }
+
+
+@router.post("/recommend")
+async def recommend(req: RecommendRequest):
+    """Get product recommendations and optimized routine based on concern vector or latest analysis."""
+    return _build_recommendation_payload(
+        req.user_id,
+        req.skin_type,
+        req.concern_vector,
+        req.budget,
+        req.top_n,
+    )
 
 
 def _product_to_api_item(p: dict) -> dict:
@@ -752,7 +915,7 @@ async def get_journey(user_id: str):
     if not user:
         raise HTTPException(404, f"User '{user_id}' not found")
 
-    analyses = crud.get_analysis_history(user_id, limit=10)
+    analyses = [_enrich_analysis_media(dict(a)) for a in crud.get_analysis_history(user_id, limit=10)]
     purchases = crud.get_purchase_history(user_id, limit=20)
     improvement = crud.compute_skin_improvement(user_id)
 
@@ -764,3 +927,34 @@ async def get_journey(user_id: str):
         "purchases": purchases,
         "improvement": improvement,
     }
+
+
+@router.post("/feedback", response_model=FeedbackResponse)
+async def submit_feedback(req: FeedbackRequest):
+    """Store MVP questionnaire responses for a user."""
+    user = crud.get_user(req.user_id)
+    if not user:
+        raise HTTPException(404, f"User '{req.user_id}' not found")
+    try:
+        row = crud.create_user_feedback(
+            user_id=req.user_id,
+            compare_ecommerce=req.compare_ecommerce,
+            recommendation_helpfulness=req.recommendation_helpfulness,
+            trust_evidence=req.trust_evidence,
+            ease_of_use=req.ease_of_use,
+            would_use_again=req.would_use_again,
+            open_comment=req.open_comment,
+        )
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return FeedbackResponse(**row)
+
+
+@router.get("/feedback/{user_id}")
+async def get_feedback(user_id: str):
+    """Get a user's feedback submissions (newest first)."""
+    user = crud.get_user(user_id)
+    if not user:
+        raise HTTPException(404, f"User '{user_id}' not found")
+    items = crud.get_user_feedback(user_id, limit=20)
+    return {"user_id": user_id, "feedback": items, "count": len(items)}

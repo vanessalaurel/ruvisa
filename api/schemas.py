@@ -116,3 +116,25 @@ class UpdateSettingsRequest(BaseModel):
     email: str | None = None
     current_password: str | None = None
     new_password: str | None = None
+
+
+class FeedbackRequest(BaseModel):
+    user_id: str
+    compare_ecommerce: int
+    recommendation_helpfulness: int
+    trust_evidence: int
+    ease_of_use: int
+    would_use_again: int
+    open_comment: str | None = None
+
+
+class FeedbackResponse(BaseModel):
+    id: int
+    user_id: str
+    compare_ecommerce: int
+    recommendation_helpfulness: int
+    trust_evidence: int
+    ease_of_use: int
+    would_use_again: int
+    open_comment: str | None = None
+    created_at: str | None = None

@@ -1,4 +1,8 @@
-import os, json, random
+import argparse
+import json
+import os
+import random
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -18,8 +22,10 @@ import inspect
 # -----------------------
 # CONFIG
 # -----------------------
-DATA_PATH  = "/home/vanessa/project/labeling/products_evidence_labeled.jsonl"
-OUT_DIR    = "/home/vanessa/project/models/deberta_ing_cv"
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DATA_PATH = os.path.join(PROJECT_ROOT, "labeling", "products_evidence_labeled.jsonl")
+OUT_DIR_INCI = os.path.join(PROJECT_ROOT, "models", "deberta_ing_cv")
+OUT_DIR_CLAIMS = os.path.join(PROJECT_ROOT, "models", "deberta_claims_cv")
 MODEL_NAME = "microsoft/deberta-v3-base"
 
 LABELS = [
@@ -121,12 +127,31 @@ def get_ingredients_text(row, sep_token="[SEP]"):
         return ""
     return sep + s.replace(",", sep)
 
-def load_dataset(path, sep_token="[SEP]"):
+
+def get_claims_text(row: dict) -> str:
+    """Marketing / copy text for claims-mode ablation (same 7 labels as INCI mode)."""
+    parts = []
+    for key in ("title", "what_it_is", "what_it_does", "skin_concerns", "formulation"):
+        v = row.get(key)
+        if v and str(v).strip():
+            parts.append(str(v).strip())
+    dr = row.get("description_raw")
+    if dr and str(dr).strip():
+        parts.append(str(dr).strip()[:4000])
+    claims = row.get("product_claims")
+    if isinstance(claims, list) and claims:
+        parts.append(", ".join(str(c) for c in claims if c))
+    elif claims:
+        parts.append(str(claims).strip())
+    return " \n ".join(parts)
+
+
+def load_dataset(path: str, text_fn):
     rows = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             r = json.loads(line)
-            text = get_ingredients_text(r, sep_token=sep_token)
+            text = text_fn(r)
             if not text.strip():
                 continue
 
@@ -166,146 +191,171 @@ class WeightedBCETrainer(Trainer):
 
         return (loss, outputs) if return_outputs else loss
 
-# -----------------------
-# Main
-# -----------------------
-os.makedirs(OUT_DIR, exist_ok=True)
+def run_cv(mode: str, out_dir: str):
+    os.makedirs(out_dir, exist_ok=True)
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-SEP_TOKEN = tokenizer.sep_token or "[SEP]"
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    sep_token = tokenizer.sep_token or "[SEP]"
 
-ds = load_dataset(DATA_PATH, sep_token=SEP_TOKEN)
-Y = np.array(ds["labels"], dtype=int)
+    if mode == "inci":
+        text_fn = lambda r: get_ingredients_text(r, sep_token=sep_token)
+    else:
+        text_fn = get_claims_text
 
-print(f"Loaded N={len(ds)} products")
-pos_counts = dict(zip(LABELS, Y.sum(axis=0).tolist()))
-print("Positives per label:", pos_counts)
+    ds = load_dataset(DATA_PATH, text_fn)
+    Y = np.array(ds["labels"], dtype=int)
 
-def tokenize(batch):
-    return tokenizer(batch["text"], truncation=True, max_length=MAX_LEN)
+    print(f"Mode={mode} | Loaded N={len(ds)} products | out_dir={out_dir}")
+    pos_counts = dict(zip(LABELS, Y.sum(axis=0).tolist()))
+    print("Positives per label:", pos_counts)
 
-data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+    def tokenize(batch):
+        return tokenizer(batch["text"], truncation=True, max_length=MAX_LEN)
 
-mskf = MultilabelStratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=SEED)
-X_dummy = np.zeros((len(ds), 1))
-fold_results = []
+    data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
-for fold, (tr_idx, va_idx) in enumerate(mskf.split(X_dummy, Y), start=1):
-    print(f"\n=== Fold {fold}/{N_FOLDS} ===")
+    mskf = MultilabelStratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=SEED)
+    X_dummy = np.zeros((len(ds), 1))
+    fold_results = []
 
-    ds_train = ds.select(tr_idx).map(tokenize, batched=True, remove_columns=["text"])
-    ds_val   = ds.select(va_idx).map(tokenize, batched=True, remove_columns=["text"])
-    ds_train.set_format("torch")
-    ds_val.set_format("torch")
+    for fold, (tr_idx, va_idx) in enumerate(mskf.split(X_dummy, Y), start=1):
+        print(f"\n=== Fold {fold}/{N_FOLDS} ===")
 
-    Y_train = Y[tr_idx]
-    pos = Y_train.sum(axis=0)
-    neg = (Y_train.shape[0] - pos)
+        ds_train = ds.select(tr_idx).map(tokenize, batched=True, remove_columns=["text"])
+        ds_val = ds.select(va_idx).map(tokenize, batched=True, remove_columns=["text"])
+        ds_train.set_format("torch")
+        ds_val.set_format("torch")
 
-    pos_weight = np.ones(len(LABELS), dtype=np.float32)
-    mask = pos > 0
-    pos_weight[mask] = (neg[mask] / pos[mask]).astype(np.float32)
+        Y_train = Y[tr_idx]
+        pos = Y_train.sum(axis=0)
+        neg = (Y_train.shape[0] - pos)
 
-    print("pos_weight:", dict(zip(LABELS, pos_weight.tolist())))
-    pos_weight_t = torch.tensor(pos_weight, dtype=torch.float32)
+        pos_weight = np.ones(len(LABELS), dtype=np.float32)
+        mask = pos > 0
+        pos_weight[mask] = (neg[mask] / pos[mask]).astype(np.float32)
 
-    model = AutoModelForSequenceClassification.from_pretrained(
-        MODEL_NAME,
-        num_labels=len(LABELS),
-        problem_type="multi_label_classification",
-        torch_dtype=torch.float32,
-    )
+        print("pos_weight:", dict(zip(LABELS, pos_weight.tolist())))
+        pos_weight_t = torch.tensor(pos_weight, dtype=torch.float32)
 
-    def compute_metrics(eval_pred):
-        logits, labels = eval_pred
-        labels = labels.astype(int)
-        return multilabel_metrics_tuned_thresholds(logits, labels)
+        model = AutoModelForSequenceClassification.from_pretrained(
+            MODEL_NAME,
+            num_labels=len(LABELS),
+            problem_type="multi_label_classification",
+            torch_dtype=torch.float32,
+        )
 
-    desired_args = {
-        "output_dir": os.path.join(OUT_DIR, f"fold_{fold}"),
-        "learning_rate": LR,
-        "per_device_train_batch_size": TRAIN_BS,
-        "per_device_eval_batch_size": EVAL_BS,
-        "num_train_epochs": EPOCHS,
-        "weight_decay": 0.01,
+        def compute_metrics(eval_pred):
+            logits, labels = eval_pred
+            labels = labels.astype(int)
+            return multilabel_metrics_tuned_thresholds(logits, labels)
 
-        "lr_scheduler_type": "cosine",
-        "warmup_ratio": 0.06,
-        "max_grad_norm": 1.0,
-        "gradient_accumulation_steps": 2,
+        desired_args = {
+            "output_dir": os.path.join(out_dir, f"fold_{fold}"),
+            "learning_rate": LR,
+            "per_device_train_batch_size": TRAIN_BS,
+            "per_device_eval_batch_size": EVAL_BS,
+            "num_train_epochs": EPOCHS,
+            "weight_decay": 0.01,
 
-        "evaluation_strategy": "epoch",
-        "save_strategy": "epoch",
-        "save_total_limit": 1,
-        "logging_steps": 50,
+            "lr_scheduler_type": "cosine",
+            "warmup_ratio": 0.06,
+            "max_grad_norm": 1.0,
+            "gradient_accumulation_steps": 2,
 
-        "load_best_model_at_end": True,
-        "metric_for_best_model": "f1",
-        "greater_is_better": True,
+            "evaluation_strategy": "epoch",
+            "save_strategy": "epoch",
+            "save_total_limit": 1,
+            "logging_steps": 50,
 
-        "fp16": (torch.cuda.is_available() and USE_FP16),
-        "seed": SEED,
-        "report_to": "none",
-    }
+            "load_best_model_at_end": True,
+            "metric_for_best_model": "f1",
+            "greater_is_better": True,
 
-    ta_params = set(inspect.signature(TrainingArguments.__init__).parameters.keys())
-    supported_args = {k: v for k, v in desired_args.items() if k in ta_params}
+            "fp16": (torch.cuda.is_available() and USE_FP16),
+            "seed": SEED,
+            "report_to": "none",
+        }
 
-    if "evaluation_strategy" not in ta_params and "evaluate_during_training" in ta_params:
-        supported_args["evaluate_during_training"] = True
-        if "eval_steps" in ta_params and "logging_steps" in supported_args:
-            supported_args["eval_steps"] = supported_args["logging_steps"]
+        ta_params = set(inspect.signature(TrainingArguments.__init__).parameters.keys())
+        supported_args = {k: v for k, v in desired_args.items() if k in ta_params}
 
-    if "save_strategy" not in ta_params and "save_steps" in ta_params:
-        supported_args["save_steps"] = supported_args.get("logging_steps", 50)
+        if "evaluation_strategy" not in ta_params and "evaluate_during_training" in ta_params:
+            supported_args["evaluate_during_training"] = True
+            if "eval_steps" in ta_params and "logging_steps" in supported_args:
+                supported_args["eval_steps"] = supported_args["logging_steps"]
 
-    if "evaluation_strategy" not in ta_params:
-        supported_args.pop("load_best_model_at_end", None)
-        supported_args.pop("metric_for_best_model", None)
-        supported_args.pop("greater_is_better", None)
+        if "save_strategy" not in ta_params and "save_steps" in ta_params:
+            supported_args["save_steps"] = supported_args.get("logging_steps", 50)
 
-    args = TrainingArguments(**supported_args)
+        if "evaluation_strategy" not in ta_params:
+            supported_args.pop("load_best_model_at_end", None)
+            supported_args.pop("metric_for_best_model", None)
+            supported_args.pop("greater_is_better", None)
 
-    trainer = WeightedBCETrainer(
-        model=model,
-        args=args,
-        train_dataset=ds_train,
-        eval_dataset=ds_val,
-        data_collator=data_collator,
-        compute_metrics=compute_metrics,
-        pos_weight=pos_weight_t,
-    )
+        args = TrainingArguments(**supported_args)
 
-    trainer.train()
-    metrics = trainer.evaluate()
+        trainer = WeightedBCETrainer(
+            model=model,
+            args=args,
+            train_dataset=ds_train,
+            eval_dataset=ds_val,
+            data_collator=data_collator,
+            compute_metrics=compute_metrics,
+            pos_weight=pos_weight_t,
+        )
 
-    keep_keys = [
-        "eval_accuracy", "eval_subset_acc",
-        "eval_precision", "eval_recall",
-        "eval_f1", "eval_macro_f1"
-    ]
-    keep = {k: float(metrics[k]) for k in keep_keys if k in metrics}
-    print("Fold metrics:", keep)
+        trainer.train()
+        metrics = trainer.evaluate()
 
-    per_label_keys = [f"eval_f1_{lab}" for lab in LABELS]
-    per_label = {k: float(metrics[k]) for k in per_label_keys if k in metrics}
-    print("Per-label F1:", per_label)
+        keep_keys = [
+            "eval_accuracy", "eval_subset_acc",
+            "eval_precision", "eval_recall",
+            "eval_f1", "eval_macro_f1"
+        ]
+        keep = {k: float(metrics[k]) for k in keep_keys if k in metrics}
+        print("Fold metrics:", keep)
 
-    fold_results.append({**keep, **per_label})
+        per_label_keys = [f"eval_f1_{lab}" for lab in LABELS]
+        per_label = {k: float(metrics[k]) for k in per_label_keys if k in metrics}
+        print("Per-label F1:", per_label)
 
-def mean_std(key):
-    vals = [r[key] for r in fold_results if key in r]
-    if not vals:
-        return 0.0, 0.0
-    return float(np.mean(vals)), float(np.std(vals))
+        fold_results.append({**keep, **per_label})
 
-print("\n=== 4-Fold CV Summary (mean +/- std) ===")
-for k in ["eval_accuracy", "eval_subset_acc", "eval_precision", "eval_recall", "eval_f1", "eval_macro_f1"]:
-    m, s = mean_std(k)
-    print(f"{k.replace('eval_','')}: {m:.4f} +/- {s:.4f}")
+    def mean_std(key):
+        vals = [r[key] for r in fold_results if key in r]
+        if not vals:
+            return 0.0, 0.0
+        return float(np.mean(vals)), float(np.std(vals))
 
-print("\n=== Per-Label F1 (mean +/- std) ===")
-for lab in LABELS:
-    m, s = mean_std(f"eval_f1_{lab}")
-    n = pos_counts.get(lab, 0)
-    print(f"  {lab} (n={n}): {m:.4f} +/- {s:.4f}")
+    print(f"\n=== 4-Fold CV Summary ({mode}) (mean +/- std) ===")
+    summary = {}
+    for k in ["eval_accuracy", "eval_subset_acc", "eval_precision", "eval_recall", "eval_f1", "eval_macro_f1"]:
+        m, s = mean_std(k)
+        short = k.replace("eval_", "")
+        print(f"{short}: {m:.4f} +/- {s:.4f}")
+        summary[short] = (m, s)
+
+    print("\n=== Per-Label F1 (mean +/- std) ===")
+    for lab in LABELS:
+        m, s = mean_std(f"eval_f1_{lab}")
+        n = pos_counts.get(lab, 0)
+        print(f"  {lab} (n={n}): {m:.4f} +/- {s:.4f}")
+
+    return summary
+
+
+def main():
+    ap = argparse.ArgumentParser(description="DeBERTa multi-label CV: INCI vs claims text.")
+    ap.add_argument("--mode", choices=("inci", "claims"), default="inci", help="Input text source")
+    args = ap.parse_args()
+    out = OUT_DIR_INCI if args.mode == "inci" else OUT_DIR_CLAIMS
+    random.seed(SEED)
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(SEED)
+    run_cv(args.mode, out)
+
+
+if __name__ == "__main__":
+    main()

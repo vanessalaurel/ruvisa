@@ -1792,12 +1792,86 @@ function ChatScreen({ onBack, userId, skinType, initialMessage }) {
   );
 }
 
+/* ---- MVP FEEDBACK (Profile) ---- */
+
+const MVP_FEEDBACK_QUESTIONS = [
+  {
+    key: "compare_ecommerce",
+    label: "Compared to Sephora or other online skincare shops, how would you rate Ruvisa overall?",
+  },
+  {
+    key: "recommendation_helpfulness",
+    label: "How helpful were Ruvisa's personalized recommendations for your skin?",
+  },
+  {
+    key: "trust_evidence",
+    label: "How much do you trust Ruvisa's ingredient and review evidence vs. typical marketing claims?",
+  },
+  {
+    key: "ease_of_use",
+    label: "How easy was Ruvisa to use (skin scan, product picks, chat assistant)?",
+  },
+  {
+    key: "would_use_again",
+    label: "How likely are you to choose Ruvisa over browsing Sephora next time you shop for skincare?",
+  },
+];
+
+function RatingScale({ value, onChange, disabled }) {
+  const labels = ["1", "2", "3", "4", "5"];
+  return (
+    <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+      {labels.map((n, i) => {
+        const num = i + 1;
+        const selected = value === num;
+        return (
+          <button
+            key={num}
+            type="button"
+            disabled={disabled}
+            onClick={() => onChange(num)}
+            style={{
+              width: 40,
+              height: 40,
+              borderRadius: 10,
+              border: selected ? "none" : `1.5px solid ${COLORS.creamDark}`,
+              background: selected ? COLORS.sage : COLORS.white,
+              color: selected ? COLORS.white : COLORS.text,
+              fontWeight: 700,
+              fontSize: 15,
+              cursor: disabled ? "default" : "pointer",
+              opacity: disabled && !selected ? 0.5 : 1,
+            }}
+          >
+            {n}
+          </button>
+        );
+      })}
+      <span style={{ fontSize: 11, color: COLORS.textLight, marginLeft: 4 }}>1 = poor · 5 = excellent</span>
+    </div>
+  );
+}
+
 /* ---- PROFILE & SETTINGS SCREEN ---- */
 
 function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate, onOpenScanDetail }) {
-  const [tab, setTab] = useState("profile"); // "profile" | "settings"
+  const [tab, setTab] = useState("profile"); // "profile" | "feedback" | "settings"
   const [journey, setJourney] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  // Feedback state
+  const [feedbackScores, setFeedbackScores] = useState({
+    compare_ecommerce: 0,
+    recommendation_helpfulness: 0,
+    trust_evidence: 0,
+    ease_of_use: 0,
+    would_use_again: 0,
+  });
+  const [feedbackComment, setFeedbackComment] = useState("");
+  const [feedbackHistory, setFeedbackHistory] = useState([]);
+  const [feedbackLoading, setFeedbackLoading] = useState(false);
+  const [feedbackSubmitting, setFeedbackSubmitting] = useState(false);
+  const [feedbackMsg, setFeedbackMsg] = useState(null);
 
   // Settings state
   const [name, setName] = useState(user?.name || "");
@@ -1814,6 +1888,46 @@ function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate,
       setLoading(false);
     }
   }, [userId]);
+
+  useEffect(() => {
+    if (tab !== "feedback" || userId === "guest") return;
+    setFeedbackLoading(true);
+    api.getFeedback(userId)
+      .then((data) => setFeedbackHistory(data.feedback || []))
+      .catch(() => setFeedbackHistory([]))
+      .finally(() => setFeedbackLoading(false));
+  }, [tab, userId]);
+
+  const handleFeedbackSubmit = async () => {
+    const missing = MVP_FEEDBACK_QUESTIONS.filter((q) => !feedbackScores[q.key]);
+    if (missing.length > 0) {
+      setFeedbackMsg({ type: "error", text: "Please rate all 5 questions before submitting." });
+      return;
+    }
+    setFeedbackSubmitting(true);
+    setFeedbackMsg(null);
+    try {
+      await api.submitFeedback(userId, {
+        ...feedbackScores,
+        open_comment: feedbackComment.trim() || undefined,
+      });
+      const data = await api.getFeedback(userId);
+      setFeedbackHistory(data.feedback || []);
+      setFeedbackMsg({ type: "success", text: "Thank you! Your feedback was saved." });
+      setFeedbackComment("");
+      setFeedbackScores({
+        compare_ecommerce: 0,
+        recommendation_helpfulness: 0,
+        trust_evidence: 0,
+        ease_of_use: 0,
+        would_use_again: 0,
+      });
+    } catch (err) {
+      setFeedbackMsg({ type: "error", text: "Could not save feedback. Please try again." });
+    } finally {
+      setFeedbackSubmitting(false);
+    }
+  };
 
   const handleSave = async () => {
     setSaving(true);
@@ -1861,7 +1975,7 @@ function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate,
 
       {/* Tab switcher */}
       <div style={{ margin: "0 24px 16px", display: "flex", background: COLORS.creamDark, borderRadius: 12, padding: 3 }}>
-        {[{ id: "profile", label: "Journey" }, { id: "settings", label: "Settings" }].map(t => (
+        {[{ id: "profile", label: "Journey" }, { id: "feedback", label: "Feedback" }, { id: "settings", label: "Settings" }].map(t => (
           <button key={t.id} onClick={() => setTab(t.id)} style={{
             flex: 1, padding: "10px", borderRadius: 10, border: "none", fontSize: 14, fontWeight: 700, cursor: "pointer",
             background: tab === t.id ? COLORS.white : "transparent",
@@ -1956,6 +2070,93 @@ function ProfileScreen({ onBack, onLogout, userId, userName, user, onUserUpdate,
             ))}
           </div>
         </>
+      ) : tab === "feedback" ? (
+        <div style={{ padding: "0 24px 24px" }}>
+          {userId === "guest" ? (
+            <p style={{ color: COLORS.textLight, fontSize: 14, textAlign: "center", padding: 24 }}>
+              Sign in to submit MVP feedback.
+            </p>
+          ) : (
+            <>
+              <div style={{ background: COLORS.white, borderRadius: 16, padding: 18, marginBottom: 16 }}>
+                <p style={{ fontSize: 15, fontWeight: 800, color: COLORS.forest, margin: "0 0 6px" }}>MVP test feedback</p>
+                <p style={{ fontSize: 13, color: COLORS.textLight, margin: 0, lineHeight: 1.5 }}>
+                  Help us improve Ruvisa. Your answers are saved to our database for product testing and research.
+                </p>
+              </div>
+
+              {feedbackHistory.length > 0 && (
+                <div style={{ background: COLORS.overlaySoft, borderRadius: 12, padding: 12, marginBottom: 16 }}>
+                  <p style={{ fontSize: 12, fontWeight: 700, color: COLORS.forest, margin: "0 0 4px" }}>
+                    Last submitted: {new Date(feedbackHistory[0].created_at).toLocaleString()}
+                  </p>
+                  <p style={{ fontSize: 11, color: COLORS.textLight, margin: 0 }}>
+                    {feedbackHistory.length} response{feedbackHistory.length !== 1 ? "s" : ""} on file — you can submit again after another test session.
+                  </p>
+                </div>
+              )}
+
+              {feedbackLoading ? (
+                <p style={{ color: COLORS.textLight, fontSize: 13, textAlign: "center" }}>Loading…</p>
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+                  {MVP_FEEDBACK_QUESTIONS.map((q, idx) => (
+                    <div key={q.key} style={{ background: COLORS.white, borderRadius: 14, padding: 16 }}>
+                      <p style={{ fontSize: 13, fontWeight: 700, color: COLORS.text, margin: "0 0 12px", lineHeight: 1.45 }}>
+                        {idx + 1}. {q.label}
+                      </p>
+                      <RatingScale
+                        value={feedbackScores[q.key]}
+                        onChange={(n) => setFeedbackScores((prev) => ({ ...prev, [q.key]: n }))}
+                        disabled={feedbackSubmitting}
+                      />
+                    </div>
+                  ))}
+
+                  <div style={{ background: COLORS.white, borderRadius: 14, padding: 16 }}>
+                    <label style={{ fontSize: 13, fontWeight: 700, color: COLORS.text, display: "block", marginBottom: 8 }}>
+                      Anything else? (optional)
+                    </label>
+                    <textarea
+                      value={feedbackComment}
+                      onChange={(e) => setFeedbackComment(e.target.value)}
+                      placeholder="What did you like or dislike compared to Sephora?"
+                      rows={3}
+                      disabled={feedbackSubmitting}
+                      style={{
+                        width: "100%",
+                        padding: "12px 14px",
+                        borderRadius: 12,
+                        border: `1.5px solid ${COLORS.creamDark}`,
+                        fontSize: 14,
+                        outline: "none",
+                        resize: "vertical",
+                        fontFamily: "inherit",
+                        boxSizing: "border-box",
+                      }}
+                    />
+                  </div>
+
+                  {feedbackMsg && (
+                    <p style={{
+                      fontSize: 13,
+                      textAlign: "center",
+                      color: feedbackMsg.type === "success" ? COLORS.sageDark : COLORS.red,
+                      fontWeight: 600,
+                      margin: 0,
+                    }}>
+                      {feedbackMsg.text}
+                    </p>
+                  )}
+
+                  <Btn onClick={handleFeedbackSubmit} disabled={feedbackSubmitting}>
+                    {feedbackSubmitting ? "Submitting…" : "Submit feedback"}
+                  </Btn>
+                </div>
+              )}
+            </>
+          )}
+        </div>
       ) : (
         /* Settings tab */
         <div style={{ padding: "0 24px" }}>
@@ -2016,16 +2217,18 @@ function AuthScreen({ onAuth }) {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
-    if (!email.trim() || !password.trim()) { setError("Please fill in all fields"); return; }
+    const trimmedEmail = email.trim().toLowerCase();
+    const trimmedPassword = password.trim();
+    if (!trimmedEmail || !trimmedPassword) { setError("Please fill in all fields"); return; }
     if (mode === "signup" && !name.trim()) { setError("Please enter your name"); return; }
     setLoading(true);
     setError(null);
     try {
       let user;
       if (mode === "signup") {
-        user = await api.registerUser(name.trim(), email.trim().toLowerCase(), password);
+        user = await api.registerUser(name.trim(), trimmedEmail, trimmedPassword);
       } else {
-        user = await api.loginUser(email.trim().toLowerCase(), password);
+        user = await api.loginUser(trimmedEmail, trimmedPassword);
       }
       localStorage.setItem("ruvisa_user", JSON.stringify(user));
       onAuth(user);

@@ -25,7 +25,8 @@
   ],
   "lauric acid": [
     "acne",
-    "comedonal_acne"
+    "comedonal_acne",
+    "pores"
   ],
   "melaleuca alternifolia leaf oil": [
     "acne",
@@ -37,6 +38,7 @@
     "acne",
     "comedonal_acne",
     "pigmentation",
+    "redness",
     "wrinkles"
   ],
   "phellodendron amurense bark extract": [
@@ -82,7 +84,9 @@
   ],
   "zinc pca": [
     "acne",
-    "comedonal_acne"
+    "comedonal_acne",
+    "redness",
+    "wrinkles"
   ],
   "acetyl glucosamine": [
     "pigmentation"
@@ -148,6 +152,8 @@
     "pigmentation"
   ],
   "calcium sulfate hydrate": [
+    "acne_scars_texture",
+    "comedonal_acne",
     "pigmentation",
     "pores"
   ],
@@ -206,7 +212,9 @@
     "pigmentation"
   ],
   "hibbertia scandens leaf extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hibiscus rosa-sinensis leaf extract": [
     "pigmentation"
@@ -219,7 +227,9 @@
     "wrinkles"
   ],
   "hydrolyzed codonopsis pilosula root extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hydrolyzed xanthomonas campestris polysaccharide": [
     "pigmentation"
@@ -321,13 +331,17 @@
     "pigmentation"
   ],
   "salicornia herbacea extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sulforaphane": [
     "pigmentation"
   ],
   "telopea speciosissima flower/leaf extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "terminalia ferdinandiana fruit extract": [
     "pigmentation"
@@ -391,7 +405,9 @@
     "pigmentation"
   ],
   "withania somnifera leaf extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "4-t-butylcyclohexanol": [
     "redness",
@@ -405,9 +421,15 @@
     "wrinkles"
   ],
   "achillea millefolium extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "achillea millefolium oil": [
+    "acne",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "aesculus hippocastanum seed extract": [
@@ -436,16 +458,20 @@
     "redness"
   ],
   "aloe arborescens leaf extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "aloe barbadensis leaf extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "aloe barbadensis leaf juice": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "aloe barbadensis leaf juice powder": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "aloe ferox leaf gel": [
     "redness"
@@ -457,7 +483,8 @@
     "redness"
   ],
   "ananas sativus fruit extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "anthemis nobilis flower extract": [
     "redness"
@@ -470,10 +497,16 @@
     "redness"
   ],
   "avena sativa bran extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "avena sativa kernel extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
     "pigmentation",
+    "pores",
     "redness"
   ],
   "avena sativa kernel flour": [
@@ -487,17 +520,22 @@
     "redness"
   ],
   "beta-glucan": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "betula alba bark extract": [
     "pigmentation",
     "redness"
   ],
   "betula alba bark/leaf extract": [
+    "acne",
+    "comedonal_acne",
     "pores",
     "redness"
   ],
   "betula alba leaf extract": [
+    "acne",
+    "comedonal_acne",
     "pores",
     "redness"
   ],
@@ -505,7 +543,8 @@
     "redness"
   ],
   "biosaccharide gum-1": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "bisabolol": [
     "redness"
@@ -564,13 +603,18 @@
   ],
   "centella asiatica extract": [
     "pigmentation",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "centella asiatica leaf extract": [
     "pigmentation",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "cetraria islandica extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "chamomilla recutita flower extract": [
@@ -581,7 +625,10 @@
     "redness"
   ],
   "colloidal oatmeal": [
+    "acne_scars_texture",
+    "comedonal_acne",
     "pigmentation",
+    "pores",
     "redness"
   ],
   "copper gluconate": [
@@ -609,20 +656,27 @@
     "redness"
   ],
   "dipotassium glycyrrhizate": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "disodium lauriminodipropionate tocopheryl phosphates": [
+    "acne",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "echinacea angustifolia extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "echinacea angustifolia leaf extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "ectoin": [
     "pigmentation",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "epigallocatechin gallate": [
     "pigmentation",
@@ -669,7 +723,8 @@
     "redness"
   ],
   "glycyrrhiza glabra rhizome/root": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "hamamelis virginiana  leaf extract": [
     "pores",
@@ -717,7 +772,8 @@
     "redness"
   ],
   "honey": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "houttuynia cordata extract": [
     "pigmentation",
@@ -745,22 +801,32 @@
     "redness"
   ],
   "jasminum officinale extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "jasminum officinale flower/leaf extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "jasminum officinale oil": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "jojoba esters": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "juglans regia leaf": [
+    "acne",
+    "acne_scars_texture",
+    "comedonal_acne",
     "pores",
     "redness"
   ],
   "juglans regia leaf extract": [
+    "acne",
+    "acne_scars_texture",
+    "comedonal_acne",
     "pores",
     "redness"
   ],
@@ -778,11 +844,13 @@
     "redness"
   ],
   "laminaria saccharina extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "leontopodium alpinum callus culture extract": [
     "pigmentation",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "leonurus sibiricus flower/leaf/stem extract": [
     "redness"
@@ -840,10 +908,12 @@
     "redness"
   ],
   "opuntia ficus-indica extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "opuntia ficus-indica fruit extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "opuntia ficus-indica stem extract": [
     "redness"
@@ -861,7 +931,8 @@
     "redness"
   ],
   "panthenol": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "papaver rhoeas petal extract": [
     "redness"
@@ -879,7 +950,8 @@
     "redness"
   ],
   "persea gratissima fruit extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "persea gratissima oil unsaponifiables": [
     "pigmentation",
@@ -889,7 +961,8 @@
     "redness"
   ],
   "phaeodactylum tricornutum extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "phragmites kharka extract": [
     "pigmentation",
@@ -920,7 +993,8 @@
     "redness"
   ],
   "pseudoalteromonas ferment extract": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "quercetin": [
     "pigmentation",
@@ -966,10 +1040,12 @@
     "redness"
   ],
   "saccharomyces ferment filtrate": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "safflower oil/palm oil aminopropanediol esters": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "salix alba bark extract": [
     "pores",
@@ -980,6 +1056,8 @@
     "redness"
   ],
   "salvia officinalis extract": [
+    "acne",
+    "comedonal_acne",
     "pigmentation",
     "pores",
     "redness"
@@ -995,6 +1073,9 @@
     "redness"
   ],
   "santalum album extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
     "redness"
   ],
   "saxifraga sarmentosa extract": [
@@ -1012,7 +1093,8 @@
   "scutellaria baicalensis root extract": [
     "pigmentation",
     "pores",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "scutellaria galericulata extract": [
     "redness"
@@ -1041,7 +1123,8 @@
     "redness"
   ],
   "sucrose": [
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "symphytum officinale root extract": [
     "redness"
@@ -1105,7 +1188,8 @@
   ],
   "vitis vinifera fruit extract": [
     "pigmentation",
-    "redness"
+    "redness",
+    "wrinkles"
   ],
   "wheat amino acids": [
     "redness"
@@ -1143,7 +1227,9 @@
   "lactic acid": [
     "acne_scars_texture",
     "comedonal_acne",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "lactobacillus/pumpkin ferment extract": [
     "acne_scars_texture",
@@ -1192,9 +1278,11 @@
     "pores"
   ],
   "acetyl hexapeptide-8": [
+    "redness",
     "wrinkles"
   ],
   "acetyl octapeptide-3": [
+    "redness",
     "wrinkles"
   ],
   "acetyl sh-hexapeptide-5 amide acetate": [
@@ -1207,6 +1295,7 @@
     "wrinkles"
   ],
   "acetyl tetrapeptide-5": [
+    "redness",
     "wrinkles"
   ],
   "acetylarginyltryptophyl diphenylglycine": [
@@ -1275,6 +1364,7 @@
     "wrinkles"
   ],
   "isosorbide dicaprylate": [
+    "redness",
     "wrinkles"
   ],
   "kappaphycus alvarezii extract": [
@@ -1576,7 +1666,9 @@
   ],
   "bambusa vulgaris shoot extract": [
     "pigmentation",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "bee venom": [
     "pores"
@@ -1621,11 +1713,15 @@
   ],
   "chaenomeles sinensis fruit extract": [
     "pigmentation",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "cinnamomum zeylanicum bark extract": [
     "pigmentation",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "cirsium eriophorum callus extract": [
     "pores"
@@ -1677,7 +1773,9 @@
     "pores"
   ],
   "clay minerals": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "codonopsis lanceolata extract": [
     "pigmentation",
@@ -1688,7 +1786,9 @@
   ],
   "cotinus coggygria leaf extract": [
     "pigmentation",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "cucumis melo cantalupensis fruit extract": [
     "pores"
@@ -1891,7 +1991,9 @@
     "pores"
   ],
   "morus alba extract": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "morus bombycis extract": [
     "pigmentation",
@@ -1927,7 +2029,9 @@
     "pores"
   ],
   "opuntia humifusa flower/stem extract": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "origanum dictamnus flower/leaf/stem extract": [
     "pigmentation",
@@ -1962,7 +2066,9 @@
     "pores"
   ],
   "phytosteryl rice branate": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "picrasma excelsa wood extract": [
     "pores"
@@ -1974,7 +2080,9 @@
     "pores"
   ],
   "pna-19 carboxyethyl fluorene": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "poria cocos sclerotium extract": [
     "pores"
@@ -1993,7 +2101,9 @@
   ],
   "prunus mume extract": [
     "pigmentation",
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "prunus persica fruit": [
     "pores"
@@ -2148,6 +2258,8 @@
     "pores"
   ],
   "salt mine mud": [
+    "acne_scars_texture",
+    "comedonal_acne",
     "pores"
   ],
   "salvadora persica stem extract": [
@@ -2204,7 +2316,9 @@
     "pores"
   ],
   "silt": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "smilax china root extract": [
     "pigmentation",
@@ -2239,7 +2353,9 @@
     "pores"
   ],
   "thuja orientalis extract": [
-    "pores"
+    "pores",
+    "redness",
+    "wrinkles"
   ],
   "tioxolone": [
     "pores"
@@ -2300,10 +2416,14 @@
     "pores"
   ],
   "3-glyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "3-laurylglyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "4-butylresorcinol": [
     "pigmentation"
@@ -2336,7 +2456,9 @@
     "pigmentation"
   ],
   "achillea millefolium flower extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "actaea heracleifolia root extract": [
     "pigmentation"
@@ -2360,10 +2482,14 @@
     "pigmentation"
   ],
   "aloe vera callus extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "amaranthus hypochondriacus seed extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "aminoethanesulfinic acid": [
     "pigmentation"
@@ -2408,7 +2534,9 @@
     "pigmentation"
   ],
   "arthrospira platensis extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "artocarpus altilis flower extract": [
     "pigmentation"
@@ -2444,7 +2572,9 @@
     "pigmentation"
   ],
   "aspergillus/camellia sinensis leaf extract ferment filtrate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "aspergillus/sorghum bicolor leaf/stem extract ferment filtrate": [
     "pigmentation"
@@ -2471,10 +2601,14 @@
     "pigmentation"
   ],
   "bacillus/folic acid ferment filtrate extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "bacillus/rice bran extract/soybean extract ferment filtrate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "bacopa monnieri oil": [
     "pigmentation"
@@ -2483,16 +2617,22 @@
     "pigmentation"
   ],
   "banksia serrata seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "barklya syringifolia flower/leaf extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "bergamot/grapefruit/orange/tangerine fruit ferment extract": [
     "pigmentation"
   ],
   "beta vulgaris root extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "beta vulgaris root powder": [
     "pigmentation"
@@ -2504,7 +2644,9 @@
     "pigmentation"
   ],
   "bis-glyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "bixa orellana leaf extract": [
     "pigmentation"
@@ -2555,7 +2697,9 @@
     "pigmentation"
   ],
   "callitris columellaris leaf/wood extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "calophyllum inophyllum seed oil": [
     "pigmentation"
@@ -2600,10 +2744,15 @@
     "pigmentation"
   ],
   "caprylamide mea": [
-    "pigmentation"
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "caprylyl 2-glyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "capsicum annuum fruit meristem cell": [
     "pigmentation"
@@ -2621,7 +2770,9 @@
     "pigmentation"
   ],
   "centella asiatica callus extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "centella asiatica leaf cell culture extract": [
     "pigmentation"
@@ -2633,7 +2784,9 @@
     "pigmentation"
   ],
   "centella asiatica oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "centipeda cunninghamii leaf/stem extract": [
     "pigmentation"
@@ -2672,22 +2825,30 @@
     "pigmentation"
   ],
   "chrysanthemum indicum extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "chrysanthemum parthenium flower/leaf/stem juice": [
     "pigmentation"
   ],
   "chrysanthemum zawadskii flower extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "cichorium intybus seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "cimicifuga dahurica root extract": [
     "pigmentation"
   ],
   "cimicifuga racemosa root extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "cinnamomum cassia bark/syzgium aromaticum bud/rosmarinus officinalis leaf/thymus vulgaris leaf oil": [
     "pigmentation"
@@ -2699,13 +2860,19 @@
     "pigmentation"
   ],
   "citrus australasica fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "citrus australasica seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "citrus glauca seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "citrus junos extract": [
     "pigmentation"
@@ -2720,7 +2887,9 @@
     "pigmentation"
   ],
   "citrus unshiu fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "citrus unshiu fruit powder": [
     "pigmentation"
@@ -2729,7 +2898,10 @@
     "pigmentation"
   ],
   "coconut flower sugar": [
-    "pigmentation"
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "coffea arabica fruit extract": [
     "pigmentation"
@@ -2753,7 +2925,9 @@
     "pigmentation"
   ],
   "cordyceps sinensis extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "crocus sativus callus extract": [
     "pigmentation"
@@ -2783,7 +2957,9 @@
     "pigmentation"
   ],
   "cyclopia genistoides flower/leaf/stem extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "cyclopia genistoides leaf extract": [
     "pigmentation"
@@ -2798,7 +2974,9 @@
     "pigmentation"
   ],
   "cymbidium erythraeum flower extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "cymbopogon citratus leaf water": [
     "pigmentation"
@@ -2825,16 +3003,22 @@
     "pigmentation"
   ],
   "davidsonia jerseyana fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "davidsonia jerseyana fruit powder": [
     "pigmentation"
   ],
   "davidsonia jerseyana seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "davidsonia pruriens fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "decapeptide-6": [
     "pigmentation"
@@ -2879,7 +3063,9 @@
     "pigmentation"
   ],
   "diospyros kaki calyx extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "disodium ascorbyl sulfate": [
     "pigmentation"
@@ -2936,7 +3122,10 @@
     "pigmentation"
   ],
   "euterpe oleracea pulp powder": [
-    "pigmentation"
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "ferulic acid": [
     "pigmentation"
@@ -2969,7 +3158,9 @@
     "pigmentation"
   ],
   "fusanus acuminatus seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "galactoarabinan": [
     "pigmentation"
@@ -3008,10 +3199,14 @@
     "pigmentation"
   ],
   "glyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "glycine max callus culture": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "glycine max extract": [
     "pigmentation"
@@ -3020,7 +3215,9 @@
     "pigmentation"
   ],
   "glycine max phytoplacenta extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "glycine tomentella root extract": [
     "pigmentation"
@@ -3032,7 +3229,9 @@
     "pigmentation"
   ],
   "grifola frondosa mycelium ferment filtrate extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "haematococcus pluvialis extract": [
     "pigmentation"
@@ -3053,7 +3252,9 @@
     "pigmentation"
   ],
   "hexyl 3-glyceryl ascorbate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hibiscus sabdariffa leaf extract": [
     "pigmentation"
@@ -3077,10 +3278,14 @@
     "pigmentation"
   ],
   "hordeum vulgare sprout extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hyaluronic acid/polyglutamic acid crosspolymer": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hydrogen": [
     "pigmentation"
@@ -3110,7 +3315,9 @@
     "pigmentation"
   ],
   "hydrolyzed proanthocyanidin": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hydrolyzed prunus domestica fruit extract": [
     "pigmentation"
@@ -3122,13 +3329,17 @@
     "pigmentation"
   ],
   "hydrolyzed tremella fuciformis sporocarp extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hydrolyzed verbascum thapsus flower": [
     "pigmentation"
   ],
   "hydrolyzed wheat bran": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "hydroxyacetophenone": [
     "pigmentation"
@@ -3191,7 +3402,9 @@
     "pigmentation"
   ],
   "kunzea pomifera seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "lactobacillus/amaranthus caudatus seed flour ferment filtrate": [
     "pigmentation"
@@ -3353,7 +3566,9 @@
     "pigmentation"
   ],
   "methyl carboxymethylphenyl aminocarboxypropylphosphonate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "methyl di-t-butyl hydroxyhydrocinnamate": [
     "pigmentation"
@@ -3395,7 +3610,9 @@
     "pigmentation"
   ],
   "myrothamnus flabellifolia callus culture extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "n-decanoyl serinol": [
     "pigmentation"
@@ -3410,13 +3627,17 @@
     "pigmentation"
   ],
   "nelumbo nucifera callus culture extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "nelumbo nucifera flower/leaf/stem juice": [
     "pigmentation"
   ],
   "nelumbo nucifera phytoplacenta culture extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "nicotinamide mononucleotide": [
     "pigmentation"
@@ -3497,7 +3718,9 @@
     "pigmentation"
   ],
   "opuntia ficus-indica callus culture extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "opuntia ficus-indica fruit water": [
     "pigmentation"
@@ -3578,7 +3801,9 @@
     "pigmentation"
   ],
   "phaseolus angularis seed extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "phenethyl caffeate": [
     "pigmentation"
@@ -3629,10 +3854,14 @@
     "pigmentation"
   ],
   "pisum sativum callus extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "pisum sativum phytoplacenta extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "platinum": [
     "pigmentation"
@@ -3644,7 +3873,9 @@
     "pigmentation"
   ],
   "plukenetia volubilis seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "plumeria obtusa leaf cell extract": [
     "pigmentation"
@@ -3668,7 +3899,9 @@
     "pigmentation"
   ],
   "polypodium vulgare rhizome extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "porphyridium cruentum culture conditioned media": [
     "pigmentation"
@@ -3686,7 +3919,10 @@
     "pigmentation"
   ],
   "potassium lauroyl glycinate": [
-    "pigmentation"
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "pouteria sapota seed butter": [
     "pigmentation"
@@ -3707,7 +3943,9 @@
     "pigmentation"
   ],
   "prunus cerasus extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "prunus cerasus fruit extract": [
     "pigmentation"
@@ -3752,7 +3990,9 @@
     "pigmentation"
   ],
   "pyrroloquinoline quinone": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "pyrroloquinoline quinone allyl ester": [
     "pigmentation"
@@ -3815,7 +4055,9 @@
     "pigmentation"
   ],
   "rosa damascena callus culture extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "rosa damascena flower oil": [
     "pigmentation"
@@ -3830,10 +4072,14 @@
     "pigmentation"
   ],
   "rosa multiflora extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "rosa multiflora flower extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "rosa multiflora seed oil": [
     "pigmentation"
@@ -3854,7 +4100,9 @@
     "pigmentation"
   ],
   "rubus arcticus callus extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "rubus arcticus fruit extract": [
     "pigmentation"
@@ -3905,16 +4153,22 @@
     "pigmentation"
   ],
   "saccharomyces/triticum aestivum seed ferment extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "salvia hispanica seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sambucus williamsii phytoplacenta extract": [
     "pigmentation"
   ],
   "santalum acuminatum fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sarcodon aspratus extract": [
     "pigmentation"
@@ -3932,7 +4186,9 @@
     "pigmentation"
   ],
   "schizophyllum commune/citrus unshiu peel extract ferment filtrate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sclerocarya birrea callus extract": [
     "pigmentation"
@@ -3962,7 +4218,9 @@
     "pigmentation"
   ],
   "snail secretion filtrate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sodium ascorbate": [
     "pigmentation"
@@ -3980,7 +4238,9 @@
     "pigmentation"
   ],
   "sodium hyaluronate crosspolymer": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "sodium metabisulfite": [
     "pigmentation"
@@ -3989,7 +4249,10 @@
     "pigmentation"
   ],
   "sodium tocopheryl phosphate": [
-    "pigmentation"
+    "acne",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "soil minerals/syringa vulgaris leaf cell culture extract": [
     "pigmentation"
@@ -4031,10 +4294,14 @@
     "pigmentation"
   ],
   "syzygium leuhmanii fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "syzygium luehmannii fruit extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "syzygium samarangense fruit extract": [
     "pigmentation"
@@ -4049,7 +4316,9 @@
     "pigmentation"
   ],
   "terminalia ferdinandiana seed oil": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "tetrabutyl ethylidenebisphenol": [
     "pigmentation"
@@ -4106,7 +4375,9 @@
     "pigmentation"
   ],
   "tocopheryl retinoate": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "tocopheryl succinate": [
     "pigmentation"
@@ -4118,10 +4389,14 @@
     "pigmentation"
   ],
   "trachelospermum asiaticum flower/leaf/stem extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "tremella fuciformis sporocarp extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "trifolium pratense leaf extract": [
     "pigmentation"
@@ -4142,7 +4417,9 @@
     "pigmentation"
   ],
   "tripropylene glycol": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "tris-bht mesitylene": [
     "pigmentation"
@@ -4163,7 +4440,9 @@
     "pigmentation"
   ],
   "tulipa gesneriana phytoplacenta extract": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "tyrosyl histidine hcl": [
     "pigmentation"
@@ -4172,7 +4451,9 @@
     "pigmentation"
   ],
   "ubiquinol": [
-    "pigmentation"
+    "pigmentation",
+    "redness",
+    "wrinkles"
   ],
   "ubiquinone": [
     "pigmentation"
@@ -4241,7 +4522,10 @@
     "pigmentation"
   ],
   "volcanic rock": [
-    "pigmentation"
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pigmentation",
+    "pores"
   ],
   "wine extract": [
     "pigmentation"
@@ -4275,5 +4559,8182 @@
   ],
   "zonaria tournefortii extract": [
     "pigmentation"
+  ],
+  "3-aminopropane sulfonic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "acetamide mea": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "acrylates crosspolymer-4": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "acrylic acid/vp crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "aminopropyl triethoxysilane": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium coco-sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium cocoyl isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium lauroyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium polyacrylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ammonium xylenesulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "amp-isostearoyl hydrolyzed collagen": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "amp-isostearoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ampd-isostearoyl hydrolyzed collagen": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "aphanizomenon flos-aquae powder": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "apricot kernel oil peg-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "apricot kernel oil polyglyceryl-4 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "apricot kernel oil polyglyceryl-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "arachidic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "arachidyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "argan oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "argan oil peg-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "argan oil polyglyceryl-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "avocado oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "avocado oil polyglyceryl-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "azelamide mea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "babassu oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "babassuamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "babassuamidopropyltrimonium methosulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "beheneth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "beheneth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "beheneth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "beheneth­‐20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "behenic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "behentrimonium methosulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "behenyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "benzalkonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "benzethonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-(glyceryl/lauryl) glyceryl lauryl dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-butyldimethicone polyglyceryl-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-isobutyl peg/ppg-10/7/dimethicone copolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-peg-15 methyl ether dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-peg-18 methyl ether dimethyl silane": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "bis-peg-8 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-peg/ppg-14/14 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-peg/ppg-16/16 peg/ppg-16/16 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bis-peg/ppg-20/20 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "brassica oleracea italica sprout powder": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "butyl polydimethylsiloxy ethoxypropyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "butylene glycol behenate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "butylene glycol laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "butyloctanoic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c10-16 alkyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c10-16 pareth-1": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c11-15 pareth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c11-15 pareth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c11-15 pareth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c11-15 pareth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c11-15 pareth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-13 pareth-23": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-13 pareth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-13 pareth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 pareth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 pareth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 pareth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 pareth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 pareth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 sec-pareth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-14 sec-pareth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-15 pareth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-15 pareth-2": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-15 pareth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-15 pareth-3 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-15 pareth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-16 pareth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-20 acid peg-8 ester": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c12-20 alkyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c18-36 acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c18-36 acid glycol ester": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c20-22 alkyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c20-40 acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c20-40 pareth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c20-40 pareth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c20-40 pareth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c30-38 olefin/isopropyl maleate/ma copolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c9-11 pareth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c9-11 pareth-8": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "c9-15 alkyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "candelilla/jojoba/rice bran polyglyceryl-3 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "candida bombicola/glucose/methyl rapeseedate ferment": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "canola oil glyceride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capric acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capric/lauric/myristic/oleic amidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caproic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capryl/capramidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylic/capric triglyceride peg-4 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capryloyl glycine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capryloyl silk amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capryloyl/caproyl methyl glucamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylyl dimethicone ethoxy glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylyl glyceryl ether": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylyl/capryl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "caprylyl/capryl wheat bran/straw glycosides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "capsicum frutescens resin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceanothus americanus extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetearamidoethyldiethonium succinoyl hydrolyzed pea protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-10 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-100": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-16": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-18": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-2": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-22": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-23": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-24": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-29": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-33": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-50": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-60": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-60 myristyl glycol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteareth-80": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetearyl alcohol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetearyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetearyl wheat bran glycosides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetearyl wheat straw glycosides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-10 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-150": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-16": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-20 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-23": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-24": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-4": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ceteth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetrimonium bromide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetrimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetrimonium methosulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetyl diglyceryl tris(trimethylsiloxy)silylethyl dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetyl peg/ppg-10/1 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cetylpyridinium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chlorelleth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "choleth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "choleth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "choleth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "choleth-24": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chrysanthemum sinense flower extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "citrus aurantifolia juice": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "citrus aurantifolia oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "citrus aurantifolia peel extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide dea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide dipa": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide mea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide mipa": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamide methyl mea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidoethyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidopropyl betainamide mea chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidopropyl dimethylamine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidopropyl hydroxysultaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamidopropylamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coceth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coceth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coco-betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coco-glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coco/oleamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocodimonium hydroxypropyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoglucosides hydroxypropyltrimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coconut acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coconut alcohol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coconut oil aminoethoxyethanol amides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coconut oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocotrimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed collagen": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed keratin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed oat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed rice protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed soy protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl hydroxyethyl imidazoline": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl methyl glucamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocoyl sarcosine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cottonseed oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cupuassuamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "deceth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "decyl alcohol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "decyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "decyl polyglucose": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "decyloxazolidinone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "decyltetradeceth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dextrin myristate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dextrin palmitate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dextrin palmitate/ethylhexanoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "di-c12-15 pareth-8 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "di-ppg-2 myreth-10 adipate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicapryl sodium sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicetyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicetyldimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicocodimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "didecyldimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "diethylhexyl sodium sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dihydrocholeth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "diisocetyl dodecanedioate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "diisostearyl malate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimaltosyl cyclodextrin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone peg-7 cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone peg-7 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone peg-8 polyacrylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone peg/ppg-12/4 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone propyl pg-betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone/peg-10 crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone/peg-15 crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethicone/polyglycerin-3 crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dimethyl lauramide/myristamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium 2-sulfolaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium c12-14 pareth-2 sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium c12-14 pareth-3 sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium capryloyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cetearyl sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cocamido mea-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cocamido mipa-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium coco-glucoside citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium coco-glucoside sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cocoamphodiacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cocoamphodipropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium cocoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium deceth-6 sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium distyrylbiphenyl disulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium ethylene dicocamide peg-15 disulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium laureth sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauriminodiacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauriminodipropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauroamphodiacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauroyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauryl phenyl ether disulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium lauryl sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium laurylglucosides hydroxypropyl citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium oleamido mea-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium oleamido mipa-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium peg-12 dimethicone sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium peg-5 laurylcitrate sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium peg-8 palm glycerides sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium ricinoleamido mea-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium soyamphodiacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium stearoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium stearyl sulfosuccinamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium succinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium succinoyl glycyrrhetinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium tetrapropenyl succinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disodium undecylenamido mea-sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "disteareth-2 lauroyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dodecylbenzene sulfonic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dodecylbenzyltrimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "egg yolk extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ethylhexanamide serinol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ethylhexyl coco-oleate estolide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ethylhexyl stearoyl polyhydroxystearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "fusel wheat bran/straw glycosides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "gleditsia fera pod extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glycereth-2 cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glycereth-7 caprylate/caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glyceryl oleate citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glyceryl olivate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glycol stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glycol stearate se": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "helianthus annuus petal extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "heptyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hexylene glycol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hippophae rhamnoidesamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated coconut acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated lysolecithin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated palm glyceride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated palm/palm kernel oil peg-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated sunflower seed oil polyglyceryl-3 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated tallow acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated vegetable glyceride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrolyzed beeswax": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxylated lecithin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxyproline": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxypropyl guar": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxypropyl methylcellulose": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxypropylcocoate peg-8 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxypropyltrimonium maltodextrin crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxystearic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "inulin lauryl carbamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isoceteth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isoceteth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isoceteth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isodeceth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isolaureth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isostearamide mipa": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isosteareth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isostearic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isostearoyl hydrolyzed collagen": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "isostearoyl hydrolyzed keratin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "jojoba oil peg-150 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "jojoba wax peg-120 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laneth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laneth-16": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laneth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lanolin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lanolin acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramide dea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramide mea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramide mipa": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramide/myristamide dea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramidopropyl hydroxysultaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramidopropylamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauramine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-1 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-11 carboxylic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-2": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-21": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-23": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-3 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-4": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-5 carboxylic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-50": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-6 carboxylic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-7 citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laureth-8": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauroamphocarboxyglycinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauroyl methyl glucamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauroyl sarcosine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauroyl/myristoyl methyl glucamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl dimethicone/polyglycerin-3 crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl hydroxysultaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl peg-10 tris[trimethylsiloxy]silylethyl dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl peg-8 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl peg-9 polydimethylsiloxyethyl dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl polyglyceryl-3 polydimethylsiloxyethyl dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lauryl pyrrolidone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "laurylpyridinium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lavandula angustifolia flower extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "linoleic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "linolenic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "linseed acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lysine thiazolidine carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "macadamia seed oil polyglyceryl-6 esters behenate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium laureth-8 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium oleth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mannosylerythritol lipid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mea-laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mentha piperita extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mipa-cocoyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mipa-laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mipa-lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myreth-3 myristate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristamide dipa": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristamidopropyl dimethylamine phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristamidopropylamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "myristyl laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "nonyl nonoxynol-49": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octoxynol-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octoxynol-11": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octoxynol-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octoxynol-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octyldodeceth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octyldodeceth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "octyldodecyl xyloside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleoyl sarcosine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-10 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-16": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-2": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-3 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleth-50": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oleyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olivamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olive oil peg-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olive oil polyglyceryl-4 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olivoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-10 isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-10 rapeseed sterol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-10 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-100 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-100 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-120 glyceryl stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-120 methyl glucose trioleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-15 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-15 cocamine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-150 distearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-150 polyglyceryl-2 tristearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-150 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-160 sorbitan triisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-2 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-2 soyamine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 glyceryl isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 glyceryl laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 phytosterol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 sorbitan cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 sorbitan isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-20 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "peg-200 glyceryl stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-200 hydrogenated glyceryl palmate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-25 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-25 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-250 distearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-26-ppg-30 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-3 cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 glyceryl cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 glyceryl isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 glyceryl laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 glyceryl stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 lanolin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 soy sterol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-30 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-32 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-35 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-36 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-4 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-4 laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 glyceryl cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 lanolin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 sorbitan laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 sorbitan perisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 sorbitan peroleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 sorbitan stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-40 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-45 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-5 cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-5 glyceryl stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-5 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-5 rapeseed sterol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-50 glyceryl isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-50 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-50 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-55 propylene glycol oleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-55 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-6 caprylic/capric glycerides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-6 cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-6 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-60 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-60 glyceryl isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-60 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-7 glyceryl cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-7 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-7 trimethylolpropane coconut ether": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-70 mango glycerides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-75 lanolin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-75 meadowfoam oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-75 shea butter glycerides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-75 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-78 glyceryl cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 methyl ether dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 methyl ether triethoxysilane": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 ricinoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-8 stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "peg-80 glyceryl cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-80 hydrogenated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-80 hydrogenated glyceryl palmate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-80 sorbitan laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-90 diisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg-90 glyceryl isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-10/30 copolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-15/15 allyl ether acetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-20/23 dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-300/55 copolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-8/3 diisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "peg/ppg-8/3 laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "peg/poly(1,2-butanediol)-52/32 dimethyl ether": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl (arginine/glutamic acid/isoleucine/leucine/lysine/phenylalanine/proline/threonine/valine)": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-1 trideceth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-1-peg-9 lauryl glycol ether": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-10 cetyl ether phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-13-decyltetradeceth-24": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-14 polyglyceryl-2 ether": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2 cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2 hydroxyehtyl cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2 hydroxyethyl cocamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2 hydroxyethyl coco/isostearamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2-deceth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-2-isodeceth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-24-glycereth-24": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-25-laureth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-38-buteth-37": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-4-ceteth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-4-ceteth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-5-ceteth-10 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-5-ceteth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-6-decyltetradeceth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-6-decyltetradeceth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-6-decyltetradeceth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ppg-8-ceteth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palm acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palm kernel acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palm kernelamide dea": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palm kernelamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palmeth-2 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palmitoyl collagen amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palmitoyl glycine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "palmitoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pca ethyl cocoyl arginate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "peach kernel oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pineamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pinus sibirica seed oil polyglyceryl-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 101": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 123": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 124": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 182": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 183": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 184": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 185": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 188": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 234": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 235": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 338": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 401": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "poloxamer 407": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-10 caprylate/caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-10 dilaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-10 laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-10 trioleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-2 tetraisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-20 hexacaprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-20 octaisononanoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 caprate/caprylate/succinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 caprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 cetyl ether olivate/succinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 dicitrate/stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 disiloxane dimethicone": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-3 sorbityl linseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-4 caprylate/caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-4 laurate/sebacate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-6 caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-6 caprylate/caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-6 palmitate/succinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyglyceryl-6 tricaprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyquaternium-78": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyquaternium-80": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyquaternium-81": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 21": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 60": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 61": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 65": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 80": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 81": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polysorbate 85": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pomaderris kumerahou flower/leaf extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium behenate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium c12-13 alkyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium castorate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cetyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl glycinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl hydrolyzed collagen": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl hydrolyzed oat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium cocoyl hydrolyzed soy protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium hempseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium laureth phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium laureth-5 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium laureth-6 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium lauroyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium lauroyl wheat amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium linoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium linseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium myristate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium myristoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium oleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium olivate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium olivoyl hydrolyzed oat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium olivoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium olivoyl pca": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "potassium olivoyl/lauroyl wheat amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palm kernelate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palmate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palmitate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palmitoyl hydrolyzed rice protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palmitoyl hydrolyzed sweet almond protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium palmitoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium ricinoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium shea butterate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium sunflowerseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium tallowate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "potassium taurine laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol caprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol hydroxystearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol oleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "propylene glycol stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus persica extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "quaternium-18": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quaternium-52": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quaternium-87": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quaternium-96": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quillaja saponaria bark": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quillaja saponaria bark extract": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "rapeseed acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rice bran acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rice oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ricinoleic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ricinoleth-40": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "safflower acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "safflower glyceride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "safflower seed oil polyglyceryl-4 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "salvia officinalis leaf extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sanguinaria canadensis rhizome/root extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sanguisorba officinalis root extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sapindus mukorossi fruit extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "saponaria officinalis leaf extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "saponins": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sekken soji": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "shea butter glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "shea butter glycerides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "shea butteramidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "silicone quaternium-17": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium arachidate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium arganamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium arganate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium astrocaryum murumuruate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium avocadoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium behenate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium behenoyl lactylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium bis-hydroxyethylglycinate coco-glucosides crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium bis-hydroxyethylglycinate lauryl-glucosides crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium borageamidopropyl pg-dimonium chloride phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c10-16 pareth-2 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c12-13 pareth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c12-14 olefin sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c12-15 pareth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c12-15 pareth-15 sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c12-18 alkyl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c14-16 olefin sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c14-17 alkyl sec sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c14-18 olefin sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c16-18 olefin sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium c8-16 isoalkylsuccinyl lactoglobulin sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium caprate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium caproyl methyltaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium caproyl prolinate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "sodium caproyl/lauroyl lactylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium capryloyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium carboxymethyl beta-glucan": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium carboxymethyl c10-16 alkyl glucoside": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium castorate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cetearyl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cetyl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocamidopropyl pg-dimonium chloride phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocaminopropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium coceth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium coceth-30 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium coco pg-dimonium chloride phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium coco-glucoside tartrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium coco-sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoa butterate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoabutteramphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoamphopropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoglyceryl ether sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocomonoglyceride sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocomonoglyceride sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocopolyglucose tartrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocopolyglucoside citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl alaninate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl apple amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl barley amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl glycinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl hydrolyzed royal jelly": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl hydrolyzed soy protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl hydrolyzed wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl threoninate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl wheat amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl/olivoyl hydrolyzed oat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cocoyl/olivoyl hydrolyzed oat/wheat protein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium cottonseedamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium decylglucosides hydroxypropylsulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium dihydroxycetyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium dilaureth-7 citrate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium dioleth-8 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium dodecylbenzenesulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium dodoxynol-40 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium grapeseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium guaiazulene sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydrolyzed potato starch dodecenylsuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropylphosphate decylglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropylphosphate laurylglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropylsulfonate cocoglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropylsulfonate decylglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropylsulfonate laurylglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium isostearoyl lactate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium isostearoyl lactylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauraminopropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-11 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-12 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-12 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-13 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-4 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-4 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-40 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-5 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-6 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-7 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laureth-8 sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauriminodipropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroampho pg-acetate phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl aspartate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl collagen amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl glycinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl hydrolyzed silk": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl methyl isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl methylaminopropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl oat amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauroyl silk amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauryl glucose carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauryl glycol carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauryl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium lauryl sulfoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium laurylglucosides hydroxypropylsulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium linoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium mangoamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl 2-sulfolaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl cocoyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl isethionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl lauroyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl myristoyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl oleoyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl palmitate sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl stearate sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium methyl stearoyl taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium myreth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium myristate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium myristoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium myristoyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium myristyl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium oleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium oleth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium oleth-8 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium olivamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium olivate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium olivoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium peg-4 cocamide sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palm kernelate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmate/cocoate/palm kernelate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmitate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmitoyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium palmoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium polynaphthalenesulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium polystyrene sulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium rapeseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium ricebranamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium ricinoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium rosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sesamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sesquicarbonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium shea butterate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sheabutteramphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium soyate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium stearoyl casein": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium stearoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium stearoyl lactalbumin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium stearyl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sunflowerseedamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sunflowerseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium surfactin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium sweetalmondamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium tallate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium tallowamphoacetate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium tallowate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium taurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium taurine cocoyl methyltaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium taurine laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium trideceth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium trideceth-4 carboxylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbeth-20 beeswax": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbeth-230 tetraoleate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbeth-30 tetraisostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbeth-6 beeswax": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbitan oleate decylglucoside crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbitan sesquicaprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sorbityl laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "soyamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "soyamidopropylamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "soyamidopropyldimethylamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearalkonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearamidopropyl dimethylamine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearamine oxide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-100": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-16": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-2": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-20": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-200": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-21": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-25": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-3": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-30": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-4": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "steareth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearoxypropyltrimonium chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearoyl glutamic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearoyl inulin": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearyl alcohol": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearyl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearyldimoniumhydroxypropyl decylglucosides chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stearyldimoniumhydroxypropyl laurylglucosides chloride": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose dilaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose distearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose laurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose palmitate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose polybehenate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose polycottonseedate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose polystearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sucrose trilaurate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sulfated castor oil": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "sulfated olive oil": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sunflower seed acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sunflower seed oil glycereth-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sunflower seed oil peg-8 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sunfloweroyl methylglucamide": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-lauryl sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-stearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tallow acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-cocoate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-cocoyl alaninate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-cocoyl glutamate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-dodecylbenzenesulfonate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-isostearate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-lauroyl collagen amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-lauroyl keratin amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-lauroyl methylaminopropionate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-lauroyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tea-palmitate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "theobroma grandiflorum seed butter glycerides": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "thymus serpillum extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tipa-laureth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tipa-lauroyl sarcosinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tocopheryl phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "toluene sulfonic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tribehenin peg-20 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "triceteth-5 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-10": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-12": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-15": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-50": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-6": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-6 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-7": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-7 carboxylic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-8": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trideceth-9": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "triisostearin peg-6 esters": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trilaureth-4 phosphate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "trisodium sulfosuccinate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undeceth-11": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undeceth-5": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undecylenamidopropyl betaine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undecylenic acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undecylenoyl glycine": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "undecylenoyl oat amino acids": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vinyl dimethicone/lauryl dimethicone crosspolymer": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "wheat germ acid": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "xylityl sesquicaprylate": [
+    "acne",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "yucca schidigera leaf/root/stem extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "yucca schidigera stem extract": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zinc coceth sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zinc coco-sulfate": [
+    "acne",
+    "comedonal_acne",
+    "pores"
+  ],
+  "actinidia chinensis seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "adansonia digitata seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "alumina": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "aluminum silicate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "amethyst powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "amorphophallus konjac root powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "argania spinosa shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "argilla": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "astragalus membranaceus root powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "attapulgite": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "avena sativa bran": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "avena sativa kernel meal": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bambusa arundinacea juice": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bambusa arundinacea stem powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "bertholletia excelsa seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "butyrospermum parkii nut shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium carbonate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium phosphate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium pyrophosphate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium sulfate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "calcium titanium borosilicate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "carapa guaianensis seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "carya illinoensis shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "castanea crenata shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chalk": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "charcoal powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chenopodium quinoa seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chitin": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chlorella protothecoides": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "chondrus crispus powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cicer arietinum seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "citrus tangerina peel": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cnidium monnieri seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocos nucifera fruit": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "cocos nucifera shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coffea arabica seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coffea robusta seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "conchiolin powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "coral powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "corylus avellana shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "diamond powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "diatomaceous earth": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicalcium phosphate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dicalcium phosphate dihydrate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "dolomite": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "egg shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ethyl lactyl retinoate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ethylene/propylene copolymer": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "eucalyptus globulus leaf powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "euterpe oleracea seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "fuller's earth": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "garcinia mangostana peel powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "garnet powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glass": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "glass beads": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "helianthus annuus seed flour": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "helianthus annuus seedcake": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hibiscus sabdariffa flower powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "honey powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hordeum vulgare powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hordeum vulgare seed flour": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrated silica": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated jojoba oil": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrogenated poly(c6-20 olefin)": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydrolyzed opuntia ficus-indica flower extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "hydroxyapatite": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "illite": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "juglans mandshurica shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "juglans regia seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "juglans regia shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "kaolin": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactide": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lactobacillus/papaya fruit ferment extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lapis lazuli": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "linum usitatissimum seed flour": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "litchi chinensis seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lithothamnion calcareum powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "luffa cylindrica": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "luffa cylindrica fruit": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "luffa cylindrica fruit powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "lygodium japonicum spore": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "macadamia integrifolia shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "macadamia ternifolia shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium potassium fluorosilicate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "magnesium trisilicate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mangifera indica seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "marble powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "melaleuca alternifolia leaf": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "melaleuca alternifolia leaf powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "moroccan lava clay": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "mother of pearl": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "nacre powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "nephrite powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oenothera biennis seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olea europaea fruit": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olea europaea husk powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olea europaea leaf powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "olea europaea seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oryza sativa bran": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oryza sativa extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oryza sativa germ powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oryza sativa hull powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ostrea shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "ovum powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "oyster shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "papaver somniferum seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "passiflora edulis seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "passiflora incarnata seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "persea gratissima fruit powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "persea gratissima seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "phaseolus angularis seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pistacia vera shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "platinum powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polyhydroxybutyrate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "polylactic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "porphyra umbilicalis powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus amygdalus dulcis seed meal": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus amygdalus dulcis seedcoat powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus amygdalus dulcis shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus armeniaca seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus armeniaca shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus cerasus shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus mume fruit": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "prunus persica seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pumice": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "punica granatum seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "punica granatum seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "pyrus cydonia seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quartz": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "quartz powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rosa canina seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rosa canina seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rosa centifolia flower powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rosa rugosa bud powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "rubus idaeus seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "rubus idaeus seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "salix alba bark powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "salvia hispanica seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "salvia hispanica seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sand": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "scutellaria baicalensis root powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sesamum indicum seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "silicon": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "simmondsia chinensis seed extract": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium bicarbonate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium hydroxypropyl starch phosphate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium magnesium fluorosilicate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium silicoaluminate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "sodium tetrahydrojasmonate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "stemona sessifolia root powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "syringa oblata bark/leaf powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores",
+    "redness",
+    "wrinkles"
+  ],
+  "talc": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tetrahydrojasmonic acid": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "theobroma cacao husk": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "theobroma cacao seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "theobroma cacao shell powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "theobroma grandiflorum seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tin oxide": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "topaz": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "tricalcium phosphate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "triticum vulgare bran": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "triticum vulgare kernel flour": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "triticum vulgare starch": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "urtica dioica leaf powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vaccinium angustifolium seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vaccinium corymbosum seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vaccinium macrocarpon seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vaccinium macrocarpon seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vaccinium myrtillus seedcake powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vanilla planifolia seed powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vanilla tahitensis seed": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "vibrio alginolyticus ferment filtrate": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "volcanic ash": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "wood powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zea mays cob meal": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zea mays cob powder": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zea mays kernel meal": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zea mays seed flour": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "zea mays starch": [
+    "acne_scars_texture",
+    "comedonal_acne",
+    "pores"
+  ],
+  "1,2-butanediol": [
+    "redness",
+    "wrinkles"
+  ],
+  "2,3-butanediol": [
+    "redness",
+    "wrinkles"
+  ],
+  "auricularia polytricha fruiting body extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acacia seyal gum": [
+    "redness",
+    "wrinkles"
+  ],
+  "acacia seyal gum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acer saccharum sap": [
+    "redness",
+    "wrinkles"
+  ],
+  "acer saccharum sap extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acetamidoethoxyethanol": [
+    "redness",
+    "wrinkles"
+  ],
+  "acetyl ethylhexyl polyhydroxystearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "acetyl heptapeptide-4": [
+    "redness",
+    "wrinkles"
+  ],
+  "acetyl hexapeptide-37": [
+    "redness",
+    "wrinkles"
+  ],
+  "acetyl hydroxyproline": [
+    "redness",
+    "wrinkles"
+  ],
+  "achillea asiatica flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acorus gramineus extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acronychia acidula fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "acrylates/acrylamide copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "adansonia digitata pulp extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "adenophora stricta root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "agave atrovirens extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "agrimonia pilosa extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "agrostis stolonifera extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "alanyl glutamine": [
+    "redness",
+    "wrinkles"
+  ],
+  "albumen extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "alcaligenes polysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "algae exopolysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "algae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "allium cepa skin extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aloe andongensis leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aloe andongensis leaf juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "aloe barbadensis leaf polysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "aloe yohjyu matsu ekisu": [
+    "redness",
+    "wrinkles"
+  ],
+  "alpha-glucan": [
+    "redness",
+    "wrinkles"
+  ],
+  "alpha-glucan oligosaccharide-1": [
+    "redness",
+    "wrinkles"
+  ],
+  "alteromonas ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "althaea rosea root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aluminum hydroxide": [
+    "redness",
+    "wrinkles"
+  ],
+  "amidinoproline": [
+    "redness",
+    "wrinkles"
+  ],
+  "ammonium lactate": [
+    "redness",
+    "wrinkles"
+  ],
+  "amniotic fluid": [
+    "redness",
+    "wrinkles"
+  ],
+  "amorphophallus konjac root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "amylose": [
+    "redness",
+    "wrinkles"
+  ],
+  "anadenanthera colubrina bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "anhydroxylitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "aphanizomenon flos-aquae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aphanizomenon flosaquae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aphanothece sacrum polysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "apium graveolens stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aquilegia sibirica flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "arabinose": [
+    "redness",
+    "wrinkles"
+  ],
+  "arginine pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "aristotelia chilensis seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "artemisia glacialis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "asparagus lucidus root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aspergillus ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "aspergillus/rice ferment": [
+    "redness",
+    "wrinkles"
+  ],
+  "aspergillus/rice ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "aspergillus/saccharomyces/rice ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "aster glehnii extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "atractylodes macrocephala root powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "aureobasidium pullulans ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "averrhoa carambola leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "backhousia anisata leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "bamboo vinegar": [
+    "redness",
+    "wrinkles"
+  ],
+  "bambusa vulgaris leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "benzyl pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "bergenia crassifolia root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "beta-alanine": [
+    "redness",
+    "wrinkles"
+  ],
+  "betaine": [
+    "redness",
+    "wrinkles"
+  ],
+  "bidens pilosa extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "bifida ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "biota orientalis leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "bis-(tetramethyl hydroxypiperidinyl) sebacate": [
+    "redness",
+    "wrinkles"
+  ],
+  "bis-ethoxydiglycol cyclohexane 1,4-dicarboxylate": [
+    "redness",
+    "wrinkles"
+  ],
+  "bis-ethoxydiglycol succinate": [
+    "redness",
+    "wrinkles"
+  ],
+  "bis-hydroxylauryl dimethicone/ipdi copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "bixa orellana seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "black strap powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "bombax malabaricum flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "botrychium virginianum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "brassica campestris sprout extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "brassica napus sprout extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "brassica oleracea acephala leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "brown rice vinegar": [
+    "redness",
+    "wrinkles"
+  ],
+  "butylene glycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "butyloctanol": [
+    "redness",
+    "wrinkles"
+  ],
+  "calcium gluconate": [
+    "redness",
+    "wrinkles"
+  ],
+  "calcium pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "calophyllum inophyllum leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "calophyllum tacamahaca seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "camel milk": [
+    "redness",
+    "wrinkles"
+  ],
+  "camellia sinensis seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "camellia sinensis seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "canarium luzonicum leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cannabis sativa stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "caprylyl glycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "capsicum frutescens fruit powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "carboxymethyl chitosan succinamide": [
+    "redness",
+    "wrinkles"
+  ],
+  "carica papaya fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "carica papaya seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "carnitine hcl": [
+    "redness",
+    "wrinkles"
+  ],
+  "caryocar coriaceum seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "cattleya extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ceramide ag": [
+    "redness",
+    "wrinkles"
+  ],
+  "cetraria islandica thallus extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "chitosan pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "chlamydomonas reinhardtii extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "choline chloride": [
+    "redness",
+    "wrinkles"
+  ],
+  "chondrus crispus extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "chrysophyllum cainito fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cistus ladaniferus leaf/stem water": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrullus lanatus fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus aurantium tachibana peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus depressa peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus glauca fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus grandis peel water": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus natsudaidai peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus sinensis flower water": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus sudachi fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus sudachi fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "citrus sunki peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cladosiphon novae-caledoniae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cladosiphon novae-caledoniae polysaccharide": [
+    "redness",
+    "wrinkles"
+  ],
+  "cnidium monnieri fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cocos nucifera fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "cocos nucifera water": [
+    "redness",
+    "wrinkles"
+  ],
+  "coix lacryma-jobi ma-yuen seed powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "coix lacryma-jobi ma-yuen shell extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "coleus forskohlii root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "collagen": [
+    "redness",
+    "wrinkles"
+  ],
+  "collagen amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "collagen powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "colloidal oatmeal extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "connective tissue extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "convolvulus arvensis flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "copper acetylmethionate": [
+    "redness",
+    "wrinkles"
+  ],
+  "copper pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "coriandrum sativum leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "coriolus versicolor extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cortusa matthioli flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cryptomeria japonica branch/leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cryptomeria japonica leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cucumis melo fruit water": [
+    "redness",
+    "wrinkles"
+  ],
+  "cucumis melo root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cucumis melo seed oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "curcuma aromatica leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "curcuma zedoaria leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cutaneous lysate": [
+    "redness",
+    "wrinkles"
+  ],
+  "cyclopia intermedia leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "cymbopogon citratus leaf powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "cyrtopodium cardiochilum pseudobulb extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "daucus carota sativa flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "daucus carota sativa root protoplasts": [
+    "redness",
+    "wrinkles"
+  ],
+  "dendrobium candidum stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "deoxycholic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "dextrin": [
+    "redness",
+    "wrinkles"
+  ],
+  "dianthus chinensis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "diglycerin": [
+    "redness",
+    "wrinkles"
+  ],
+  "diglycol guanidine succinate": [
+    "redness",
+    "wrinkles"
+  ],
+  "dihydroxyisopropyl palmoylpalmamide": [
+    "redness",
+    "wrinkles"
+  ],
+  "dihydroxypropyl arginine hcl": [
+    "redness",
+    "wrinkles"
+  ],
+  "dihydroxypropyltrimonium chloride": [
+    "redness",
+    "wrinkles"
+  ],
+  "dimethicone/divinyldimethicone/silsesquioxane crosspolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "dimethiconol": [
+    "redness",
+    "wrinkles"
+  ],
+  "dimethylsilanol hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "dioscorea panthaica root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "dipentaerythrityl tetrabehenate/polyhydroxystearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "diplazium sibiricum leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "disodium acetyl glucosamine phosphate": [
+    "redness",
+    "wrinkles"
+  ],
+  "disodium guanylate": [
+    "redness",
+    "wrinkles"
+  ],
+  "disodium inosinate": [
+    "redness",
+    "wrinkles"
+  ],
+  "dodecenyl stearylsuccinamide": [
+    "redness",
+    "wrinkles"
+  ],
+  "dracocephalum nutans flower/leaf/stem water": [
+    "redness",
+    "wrinkles"
+  ],
+  "dunaliella bardawil extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "durvillaea potatorum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "echinacea pallida extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "echinacea purpurea extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "echinacea purpurea root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "echinacin": [
+    "redness",
+    "wrinkles"
+  ],
+  "ecklonia kurome extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "eel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "elephantopus mollis leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "embryo extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "endomyces/sodium hyaluronate ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "enterococcus faecalis": [
+    "redness",
+    "wrinkles"
+  ],
+  "epilobium parviflorum leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "equisetum arvense powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "erythritol": [
+    "redness",
+    "wrinkles"
+  ],
+  "ethoxydiglycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "ethyl glucoside": [
+    "redness",
+    "wrinkles"
+  ],
+  "eugenia caryophyllus leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "eupatorium lindleyanum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "fermented vegetable": [
+    "redness",
+    "wrinkles"
+  ],
+  "ferric sulfate": [
+    "redness",
+    "wrinkles"
+  ],
+  "ficus carica fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "flavocetraria nivalis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "foeniculum vulgare leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "fructooligosaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "fructose": [
+    "redness",
+    "wrinkles"
+  ],
+  "galactomyces ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "galactooligosaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "galacturonic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "ganoderma amboinense extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ganoderma lucidum ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "ganoderma lucidum fruiting body extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ganoderma lucidum stem powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "genistein methyl ether": [
+    "redness",
+    "wrinkles"
+  ],
+  "gentiana scabra extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "gentiana urnula flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "geranium sibiricum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucamine": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucomannan": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucose": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucose glutamate": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucosyl hesperidin": [
+    "redness",
+    "wrinkles"
+  ],
+  "glucuronic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "glutamic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-12": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-18": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-20": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-26": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-7": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycereth-8": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycerin": [
+    "redness",
+    "wrinkles"
+  ],
+  "glyceryl acrylate/acrylic acid copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "glyceryl betaine/polyacrylic acid esters": [
+    "redness",
+    "wrinkles"
+  ],
+  "glyceryl glucoside": [
+    "redness",
+    "wrinkles"
+  ],
+  "glyceryl olivate oleate estolides": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycerylamidoethyl methacrylate/stearyl methacrylate copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycine soja flour": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycogen": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycyrrhetinyl stearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "glycyrrhizic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "gossypium herbaceum flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "gracilaria verrucosa extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "helichrysum stoechas callus culture lysate": [
+    "redness",
+    "wrinkles"
+  ],
+  "hesperis sibirica flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hexacarboxymethyl dipeptide-12": [
+    "redness",
+    "wrinkles"
+  ],
+  "hexapeptide-10": [
+    "redness",
+    "wrinkles"
+  ],
+  "hexylglycerin": [
+    "redness",
+    "wrinkles"
+  ],
+  "hibiscus rosa-sinensis flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "histidine": [
+    "redness",
+    "wrinkles"
+  ],
+  "honey extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hordeum vulgare leaf powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "human umbilical mesenchymal stem cell conditioned media": [
+    "redness",
+    "wrinkles"
+  ],
+  "hyaluronic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrangea paniculata flower/fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrogenated honey": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrogenated soybean oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrogenated starch hydrolysate": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed artemisia vulgaris leaf": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed camellia sinensis leaf": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed chicken cartilage extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed coix lacryma-jobi ma-yuen seed": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed collagen": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed corn starch": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed corn starch hydroxyethyl ether": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed egg shell membrane": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed elastin": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed fish scale/skin extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed glycosaminoglycans": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed hyaluronic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed keratin": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed lactobacillus/streptococcus thermophilus/colostrum ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed linseed seed": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed marine collagen": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed nettle leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed phyllostachys bambusoides": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed placental protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed sclerotium gum": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed silk": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed sodium hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed soy protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed starch": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed tremella fuciformis polysaccharide": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed trigonella foenum-graecum seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed wheat gluten": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed wheat protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed wool": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydrolyzed yeast extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxyethyl urea": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxyethylcellulose/phosphorylcholine glycol acrylate copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropyl bis-hydroxyethyldimonium chloride": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropyl oxidized starch pg-trimonium chloride": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropylammonium gluconate": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropylgluconamide": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropyltrimonium corn/wheat/soy amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "hydroxypropyltrimonium lemon protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "imperata cylindrica root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "inositol": [
+    "redness",
+    "wrinkles"
+  ],
+  "iris sibirica root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "isomalt": [
+    "redness",
+    "wrinkles"
+  ],
+  "isopentyldiol": [
+    "redness",
+    "wrinkles"
+  ],
+  "isosorbide": [
+    "redness",
+    "wrinkles"
+  ],
+  "isosorbide disunflowerseedate": [
+    "redness",
+    "wrinkles"
+  ],
+  "jellyfish extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "juniperus sibirica needle extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "kalanchoe daigremontiana leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactamide mea": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/collagen ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/date fruit ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/eriodictyon californicum ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/hydrolyzed collagen ferment filtrate extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/kelp ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/acetobacter/kluyveromyces/saccharomyces milk ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/blueberry fruit extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/broccoli extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/coconut fruit extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/orange fruit extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/leuconostoc/tomato fruit extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/milk solids/soybean oil ferment": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/nereocystis luetkeana ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/olea europaea leaf ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/olive leaf ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/punica granatum fruit juice ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactobacillus/turmeric ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactococcus/hyaluronic acid ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "lactose": [
+    "redness",
+    "wrinkles"
+  ],
+  "laminaria algae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "larix europaea wood extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "larix sibirica needle extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "laurus nobilis leaf water": [
+    "redness",
+    "wrinkles"
+  ],
+  "lauryl pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "lavandula angustifolia flower/leaf/stem oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "lavandula angustifolia flower/leaf/stem water": [
+    "redness",
+    "wrinkles"
+  ],
+  "lens esculenta fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lepidium meyenii root powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "lilium hybrid flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lilium tigrinum root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "limonium tetragonum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "litsea glutinosa leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "lonicera caerulea fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "lysine pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "magnesium pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "magnesium stearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "maltitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "maltose": [
+    "redness",
+    "wrinkles"
+  ],
+  "manganese pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "mannitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "mannose": [
+    "redness",
+    "wrinkles"
+  ],
+  "maris aqua": [
+    "redness",
+    "wrinkles"
+  ],
+  "meadowfoamamidopropyl betaine": [
+    "redness",
+    "wrinkles"
+  ],
+  "melastoma candidum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "melibiose": [
+    "redness",
+    "wrinkles"
+  ],
+  "menthyl nicotinate": [
+    "redness",
+    "wrinkles"
+  ],
+  "menthyl pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "mesembryanthemum crystallinum callus extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "mesembryanthemum crystallinum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "mesembryanthemum crystallinum juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "methoxy peg-10": [
+    "redness",
+    "wrinkles"
+  ],
+  "methoxypropylgluconamide": [
+    "redness",
+    "wrinkles"
+  ],
+  "methyl gluceth-10": [
+    "redness",
+    "wrinkles"
+  ],
+  "methyl gluceth-20": [
+    "redness",
+    "wrinkles"
+  ],
+  "methyl glucose dioleate": [
+    "redness",
+    "wrinkles"
+  ],
+  "methylheptylglycerin": [
+    "redness",
+    "wrinkles"
+  ],
+  "mevalonolactone": [
+    "redness",
+    "wrinkles"
+  ],
+  "monascus/argania spinosa seedcake ferment oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "myrica cerifera fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "myrica esculenta bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "myristica fragrans seed": [
+    "redness",
+    "wrinkles"
+  ],
+  "myristyl malate phosphonic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "myrothamnus flabellifolia extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "myrothamnus flabellifolia leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "nannochloropsis oculata extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "nepeta sibirica flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "octyldodecyl citrate crosspolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "oenocarpus bacaba fruit oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "oenocarpus bataua fruit oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "olive glycerides": [
+    "redness",
+    "wrinkles"
+  ],
+  "opuntia ficus-indica stem": [
+    "redness",
+    "wrinkles"
+  ],
+  "opuntia streptacantha stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "orchid root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "oryza sativa hull extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-10": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-10 propylene glycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-100": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-12": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-14": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-150": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-18": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-180": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-20": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-200": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-220": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-240": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-32": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-33": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-4": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-40": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-45": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-45m": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-55": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-6": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-60": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-7": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-7 amodimethicone": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-75": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-8": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-80": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-800": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-9": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg-90": [
+    "redness",
+    "wrinkles"
+  ],
+  "peg/ppg/polybutylene glycol-8/5/3 glycerin": [
+    "redness",
+    "wrinkles"
+  ],
+  "ppg-10 methyl glucose ether": [
+    "redness",
+    "wrinkles"
+  ],
+  "ppg-26/dimer dilinoleate copolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "paecilomyces japonica mycelium/ginseng root ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "palmitoyl palmitamide mea": [
+    "redness",
+    "wrinkles"
+  ],
+  "panax ginseng root protoplasts": [
+    "redness",
+    "wrinkles"
+  ],
+  "panax notoginseng root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pantoea/rice bran ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pantolactone": [
+    "redness",
+    "wrinkles"
+  ],
+  "passiflora edulis peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "pediococcus/panax ginseng adventitious root extract ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pentaerythritol": [
+    "redness",
+    "wrinkles"
+  ],
+  "pentylene glycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "persea gratissima seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "peucedanum japonicum leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phalaenopsis amabilis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phaseolus radiatus sprout extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phaseolus trilobus seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phellinus linteus/rice ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phoenix dactylifera seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pholiota microspora polysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "phormium tenax leaf juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "phyllanthus emblica  fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phyllanthus emblica fruit juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "phyllostachys edulis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "phytantriol": [
+    "redness",
+    "wrinkles"
+  ],
+  "phytolacca bogotensis leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "picea obovata needle extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pichia ferment lysate filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pimpinella saxifraga extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pinus pumila needle extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pinus sibirica needle extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "piptadenia colubrina peel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "placental protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "platonia insignis seed butter": [
+    "redness",
+    "wrinkles"
+  ],
+  "pleurotus cystidiosus ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyamino sugar condensate": [
+    "redness",
+    "wrinkles"
+  ],
+  "polycitronellol acetate": [
+    "redness",
+    "wrinkles"
+  ],
+  "polydextrose": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglucuronic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglutamic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglycerin-10": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglycerin-20": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglycerin-3": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglycerin-4": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglycerin-6": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglyceryl sorbitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyglyceryl-3 stearate/isostearate/dimer dilinoleate crosspolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyquaternium-51": [
+    "redness",
+    "wrinkles"
+  ],
+  "polyquaternium-71": [
+    "redness",
+    "wrinkles"
+  ],
+  "polysiphonia elongata extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "potassium lactate": [
+    "redness",
+    "wrinkles"
+  ],
+  "potassium pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "propanediol": [
+    "redness",
+    "wrinkles"
+  ],
+  "propylene glycol": [
+    "redness",
+    "wrinkles"
+  ],
+  "propylene glycol hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "prostanthera incisa leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus amygdalus dulcis flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus armeniaca juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus cerasus bud extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus domestica fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus mume branch/bud/leaf/twig water": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus mume fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus mume fruit water": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica bud extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica juice": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica kernel extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus persica resin extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus serotina bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus serotina fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus speciosa flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "prunus yedoensis flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudoalteromonas exopolysaccharides": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/camellia japonica seed oil ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/camellia sinensis seed oil ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/camellia sinensis seed oil/glucose/glycine soja meal/malt extract/yeast extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/camellia sinensis seed oil/glucose/malt extract/soybean flour/yeast extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/olive fruit oil ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/safflower seed oil ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/soybean flour/apricot kernel oil/olive fruit oil/sunflower seed oil/sweet almond oil/panax ginseng root extract ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/soybean flour/apricot kernel oil/olive fruit oil/sweet almond oil/sunflower seed oil/licorice root extract ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pseudozyma epicola/sunflower seed oil ferment extract filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pueraria lobata root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "pyridoxine tris-hexyldecanoate": [
+    "redness",
+    "wrinkles"
+  ],
+  "pyrus malus fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "quercus acutissima wood vinegar extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "quercus robur wood extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "raffinose": [
+    "redness",
+    "wrinkles"
+  ],
+  "raphanus sativus leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "raspberry seed oil/tocopheryl succinate aminopropanediol esters": [
+    "redness",
+    "wrinkles"
+  ],
+  "raspberryketone glucoside": [
+    "redness",
+    "wrinkles"
+  ],
+  "rhamnose": [
+    "redness",
+    "wrinkles"
+  ],
+  "rheum tanguticum root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rhododendron adamsii leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rhodomyrtus tomentosa fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ribes grossularia fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ribes nigrum seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ribose": [
+    "redness",
+    "wrinkles"
+  ],
+  "rice ferment lees": [
+    "redness",
+    "wrinkles"
+  ],
+  "rice sh-polypeptide-1": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa canina fruit/flower extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa canina seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa davurica leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa hybrid callus culture extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa rugosa leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rosa rugosa stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rubia cordifolia stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rubus chamaemorus fruit juice extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "rubus ellipticus root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sh-oligopeptide-9": [
+    "redness",
+    "wrinkles"
+  ],
+  "sh-polypeptide-6": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharide hydrolysate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharide isomerate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharina longicruris extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces cerevisiae extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces lysate extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/barley seed ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/camellia sinensis leaf/cladosiphon okamuranus/rice ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/coconut flower nectar ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/pineapple fruit/sucrose ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/potato extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/prunus mume extract ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharomyces/rice bran ferment": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharum officinarum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "saccharum spontaneum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "salvia plebeia extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sasa kurilensis leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "saussurea involucrata extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "scenedesmus deserticola ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "schinus molle fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "schizophyllan": [
+    "redness",
+    "wrinkles"
+  ],
+  "schizosaccharomyces ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sea squirt lipids": [
+    "redness",
+    "wrinkles"
+  ],
+  "sedum sarmentosum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "serum albumin": [
+    "redness",
+    "wrinkles"
+  ],
+  "serum protein": [
+    "redness",
+    "wrinkles"
+  ],
+  "sesame amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "sesamum indicum sprout extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "setaria italica seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sh-polypeptide-8": [
+    "redness",
+    "wrinkles"
+  ],
+  "shark fin extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "silk amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "silkworm cocoon extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "simmondsia chinensis leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "simmondsia chinensis meal extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium acetylated hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium algin sulfate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium alginate sulfate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium ascorbyl glucoside": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium aspartate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium butyroyl hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium carboxymethyl hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium chondroitin sulfate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium dilauramidoglutamide lysine": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium gluconate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium glucuronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium hyaluronate crosspolymer-2": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium hyaluronate crosspolymer-3": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium hyaluronate dimethylsilanol": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium lactate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium malate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium mannose phosphate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium pca": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium polyaspartate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sodium polyglutamate": [
+    "redness",
+    "wrinkles"
+  ],
+  "solanum lycopersicum fruit": [
+    "redness",
+    "wrinkles"
+  ],
+  "solanum tuberosum pulp water": [
+    "redness",
+    "wrinkles"
+  ],
+  "soluble collagen": [
+    "redness",
+    "wrinkles"
+  ],
+  "sorbeth-30": [
+    "redness",
+    "wrinkles"
+  ],
+  "sorbitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "sorbus aucuparia fruit/leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sorbus torminalis fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "soy amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "soy protein phthalate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sparassis crispa extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "spatholobus suberectus extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "spondias mombin fruit extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "sr-hydrozoan polypeptide-1": [
+    "redness",
+    "wrinkles"
+  ],
+  "staphylococcus epidermidis ferment filtrate": [
+    "redness",
+    "wrinkles"
+  ],
+  "stearyl palmitate": [
+    "redness",
+    "wrinkles"
+  ],
+  "stearyl/octyldodecyl citrate crosspolymer": [
+    "redness",
+    "wrinkles"
+  ],
+  "stellera chamaejasme flower/leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "streptococcus thermophilus ferment": [
+    "redness",
+    "wrinkles"
+  ],
+  "sucrose hexaisostearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "sucrose pentahydroxystearate": [
+    "redness",
+    "wrinkles"
+  ],
+  "swertia chirata extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "symplocos racemosa bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "synurus palmatopinnatifidus leaf/stem extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "tabebuia avellanedae bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "tamarindus indica seed extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "tamarindus indica seed gum": [
+    "redness",
+    "wrinkles"
+  ],
+  "tea-lactate": [
+    "redness",
+    "wrinkles"
+  ],
+  "theanine": [
+    "redness",
+    "wrinkles"
+  ],
+  "thymus hydrolysate": [
+    "redness",
+    "wrinkles"
+  ],
+  "tilia cordata leaf extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "trehalose": [
+    "redness",
+    "wrinkles"
+  ],
+  "tremella fuciformis extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "tremella fuciformis fruiting body extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "tremella fuciformis polysaccharide": [
+    "redness",
+    "wrinkles"
+  ],
+  "triacontanyl pvp": [
+    "redness",
+    "wrinkles"
+  ],
+  "tricholoma matsutake mycelium ferment extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "trifluoromethyl c1-4 alkyl dimethicone": [
+    "redness",
+    "wrinkles"
+  ],
+  "trimethylolpropane": [
+    "redness",
+    "wrinkles"
+  ],
+  "trioxaundecanedioic acid": [
+    "redness",
+    "wrinkles"
+  ],
+  "triticum vulgare germ oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "triticum vulgare gluten": [
+    "redness",
+    "wrinkles"
+  ],
+  "tuber melanosporum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ulmus davidiana root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "ulmus fulva bark": [
+    "redness",
+    "wrinkles"
+  ],
+  "ulmus fulva bark extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "undaria pinnatifida root powder": [
+    "redness",
+    "wrinkles"
+  ],
+  "urea": [
+    "redness",
+    "wrinkles"
+  ],
+  "velvet extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "veronicastrum sibiricum extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "virola sebifera nut oil": [
+    "redness",
+    "wrinkles"
+  ],
+  "xanthan hydroxypropyltrimonium chloride": [
+    "redness",
+    "wrinkles"
+  ],
+  "xylitol": [
+    "redness",
+    "wrinkles"
+  ],
+  "xylityl caprate/caprylate": [
+    "redness",
+    "wrinkles"
+  ],
+  "xylityl cocoate": [
+    "redness",
+    "wrinkles"
+  ],
+  "xylitylglucoside": [
+    "redness",
+    "wrinkles"
+  ],
+  "xylose": [
+    "redness",
+    "wrinkles"
+  ],
+  "yak milk": [
+    "redness",
+    "wrinkles"
+  ],
+  "yeast amino acids": [
+    "redness",
+    "wrinkles"
+  ],
+  "yeast extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "zinc hydrolyzed hyaluronate": [
+    "redness",
+    "wrinkles"
+  ],
+  "zingiber cassumunar root extract": [
+    "redness",
+    "wrinkles"
+  ],
+  "zymomonas ferment extract": [
+    "redness",
+    "wrinkles"
   ]
 }

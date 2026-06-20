@@ -42,3 +42,15 @@ class Purchase(BaseModel):
     product_title: str | None = None
     price: float | None = None
     purchased_at: datetime | None = None
+
+
+class UserFeedback(BaseModel):
+    id: int | None = None
+    user_id: str
+    compare_ecommerce: int
+    recommendation_helpfulness: int
+    trust_evidence: int
+    ease_of_use: int
+    would_use_again: int
+    open_comment: str | None = None
+    created_at: datetime | None = None

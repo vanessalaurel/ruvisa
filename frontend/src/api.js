@@ -2,6 +2,9 @@
 function apiBase() {
   const raw = import.meta.env.VITE_API_URL;
   if (raw === undefined || raw === null || String(raw).trim() === "") {
+    if (typeof window !== "undefined" && window.location.hostname === "ruvisa.pages.dev") {
+      return "https://api.ruvisa.shop/api";
+    }
     return "/api";
   }
   return String(raw).trim().replace(/\/+$/, "");
@@ -193,6 +196,26 @@ export async function updateSettings(userId, { name, email, currentPassword, new
       new_password: newPassword || undefined,
     }),
   });
+}
+
+export async function submitFeedback(userId, responses) {
+  return request("/feedback", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      user_id: userId,
+      compare_ecommerce: responses.compare_ecommerce,
+      recommendation_helpfulness: responses.recommendation_helpfulness,
+      trust_evidence: responses.trust_evidence,
+      ease_of_use: responses.ease_of_use,
+      would_use_again: responses.would_use_again,
+      open_comment: responses.open_comment || undefined,
+    }),
+  });
+}
+
+export async function getFeedback(userId) {
+  return request(`/feedback/${userId}`);
 }
 
 export async function healthCheck() {

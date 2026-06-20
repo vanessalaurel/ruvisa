@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="9360" viewBox="0 0 1280 9360">
+  <defs>
+    <style>
+      .bg{fill:#fff8f5}
+      .card{fill:#ffffff;stroke:#efd5d7;stroke-width:2}
+      .rose{fill:#c15d75}
+      .rose-dark{fill:#913752}
+      .cream{fill:#fff0e6}
+      .blush{fill:#f8dbe0}
+      .teal{fill:#417f80}
+      .green{fill:#539170}
+      .lilac{fill:#6e5ea0}
+      .ink{fill:#221d23}
+      .muted{fill:#675a65}
+      .title{font-family:Aptos Display,Arial,sans-serif;font-size:46px;font-weight:700;fill:#221d23}
+      .subtitle{font-family:Aptos,Arial,sans-serif;font-size:25px;font-weight:600;fill:#913752}
+      .body{font-family:Aptos,Arial,sans-serif;font-size:24px;fill:#221d23}
+      .small{font-family:Aptos,Arial,sans-serif;font-size:18px;fill:#675a65}
+      .tiny{font-family:Aptos,Arial,sans-serif;font-size:14px;fill:#675a65}
+      .white{font-family:Aptos,Arial,sans-serif;font-size:22px;font-weight:700;fill:white}
+      .chip{font-family:Aptos,Arial,sans-serif;font-size:19px;font-weight:700;fill:#913752}
+      .num{font-family:Aptos Display,Arial,sans-serif;font-size:18px;font-weight:700;fill:#913752}
+    </style>
+  </defs>
+
+  <!-- SLIDE 1 -->
+  <g id="slide-01-title" transform="translate(0 0)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">01</text>
+    <text class="rose-dark" x="72" y="105" style="font-family:Aptos Display,Arial;font-size:32px;font-weight:700">RUVISA</text>
+    <text class="title" x="72" y="205">AI beauty decisions from selfie</text>
+    <text class="title" x="72" y="260">to skincare, makeup, and treatment.</text>
+    <text class="body" x="76" y="340">Ruvisa helps users understand their skin, choose the right</text>
+    <text class="body" x="76" y="375">products, track progress, and discover trusted beauty treatments.</text>
+    <rect class="blush" x="76" y="440" width="165" height="46" rx="23"/>
+    <text class="chip" x="103" y="470">Skin analyzer</text>
+    <rect class="cream" x="260" y="440" width="210" height="46" rx="23"/>
+    <text class="chip" x="285" y="470">Ingredient evidence</text>
+    <rect class="blush" x="490" y="440" width="135" height="46" rx="23"/>
+    <text class="chip" x="514" y="470">Agentic AI</text>
+    <rect class="cream" x="645" y="440" width="160" height="46" rx="23"/>
+    <text class="chip" x="668" y="470">Clinic booking</text>
+    <rect class="rose" x="850" y="160" width="270" height="120" rx="28"/>
+    <text class="white" x="940" y="230">Selfie</text>
+    <rect class="teal" x="960" y="305" width="270" height="120" rx="28"/>
+    <text class="white" x="1036" y="375">AI Analysis</text>
+    <rect class="lilac" x="850" y="450" width="270" height="120" rx="28"/>
+    <text class="white" x="915" y="520">Recommendation</text>
+    <text class="subtitle" x="840" y="635">Analyze � Match � Recommend � Learn</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 2 -->
+  <g id="slide-02-problem" transform="translate(0 720)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">02</text>
+    <text class="title" x="72" y="105">Beauty shopping is confusing,</text>
+    <text class="title" x="72" y="158">expensive, and hype-driven.</text>
+    <rect class="rose" x="72" y="185" width="210" height="6" rx="3"/>
+    <rect class="card" x="72" y="240" width="350" height="250" rx="26"/>
+    <text class="subtitle" x="104" y="285">Hong Kong</text>
+    <text class="body" x="104" y="335">" HKD 3,100/year skincare spend</text>
+    <text class="body" x="104" y="375">" 49% report unused products</text>
+    <text class="body" x="104" y="415">" Beauty service trust issues</text>
+    <rect class="card" x="465" y="240" width="350" height="250" rx="26"/>
+    <text class="subtitle" x="497" y="285">Southeast Asia</text>
+    <text class="body" x="497" y="335">" Shopee, Lazada, TikTok overload</text>
+    <text class="body" x="497" y="375">" KOL-driven discovery</text>
+    <text class="body" x="497" y="415">" Hard to know true suitability</text>
+    <rect class="card" x="858" y="240" width="350" height="250" rx="26"/>
+    <text class="subtitle" x="890" y="285">User Question</text>
+    <text class="body" x="890" y="335">I have a budget.</text>
+    <text class="body" x="890" y="375">What actually works</text>
+    <text class="body" x="890" y="415">for my skin?</text>
+    <text class="small" x="72" y="620">Pain point: products, reviews, clinic offers, discounts, and KOL hype are scattered everywhere.</text>
+    <text class="tiny" x="72" y="690">Sources: Hong Kong Consumer Council, SCMP, Retail Asia, Shopee/PONDS, TMO Group</text>
+  </g>
+
+  <!-- SLIDE 3 -->
+  <g id="slide-03-market" transform="translate(0 1440)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">03</text>
+    <text class="title" x="72" y="105">Hong Kong first, Southeast Asia next.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="72" y="205" width="520" height="130" rx="24"/>
+    <text class="subtitle" x="104" y="250">Hong Kong beauty e-commerce</text>
+    <text class="body" x="104" y="292">USD 277.4M projected 2025 revenue.</text>
+    <rect class="card" x="660" y="205" width="520" height="130" rx="24"/>
+    <text class="subtitle" x="692" y="250">SEA digital beauty</text>
+    <text class="body" x="692" y="292">Shopee, Lazada, and TikTok drive discovery.</text>
+    <rect class="card" x="72" y="380" width="520" height="130" rx="24"/>
+    <text class="subtitle" x="104" y="425">AI personalization</text>
+    <text class="body" x="104" y="467">Consumers want smarter, tailored recommendations.</text>
+    <rect class="card" x="660" y="380" width="520" height="130" rx="24"/>
+    <text class="subtitle" x="692" y="425">Clinic discovery</text>
+    <text class="body" x="692" y="467">Beauty services need trust, price, and quality comparison.</text>
+    <rect class="blush" x="180" y="570" width="920" height="55" rx="28"/>
+    <text class="chip" x="300" y="605">Hong Kong � Singapore � Malaysia � Indonesia � Thailand � Philippines</text>
+    <text class="tiny" x="72" y="690">Sources: Statista, China Briefing, TMO Group, Moojing Global, Astute Analytica</text>
+  </g>
+
+  <!-- SLIDE 4 -->
+  <g id="slide-04-solution" transform="translate(0 2160)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">04</text>
+    <text class="title" x="72" y="105">Why Ruvisa?</text>
+    <text class="subtitle" x="72" y="150">One free AI beauty journey, from analysis to action.</text>
+    <rect class="rose" x="72" y="175" width="210" height="6" rx="3"/>
+    <rect class="blush" x="72" y="230" width="340" height="48" rx="24"/>
+    <text class="chip" x="112" y="262">What is happening to my skin?</text>
+    <rect class="cream" x="455" y="230" width="340" height="48" rx="24"/>
+    <text class="chip" x="505" y="262">What product should I use?</text>
+    <rect class="blush" x="838" y="230" width="340" height="48" rx="24"/>
+    <text class="chip" x="878" y="262">Do I need treatment?</text>
+    <rect class="card" x="72" y="330" width="500" height="250" rx="26"/>
+    <text class="subtitle" x="104" y="375">Free user value</text>
+    <text class="body" x="104" y="420">" Selfie-based skin analysis</text>
+    <text class="body" x="104" y="460">" Personalized product + routine</text>
+    <text class="body" x="104" y="500">" Journey tracking over time</text>
+    <text class="body" x="104" y="540">" Future clinic/treatment booking</text>
+    <rect class="card" x="655" y="330" width="500" height="250" rx="26"/>
+    <text class="subtitle" x="687" y="375">Why it wins</text>
+    <text class="body" x="687" y="420">" Not only a shop</text>
+    <text class="body" x="687" y="460">" Not only a skin analyzer</text>
+    <text class="body" x="687" y="500">" Not only a chatbot</text>
+    <text class="body" x="687" y="540">" A personalized beauty decision assistant</text>
+    <text class="tiny" x="72" y="690">Journey: Free scan � AI analysis � recommendation � buy/book � track � smarter next recommendation</text>
+  </g>
+
+  <!-- SLIDE 5 -->
+  <g id="slide-05-flow" transform="translate(0 2880)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">05</text>
+    <text class="title" x="72" y="105">From selfie to recommendation.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <g transform="translate(70 230)">
+      <circle class="rose" cx="60" cy="60" r="55"/><text class="white" x="50" y="68">1</text><text class="body" x="0" y="150">Register</text>
+      <circle class="teal" cx="260" cy="60" r="55"/><text class="white" x="250" y="68">2</text><text class="body" x="215" y="150">Upload</text>
+      <circle class="lilac" cx="460" cy="60" r="55"/><text class="white" x="450" y="68">3</text><text class="body" x="410" y="150">Analyze</text>
+      <circle class="green" cx="660" cy="60" r="55"/><text class="white" x="650" y="68">4</text><text class="body" x="595" y="150">Recommend</text>
+      <circle class="rose-dark" cx="860" cy="60" r="55"/><text class="white" x="850" y="68">5</text><text class="body" x="820" y="150">Ask AI</text>
+      <circle class="rose" cx="1060" cy="60" r="55"/><text class="white" x="1050" y="68">6</text><text class="body" x="1010" y="150">Track</text>
+    </g>
+    <rect class="card" x="120" y="500" width="1040" height="105" rx="26"/>
+    <text class="subtitle" x="155" y="545">Production-ready pilot foundation</text>
+    <text class="body" x="155" y="585">Cloudflare Pages frontend " VPS + Nginx/HTTPS backend " FastAPI routes " SQLite service layer</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 6 -->
+  <g id="slide-06-tech" transform="translate(0 3600)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">06</text>
+    <text class="title" x="72" y="105">Technology and AI moat.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="70" y="205" width="270" height="300" rx="26"/>
+    <text class="subtitle" x="102" y="250">Skin Analyzer</text>
+    <text class="body" x="102" y="305">" Detects concerns</text><text class="body" x="102" y="345">" Estimates severity</text><text class="body" x="102" y="385">" Creates 7D skin vector</text>
+    <rect class="card" x="370" y="205" width="270" height="300" rx="26"/>
+    <text class="subtitle" x="402" y="250">Product Intelligence</text>
+    <text class="body" x="402" y="305">" INCI evidence</text><text class="body" x="402" y="345">" Review signals</text><text class="body" x="402" y="385">" DeBERTa labeling</text>
+    <rect class="card" x="670" y="205" width="270" height="300" rx="26"/>
+    <text class="subtitle" x="702" y="250">Adaptive Recommender</text>
+    <text class="body" x="702" y="305">" Cosine matching</text><text class="body" x="702" y="345">" Budget + skin type</text><text class="body" x="702" y="385">" Learns outcomes</text>
+    <rect class="card" x="970" y="205" width="240" height="300" rx="26"/>
+    <text class="subtitle" x="1002" y="250">Agentic AI</text>
+    <text class="body" x="1002" y="305">" Tool-calling AI</text><text class="body" x="1002" y="345">" Explains why</text><text class="body" x="1002" y="385">" Builds routines</text>
+    <text class="subtitle" x="165" y="585">Moat: every layer speaks the same skin-concern language.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 7 -->
+  <g id="slide-07-clinic" transform="translate(0 4320)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">07</text>
+    <text class="title" x="72" y="105">Beyond products: beauty treatment matching.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="80" y="220" width="500" height="270" rx="26"/>
+    <text class="subtitle" x="112" y="265">Treatment matching</text>
+    <text class="body" x="112" y="315">" Concern type</text><text class="body" x="112" y="355">" Budget and location</text><text class="body" x="112" y="395">" Rating and quality</text><text class="body" x="112" y="435">" Promotions and trial offers</text>
+    <rect class="card" x="700" y="220" width="500" height="270" rx="26"/>
+    <text class="subtitle" x="732" y="265">Why it matters</text>
+    <text class="body" x="732" y="315">" Higher ticket size</text><text class="body" x="732" y="355">" Clinics need qualified leads</text><text class="body" x="732" y="395">" Users need trust before booking</text><text class="body" x="732" y="435">" Promotions become comparable</text>
+    <text class="subtitle" x="190" y="585">Product recommendation is the entry point; treatment discovery is the bigger platform opportunity.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 8 -->
+  <g id="slide-08-competitors" transform="translate(0 5040)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">08</text>
+    <text class="title" x="72" y="105">Competitors sell, rank, or book.</text>
+    <text class="subtitle" x="72" y="150">Ruvisa personalizes the full beauty journey.</text>
+    <rect class="rose" x="72" y="175" width="210" height="6" rx="3"/>
+    <rect class="card" x="80" y="225" width="520" height="270" rx="26"/>
+    <text class="subtitle" x="112" y="270">Competitors</text>
+    <text class="body" x="112" y="315">" MindBeautyHK: booking + offers</text>
+    <text class="body" x="112" y="355">" @cosme: reviews + rankings</text>
+    <text class="body" x="112" y="395">" Sasa, iHerb, Lookfantastic: catalog</text>
+    <text class="body" x="112" y="435">" Strawberrynet, Care to Beauty: price/access</text>
+    <rect class="card" x="680" y="225" width="520" height="270" rx="26"/>
+    <text class="subtitle" x="712" y="270">Ruvisa advantage</text>
+    <text class="body" x="712" y="315">" Starts from the users selfie</text>
+    <text class="body" x="712" y="355">" Matches by evidence and skin need</text>
+    <text class="body" x="712" y="395">" Learns from purchases + progress</text>
+    <text class="body" x="712" y="435">" Connects products, routines, and clinics</text>
+    <text class="small" x="155" y="590">Positioning: high catalog depth + high personalization depth + treatment matching.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 9 -->
+  <g id="slide-09-business" transform="translate(0 5760)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">09</text>
+    <text class="title" x="72" y="105">B2C and B2B beauty revenue.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="80" y="210" width="330" height="150" rx="26"/><text class="subtitle" x="112" y="255">Product commission</text><text class="body" x="112" y="300">Recommended purchases</text>
+    <rect class="card" x="475" y="210" width="330" height="150" rx="26"/><text class="subtitle" x="507" y="255">Treatment booking</text><text class="body" x="507" y="300">Clinic leads and bookings</text>
+    <rect class="card" x="870" y="210" width="330" height="150" rx="26"/><text class="subtitle" x="902" y="255">Premium users</text><text class="body" x="902" y="300">Advanced tracking</text>
+    <rect class="card" x="275" y="410" width="330" height="150" rx="26"/><text class="subtitle" x="307" y="455">Sponsored offers</text><text class="body" x="307" y="500">Evidence-labeled placements</text>
+    <rect class="card" x="675" y="410" width="330" height="150" rx="26"/><text class="subtitle" x="707" y="455">B2B insights</text><text class="body" x="707" y="500">Trends and conversion data</text>
+    <text class="small" x="180" y="635">Consumers get guidance. Brands and clinics get qualified intent.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 10 -->
+  <g id="slide-10-gtm" transform="translate(0 6480)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">10</text>
+    <text class="title" x="72" y="105">Go-to-market through trust.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="80" y="210" width="250" height="280" rx="26"/><text class="subtitle" x="112" y="255">1. HK beta</text><text class="body" x="112" y="310">Students</text><text class="body" x="112" y="350">Young professionals</text><text class="body" x="112" y="390">Beauty beginners</text>
+    <rect class="card" x="370" y="210" width="250" height="280" rx="26"/><text class="subtitle" x="402" y="255">2. KOL trust</text><text class="body" x="402" y="310">Micro-influencers</text><text class="body" x="402" y="350">Scan challenges</text><text class="body" x="402" y="390">Routine reviews</text>
+    <rect class="card" x="660" y="210" width="250" height="280" rx="26"/><text class="subtitle" x="692" y="255">3. Promotions</text><text class="body" x="692" y="310">Free AI scan</text><text class="body" x="692" y="350">Product discounts</text><text class="body" x="692" y="390">Clinic offers</text>
+    <rect class="card" x="950" y="210" width="250" height="280" rx="26"/><text class="subtitle" x="982" y="255">4. SEA expand</text><text class="body" x="982" y="310">Local catalog</text><text class="body" x="982" y="350">Marketplace trends</text><text class="body" x="982" y="390">Local KOLs</text>
+    <text class="small" x="145" y="590">Funnel: KOL/Uni campaign � Free scan � Recommendation � Purchase/Book � Track progress</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 11 -->
+  <g id="slide-11-funding" transform="translate(0 7200)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">11</text>
+    <text class="title" x="72" y="105">HKD 100,000 use of funds.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <rect class="card" x="80" y="190" width="350" height="110" rx="24"/><text class="subtitle" x="112" y="235">HKD 25k</text><text class="body" x="112" y="275">AI hardening, credits, hosting</text>
+    <rect class="card" x="465" y="190" width="350" height="110" rx="24"/><text class="subtitle" x="497" y="235">HKD 25k</text><text class="body" x="497" y="275">Product, review, clinic data</text>
+    <rect class="card" x="850" y="190" width="350" height="110" rx="24"/><text class="subtitle" x="882" y="235">HKD 20k</text><text class="body" x="882" y="275">KOL + student beta acquisition</text>
+    <rect class="card" x="160" y="350" width="300" height="110" rx="24"/><text class="subtitle" x="192" y="395">HKD 15k</text><text class="body" x="192" y="435">UX/UI and mobile polish</text>
+    <rect class="card" x="500" y="350" width="300" height="110" rx="24"/><text class="subtitle" x="532" y="395">HKD 10k</text><text class="body" x="532" y="435">Advisor, legal, privacy</text>
+    <rect class="card" x="840" y="350" width="300" height="110" rx="24"/><text class="subtitle" x="872" y="395">HKD 5k</text><text class="body" x="872" y="435">Contingency</text>
+    <text class="small" x="180" y="590">Six-month pilot: production hardening � beta launch � validation � catalog expansion � clinic pilot.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+
+  <!-- SLIDE 12 -->
+  <g id="slide-12-ask" transform="translate(0 7920)">
+    <rect class="bg" width="1280" height="720"/>
+    <text class="num" x="64" y="52">12</text>
+    <text class="title" x="72" y="105">Revenue forecast and ask.</text>
+    <rect class="rose" x="72" y="132" width="210" height="6" rx="3"/>
+    <text class="subtitle" x="80" y="205">Target: HKD 80k120k pilot revenue in Year 1.</text>
+    <rect class="rose" x="120" y="470" width="130" height="60" rx="10"/><text class="white" x="142" y="507">05k</text><text class="small" x="125" y="560">M1M3</text>
+    <rect class="teal" x="330" y="400" width="130" height="130" rx="10"/><text class="white" x="345" y="467">1020k</text><text class="small" x="335" y="560">M4M6</text>
+    <rect class="lilac" x="540" y="330" width="130" height="200" rx="10"/><text class="white" x="555" y="437">2535k</text><text class="small" x="545" y="560">M7M9</text>
+    <rect class="green" x="750" y="250" width="130" height="280" rx="10"/><text class="white" x="765" y="400">4560k</text><text class="small" x="748" y="560">M10M12</text>
+    <rect class="card" x="955" y="250" width="230" height="280" rx="26"/>
+    <text class="subtitle" x="985" y="295">Funding ask</text>
+    <text class="body" x="985" y="345">HKD 100,000</text>
+    <text class="small" x="985" y="392">to validate AI beauty</text>
+    <text class="small" x="985" y="420">commerce across HK</text>
+    <text class="small" x="985" y="448">and Southeast Asia.</text>
+    <text class="subtitle" x="220" y="640">Ruvisa helps users stop guessing and start choosing with evidence.</text>
+    <text class="tiny" x="72" y="690">Ruvisa | SEED Fund Pitch</text>
+  </g>
+</svg>

@@ -100,6 +100,19 @@ CREATE TABLE IF NOT EXISTS product_review_scores (
     product_url     TEXT PRIMARY KEY,
     data            TEXT    -- JSON: concern_scores, skin_type_scores, etc.
 );
+
+CREATE TABLE IF NOT EXISTS user_feedback (
+    id                          INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id                     TEXT NOT NULL REFERENCES users(user_id),
+    compare_ecommerce           INTEGER NOT NULL CHECK(compare_ecommerce BETWEEN 1 AND 5),
+    recommendation_helpfulness  INTEGER NOT NULL CHECK(recommendation_helpfulness BETWEEN 1 AND 5),
+    trust_evidence              INTEGER NOT NULL CHECK(trust_evidence BETWEEN 1 AND 5),
+    ease_of_use                 INTEGER NOT NULL CHECK(ease_of_use BETWEEN 1 AND 5),
+    would_use_again             INTEGER NOT NULL CHECK(would_use_again BETWEEN 1 AND 5),
+    open_comment                TEXT,
+    created_at                  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_user_feedback_user ON user_feedback(user_id);
 """
 
 
